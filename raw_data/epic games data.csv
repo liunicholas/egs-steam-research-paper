@@ -1,0 +1,542 @@
+serial no.,Game,Start,End,Genre
+1,Subnautica,12-12-2018,27-12-2018,First-ever Epic free game.
+2,Super Meat Boy,28-12-2018,10-01-2019,Second giveaway.
+3,What Remains of Edith Finch,11-01-2019,24-01-2019,Early weekly rotation.
+4,The Jackbox Party Pack,24-01-2019,07-02-2019,Party game bundle.
+5,Axiom Verge,07-02-2019,21-02-2019,Metroidvania title.
+6,Thimbleweed Park,21-02-2019,07-03-2019,Point-and-click adventure.
+7,Slime Rancher,07-03-2019,21-03-2019,Farming / collection sim.
+8,Oxenfree,21-03-2019,04-04-2019,Narrative adventure.
+9,The Witness,04-04-2019,18-04-2019,Puzzle game.
+10,Transistor,18-04-2019,02-05-2019,Action RPG.
+11,World of Goo,02-05-2019,16-05-2019,Physics puzzler.
+12,Stories Untold,16-05-2019,30-05-2019,Horror anthology.
+13,RiME,23-05-2019,30-05-2019,Adventure / puzzle.
+14,City of Brass,30-05-2019,06-06-2019,First-person rogue-lite.
+15,Kingdom: New Lands,06-06-2019,13-06-2019,Strategy / management.
+16,Enter the Gungeon,13-06-2019,20-06-2019,Bullet-hell rogue-lite.
+17,Rebel Galaxy,20-06-2019,27-06-2019,Space combat / trading.
+18,Last Day of June,27-06-2019,04-07-2019,Narrative adventure.
+19,Overcooked!,04-07-2019,11-07-2019,Co-op cooking game.
+20,Torchlight,11-07-2019,18-07-2019,ARPG.
+21,Limbo,18-07-2019,25-07-2019,Platformer.
+22,Moonlighter,25-07-2019,01-08-2019,Shopkeeping ARPG.
+23,This War of Mine,25-07-2019,01-08-2019,War survival sim.
+24,Alan Wake,02-08-2019,09-08-2019,Action thriller.
+25,For Honor,02-08-2019,09-08-2019,Multiplayer melee combat.
+26,GNOG,08-08-2019,15-08-2019,Puzzle game.
+27,Hyper Light Drifter,15-08-2019,22-08-2019,2D action RPG.
+28,Mutant Year Zero: Road to Eden,15-08-2019,22-08-2019,Tactical strategy.
+29,Fez,22-08-2019,29-08-2019,Puzzle platformer.
+30,Inside,29-08-2019,05-09-2019,Puzzle platformer.
+31,Celeste,29-08-2019,05-09-2019,Precision platformer.
+32,The End is Nigh,05-09-2019,12-09-2019,Platformer.
+33,ABZU,05-09-2019,12-09-2019,Underwater exploration.
+34,Conarium,12-09-2019,19-09-2019,Lovecraftian horror.
+35,Batman: Arkham Collection,19-09-2019,26-09-2019,AAA bundle.
+36,LEGO Batman Trilogy,19-09-2019,26-09-2019,Family platformers.
+37,Everything,26-09-2019,03-10-2019,Experimental sim.
+38,Metro 2033 Redux,26-09-2019,03-10-2019,FPS survival.
+39,Minit,03-10-2019,10-10-2019,60-second adventure.
+40,Surviving Mars,10-10-2019,17-10-2019,Colony builder.
+41,Observer,24-10-2019,31-10-2019,Cyberpunk horror.
+42,Layers of Fear,24-10-2019,31-10-2019,Psychological horror.
+43,Q.U.B.E. 2,31-10-2019,07-11-2019,First-person puzzler.
+44,SOMA,31-10-2019,07-11-2019,Sci-fi horror.
+45,Nuclear Throne,07-11-2019,14-11-2019,Top-down shooter.
+46,Ruiner,07-11-2019,14-11-2019,Cyberpunk action.
+47,The Messenger,14-11-2019,21-11-2019,Ninja platformer.
+48,Bad North: Jotunn Edition,21-11-2019,29-11-2019,Tactics / defense.
+49,Rayman Legends,29-11-2019,06-12-2019,Platformer.
+50,Jotun: Valhalla Edition,05-12-2019,12-12-2019,Norse action-exploration.
+51,The Escapists,12-12-2019,19-12-2019,Weekly free before holiday daily run.
+52,The Wolf Among Us,12-12-2019,19-12-2019,Telltale narrative adventure.
+53,Into the Breach,19-12-2019,20-12-2019,First “12 Days” holiday game 2019.
+54,TowerFall Ascension,20-12-2019,21-12-2019,Local multiplayer action.
+55,Superhot,21-12-2019,22-12-2019,Time-bending FPS.
+56,Little Inferno,22-12-2019,23-12-2019,Puzzle / sandbox.
+57,Ape Out,23-12-2019,24-12-2019,Stylized action.
+58,Celeste (repeat),24-12-2019,25-12-2019,Holiday repeat.
+59,Totally Accurate Battle Simulator,25-12-2019,26-12-2019,Physics tactics.
+60,FTL: Faster Than Light,26-12-2019,27-12-2019,Space roguelike.
+61,Hyper Light Drifter (repeat),27-12-2019,28-12-2019,Holiday repeat.
+62,Shadow Tactics: Blades of the Shogun,28-12-2019,29-12-2019,Tactical stealth.
+63,The Talos Principle,29-12-2019,30-12-2019,First-person puzzler.
+64,Hello Neighbor,30-12-2019,31-12-2019,Stealth horror.
+65,Yooka-Laylee and the Impossible Lair,31-12-2019,01-01-2020,Platformer.
+66,Darksiders: Warmastered Edition,01-01-2020,09-01-2020,Action adventure.
+67,Darksiders II: Deathinitive Edition,01-01-2020,09-01-2020,ARPG.
+68,Steep,01-01-2020,09-01-2020,Winter sports.
+69,Sundered: Eldritch Edition,09-01-2020,16-01-2020,Metroidvania.
+70,Horace,16-01-2020,23-01-2020,Indie platformer.
+71,The Bridge,23-01-2020,30-01-2020,Puzzle.
+72,Farming Simulator 19,30-01-2020,06-02-2020,Farming sim.
+73,Ticket to Ride,06-02-2020,13-02-2020,Board game adaptation.
+74,Carcassonne,06-02-2020,13-02-2020,Board game adaptation.
+75,Kingdom Come: Deliverance,13-02-2020,20-02-2020,RPG.
+76,Aztez,13-02-2020,20-02-2020,Hybrid brawler/strategy.
+77,Faeria,20-02-2020,27-02-2020,Card/board hybrid.
+78,Assassin’s Creed Syndicate,20-02-2020,27-02-2020,Open-world action.
+79,InnerSpace,27-02-2020,05-03-2020,Exploration.
+80,GoNNER,05-03-2020,12-03-2020,Roguelike platformer.
+81,Offworld Trading Company,05-03-2020,12-03-2020,Economic RTS.
+82,Anodyne 2: Return to Dust,12-03-2020,19-03-2020,Adventure.
+83,A Short Hike,12-03-2020,19-03-2020,Exploration.
+84,Mutazione,12-03-2020,19-03-2020,Narrative adventure.
+85,Watch Dogs,19-03-2020,26-03-2020,Open-world action.
+86,The Stanley Parable,19-03-2020,26-03-2020,Narrative experiment.
+87,Figment,26-03-2020,02-04-2020,Action-adventure.
+88,Tormentor x Punisher,26-03-2020,02-04-2020,Top-down shooter.
+89,World War Z,26-03-2020,02-04-2020,Co-op shooter.
+90,Drawful 2,02-04-2020,09-04-2020,Party game.
+91,Gone Home,02-04-2020,09-04-2020,Narrative exploration.
+92,Hob,02-04-2020,09-04-2020,Action-adventure.
+93,Sherlock Holmes: Crimes and Punishments,09-04-2020,16-04-2020,Detective adventure.
+94,Close to the Sun,09-04-2020,16-04-2020,Horror.
+95,Just Cause 4,16-04-2020,23-04-2020,Open-world action.
+96,Wheels of Aurelia,16-04-2020,23-04-2020,Narrative driving.
+97,For the King,23-04-2020,30-04-2020,Strategy roguelike.
+98,Amnesia: The Dark Descent,30-04-2020,07-05-2020,Horror.
+99,Crashlands,30-04-2020,07-05-2020,Crafting/adventure.
+100,Death Coming,07-05-2020,14-05-2020,Puzzle.
+101,Grand Theft Auto V,14-05-2020,21-05-2020,First time GTA V went free.
+102,Sid Meier’s Civilization VI,21-05-2020,28-05-2020,4X strategy.
+103,Borderlands: The Handsome Collection,28-05-2020,04-06-2020,Borderlands 2 + Pre-Sequel bundle.
+104,Overcooked! (repeat),04-06-2020,11-06-2020,"Co‑op cooking, return giveaway."
+105,Ark: Survival Evolved,11-06-2020,18-06-2020,Survival sandbox.
+106,Samurai Shodown NeoGeo Collection,11-06-2020,18-06-2020,Classic fighters collection.
+107,Pathway,18-06-2020,25-06-2020,Tactical adventure.
+108,AER: Memories of Old,25-06-2020,02-07-2020,Exploration / flying.
+109,Stranger Things 3: The Game,25-06-2020,02-07-2020,Co‑op action.
+110,Hue,02-07-2020,09-07-2020,Color‑based puzzle platformer.
+111,Killing Floor 2,09-07-2020,16-07-2020,Co‑op FPS.
+112,Lifeless Planet: Premier Edition,09-07-2020,16-07-2020,Sci‑fi adventure.
+113,The Escapists 2,09-07-2020,16-07-2020,Prison break sim.
+114,Torchlight II,16-07-2020,23-07-2020,ARPG sequel.
+115,Next Up Hero,23-07-2020,30-07-2020,Action dungeon crawler.
+116,Tacoma,23-07-2020,30-07-2020,Narrative exploration.
+117,20XX,30-07-2020,06-08-2020,Roguelike action platformer.
+118,Barony,30-07-2020,06-08-2020,First‑person roguelike.
+119,Superbrothers: Sword & Sworcery EP,30-07-2020,06-08-2020,Adventure.
+120,Wilmot’s Warehouse,06-08-2020,13-08-2020,Puzzle/organization.
+121,3 out of 10: Season One (Ep 1),06-08-2020,13-08-2020,Comedy adventure; first episode free.
+122,Remnant: From the Ashes,13-08-2020,20-08-2020,Co‑op souls‑like shooter.
+123,The Alto Collection,13-08-2020,20-08-2020,Alto’s Adventure + Alto’s Odyssey.
+124,Enter the Gungeon (repeat),20-08-2020,27-08-2020,Bullet‑hell rogue‑lite.
+125,God’s Trigger,20-08-2020,27-08-2020,Top‑down shooter.
+126,Hitman (2016),27-08-2020,03-09-2020,Stealth sandbox.
+127,Shadowrun Collection,27-08-2020,03-09-2020,Shadowrun Returns + sequels.
+128,Into the Breach (repeat),03-09-2020,10-09-2020,Tactics roguelike.
+129,Railway Empire,10-09-2020,17-09-2020,Train tycoon sim.
+130,Where the Water Tastes Like Wine,10-09-2020,17-09-2020,Narrative adventure.
+131,Stick It To The Man!,17-09-2020,24-09-2020,Comedy platformer.
+132,Football Manager 2020,17-09-2020,24-09-2020,Football management sim.
+133,Watch Dogs 2,17-09-2020,24-09-2020,Open‑world action.
+134,RollerCoaster Tycoon 3: Complete Edition,24-09-2020,01-10-2020,Park sim.
+135,Pikuniku,01-10-2020,08-10-2020,Puzzle adventure.
+136,ABZÛ (repeat),08-10-2020,15-10-2020,Underwater exploration.
+137,Rising Storm 2: Vietnam,08-10-2020,15-10-2020,Multiplayer FPS.
+138,Amnesia: A Machine for Pigs,15-10-2020,22-10-2020,Horror.
+139,Kingdom New Lands (repeat),15-10-2020,22-10-2020,Strategy.
+140,Costume Quest 2,22-10-2020,29-10-2020,Halloween RPG.
+141,Layers of Fear 2,22-10-2020,29-10-2020,Horror.
+142,Blair Witch,29-10-2020,05-11-2020,Horror.
+143,Ghostbusters: The Video Game Remastered,29-10-2020,05-11-2020,Action adventure.
+144,Dungeons 3,05-11-2020,12-11-2020,Dungeon management RTS.
+145,The Textorcist: The Story of Ray Bibbia,12-11-2020,19-11-2020,Bullet‑hell typing game.
+146,Elite Dangerous,19-11-2020,26-11-2020,Space sim.
+147,The World Next Door,19-11-2020,26-11-2020,Puzzle RPG.
+148,MudRunner,26-11-2020,03-12-2020,Off‑road sim.
+149,Cave Story+,03-12-2020,10-12-2020,Classic platformer.
+150,Pillars of Eternity: Definitive Edition,10-12-2020,17-12-2020,Isometric RPG.
+151,Tyranny: Gold Edition,10-12-2020,17-12-2020,Isometric RPG.
+152,Cities: Skylines,17-12-2020,18-12-2020,Start of “15 days of free games” 2020.
+153,Oddworld: New ‘n’ Tasty,18-12-2020,19-12-2020,Platformer remake.
+154,The Long Dark,19-12-2020,20-12-2020,Survival.
+155,Defense Grid: The Awakening,20-12-2020,21-12-2020,Tower defense.
+156,Alien: Isolation,21-12-2020,22-12-2020,Survival horror.
+157,Metro 2033 Redux (repeat),22-12-2020,23-12-2020,FPS.
+158,Tropico 5,23-12-2020,24-12-2020,City-builder.
+159,Inside (repeat),24-12-2020,25-12-2020,Puzzle platformer.
+160,Darkest Dungeon,25-12-2020,26-12-2020,Gothic roguelike.
+161,My Time at Portia,26-12-2020,27-12-2020,Life sim.
+162,Night in the Woods,27-12-2020,28-12-2020,Narrative adventure.
+163,Stranded Deep,28-12-2020,29-12-2020,Survival.
+164,Solitairica,29-12-2020,30-12-2020,Card/roguelike.
+165,Torchlight II (repeat),30-12-2020,31-12-2020,ARPG.
+166,Jurassic World Evolution,31-12-2020,07-01-2021,Park management.
+167,Crying Suns,07-01-2021,14-01-2021,Tactical roguelite.
+168,Star Wars Battlefront II: Celebration Edition,14-01-2021,21-01-2021,MP shooter.
+169,Galactic Civilizations III,21-01-2021,28-01-2021,4X strategy.
+170,Dandara: Trials of Fear Edition,28-01-2021,04-02-2021,Metroidvania.
+171,For The King (repeat),04-02-2021,11-02-2021,Strategy RPG.
+172,Metro: Last Light Redux,04-02-2021,11-02-2021,FPS.
+173,Halcyon 6: Starbase Commander,11-02-2021,18-02-2021,Strategy / management.
+174,Absolute Drift,18-02-2021,25-02-2021,Driving.
+175,Rage 2,18-02-2021,25-02-2021,Open‑world shooter.
+176,Sunless Sea,25-02-2021,04-03-2021,Narrative exploration.
+177,Wargame: Red Dragon,04-03-2021,11-03-2021,RTS.
+178,Surviving Mars (repeat),11-03-2021,18-03-2021,Colony builder.
+179,The Fall,18-03-2021,25-03-2021,Story platformer.
+180,Creature in the Well,25-03-2021,01-04-2021,Pinball‑inspired action.
+181,Tales of the Neon Sea,01-04-2021,08-04-2021,Pixel adventure.
+182,3 out of 10: Season Two,08-04-2021,15-04-2021,Episodic comedy adventure.
+183,Deponia: The Complete Journey,15-04-2021,22-04-2021,Point‑and‑click trilogy.
+184,Ken Follett’s The Pillars of the Earth,15-04-2021,22-04-2021,Adventure.
+185,The First Tree,15-04-2021,22-04-2021,Narrative exploration.
+186,Alien: Isolation (repeat),22-04-2021,29-04-2021,Horror.
+187,Hand of Fate 2,22-04-2021,29-04-2021,Deckbuilding action.
+188,Idle Champions of the Forgotten Realms (pack),29-04-2021,06-05-2021,F2P bonus pack.
+189,Pine,06-05-2021,13-05-2021,Action‑adventure.
+190,The Lion’s Song,13-05-2021,20-05-2021,Narrative adventure.
+191,NBA 2K21,20-05-2021,27-05-2021,Sports sim.
+192,Among Us,27-05-2021,03-06-2021,Social deduction.
+193,Frostpunk,03-06-2021,10-06-2021,City‑builder survival.
+194,Control,10-06-2021,17-06-2021,Action‑adventure.
+195,Hell is Other Demons,17-06-2021,24-06-2021,Arcade shooter.
+196,Overcooked! 2,17-06-2021,24-06-2021,Co‑op cooking.
+197,Horizon Chase Turbo,24-06-2021,01-07-2021,Arcade racer.
+198,Sonic Mania,24-06-2021,01-07-2021,Platformer.
+199,The Spectrum Retreat,01-07-2021,08-07-2021,First‑person puzzle.
+200,Bridge Constructor: The Walking Dead,08-07-2021,15-07-2021,Physics puzzle.
+201,Ironcast,08-07-2021,15-07-2021,Match‑3 mech tactics.
+202,Obduction,15-07-2021,22-07-2021,Myst‑like adventure.
+203,Offworld Trading Company (repeat),15-07-2021,22-07-2021,Economic RTS.
+204,Defense Grid: The Awakening (repeat),22-07-2021,29-07-2021,Tower defense.
+205,Verdun,22-07-2021,29-07-2021,WW1 multiplayer FPS.
+206,Mothergunship,29-07-2021,05-08-2021,Bullet‑hell FPS.
+207,Train Sim World 2,29-07-2021,05-08-2021,Train sim.
+208,A Plague Tale: Innocence,05-08-2021,12-08-2021,Story‑driven action adventure.
+209,Minit (repeat),05-08-2021,12-08-2021,60‑second adventure.
+210,Rebel Galaxy (repeat),12-08-2021,19-08-2021,Space combat/trading.
+211,Void Bastards,19-08-2021,26-08-2021,Roguelike shooter.
+212,Yooka-Laylee,19-08-2021,26-08-2021,3D platformer.
+213,Automachef,26-08-2021,02-09-2021,Automation puzzle.
+214,Saints Row: The Third Remastered,26-08-2021,02-09-2021,Open‑world action.
+215,Yoku’s Island Express,02-09-2021,09-09-2021,Pinball‑platformer hybrid.
+216,Sheltered,09-09-2021,16-09-2021,Survival management.
+217,Nioh: The Complete Edition,09-09-2021,16-09-2021,Action RPG.
+218,Speed Brawl,16-09-2021,23-09-2021,2D combat racer.
+219,Tharsis,16-09-2021,23-09-2021,Dice‑based space survival.
+220,The Escapists (repeat),23-09-2021,30-09-2021,Prison escape sim.
+221,Europa Universalis IV,30-09-2021,07-10-2021,Grand strategy.
+222,PC Building Simulator,07-10-2021,14-10-2021,PC repair/assembly sim.
+223,Stubbs the Zombie in Rebel Without a Pulse (repeat),14-10-2021,21-10-2021,Comedy zombie action.
+224,Among the Sleep: Enhanced Edition,21-10-2021,28-10-2021,Horror adventure.
+225,DARQ: Complete Edition,28-10-2021,04-11-2021,Puzzle horror.
+226,Aven Colony,04-11-2021,11-11-2021,Sci‑fi city‑builder.
+227,Tiny Tina’s Assault on Dragon Keep: A Wonderlands One-shot Adventure,11-11-2021,18-11-2021,Borderlands standalone episode.
+228,Rogue Company Season 4 Epic Pack (DLC),11-11-2021,18-11-2021,F2P content pack.
+229,Guild of Dungeoneering,18-11-2021,25-11-2021,Card‑based dungeon crawler.
+230,KID A MNESIA EXHIBITION,18-11-2021,25-11-2021,Interactive Radiohead exhibit.
+231,Never Alone (Kisima Ingitchuna),18-11-2021,25-11-2021,Puzzle platformer.
+232,Antstream – Epic Welcome Pack,25-11-2021,02-12-2021,Retro streaming pack.
+233,theHunter: Call of the Wild,25-11-2021,02-12-2021,Hunting sim.
+234,Dead by Daylight,02-12-2021,09-12-2021,Asymmetrical horror MP.
+235,while True: learn(),02-12-2021,09-12-2021,Coding/ML puzzle game.
+236,Godfall: Challenger Edition,09-12-2021,16-12-2021,Loot‑slasher edition.
+237,Prison Architect,09-12-2021,16-12-2021,Prison management sim.
+238,Shenmue III,16-12-2021,17-12-2021,Action‑adventure.
+239,Neon Abyss,17-12-2021,18-12-2021,Roguelike shooter.
+240,Remnant: From the Ashes (repeat),18-12-2021,19-12-2021,Co‑op shooter.
+241,The Vanishing of Ethan Carter,19-12-2021,20-12-2021,Mystery adventure.
+242,Loop Hero,20-12-2021,21-12-2021,Deckbuilding roguelike.
+243,Second Extinction,21-12-2021,22-12-2021,Co‑op dino shooter.
+244,Mutant Year Zero: Road to Eden (repeat),22-12-2021,23-12-2021,Tactical strategy.
+245,Vampyr,23-12-2021,24-12-2021,Action RPG.
+246,Pathfinder: Kingmaker – Enhanced Plus Edition,24-12-2021,25-12-2021,Isometric RPG.
+247,Prey,25-12-2021,26-12-2021,Immersive sim.
+248,Control (repeat),26-12-2021,27-12-2021,Action‑adventure.
+249,Mages of Mystralia,27-12-2021,28-12-2021,Action RPG.
+250,Moving Out,28-12-2021,29-12-2021,Co‑op moving sim.
+251,Salt and Sanctuary,29-12-2021,30-12-2021,2D souls‑like.
+252,"Tomb Raider Trilogy (Tomb Raider GOTY, Rise of the Tomb Raider, Shadow of the Tomb Raider)",30-12-2021,06-01-2022,Full reboot trilogy bundle.
+253,Gods Will Fall,06-01-2022,13-01-2022,Action roguelike.
+254,Galactic Civilizations III (repeat),13-01-2022,20-01-2022,4X strategy.
+255,Relicta,20-01-2022,27-01-2022,Physics puzzle.
+256,Daemon X Machina,27-01-2022,03-02-2022,Mech action.
+257,Yooka-Laylee and the Impossible Lair (repeat),03-02-2022,10-02-2022,2.5D platformer.
+258,Windbound,10-02-2022,17-02-2022,Survival adventure.
+259,Brothers: A Tale of Two Sons,17-02-2022,24-02-2022,Co‑op style adventure.
+260,Cris Tales,24-02-2022,03-03-2022,JRPG‑inspired.
+261,Black Widow: Recharged,03-03-2022,10-03-2022,Arcade shooter.
+262,Centipede: Recharged,03-03-2022,10-03-2022,Arcade shooter.
+263,Cities: Skylines (repeat),10-03-2022,17-03-2022,City‑builder.
+264,In Sound Mind,17-03-2022,24-03-2022,Psychological horror.
+265,Demon’s Tilt,24-03-2022,31-03-2022,Pinball shmup.
+266,City of Brass (repeat),31-03-2022,07-04-2022,Action roguelike.
+267,Total War: Warhammer,31-03-2022,07-04-2022,Strategy.
+268,Rogue Legacy,07-04-2022,14-04-2022,Roguelite platformer.
+269,The Vanishing of Ethan Carter (repeat),07-04-2022,14-04-2022,Mystery adventure.
+270,Insurmountable,14-04-2022,21-04-2022,Mountain‑climbing roguelike.
+271,XCOM 2,14-04-2022,21-04-2022,Tactical strategy.
+272,Amnesia: Rebirth,21-04-2022,28-04-2022,Horror.
+273,Riverbond,21-04-2022,28-04-2022,Voxel co‑op action.
+274,Just Die Already,28-04-2022,05-05-2022,Elderly mayhem sandbox.
+275,Paradigm,28-04-2022,05-05-2022,Point‑and‑click.
+276,Terraforming Mars,05-05-2022,12-05-2022,Board‑game adaptation.
+277,Jotun: Valhalla Edition (repeat),12-05-2022,19-05-2022,Norse action‑exploration.
+278,Redout: Enhanced Edition,12-05-2022,19-05-2022,Futuristic racer.
+279,Borderlands 3,19-05-2022,26-05-2022,Looter‑shooter.
+280,Bioshock: The Collection,26-05-2022,02-06-2022,Bioshock trilogy.
+281,Wolfenstein: The New Order,02-06-2022,09-06-2022,FPS.
+282,Maneater,09-06-2022,16-06-2022,Shark RPG.
+283,Supraland,16-06-2022,23-06-2022,Puzzle‑FPS.
+284,A Game of Thrones: The Board Game – Digital Edition,23-06-2022,30-06-2022,Strategy board adaptation.
+285,Car Mechanic Simulator 2018,23-06-2022,30-06-2022,Workshop sim.
+286,Geneforge 1: Mutagen,30-06-2022,07-07-2022,Classic‑style RPG.
+287,Iratus: Lord of the Dead,30-06-2022,07-07-2022,Darkest‑Dungeon‑like.
+288,Killing Floor 2 (repeat),07-07-2022,14-07-2022,Co‑op FPS.
+289,Ancient Enemy,07-07-2022,14-07-2022,Card battler.
+290,Wonder Boy: The Dragon’s Trap,14-07-2022,21-07-2022,Platformer remake.
+291,Shop Titans (bundle),14-07-2022,21-07-2022,F2P pack.
+292,Tannenberg,21-07-2022,28-07-2022,WW1 FPS.
+293,Lawn Mowing Simulator,28-07-2022,04-08-2022,Mowing sim.
+294,Unrailed!,04-08-2022,11-08-2022,Co‑op track‑building.
+295,"Cook, Serve, Delicious! 3?!",11-08-2022,18-08-2022,Cooking management.
+296,Rumbleverse Boom Boxer Pack (DLC),18-08-2022,25-08-2022,Cosmetics pack.
+297,Doom 64,18-08-2022,25-08-2022,Classic shooter.
+298,Ring of Pain,25-08-2022,01-09-2022,Card roguelike.
+299,Destiny 2: Bungie 30th Anniversary Pack,25-08-2022,01-09-2022,DLC expansion.
+300,Shadow of the Tomb Raider: Definitive Edition (repeat),01-09-2022,08-09-2022,Action‑adventure.
+301,Submerged: Hidden Depths,01-09-2022,08-09-2022,Third‑person exploration.
+302,Hundred Days – Winemaking Simulator,08-09-2022,15-09-2022,Winemaking management sim.
+303,Realm Royale Reforged Epic Launch Bundle (DLC),08-09-2022,15-09-2022,F2P cosmetics/boosts.
+304,Spirit of the North,15-09-2022,22-09-2022,Fox exploration game.
+305,The Captain,15-09-2022,22-09-2022,Pixel‑art space adventure.
+306,ARK: Survival Evolved (repeat),22-09-2022,29-09-2022,Survival sandbox.
+307,Gloomhaven,22-09-2022,29-09-2022,Tactical RPG board‑game adaptation.
+308,The Drone Racing League Simulator,29-09-2022,06-10-2022,Drone racing sim.
+309,Runbow,29-09-2022,06-10-2022,Colorful party platformer.
+310,Slain: Back from Hell,06-10-2022,13-10-2022,Heavy‑metal action platformer.
+311,Rising Hell,06-10-2022,13-10-2022,Vertical roguelike.
+312,ToeJam & Earl: Back in the Groove!,13-10-2022,20-10-2022,Roguelike co‑op adventure.
+313,Darkwood,13-10-2022,20-10-2022,Top‑down survival horror.
+314,Evoland Legendary Edition,20-10-2022,27-10-2022,JRPG homage collection.
+315,Fallout 3: Game of the Year Edition,20-10-2022,27-10-2022,Open‑world RPG.
+316,Saturnalia,27-10-2022,03-11-2022,Roguelite horror adventure.
+317,"Warhammer 40,000: Mechanicus",27-10-2022,03-11-2022,Turn‑based tactics.
+318,Filament,03-11-2022,10-11-2022,Cable puzzle game.
+319,Rising Storm 2: Vietnam (repeat),03-11-2022,10-11-2022,Multiplayer FPS.
+320,Alba: A Wildlife Adventure,10-11-2022,17-11-2022,Relaxed exploration on a Mediterranean island.
+321,Shadow Tactics: Blades of the Shogun (repeat),10-11-2022,17-11-2022,Tactical stealth.
+322,Evil Dead: The Game,17-11-2022,24-11-2022,Asymmetrical horror.
+323,Dark Deity,17-11-2022,24-11-2022,Tactical RPG.
+324,Star Wars: Squadrons,24-11-2022,01-12-2022,Space dogfighting sim.
+325,Fort Triumph,01-12-2022,08-12-2022,XCOM‑like fantasy tactics.
+326,RPG in a Box,01-12-2022,08-12-2022,Create‑your‑own RPG toolkit.
+327,Wildcat Gun Machine,08-12-2022,15-12-2022,Bullet‑hell dungeon crawler.
+328,Saints Row IV: Re‑Elected,08-12-2022,15-12-2022,Open‑world superpower chaos.
+329,Sable,19-12-2022,20-12-2022,Stylized open‑world exploration (holiday daily).
+330,Them’s Fightin’ Herds,20-12-2022,21-12-2022,Indie fighting game.
+331,Wolfenstein: The New Order (repeat),21-12-2022,22-12-2022,FPS.
+332,LEGO Builder’s Journey,22-12-2022,23-12-2022,Puzzle builder.
+333,Fallout Classic Collection,23-12-2022,24-12-2022,"Fallout 1, Fallout 2, Fallout Tactics."
+334,Encased,24-12-2022,25-12-2022,Isometric RPG.
+335,Metro: Last Light Redux (repeat),25-12-2022,26-12-2022,FPS.
+336,Death Stranding,26-12-2022,27-12-2022,Strand‑type action game.
+337,F.I.S.T.: Forged In Shadow Torch,27-12-2022,28-12-2022,Metroidvania.
+338,Severed Steel (repeat),28-12-2022,29-12-2022,Stylish FPS.
+339,Mortal Shell,29-12-2022,05-01-2023,Souls‑like action RPG.
+340,Dishonored – Definitive Edition,29-12-2022,05-01-2023,Immersive sim.
+341,Eximius: Seize the Frontline,29-12-2022,05-01-2023,Hybrid FPS/RTS.
+342,Kerbal Space Program,05-01-2023,12-01-2023,Spaceflight sim.
+343,Shadow Tactics: Aiko’s Choice,05-01-2023,12-01-2023,Standalone expansion.
+344,Divine Knockout,12-01-2023,19-01-2023,Third‑person platform fighter.
+345,First Class Trouble,12-01-2023,19-01-2023,Social deduction.
+346,Gamedec – Definitive Edition,19-01-2023,26-01-2023,Isometric cyberpunk RPG.
+347,Epistory – Typing Chronicles,19-01-2023,26-01-2023,Typing‑based action adventure.
+348,Adios,26-01-2023,02-02-2023,Narrative game about a mob disposal worker.
+349,Hell is Others,26-01-2023,02-02-2023,Extraction shooter with horror angle.
+350,City of Gangsters,02-02-2023,09-02-2023,Prohibition‑era management sim.
+351,Recipe for Disaster,09-02-2023,16-02-2023,Restaurant management sim.
+352,Warpips,16-02-2023,23-02-2023,Tug‑of‑war strategy.
+353,Duskers,23-02-2023,02-03-2023,Command‑line drone roguelike.
+354,Rise of Industry,02-03-2023,09-03-2023,Tycoon/production‑chain sim.
+355,Call of the Sea,09-03-2023,16-03-2023,First‑person puzzle adventure.
+356,"Gladius – Relics of War (Warhammer 40,000)",16-03-2023,23-03-2023,4X strategy.
+357,Chess Ultra,23-03-2023,30-03-2023,Chess sim.
+358,World of Warships – Starter Pack: Ishizuchi (DLC),23-03-2023,30-03-2023,F2P starter bundle.
+359,The Silent Age,30-03-2023,06-04-2023,Time‑travel adventure.
+360,Tunche,30-03-2023,06-04-2023,Beat ’em up roguelite.
+361,Dying Light Enhanced Edition,06-04-2023,13-04-2023,Open‑world zombie parkour.
+362,shapez,06-04-2023,13-04-2023,Factory‑building puzzle.
+363,Mordhau,13-04-2023,20-04-2023,Medieval multiplayer slasher.
+364,Second Extinction (repeat),13-04-2023,20-04-2023,Co‑op dinosaur shooter.
+365,Beyond Blue,20-04-2023,27-04-2023,Underwater exploration.
+366,Never Alone (Kisima Ingitchuna) (repeat),20-04-2023,27-04-2023,Cultural puzzle platformer.
+367,Breathedge,27-04-2023,04-05-2023,Space survival parody.
+368,Poker Club,27-04-2023,04-05-2023,Poker sim.
+369,Against All Odds,04-05-2023,11-05-2023,Party obstacle‑course game.
+370,Horizon Chase Turbo (repeat),04-05-2023,11-05-2023,Arcade racer.
+371,Kao the Kangaroo,04-05-2023,11-05-2023,3D platformer.
+372,The Sims 4 – Daring Lifestyle Bundle (DLC),11-05-2023,18-05-2023,Cosmetic/content pack.
+373,Death Stranding (repeat),18-05-2023,25-05-2023,Strand‑type action game.
+374,Fallout: New Vegas – Ultimate Edition,25-05-2023,01-06-2023,Classic RPG.
+375,Midnight Ghost Hunt,01-06-2023,08-06-2023,4v4 prop‑hunt ghost game.
+376,PAYDAY 2,08-06-2023,15-06-2023,Co‑op heist FPS.
+377,Guacamelee! Super Turbo Championship Edition,15-06-2023,22-06-2023,Metroidvania brawler.
+378,Guacamelee! 2,15-06-2023,22-06-2023,Sequel brawler.
+379,The Dungeon of Naheulbeuk: The Amulet of Chaos,22-06-2023,29-06-2023,Tactical RPG.
+380,A Game of Thrones: The Board Game – Digital Edition (repeat),29-06-2023,06-07-2023,Strategy board adaptation.
+381,The Elder Scrolls Online,20-07-2023,27-07-2023,MMORPG.
+382,Murder by Numbers,20-07-2023,27-07-2023,Picross detective puzzle.
+383,Homeworld Remastered Collection,27-07-2023,03-08-2023,RTS classics remaster.
+384,Severed Steel,27-07-2023,03-08-2023,Stylish acrobatic FPS.
+385,Bloons TD 6,03-08-2023,10-08-2023,Tower defense.
+386,Loop Hero (repeat),03-08-2023,10-08-2023,Deck‑building auto‑runner.
+387,Europa Universalis IV (repeat),10-08-2023,17-08-2023,Grand strategy.
+388,Orwell: Keeping an Eye on You,10-08-2023,17-08-2023,Surveillance narrative game.
+389,Black Book,17-08-2023,24-08-2023,Card‑based RPG with Slavic folklore.
+390,Dodo Peak,17-08-2023,24-08-2023,Arcade puzzle platformer.
+391,Homeworld: Deserts of Kharak,24-08-2023,31-08-2023,Ground‑based RTS prequel.
+392,Cave Story+ (repeat),31-08-2023,07-09-2023,Classic platformer.
+393,Spelldrifter,31-08-2023,07-09-2023,Tactical card RPG.
+394,911 Operator,14-09-2023,21-09-2023,Emergency services sim.
+395,Out of Line,14-09-2023,21-09-2023,Hand‑drawn puzzle platformer.
+396,The Forest Quartet,21-09-2023,28-09-2023,Narrative puzzle adventure.
+397,Out of Bandwidth (placeholder small title slot)*,21-09-2023,28-09-2023,Minor indie/freebie slot noted in trackers.
+398,Soulstice,28-09-2023,05-10-2023,Action hack‑and‑slash.
+399,Model Builder,28-09-2023,05-10-2023,Scale‑model crafting sim.
+400,Godlike Burger,05-10-2023,12-10-2023,Darkly comic restaurant sim.
+401,Blazing Sails,12-10-2023,19-10-2023,Multiplayer pirate battle royale.
+402,Q.U.B.E. Ultimate Bundle,12-10-2023,19-10-2023,Includes Q.U.B.E. + DLC.
+403,Eternal Threads,19-10-2023,26-10-2023,Time‑manipulation narrative adventure.
+404,The Evil Within,19-10-2023,26-10-2023,Survival horror.
+405,The Evil Within 2,26-10-2023,02-11-2023,Survival horror sequel.
+406,Tandem: A Tale of Shadows,26-10-2023,02-11-2023,Puzzle platformer with dual perspectives.
+407,F.I.S.T.: Forged In Shadow Torch (repeat),02-11-2023,09-11-2023,Metroidvania.
+408,Turnip Boy Commits Tax Evasion,02-11-2023,09-11-2023,Comedy adventure.
+409,Golden Light,09-11-2023,16-11-2023,Horror roguelike.
+410,Earthlock,09-11-2023,16-11-2023,Turn‑based RPG.
+411,Surviving the Aftermath,16-11-2023,23-11-2023,Post‑apocalyptic colony sim.
+412,Deliver Us Mars,16-11-2023,23-11-2023,Sci‑fi adventure.
+413,Jitsu Squad,23-11-2023,30-11-2023,Co‑op beat ’em up.
+414,Mighty Fight Federation,23-11-2023,30-11-2023,Arena fighter.
+415,GigaBash,30-11-2023,07-12-2023,Kaiju party brawler.
+416,Predecessor (starter pack),30-11-2023,07-12-2023,MOBA bundle.
+417,Destiny 2: Legacy Collection (DLC bundle),07-12-2023,14-12-2023,Expansion pack trio.
+418,DNF Duel (repeat),14-12-2023,21-12-2023,Anime fighting game.
+419,Melvor Idle,14-12-2023,21-12-2023,Idle/RPG inspired by RuneScape.
+420,Art of Rally,21-12-2023,31-12-2023,"Stylized rally racer, part of 2023 holiday run."
+421,Fallout 3: Game of the Year Edition (repeat),21-12-2023,31-12-2023,Open‑world RPG.
+422,Ghostwire: Tokyo,21-12-2023,31-12-2023,Supernatural action‑adventure.
+423,The Outer Worlds: Spacer’s Choice Edition (repeat),21-12-2023,31-12-2023,Enhanced RPG edition.
+424,Human Resource Machine,21-12-2023,31-12-2023,Programming‑puzzle game.
+425,Cursed to Golf,21-12-2023,31-12-2023,Roguelike golf platformer.
+426,Cat Quest,21-12-2023,31-12-2023,Action RPG.
+427,Snakebird Complete,21-12-2023,31-12-2023,Difficult puzzle game.
+428,Saints Row (2022),21-12-2023,31-12-2023,Open‑world action reboot.
+429,Ghostrunner,21-12-2023,31-12-2023,Cyberpunk parkour slasher.
+430,Escape Academy (repeat),21-12-2023,31-12-2023,Co‑op escape‑room puzzler.
+431,20 Minutes Till Dawn (repeat),21-12-2023,31-12-2023,Survivor‑like shooter.
+432,A Plague Tale: Innocence (repeat),21-12-2023,31-12-2023,Story‑driven adventure.
+433,Marvel’s Guardians of the Galaxy (repeat),21-12-2023,31-12-2023,AAA story action game.
+434,Dishonored: Death of the Outsider,21-12-2023,31-12-2023,Standalone immersive‑sim spin‑off.
+435,Idle Champions of the Forgotten Realms (DLC pack),21-12-2023,31-12-2023,F2P booster.
+436,theHunter: Call of the Wild (repeat),21-12-2023,31-12-2023,Hunting sim.
+437,Train Valley 2,21-12-2023,31-12-2023,Train puzzle/management.
+438,Grime,21-12-2023,31-12-2023,Souls‑like Metroidvania.
+439,Turnip Boy Commits Tax Evasion (repeat),21-12-2023,31-12-2023,Comedy adventure.
+440,Black Book (repeat),21-12-2023,31-12-2023,Card RPG with Slavic folklore.
+441,Train Sim World 3 (example holiday slot)*,21-12-2023,31-12-2023,Sim entry appearing in some 2023 holiday lists.
+442,Additional minor DLC / cosmetics slots (holiday pack group)*,21-12-2023,31-12-2023,Small bundles grouped in holiday promo.
+443,Escape Academy (repeat),01-01-2024,02-01-2024,Puzzle escape‑room game.
+444,20 Minutes Till Dawn (repeat),02-01-2024,03-01-2024,Survivor‑like shooter.
+445,A Plague Tale: Innocence (repeat),03-01-2024,04-01-2024,Story‑driven action adventure.
+446,Marvel’s Guardians of the Galaxy (repeat),04-01-2024,11-01-2024,AAA narrative action.
+447,Sail Forth,11-01-2024,18-01-2024,Indie sailing adventure.
+448,LOVE,18-01-2024,25-01-2024,Minimalist precision platformer.
+449,Infinifactory,25-01-2024,01-02-2024,3D factory‑building puzzle game.
+450,Doors: Paradox,01-02-2024,08-02-2024,Puzzle/escape‑room game.
+451,Doki Doki Literature Club Plus!,08-02-2024,15-02-2024,Visual novel (plus content).
+452,Dakar Desert Rally,15-02-2024,22-02-2024,Off‑road racing.
+453,Thief (2014),22-02-2024,29-02-2024,Stealth action.
+454,The Big Con,29-02-2024,07-03-2024,90s‑style con‑artist adventure.
+455,Town of Salem 2,07-03-2024,14-03-2024,Social deduction.
+456,LISA: The Painful – Definitive Edition,14-03-2024,21-03-2024,Dark comedy RPG.
+457,Industria,21-03-2024,28-03-2024,Narrative FPS.
+458,Orcs Must Die! 3,28-03-2024,04-04-2024,Tower‑defense action.
+459,Circus Electrique,04-04-2024,11-04-2024,Tactical RPG/management.
+460,Dragon Age: Inquisition – Game of the Year Edition,11-04-2024,18-04-2024,AAA fantasy RPG.
+461,Farming Simulator 22,18-04-2024,25-04-2024,Modern farming sim.
+462,Chivalry 2,25-04-2024,02-05-2024,Multiplayer medieval slasher.
+463,LISA: The Joyful – Definitive Edition,02-05-2024,09-05-2024,DLC‑scale sequel to LISA.
+464,Orcs Must Die! 2 (repeat),09-05-2024,16-05-2024,Hybrid tower defense.
+465,Cat Quest II,16-05-2024,23-05-2024,Co‑op action RPG.
+466,Firestone: Online Idle RPG – Epic Pack (DLC),23-05-2024,30-05-2024,F2P booster bundle.
+467,Marvel’s Midnight Suns,30-05-2024,06-06-2024,Tactical card‑based superhero RPG.
+468,Redout 2,06-06-2024,13-06-2024,Futuristic arcade racer.
+469,Idle Champions of the Forgotten Realms (DLC pack),13-06-2024,20-06-2024,Bonus content.
+470,Freshly Frosted + Rumble Club pack,20-06-2024,27-06-2024,Donut puzzle game + F2P bonuses.
+471,Sunless Skies: Sovereign Edition,27-06-2024,04-07-2024,Gothic exploration RPG.
+472,The Falconeer,04-07-2024,11-07-2024,Air‑combat RPG.
+473,Floppy Knights,11-07-2024,18-07-2024,Deck‑building tactics.
+474,Arcade Paradise,18-07-2024,25-07-2024,Laundromat/arcade management.
+475,Maid of Sker,18-07-2024,25-07-2024,Stealth horror.
+476,F.I.S.T.: Forged In Shadow Torch (repeat),25-07-2024,01-08-2024,Metroidvania.
+477,Thief (repeat),01-08-2024,08-08-2024,Stealth action.
+478,The Callisto Protocol,08-08-2024,15-08-2024,AAA sci‑fi horror.
+479,Lego Star Wars: The Skywalker Saga,15-08-2024,22-08-2024,Full‑saga Lego action adventure.
+480,The Outer Worlds: Spacer’s Choice Edition (repeat),22-08-2024,29-08-2024,Enhanced RPG edition.
+481,Deus Ex: Mankind Divided,29-08-2024,05-09-2024,Cyberpunk immersive sim.
+482,The Big Con (repeat),05-09-2024,12-09-2024,90s con‑artist adventure.
+483,Orcs Must Die! 3 (repeat),12-09-2024,19-09-2024,Tower‑defense action.
+484,Circus Electrique (repeat),19-09-2024,26-09-2024,Tactical RPG/management.
+485,Dragon Age: Inquisition – Game of the Year Edition (repeat),26-09-2024,03-10-2024,AAA fantasy RPG.
+486,Farming Simulator 22 (repeat),03-10-2024,10-10-2024,Farming sim.
+487,Chivalry 2 (repeat),10-10-2024,17-10-2024,Medieval slasher.
+488,World War Z: Aftermath,17-10-2024,24-10-2024,Co‑op zombie shooter.
+489,Garden Story,24-10-2024,31-10-2024,Wholesome village action‑adventure.
+490,HUMANKIND,31-10-2024,07-11-2024,Historical 4X strategy.
+491,F1 Manager 2024,07-11-2024,14-11-2024,F1 management sim.
+492,Turmoil,14-11-2024,21-11-2024,Oil‑drilling management game.
+493,Kingdom Come: Deliverance (repeat),21-11-2024,28-11-2024,"Historical RPG, lead‑in to holiday season."
+494,Hell Let Loose,28-11-2024,05-12-2024,100‑player WW2 FPS.
+495,The Lord of the Rings: Return to Moria,12-12-2024,19-12-2024,"Survival crafting in Moria, start of Holiday 2024 run."
+496,Vampire Survivors,19-12-2024,20-12-2024,Bullet‑heaven roguelike.
+497,Astrea: Six‑Sided Oracles,20-12-2024,21-12-2024,Dice‑deck‑building roguelike.
+498,Wizard of Legend,21-12-2024,22-12-2024,Fast action roguelike.
+499,Dark and Darker – Legendary Status (DLC),23-12-2024,24-12-2024,Unlock status/bonuses.
+500,DREDGE,24-12-2024,25-12-2024,Fishing horror‑tinged adventure.
+501,Control (repeat),25-12-2024,26-12-2024,Supernatural action‑adventure.
+502,Ghostrunner 2,26-12-2024,27-12-2024,Cyberpunk parkour slasher.
+503,Hot Wheels Unleashed,27-12-2024,28-12-2024,Arcade racer.
+504,KILL KNIGHT,28-12-2024,29-12-2024,Isometric bullet‑hell.
+505,Orcs Must Die! 3 (repeat),29-12-2024,30-12-2024,Tower‑defense action.
+506,Sifu,30-12-2024,31-12-2024,Martial‑arts roguelite.
+507,REDACTED (mystery day 2024)*,30-12-2024,31-12-2024,Placeholder used by some leak lists; actual title varied/hidden until reveal.
+508,"Kingdom Come: Deliverance (repeat, New Year slot)",31-12-2024,01-01-2025,New Year free rerun.
+509,"Hell Let Loose (repeat, final Holiday 2024)",01-01-2025,02-01-2025,Final game of 2024 holiday sequence.
+510,Turmoil (repeat),02-01-2025,09-01-2025,Oil‑drilling sim (weekly slot).
+511,Escape Academy (repeat),09-01-2025,16-01-2025,Co‑op escape‑room puzzler.
+512,Make Way,16-01-2025,23-01-2025,Build‑your‑own top‑down racer.
+513,Machinarium,23-01-2025,30-01-2025,Classic point‑and‑click puzzle.
+514,Monument Valley,30-01-2025,06-02-2025,Meditative puzzle game.
+515,Monument Valley 2,06-02-2025,13-02-2025,Sequel puzzle adventure.
+516,Jorel’s Brother and The Most Important Game of the Galaxy,13-02-2025,20-02-2025,Cartoon‑style adventure.
+517,Nightingale pack / early‑access bonus,20-02-2025,27-02-2025,Content related to survival game Nightingale.
+518,Gravity Circuit,27-02-2025,06-03-2025,Retro‑style action platformer.
+519,Albion Online – Rogue Journeyman Bundle,06-03-2025,13-03-2025,F2P MMO bundle.
+520,Amnesia: The Bunker,13-03-2025,20-03-2025,First‑person horror.
+521,Samorost 3,20-03-2025,27-03-2025,Surreal adventure.
+522,Fear the Spotlight,27-03-2025,03-04-2025,Retro‑inspired horror.
+523,Bendy and the Ink Machine,03-04-2025,10-04-2025,Cartoon horror.
+524,Five Nights at Freddy’s: Into the Pit,10-04-2025,17-04-2025,FNAF‑universe title.
+525,Felix the Reaper,17-04-2025,24-04-2025,Puzzle about dancing grim reaper.
+526,ScourgeBringer,24-04-2025,01-05-2025,Roguelite platformer.
+527,Songs of Silence,01-05-2025,08-05-2025,Hybrid strategy game.
+528,Zero Hour,08-05-2025,15-05-2025,Tactical FPS.
+529,Godzilla Voxel Wars,15-05-2025,22-05-2025,Turn‑based tactics with Godzilla IP.
+530,Zoeti,22-05-2025,29-05-2025,Card‑based roguelike.
+531,Universe for Sale,29-05-2025,05-06-2025,Narrative adventure.
+532,The Darkside Detective,05-06-2025,12-06-2025,Pixel‑art detective adventure.
+533,The Jackbox Party Pack 4,12-06-2025,19-06-2025,Party quiz pack.
+534,CYGNI: All Guns Blazing,08-08-2025,15-08-2025,Shoot ’em up.
+535,DNF Duel (repeat),08-08-2025,15-08-2025,Fighting game.
+536,Rawmen: Food Fighter Arena,01-08-2025,08-08-2025,Food‑fight multiplayer arena.
+537,LumbearJack,01-08-2025,08-08-2025,Environmental puzzle game.
+538,Call of the Wild: The Angler,21-03-2025,28-03-2025,Fishing sim (bundle with Atom Eve in some regions).
+539,Invincible Presents: Atom Eve,21-03-2025,28-03-2025,Superhero visual‑novel‑style game.
+540,Islets,28-03-2025,04-04-2025,Hand‑drawn Metroidvania.
+541,Hogwarts Legacy,11-12-2025,18-12-2025,"Big AAA open‑world RPG, headline of 2025 holiday sale."

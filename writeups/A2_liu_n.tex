@@ -1,0 +1,63 @@
+% Compile with pdflatex, or paste into Overleaf (overleaf.com).
+\documentclass[11pt]{article}
+\usepackage[letterpaper, margin=1in, top=0.8in, bottom=0.8in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{palatino}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+\titleformat{\section}{\normalfont\normalsize\bfseries}{\thesection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{1em}{0.3em}
+
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+\setlist{itemsep=0.15em, topsep=0.2em, partopsep=0pt, leftmargin=1.4em}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries Epic Games Store Giveaways and Steam Player Engagement}\\[0.4em]
+  {\small Nicholas Liu \quad|\quad 14.33 Project Proposal}
+\end{center}
+
+\vspace{0.5em}
+\hrule
+\vspace{0.8em}
+
+\section{Research Question}
+What is the causal effect of Epic Games Store free game giveaways on the equivalent game's Steam concurrent player numbers? Does a zero-price substitute on a rival platform \textit{cannibalize} or \textit{promote} engagement on Steam?
+
+Standard theory predicts substitution: rational consumers should prefer the free option, draining Steam's player base. Yet online discussion suggests a counter-intuitive result where Steam counts actually \textit{rise} during Epic giveaways.
+
+\section{Motivation}
+\begin{itemize}
+  \item \textbf{Platform differentiation.} Steam's moat may be resilient even to zero-price competition.
+  \item \textbf{Antitrust policy.} If Epic's subsidies benefit Steam, the platforms function as complements rather than substitutes---or Steam's incumbency is simply too entrenched.
+  \item \textbf{Developer strategy.} An Epic giveaway may serve as a marketing event, not a revenue sacrifice.
+\end{itemize}
+
+\section{Identification Strategy}
+Staggered difference-in-differences (``not-yet-treated'' design): games scheduled for future giveaways serve as controls for currently treated games, avoiding external propensity score matching.
+
+\section{Specification}
+\vspace{-0.3em}
+\begin{equation}\label{eq:eventstudy}
+\ln y_{it} = \alpha_i + \gamma_t + \sum_{\substack{k \in [-12,12] \\ k \neq -1}} \beta_k \cdot \mathbf{1}[t - \mathrm{event}_i = k] + \varepsilon_{it}
+\end{equation}
+\noindent where $y_{it}$ is average concurrent players for game $i$ in month $t$; $\alpha_i$, $\gamma_t$ are game and month fixed effects; and $\beta_k$ are relative-time dummies ($k=-1$ omitted as baseline).
+
+\section{Hypothesis}
+Parallel trends: $\beta_k = 0$ for $k < 0$. Post-treatment: $\beta_k > 0$ indicates complementarity; $\beta_k < 0$ indicates substitution.
+
+\section{Data}
+\begin{enumerate}
+  \item \textbf{Treatment:} Epic Games Free Giveaway History (2018--2025), Kaggle; $>$500 events.
+  \item \textbf{Outcome:} Monthly average/peak concurrent players from SteamCharts.com (scraped).
+  \item \textbf{Merge:} Fuzzy string matching on game titles with manual verification.
+\end{enumerate}
+
+\end{document}
