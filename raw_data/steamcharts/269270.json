@@ -1,0 +1,457 @@
+{
+  "appid": 269270,
+  "steam_name": "LOVE",
+  "epic_name": "LOVE",
+  "months": [
+    {
+      "month": "2025-07",
+      "avg_players": 0.89,
+      "peak_players": 15
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 1.34,
+      "peak_players": 4
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 1.06,
+      "peak_players": 4
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 1.02,
+      "peak_players": 4
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 1.58,
+      "peak_players": 7
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 0.99,
+      "peak_players": 3
+    },
+    {
+      "month": "2023-04",
+      "avg_players": 13.28,
+      "peak_players": 379
+    },
+    {
+      "month": "2021-09",
+      "avg_players": 2.19,
+      "peak_players": 12
+    },
+    {
+      "month": "2021-05",
+      "avg_players": 0.9,
+      "peak_players": 4
+    },
+    {
+      "month": "2021-03",
+      "avg_players": 1.37,
+      "peak_players": 5
+    },
+    {
+      "month": "2021-02",
+      "avg_players": 0.95,
+      "peak_players": 3
+    },
+    {
+      "month": "2021-01",
+      "avg_players": 0.79,
+      "peak_players": 3
+    },
+    {
+      "month": "2020-12",
+      "avg_players": 0.59,
+      "peak_players": 5
+    },
+    {
+      "month": "2020-11",
+      "avg_players": 0.66,
+      "peak_players": 3
+    },
+    {
+      "month": "2020-10",
+      "avg_players": 0.81,
+      "peak_players": 3
+    },
+    {
+      "month": "2020-09",
+      "avg_players": 0.71,
+      "peak_players": 3
+    },
+    {
+      "month": "2020-08",
+      "avg_players": 0.51,
+      "peak_players": 3
+    },
+    {
+      "month": "2020-05",
+      "avg_players": 0.69,
+      "peak_players": 3
+    },
+    {
+      "month": "2020-04",
+      "avg_players": 1.67,
+      "peak_players": 7
+    },
+    {
+      "month": "2020-03",
+      "avg_players": 0.92,
+      "peak_players": 14
+    },
+    {
+      "month": "2020-01",
+      "avg_players": 0.61,
+      "peak_players": 4
+    },
+    {
+      "month": "2019-12",
+      "avg_players": 0.52,
+      "peak_players": 2
+    },
+    {
+      "month": "2019-09",
+      "avg_players": 0.52,
+      "peak_players": 3
+    },
+    {
+      "month": "2019-08",
+      "avg_players": 0.36,
+      "peak_players": 3
+    },
+    {
+      "month": "2019-07",
+      "avg_players": 0.48,
+      "peak_players": 6
+    },
+    {
+      "month": "2019-06",
+      "avg_players": 0.52,
+      "peak_players": 7
+    },
+    {
+      "month": "2019-05",
+      "avg_players": 0.47,
+      "peak_players": 6
+    },
+    {
+      "month": "2019-04",
+      "avg_players": 0.61,
+      "peak_players": 4
+    },
+    {
+      "month": "2019-03",
+      "avg_players": 0.43,
+      "peak_players": 4
+    },
+    {
+      "month": "2019-02",
+      "avg_players": 0.58,
+      "peak_players": 4
+    },
+    {
+      "month": "2019-01",
+      "avg_players": 1.23,
+      "peak_players": 7
+    },
+    {
+      "month": "2018-12",
+      "avg_players": 2.1,
+      "peak_players": 36
+    },
+    {
+      "month": "2018-11",
+      "avg_players": 0.54,
+      "peak_players": 7
+    },
+    {
+      "month": "2018-10",
+      "avg_players": 0.92,
+      "peak_players": 5
+    },
+    {
+      "month": "2018-09",
+      "avg_players": 1.54,
+      "peak_players": 6
+    },
+    {
+      "month": "2018-08",
+      "avg_players": 0.69,
+      "peak_players": 5
+    },
+    {
+      "month": "2018-07",
+      "avg_players": 0.66,
+      "peak_players": 6
+    },
+    {
+      "month": "2018-06",
+      "avg_players": 0.96,
+      "peak_players": 5
+    },
+    {
+      "month": "2018-05",
+      "avg_players": 1.21,
+      "peak_players": 11
+    },
+    {
+      "month": "2018-04",
+      "avg_players": 0.39,
+      "peak_players": 3
+    },
+    {
+      "month": "2018-03",
+      "avg_players": 0.64,
+      "peak_players": 3
+    },
+    {
+      "month": "2018-02",
+      "avg_players": 0.44,
+      "peak_players": 3
+    },
+    {
+      "month": "2018-01",
+      "avg_players": 1.45,
+      "peak_players": 52
+    },
+    {
+      "month": "2017-12",
+      "avg_players": 3.33,
+      "peak_players": 101
+    },
+    {
+      "month": "2017-11",
+      "avg_players": 11.8,
+      "peak_players": 1784
+    },
+    {
+      "month": "2017-10",
+      "avg_players": 0.55,
+      "peak_players": 5
+    },
+    {
+      "month": "2017-09",
+      "avg_players": 0.48,
+      "peak_players": 4
+    },
+    {
+      "month": "2017-08",
+      "avg_players": 0.64,
+      "peak_players": 5
+    },
+    {
+      "month": "2017-07",
+      "avg_players": 0.99,
+      "peak_players": 6
+    },
+    {
+      "month": "2017-06",
+      "avg_players": 0.9,
+      "peak_players": 8
+    },
+    {
+      "month": "2017-05",
+      "avg_players": 1.08,
+      "peak_players": 7
+    },
+    {
+      "month": "2017-04",
+      "avg_players": 0.64,
+      "peak_players": 5
+    },
+    {
+      "month": "2017-03",
+      "avg_players": 0.77,
+      "peak_players": 4
+    },
+    {
+      "month": "2017-02",
+      "avg_players": 0.75,
+      "peak_players": 5
+    },
+    {
+      "month": "2017-01",
+      "avg_players": 1.05,
+      "peak_players": 5
+    },
+    {
+      "month": "2016-12",
+      "avg_players": 1.01,
+      "peak_players": 5
+    },
+    {
+      "month": "2016-11",
+      "avg_players": 0.95,
+      "peak_players": 5
+    },
+    {
+      "month": "2016-10",
+      "avg_players": 0.83,
+      "peak_players": 5
+    },
+    {
+      "month": "2016-09",
+      "avg_players": 1.31,
+      "peak_players": 7
+    },
+    {
+      "month": "2016-08",
+      "avg_players": 1.1,
+      "peak_players": 5
+    },
+    {
+      "month": "2016-07",
+      "avg_players": 1.95,
+      "peak_players": 9
+    },
+    {
+      "month": "2016-06",
+      "avg_players": 2.08,
+      "peak_players": 9
+    },
+    {
+      "month": "2016-05",
+      "avg_players": 1.34,
+      "peak_players": 6
+    },
+    {
+      "month": "2016-04",
+      "avg_players": 1.93,
+      "peak_players": 15
+    },
+    {
+      "month": "2016-03",
+      "avg_players": 1.49,
+      "peak_players": 6
+    },
+    {
+      "month": "2016-02",
+      "avg_players": 3.22,
+      "peak_players": 16
+    },
+    {
+      "month": "2016-01",
+      "avg_players": 4.66,
+      "peak_players": 23
+    },
+    {
+      "month": "2015-12",
+      "avg_players": 2.74,
+      "peak_players": 12
+    },
+    {
+      "month": "2015-11",
+      "avg_players": 1.64,
+      "peak_players": 7
+    },
+    {
+      "month": "2015-10",
+      "avg_players": 3.23,
+      "peak_players": 21
+    },
+    {
+      "month": "2015-09",
+      "avg_players": 0.93,
+      "peak_players": 6
+    },
+    {
+      "month": "2015-08",
+      "avg_players": 1.66,
+      "peak_players": 7
+    },
+    {
+      "month": "2015-07",
+      "avg_players": 3.29,
+      "peak_players": 15
+    },
+    {
+      "month": "2015-06",
+      "avg_players": 1.92,
+      "peak_players": 7
+    },
+    {
+      "month": "2015-05",
+      "avg_players": 0.96,
+      "peak_players": 5
+    },
+    {
+      "month": "2015-04",
+      "avg_players": 1.16,
+      "peak_players": 6
+    },
+    {
+      "month": "2015-03",
+      "avg_players": 2.09,
+      "peak_players": 7
+    },
+    {
+      "month": "2015-02",
+      "avg_players": 3.56,
+      "peak_players": 28
+    },
+    {
+      "month": "2015-01",
+      "avg_players": 2.36,
+      "peak_players": 8
+    },
+    {
+      "month": "2014-12",
+      "avg_players": 2.41,
+      "peak_players": 12
+    },
+    {
+      "month": "2014-11",
+      "avg_players": 1.67,
+      "peak_players": 8
+    },
+    {
+      "month": "2014-10",
+      "avg_players": 3.58,
+      "peak_players": 26
+    },
+    {
+      "month": "2014-09",
+      "avg_players": 1.32,
+      "peak_players": 6
+    },
+    {
+      "month": "2014-08",
+      "avg_players": 2.68,
+      "peak_players": 11
+    },
+    {
+      "month": "2014-07",
+      "avg_players": 3.98,
+      "peak_players": 17
+    },
+    {
+      "month": "2014-06",
+      "avg_players": 3.74,
+      "peak_players": 16
+    },
+    {
+      "month": "2014-05",
+      "avg_players": 2.58,
+      "peak_players": 11
+    },
+    {
+      "month": "2014-04",
+      "avg_players": 4.63,
+      "peak_players": 61
+    },
+    {
+      "month": "2014-03",
+      "avg_players": 3.47,
+      "peak_players": 18
+    },
+    {
+      "month": "2014-02",
+      "avg_players": 17.84,
+      "peak_players": 106
+    }
+  ]
+}

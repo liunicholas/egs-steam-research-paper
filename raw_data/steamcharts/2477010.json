@@ -1,0 +1,142 @@
+{
+  "appid": 2477010,
+  "steam_name": "Ticket to Ride\u00ae",
+  "epic_name": "Ticket to Ride",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 166.35,
+      "peak_players": 417
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 144.4,
+      "peak_players": 277
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 110.22,
+      "peak_players": 243
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 111.49,
+      "peak_players": 256
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 111.16,
+      "peak_players": 240
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 105.19,
+      "peak_players": 215
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 107.72,
+      "peak_players": 208
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 94.93,
+      "peak_players": 194
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 86.09,
+      "peak_players": 177
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 97.81,
+      "peak_players": 192
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 90.88,
+      "peak_players": 214
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 97.23,
+      "peak_players": 241
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 90.62,
+      "peak_players": 198
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 85.61,
+      "peak_players": 203
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 72.84,
+      "peak_players": 170
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 63.88,
+      "peak_players": 155
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 63.38,
+      "peak_players": 127
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 60.46,
+      "peak_players": 119
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 57.35,
+      "peak_players": 114
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 46.5,
+      "peak_players": 98
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 31.07,
+      "peak_players": 87
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 29.5,
+      "peak_players": 65
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 24.55,
+      "peak_players": 55
+    },
+    {
+      "month": "2024-02",
+      "avg_players": 19.08,
+      "peak_players": 41
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 24.1,
+      "peak_players": 53
+    },
+    {
+      "month": "2023-12",
+      "avg_players": 18.05,
+      "peak_players": 46
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 20.04,
+      "peak_players": 53
+    }
+  ]
+}

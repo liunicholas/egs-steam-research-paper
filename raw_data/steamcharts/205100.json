@@ -1,0 +1,807 @@
+{
+  "appid": 205100,
+  "steam_name": "Dishonored",
+  "epic_name": "Dishonored \u2013 Definitive Edition (DLC)",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 435.22,
+      "peak_players": 814
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 458.64,
+      "peak_players": 756
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 407.05,
+      "peak_players": 851
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 354.75,
+      "peak_players": 723
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 337.7,
+      "peak_players": 651
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 499.97,
+      "peak_players": 996
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 420.4,
+      "peak_players": 741
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 336.73,
+      "peak_players": 669
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 315.57,
+      "peak_players": 549
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 335.97,
+      "peak_players": 584
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 385.59,
+      "peak_players": 748
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 368.65,
+      "peak_players": 663
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 441.55,
+      "peak_players": 863
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 486.85,
+      "peak_players": 851
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 430.87,
+      "peak_players": 792
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 430.27,
+      "peak_players": 1009
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 379.14,
+      "peak_players": 688
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 573.41,
+      "peak_players": 1221
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 461.73,
+      "peak_players": 744
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 370.53,
+      "peak_players": 699
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 346.58,
+      "peak_players": 627
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 376.49,
+      "peak_players": 682
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 353.97,
+      "peak_players": 647
+    },
+    {
+      "month": "2024-02",
+      "avg_players": 438.57,
+      "peak_players": 817
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 440.6,
+      "peak_players": 814
+    },
+    {
+      "month": "2023-12",
+      "avg_players": 495.55,
+      "peak_players": 879
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 591.58,
+      "peak_players": 1418
+    },
+    {
+      "month": "2023-10",
+      "avg_players": 331.46,
+      "peak_players": 595
+    },
+    {
+      "month": "2023-09",
+      "avg_players": 358.65,
+      "peak_players": 607
+    },
+    {
+      "month": "2023-08",
+      "avg_players": 583.62,
+      "peak_players": 1185
+    },
+    {
+      "month": "2023-07",
+      "avg_players": 548.06,
+      "peak_players": 966
+    },
+    {
+      "month": "2023-06",
+      "avg_players": 409.01,
+      "peak_players": 714
+    },
+    {
+      "month": "2023-05",
+      "avg_players": 475.81,
+      "peak_players": 1045
+    },
+    {
+      "month": "2023-04",
+      "avg_players": 427.28,
+      "peak_players": 1246
+    },
+    {
+      "month": "2023-03",
+      "avg_players": 356.51,
+      "peak_players": 641
+    },
+    {
+      "month": "2023-02",
+      "avg_players": 425.83,
+      "peak_players": 802
+    },
+    {
+      "month": "2023-01",
+      "avg_players": 564.62,
+      "peak_players": 1021
+    },
+    {
+      "month": "2022-12",
+      "avg_players": 540.02,
+      "peak_players": 945
+    },
+    {
+      "month": "2022-11",
+      "avg_players": 528.35,
+      "peak_players": 908
+    },
+    {
+      "month": "2022-10",
+      "avg_players": 617.83,
+      "peak_players": 1780
+    },
+    {
+      "month": "2022-09",
+      "avg_players": 564.38,
+      "peak_players": 1037
+    },
+    {
+      "month": "2022-08",
+      "avg_players": 730.82,
+      "peak_players": 1820
+    },
+    {
+      "month": "2022-07",
+      "avg_players": 566.1,
+      "peak_players": 997
+    },
+    {
+      "month": "2022-06",
+      "avg_players": 461.44,
+      "peak_players": 1013
+    },
+    {
+      "month": "2022-05",
+      "avg_players": 388.45,
+      "peak_players": 644
+    },
+    {
+      "month": "2022-04",
+      "avg_players": 404.84,
+      "peak_players": 729
+    },
+    {
+      "month": "2022-03",
+      "avg_players": 381.61,
+      "peak_players": 638
+    },
+    {
+      "month": "2022-02",
+      "avg_players": 644.54,
+      "peak_players": 1224
+    },
+    {
+      "month": "2022-01",
+      "avg_players": 789.86,
+      "peak_players": 1904
+    },
+    {
+      "month": "2021-12",
+      "avg_players": 618.19,
+      "peak_players": 1035
+    },
+    {
+      "month": "2021-11",
+      "avg_players": 535.95,
+      "peak_players": 1117
+    },
+    {
+      "month": "2021-10",
+      "avg_players": 522.75,
+      "peak_players": 947
+    },
+    {
+      "month": "2021-09",
+      "avg_players": 660.23,
+      "peak_players": 1174
+    },
+    {
+      "month": "2021-08",
+      "avg_players": 973.77,
+      "peak_players": 2271
+    },
+    {
+      "month": "2021-07",
+      "avg_players": 567.83,
+      "peak_players": 1027
+    },
+    {
+      "month": "2021-06",
+      "avg_players": 471.38,
+      "peak_players": 1033
+    },
+    {
+      "month": "2021-05",
+      "avg_players": 506.65,
+      "peak_players": 1034
+    },
+    {
+      "month": "2021-04",
+      "avg_players": 448.03,
+      "peak_players": 750
+    },
+    {
+      "month": "2021-03",
+      "avg_players": 445.24,
+      "peak_players": 789
+    },
+    {
+      "month": "2021-02",
+      "avg_players": 571.66,
+      "peak_players": 1039
+    },
+    {
+      "month": "2021-01",
+      "avg_players": 608.48,
+      "peak_players": 1203
+    },
+    {
+      "month": "2020-12",
+      "avg_players": 672.89,
+      "peak_players": 1273
+    },
+    {
+      "month": "2020-11",
+      "avg_players": 571.12,
+      "peak_players": 1429
+    },
+    {
+      "month": "2020-10",
+      "avg_players": 431.26,
+      "peak_players": 757
+    },
+    {
+      "month": "2020-09",
+      "avg_players": 483.99,
+      "peak_players": 805
+    },
+    {
+      "month": "2020-08",
+      "avg_players": 779.03,
+      "peak_players": 1642
+    },
+    {
+      "month": "2020-07",
+      "avg_players": 811.75,
+      "peak_players": 1502
+    },
+    {
+      "month": "2020-06",
+      "avg_players": 564.85,
+      "peak_players": 1654
+    },
+    {
+      "month": "2020-05",
+      "avg_players": 504.68,
+      "peak_players": 825
+    },
+    {
+      "month": "2020-04",
+      "avg_players": 567.85,
+      "peak_players": 887
+    },
+    {
+      "month": "2020-03",
+      "avg_players": 483.6,
+      "peak_players": 937
+    },
+    {
+      "month": "2020-02",
+      "avg_players": 425.4,
+      "peak_players": 747
+    },
+    {
+      "month": "2020-01",
+      "avg_players": 501.85,
+      "peak_players": 1042
+    },
+    {
+      "month": "2019-12",
+      "avg_players": 561.24,
+      "peak_players": 1038
+    },
+    {
+      "month": "2019-11",
+      "avg_players": 424.28,
+      "peak_players": 919
+    },
+    {
+      "month": "2019-10",
+      "avg_players": 396.67,
+      "peak_players": 1012
+    },
+    {
+      "month": "2019-09",
+      "avg_players": 381.92,
+      "peak_players": 735
+    },
+    {
+      "month": "2019-08",
+      "avg_players": 620.9,
+      "peak_players": 1374
+    },
+    {
+      "month": "2019-07",
+      "avg_players": 744.92,
+      "peak_players": 2116
+    },
+    {
+      "month": "2019-06",
+      "avg_players": 513.54,
+      "peak_players": 965
+    },
+    {
+      "month": "2019-05",
+      "avg_players": 371.76,
+      "peak_players": 699
+    },
+    {
+      "month": "2019-04",
+      "avg_players": 362.07,
+      "peak_players": 673
+    },
+    {
+      "month": "2019-03",
+      "avg_players": 452.61,
+      "peak_players": 1357
+    },
+    {
+      "month": "2019-02",
+      "avg_players": 425.96,
+      "peak_players": 837
+    },
+    {
+      "month": "2019-01",
+      "avg_players": 506.97,
+      "peak_players": 1137
+    },
+    {
+      "month": "2018-12",
+      "avg_players": 570.45,
+      "peak_players": 1216
+    },
+    {
+      "month": "2018-11",
+      "avg_players": 448.53,
+      "peak_players": 1079
+    },
+    {
+      "month": "2018-10",
+      "avg_players": 400.9,
+      "peak_players": 793
+    },
+    {
+      "month": "2018-09",
+      "avg_players": 466.35,
+      "peak_players": 890
+    },
+    {
+      "month": "2018-08",
+      "avg_players": 766.27,
+      "peak_players": 1865
+    },
+    {
+      "month": "2018-07",
+      "avg_players": 772.12,
+      "peak_players": 1686
+    },
+    {
+      "month": "2018-06",
+      "avg_players": 636.31,
+      "peak_players": 1621
+    },
+    {
+      "month": "2018-05",
+      "avg_players": 440.0,
+      "peak_players": 790
+    },
+    {
+      "month": "2018-04",
+      "avg_players": 433.43,
+      "peak_players": 795
+    },
+    {
+      "month": "2018-03",
+      "avg_players": 476.4,
+      "peak_players": 875
+    },
+    {
+      "month": "2018-02",
+      "avg_players": 541.25,
+      "peak_players": 1029
+    },
+    {
+      "month": "2018-01",
+      "avg_players": 770.29,
+      "peak_players": 1867
+    },
+    {
+      "month": "2017-12",
+      "avg_players": 851.04,
+      "peak_players": 1755
+    },
+    {
+      "month": "2017-11",
+      "avg_players": 656.08,
+      "peak_players": 1882
+    },
+    {
+      "month": "2017-10",
+      "avg_players": 720.51,
+      "peak_players": 1785
+    },
+    {
+      "month": "2017-09",
+      "avg_players": 1188.91,
+      "peak_players": 2883
+    },
+    {
+      "month": "2017-08",
+      "avg_players": 1006.88,
+      "peak_players": 3272
+    },
+    {
+      "month": "2017-07",
+      "avg_players": 1223.91,
+      "peak_players": 2907
+    },
+    {
+      "month": "2017-06",
+      "avg_players": 972.66,
+      "peak_players": 2903
+    },
+    {
+      "month": "2017-05",
+      "avg_players": 634.75,
+      "peak_players": 1260
+    },
+    {
+      "month": "2017-04",
+      "avg_players": 624.98,
+      "peak_players": 1203
+    },
+    {
+      "month": "2017-03",
+      "avg_players": 595.97,
+      "peak_players": 1226
+    },
+    {
+      "month": "2017-02",
+      "avg_players": 791.46,
+      "peak_players": 1647
+    },
+    {
+      "month": "2017-01",
+      "avg_players": 1395.89,
+      "peak_players": 3941
+    },
+    {
+      "month": "2016-12",
+      "avg_players": 1916.12,
+      "peak_players": 4117
+    },
+    {
+      "month": "2016-11",
+      "avg_players": 2786.45,
+      "peak_players": 6764
+    },
+    {
+      "month": "2016-10",
+      "avg_players": 1310.43,
+      "peak_players": 2775
+    },
+    {
+      "month": "2016-09",
+      "avg_players": 1076.95,
+      "peak_players": 2296
+    },
+    {
+      "month": "2016-08",
+      "avg_players": 1383.74,
+      "peak_players": 3756
+    },
+    {
+      "month": "2016-07",
+      "avg_players": 1310.84,
+      "peak_players": 3024
+    },
+    {
+      "month": "2016-06",
+      "avg_players": 1494.35,
+      "peak_players": 3873
+    },
+    {
+      "month": "2016-05",
+      "avg_players": 699.09,
+      "peak_players": 1447
+    },
+    {
+      "month": "2016-04",
+      "avg_players": 572.35,
+      "peak_players": 1175
+    },
+    {
+      "month": "2016-03",
+      "avg_players": 645.56,
+      "peak_players": 1274
+    },
+    {
+      "month": "2016-02",
+      "avg_players": 636.86,
+      "peak_players": 1254
+    },
+    {
+      "month": "2016-01",
+      "avg_players": 997.05,
+      "peak_players": 2329
+    },
+    {
+      "month": "2015-12",
+      "avg_players": 1068.25,
+      "peak_players": 2713
+    },
+    {
+      "month": "2015-11",
+      "avg_players": 667.36,
+      "peak_players": 1946
+    },
+    {
+      "month": "2015-10",
+      "avg_players": 762.73,
+      "peak_players": 1954
+    },
+    {
+      "month": "2015-09",
+      "avg_players": 693.11,
+      "peak_players": 1415
+    },
+    {
+      "month": "2015-08",
+      "avg_players": 918.85,
+      "peak_players": 1952
+    },
+    {
+      "month": "2015-07",
+      "avg_players": 1383.99,
+      "peak_players": 3332
+    },
+    {
+      "month": "2015-06",
+      "avg_players": 1700.23,
+      "peak_players": 6238
+    },
+    {
+      "month": "2015-05",
+      "avg_players": 540.55,
+      "peak_players": 1129
+    },
+    {
+      "month": "2015-04",
+      "avg_players": 540.83,
+      "peak_players": 1112
+    },
+    {
+      "month": "2015-03",
+      "avg_players": 582.7,
+      "peak_players": 1279
+    },
+    {
+      "month": "2015-02",
+      "avg_players": 662.63,
+      "peak_players": 1405
+    },
+    {
+      "month": "2015-01",
+      "avg_players": 995.81,
+      "peak_players": 3329
+    },
+    {
+      "month": "2014-12",
+      "avg_players": 1121.06,
+      "peak_players": 4058
+    },
+    {
+      "month": "2014-11",
+      "avg_players": 625.37,
+      "peak_players": 1620
+    },
+    {
+      "month": "2014-10",
+      "avg_players": 710.38,
+      "peak_players": 1616
+    },
+    {
+      "month": "2014-09",
+      "avg_players": 1146.17,
+      "peak_players": 3307
+    },
+    {
+      "month": "2014-08",
+      "avg_players": 2447.49,
+      "peak_players": 16692
+    },
+    {
+      "month": "2014-07",
+      "avg_players": 1907.49,
+      "peak_players": 5412
+    },
+    {
+      "month": "2014-06",
+      "avg_players": 1097.46,
+      "peak_players": 6550
+    },
+    {
+      "month": "2014-05",
+      "avg_players": 592.35,
+      "peak_players": 1182
+    },
+    {
+      "month": "2014-04",
+      "avg_players": 596.0,
+      "peak_players": 1212
+    },
+    {
+      "month": "2014-03",
+      "avg_players": 778.05,
+      "peak_players": 1907
+    },
+    {
+      "month": "2014-02",
+      "avg_players": 852.23,
+      "peak_players": 1854
+    },
+    {
+      "month": "2014-01",
+      "avg_players": 1381.54,
+      "peak_players": 4237
+    },
+    {
+      "month": "2013-12",
+      "avg_players": 2248.89,
+      "peak_players": 7355
+    },
+    {
+      "month": "2013-11",
+      "avg_players": 759.39,
+      "peak_players": 6198
+    },
+    {
+      "month": "2013-10",
+      "avg_players": 802.88,
+      "peak_players": 1888
+    },
+    {
+      "month": "2013-09",
+      "avg_players": 1013.26,
+      "peak_players": 2587
+    },
+    {
+      "month": "2013-08",
+      "avg_players": 2114.0,
+      "peak_players": 6289
+    },
+    {
+      "month": "2013-07",
+      "avg_players": 1875.41,
+      "peak_players": 6613
+    },
+    {
+      "month": "2013-06",
+      "avg_players": 850.47,
+      "peak_players": 2201
+    },
+    {
+      "month": "2013-05",
+      "avg_players": 840.5,
+      "peak_players": 1970
+    },
+    {
+      "month": "2013-04",
+      "avg_players": 1406.23,
+      "peak_players": 4432
+    },
+    {
+      "month": "2013-03",
+      "avg_players": 696.69,
+      "peak_players": 1611
+    },
+    {
+      "month": "2013-02",
+      "avg_players": 821.62,
+      "peak_players": 1943
+    },
+    {
+      "month": "2013-01",
+      "avg_players": 1710.77,
+      "peak_players": 5429
+    },
+    {
+      "month": "2012-12",
+      "avg_players": 2356.02,
+      "peak_players": 6974
+    },
+    {
+      "month": "2012-11",
+      "avg_players": 2147.94,
+      "peak_players": 5728
+    },
+    {
+      "month": "2012-10",
+      "avg_players": 6391.0,
+      "peak_players": 19930
+    }
+  ]
+}

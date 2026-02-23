@@ -1,0 +1,107 @@
+{
+  "appid": 2016590,
+  "steam_name": "Dark and Darker",
+  "epic_name": "Dark and Darker \u2013 Legendary Status (DLC)",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 3513.08,
+      "peak_players": 11156
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 3960.42,
+      "peak_players": 6657
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 5655.8,
+      "peak_players": 9634
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 8955.13,
+      "peak_players": 13977
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 6660.74,
+      "peak_players": 16812
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 3340.69,
+      "peak_players": 8175
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 3038.18,
+      "peak_players": 5067
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 5316.79,
+      "peak_players": 11756
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 10225.17,
+      "peak_players": 16651
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 10666.9,
+      "peak_players": 21411
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 7597.27,
+      "peak_players": 12958
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 10857.34,
+      "peak_players": 16074
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 11704.79,
+      "peak_players": 17438
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 9794.96,
+      "peak_players": 26903
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 10732.8,
+      "peak_players": 17920
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 13760.3,
+      "peak_players": 23497
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 17015.34,
+      "peak_players": 31430
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 17214.08,
+      "peak_players": 30045
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 25772.33,
+      "peak_players": 39513
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 36938.29,
+      "peak_players": 57141
+    }
+  ]
+}

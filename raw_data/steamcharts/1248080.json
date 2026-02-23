@@ -1,0 +1,52 @@
+{
+  "appid": 1248080,
+  "steam_name": "CYGNI: All Guns Blazing",
+  "epic_name": "CYGNI: All Guns Blazing",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 2.72,
+      "peak_players": 8
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 3.43,
+      "peak_players": 14
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 2.72,
+      "peak_players": 10
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 21.37,
+      "peak_players": 115
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 2.35,
+      "peak_players": 12
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 1.88,
+      "peak_players": 11
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 3.1,
+      "peak_players": 13
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 6.92,
+      "peak_players": 29
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 9.88,
+      "peak_players": 39
+    }
+  ]
+}

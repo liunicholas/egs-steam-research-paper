@@ -1,0 +1,317 @@
+{
+  "appid": 1042490,
+  "steam_name": "Call of the Sea",
+  "epic_name": "Call of the Sea",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 31.23,
+      "peak_players": 105
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 21.55,
+      "peak_players": 57
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 14.57,
+      "peak_players": 56
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 13.73,
+      "peak_players": 46
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 9.46,
+      "peak_players": 30
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 17.77,
+      "peak_players": 59
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 25.84,
+      "peak_players": 68
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 25.5,
+      "peak_players": 107
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 15.58,
+      "peak_players": 86
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 31.38,
+      "peak_players": 90
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 11.39,
+      "peak_players": 38
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 14.36,
+      "peak_players": 49
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 13.56,
+      "peak_players": 44
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 16.49,
+      "peak_players": 44
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 11.89,
+      "peak_players": 41
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 9.57,
+      "peak_players": 28
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 14.57,
+      "peak_players": 51
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 11.2,
+      "peak_players": 33
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 14.72,
+      "peak_players": 47
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 18.28,
+      "peak_players": 72
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 17.46,
+      "peak_players": 70
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 12.45,
+      "peak_players": 39
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 26.16,
+      "peak_players": 81
+    },
+    {
+      "month": "2024-02",
+      "avg_players": 13.97,
+      "peak_players": 43
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 21.34,
+      "peak_players": 69
+    },
+    {
+      "month": "2023-12",
+      "avg_players": 20.37,
+      "peak_players": 53
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 16.71,
+      "peak_players": 51
+    },
+    {
+      "month": "2023-10",
+      "avg_players": 11.01,
+      "peak_players": 31
+    },
+    {
+      "month": "2023-09",
+      "avg_players": 14.58,
+      "peak_players": 41
+    },
+    {
+      "month": "2023-08",
+      "avg_players": 28.48,
+      "peak_players": 171
+    },
+    {
+      "month": "2023-07",
+      "avg_players": 15.5,
+      "peak_players": 45
+    },
+    {
+      "month": "2023-06",
+      "avg_players": 15.2,
+      "peak_players": 39
+    },
+    {
+      "month": "2023-05",
+      "avg_players": 16.62,
+      "peak_players": 65
+    },
+    {
+      "month": "2023-04",
+      "avg_players": 30.4,
+      "peak_players": 107
+    },
+    {
+      "month": "2023-03",
+      "avg_players": 24.68,
+      "peak_players": 71
+    },
+    {
+      "month": "2023-02",
+      "avg_players": 15.8,
+      "peak_players": 62
+    },
+    {
+      "month": "2023-01",
+      "avg_players": 15.73,
+      "peak_players": 52
+    },
+    {
+      "month": "2022-12",
+      "avg_players": 18.56,
+      "peak_players": 55
+    },
+    {
+      "month": "2022-11",
+      "avg_players": 13.15,
+      "peak_players": 42
+    },
+    {
+      "month": "2022-10",
+      "avg_players": 16.64,
+      "peak_players": 80
+    },
+    {
+      "month": "2022-09",
+      "avg_players": 15.67,
+      "peak_players": 50
+    },
+    {
+      "month": "2022-08",
+      "avg_players": 19.07,
+      "peak_players": 45
+    },
+    {
+      "month": "2022-07",
+      "avg_players": 39.17,
+      "peak_players": 106
+    },
+    {
+      "month": "2022-06",
+      "avg_players": 36.12,
+      "peak_players": 111
+    },
+    {
+      "month": "2022-05",
+      "avg_players": 17.64,
+      "peak_players": 79
+    },
+    {
+      "month": "2022-04",
+      "avg_players": 9.06,
+      "peak_players": 26
+    },
+    {
+      "month": "2022-03",
+      "avg_players": 16.93,
+      "peak_players": 56
+    },
+    {
+      "month": "2022-02",
+      "avg_players": 13.54,
+      "peak_players": 41
+    },
+    {
+      "month": "2022-01",
+      "avg_players": 20.99,
+      "peak_players": 66
+    },
+    {
+      "month": "2021-12",
+      "avg_players": 31.72,
+      "peak_players": 103
+    },
+    {
+      "month": "2021-11",
+      "avg_players": 19.88,
+      "peak_players": 87
+    },
+    {
+      "month": "2021-10",
+      "avg_players": 9.51,
+      "peak_players": 40
+    },
+    {
+      "month": "2021-09",
+      "avg_players": 18.04,
+      "peak_players": 64
+    },
+    {
+      "month": "2021-08",
+      "avg_players": 18.05,
+      "peak_players": 53
+    },
+    {
+      "month": "2021-07",
+      "avg_players": 35.27,
+      "peak_players": 159
+    },
+    {
+      "month": "2021-06",
+      "avg_players": 19.86,
+      "peak_players": 83
+    },
+    {
+      "month": "2021-05",
+      "avg_players": 22.06,
+      "peak_players": 66
+    },
+    {
+      "month": "2021-04",
+      "avg_players": 32.36,
+      "peak_players": 91
+    },
+    {
+      "month": "2021-03",
+      "avg_players": 29.56,
+      "peak_players": 120
+    },
+    {
+      "month": "2021-02",
+      "avg_players": 52.94,
+      "peak_players": 190
+    },
+    {
+      "month": "2021-01",
+      "avg_players": 45.31,
+      "peak_players": 135
+    },
+    {
+      "month": "2020-12",
+      "avg_players": 72.27,
+      "peak_players": 191
+    }
+  ]
+}

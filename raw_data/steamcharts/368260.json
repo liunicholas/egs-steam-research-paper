@@ -1,0 +1,197 @@
+{
+  "appid": 368260,
+  "steam_name": "Marvel's Midnight Suns",
+  "epic_name": "Marvel\u2019s Midnight Suns",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 444.59,
+      "peak_players": 758
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 397.07,
+      "peak_players": 670
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 490.76,
+      "peak_players": 889
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 390.64,
+      "peak_players": 733
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 333.2,
+      "peak_players": 719
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 423.73,
+      "peak_players": 787
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 392.21,
+      "peak_players": 665
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 419.0,
+      "peak_players": 693
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 344.93,
+      "peak_players": 591
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 499.82,
+      "peak_players": 940
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 512.44,
+      "peak_players": 935
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 769.6,
+      "peak_players": 1589
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 730.01,
+      "peak_players": 1500
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 774.74,
+      "peak_players": 1453
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 742.62,
+      "peak_players": 1499
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 620.57,
+      "peak_players": 1438
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 474.76,
+      "peak_players": 885
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 760.86,
+      "peak_players": 1503
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 777.1,
+      "peak_players": 1489
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 874.6,
+      "peak_players": 1676
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 722.89,
+      "peak_players": 1329
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 981.87,
+      "peak_players": 1716
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 1402.32,
+      "peak_players": 2866
+    },
+    {
+      "month": "2024-02",
+      "avg_players": 1201.16,
+      "peak_players": 3095
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 1664.39,
+      "peak_players": 3369
+    },
+    {
+      "month": "2023-12",
+      "avg_players": 1101.54,
+      "peak_players": 2080
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 1054.88,
+      "peak_players": 2255
+    },
+    {
+      "month": "2023-10",
+      "avg_players": 429.42,
+      "peak_players": 849
+    },
+    {
+      "month": "2023-09",
+      "avg_players": 620.47,
+      "peak_players": 1099
+    },
+    {
+      "month": "2023-08",
+      "avg_players": 754.85,
+      "peak_players": 1431
+    },
+    {
+      "month": "2023-07",
+      "avg_players": 1485.78,
+      "peak_players": 2525
+    },
+    {
+      "month": "2023-06",
+      "avg_players": 839.84,
+      "peak_players": 1736
+    },
+    {
+      "month": "2023-05",
+      "avg_players": 1366.5,
+      "peak_players": 2665
+    },
+    {
+      "month": "2023-04",
+      "avg_players": 1649.92,
+      "peak_players": 3081
+    },
+    {
+      "month": "2023-03",
+      "avg_players": 2214.04,
+      "peak_players": 4388
+    },
+    {
+      "month": "2023-02",
+      "avg_players": 2825.24,
+      "peak_players": 8558
+    },
+    {
+      "month": "2023-01",
+      "avg_players": 4256.38,
+      "peak_players": 8769
+    },
+    {
+      "month": "2022-12",
+      "avg_players": 6272.84,
+      "peak_players": 15405
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "appid": 2694420,
+  "steam_name": "KILL KNIGHT",
+  "epic_name": "KILL KNIGHT",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 9.21,
+      "peak_players": 19
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 13.99,
+      "peak_players": 32
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 16.96,
+      "peak_players": 59
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 15.44,
+      "peak_players": 103
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 5.87,
+      "peak_players": 15
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 15.85,
+      "peak_players": 40
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 15.9,
+      "peak_players": 39
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 11.39,
+      "peak_players": 38
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 11.3,
+      "peak_players": 27
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 27.48,
+      "peak_players": 113
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 22.67,
+      "peak_players": 64
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 11.6,
+      "peak_players": 27
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 28.09,
+      "peak_players": 74
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 40.15,
+      "peak_players": 98
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 29.45,
+      "peak_players": 81
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 112.33,
+      "peak_players": 458
+    }
+  ]
+}

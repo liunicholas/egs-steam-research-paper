@@ -1,0 +1,202 @@
+{
+  "appid": 1622770,
+  "steam_name": "Doors: Paradox",
+  "epic_name": "Doors: Paradox",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 21.49,
+      "peak_players": 50
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 21.52,
+      "peak_players": 48
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 12.75,
+      "peak_players": 33
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 17.1,
+      "peak_players": 40
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 13.79,
+      "peak_players": 44
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 16.62,
+      "peak_players": 40
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 23.48,
+      "peak_players": 55
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 22.59,
+      "peak_players": 57
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 29.34,
+      "peak_players": 103
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 15.1,
+      "peak_players": 35
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 24.48,
+      "peak_players": 66
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 21.5,
+      "peak_players": 53
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 30.05,
+      "peak_players": 70
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 30.59,
+      "peak_players": 71
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 24.77,
+      "peak_players": 57
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 29.26,
+      "peak_players": 74
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 40.16,
+      "peak_players": 108
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 46.67,
+      "peak_players": 116
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 35.9,
+      "peak_players": 80
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 22.17,
+      "peak_players": 68
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 26.9,
+      "peak_players": 78
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 38.37,
+      "peak_players": 170
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 31.78,
+      "peak_players": 76
+    },
+    {
+      "month": "2024-02",
+      "avg_players": 43.1,
+      "peak_players": 109
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 10.83,
+      "peak_players": 29
+    },
+    {
+      "month": "2023-12",
+      "avg_players": 12.25,
+      "peak_players": 27
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 12.56,
+      "peak_players": 32
+    },
+    {
+      "month": "2023-10",
+      "avg_players": 11.7,
+      "peak_players": 35
+    },
+    {
+      "month": "2023-09",
+      "avg_players": 9.09,
+      "peak_players": 26
+    },
+    {
+      "month": "2023-08",
+      "avg_players": 8.2,
+      "peak_players": 20
+    },
+    {
+      "month": "2023-07",
+      "avg_players": 14.27,
+      "peak_players": 31
+    },
+    {
+      "month": "2023-06",
+      "avg_players": 11.57,
+      "peak_players": 46
+    },
+    {
+      "month": "2023-05",
+      "avg_players": 9.83,
+      "peak_players": 45
+    },
+    {
+      "month": "2023-04",
+      "avg_players": 12.98,
+      "peak_players": 48
+    },
+    {
+      "month": "2023-03",
+      "avg_players": 13.35,
+      "peak_players": 35
+    },
+    {
+      "month": "2023-02",
+      "avg_players": 17.79,
+      "peak_players": 49
+    },
+    {
+      "month": "2023-01",
+      "avg_players": 21.26,
+      "peak_players": 63
+    },
+    {
+      "month": "2022-12",
+      "avg_players": 29.11,
+      "peak_players": 65
+    },
+    {
+      "month": "2022-11",
+      "avg_players": 87.8,
+      "peak_players": 329
+    }
+  ]
+}

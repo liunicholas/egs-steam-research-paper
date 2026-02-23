@@ -1,0 +1,77 @@
+{
+  "appid": 1959390,
+  "steam_name": "Fear the Spotlight",
+  "epic_name": "Fear the Spotlight",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 5.16,
+      "peak_players": 19
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 5.24,
+      "peak_players": 18
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 5.44,
+      "peak_players": 27
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 6.06,
+      "peak_players": 22
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 4.27,
+      "peak_players": 16
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 2.82,
+      "peak_players": 9
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 3.6,
+      "peak_players": 16
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 5.17,
+      "peak_players": 16
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 5.74,
+      "peak_players": 31
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 7.43,
+      "peak_players": 26
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 7.92,
+      "peak_players": 35
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 19.67,
+      "peak_players": 51
+    },
+    {
+      "month": "2023-10",
+      "avg_players": 1.97,
+      "peak_players": 7
+    },
+    {
+      "month": "2023-09",
+      "avg_players": 4.86,
+      "peak_players": 22
+    }
+  ]
+}

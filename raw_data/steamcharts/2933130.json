@@ -1,0 +1,92 @@
+{
+  "appid": 2933130,
+  "steam_name": "The Lord of the Rings: Return to Moria\u2122",
+  "epic_name": "The Lord of the Rings: Return to Moria",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 1158.72,
+      "peak_players": 2898
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 1314.47,
+      "peak_players": 3229
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 1362.16,
+      "peak_players": 4502
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 693.16,
+      "peak_players": 1753
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 561.79,
+      "peak_players": 1522
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 769.7,
+      "peak_players": 2231
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 682.08,
+      "peak_players": 1846
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 578.6,
+      "peak_players": 1669
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 585.68,
+      "peak_players": 1654
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 1059.09,
+      "peak_players": 2817
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 1612.85,
+      "peak_players": 5295
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 1499.34,
+      "peak_players": 6182
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 1949.06,
+      "peak_players": 5598
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 2139.33,
+      "peak_players": 5583
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 1817.74,
+      "peak_players": 5691
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 1431.24,
+      "peak_players": 3627
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 2721.29,
+      "peak_players": 8735
+    }
+  ]
+}

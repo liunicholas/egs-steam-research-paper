@@ -1,0 +1,237 @@
+{
+  "appid": 877810,
+  "steam_name": "Anodyne 2: Return to Dust",
+  "epic_name": "Anodyne 2: Return to Dust",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 1.8,
+      "peak_players": 7
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 2.13,
+      "peak_players": 9
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 1.23,
+      "peak_players": 6
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 1.56,
+      "peak_players": 6
+    },
+    {
+      "month": "2023-07",
+      "avg_players": 1.51,
+      "peak_players": 7
+    },
+    {
+      "month": "2023-03",
+      "avg_players": 1.43,
+      "peak_players": 4
+    },
+    {
+      "month": "2023-02",
+      "avg_players": 1.8,
+      "peak_players": 7
+    },
+    {
+      "month": "2023-01",
+      "avg_players": 1.86,
+      "peak_players": 7
+    },
+    {
+      "month": "2022-12",
+      "avg_players": 1.61,
+      "peak_players": 5
+    },
+    {
+      "month": "2022-10",
+      "avg_players": 1.24,
+      "peak_players": 5
+    },
+    {
+      "month": "2022-09",
+      "avg_players": 1.11,
+      "peak_players": 4
+    },
+    {
+      "month": "2022-08",
+      "avg_players": 1.28,
+      "peak_players": 4
+    },
+    {
+      "month": "2022-07",
+      "avg_players": 2.09,
+      "peak_players": 6
+    },
+    {
+      "month": "2022-06",
+      "avg_players": 2.32,
+      "peak_players": 7
+    },
+    {
+      "month": "2022-05",
+      "avg_players": 1.41,
+      "peak_players": 5
+    },
+    {
+      "month": "2022-04",
+      "avg_players": 1.89,
+      "peak_players": 7
+    },
+    {
+      "month": "2022-03",
+      "avg_players": 1.03,
+      "peak_players": 4
+    },
+    {
+      "month": "2022-01",
+      "avg_players": 2.53,
+      "peak_players": 8
+    },
+    {
+      "month": "2021-12",
+      "avg_players": 4.3,
+      "peak_players": 15
+    },
+    {
+      "month": "2021-11",
+      "avg_players": 1.1,
+      "peak_players": 5
+    },
+    {
+      "month": "2021-10",
+      "avg_players": 1.34,
+      "peak_players": 4
+    },
+    {
+      "month": "2021-09",
+      "avg_players": 1.41,
+      "peak_players": 6
+    },
+    {
+      "month": "2021-08",
+      "avg_players": 1.33,
+      "peak_players": 4
+    },
+    {
+      "month": "2021-07",
+      "avg_players": 1.57,
+      "peak_players": 10
+    },
+    {
+      "month": "2021-05",
+      "avg_players": 1.5,
+      "peak_players": 4
+    },
+    {
+      "month": "2021-04",
+      "avg_players": 1.39,
+      "peak_players": 8
+    },
+    {
+      "month": "2021-03",
+      "avg_players": 1.66,
+      "peak_players": 5
+    },
+    {
+      "month": "2021-02",
+      "avg_players": 2.18,
+      "peak_players": 7
+    },
+    {
+      "month": "2021-01",
+      "avg_players": 1.74,
+      "peak_players": 6
+    },
+    {
+      "month": "2020-12",
+      "avg_players": 1.64,
+      "peak_players": 6
+    },
+    {
+      "month": "2020-11",
+      "avg_players": 1.69,
+      "peak_players": 7
+    },
+    {
+      "month": "2020-10",
+      "avg_players": 2.5,
+      "peak_players": 8
+    },
+    {
+      "month": "2020-09",
+      "avg_players": 1.34,
+      "peak_players": 5
+    },
+    {
+      "month": "2020-08",
+      "avg_players": 2.15,
+      "peak_players": 8
+    },
+    {
+      "month": "2020-07",
+      "avg_players": 2.32,
+      "peak_players": 8
+    },
+    {
+      "month": "2020-06",
+      "avg_players": 2.52,
+      "peak_players": 8
+    },
+    {
+      "month": "2020-05",
+      "avg_players": 2.19,
+      "peak_players": 8
+    },
+    {
+      "month": "2020-04",
+      "avg_players": 1.6,
+      "peak_players": 8
+    },
+    {
+      "month": "2020-03",
+      "avg_players": 2.21,
+      "peak_players": 8
+    },
+    {
+      "month": "2020-02",
+      "avg_players": 2.42,
+      "peak_players": 8
+    },
+    {
+      "month": "2020-01",
+      "avg_players": 2.56,
+      "peak_players": 12
+    },
+    {
+      "month": "2019-12",
+      "avg_players": 2.3,
+      "peak_players": 16
+    },
+    {
+      "month": "2019-11",
+      "avg_players": 2.2,
+      "peak_players": 7
+    },
+    {
+      "month": "2019-10",
+      "avg_players": 2.52,
+      "peak_players": 11
+    },
+    {
+      "month": "2019-09",
+      "avg_players": 5.75,
+      "peak_players": 25
+    },
+    {
+      "month": "2019-08",
+      "avg_players": 30.21,
+      "peak_players": 89
+    }
+  ]
+}

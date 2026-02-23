@@ -1,0 +1,102 @@
+{
+  "appid": 2591280,
+  "steam_name": "F1\u00ae Manager 2024",
+  "epic_name": "F1 Manager 2024",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 817.16,
+      "peak_players": 1695
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 1287.71,
+      "peak_players": 2668
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 837.73,
+      "peak_players": 1662
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 926.81,
+      "peak_players": 1763
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 941.22,
+      "peak_players": 1855
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 1193.08,
+      "peak_players": 2811
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 1376.09,
+      "peak_players": 2560
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 1199.74,
+      "peak_players": 2665
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 1365.83,
+      "peak_players": 2621
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 1831.85,
+      "peak_players": 3974
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 1760.21,
+      "peak_players": 3617
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 919.55,
+      "peak_players": 2988
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 1043.34,
+      "peak_players": 2105
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 1464.67,
+      "peak_players": 2657
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 1207.4,
+      "peak_players": 2140
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 1139.38,
+      "peak_players": 2078
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 1770.84,
+      "peak_players": 3864
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 2803.88,
+      "peak_players": 6890
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 5286.08,
+      "peak_players": 8092
+    }
+  ]
+}

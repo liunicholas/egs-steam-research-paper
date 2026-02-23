@@ -1,0 +1,137 @@
+{
+  "appid": 1445790,
+  "steam_name": "Make Way",
+  "epic_name": "Make Way",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 67.53,
+      "peak_players": 233
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 61.79,
+      "peak_players": 240
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 34.38,
+      "peak_players": 130
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 55.09,
+      "peak_players": 201
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 47.29,
+      "peak_players": 190
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 51.0,
+      "peak_players": 178
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 37.69,
+      "peak_players": 129
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 43.65,
+      "peak_players": 124
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 51.81,
+      "peak_players": 183
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 49.45,
+      "peak_players": 168
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 75.6,
+      "peak_players": 322
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 52.14,
+      "peak_players": 222
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 56.17,
+      "peak_players": 237
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 79.28,
+      "peak_players": 248
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 35.26,
+      "peak_players": 203
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 28.59,
+      "peak_players": 101
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 42.11,
+      "peak_players": 185
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 69.92,
+      "peak_players": 417
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 48.79,
+      "peak_players": 172
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 42.6,
+      "peak_players": 171
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 70.29,
+      "peak_players": 211
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 56.29,
+      "peak_players": 313
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 33.89,
+      "peak_players": 131
+    },
+    {
+      "month": "2024-02",
+      "avg_players": 14.05,
+      "peak_players": 101
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 9.25,
+      "peak_players": 41
+    },
+    {
+      "month": "2023-12",
+      "avg_players": 19.41,
+      "peak_players": 113
+    }
+  ]
+}

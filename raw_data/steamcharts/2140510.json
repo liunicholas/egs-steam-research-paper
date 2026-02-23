@@ -1,0 +1,167 @@
+{
+  "appid": 2140510,
+  "steam_name": "Town of Salem 2",
+  "epic_name": "Town of Salem 2",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 299.38,
+      "peak_players": 575
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 292.91,
+      "peak_players": 558
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 312.22,
+      "peak_players": 551
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 313.91,
+      "peak_players": 564
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 314.86,
+      "peak_players": 550
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 343.27,
+      "peak_players": 570
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 370.72,
+      "peak_players": 669
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 332.72,
+      "peak_players": 819
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 282.09,
+      "peak_players": 460
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 294.77,
+      "peak_players": 718
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 325.88,
+      "peak_players": 714
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 357.69,
+      "peak_players": 630
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 375.74,
+      "peak_players": 719
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 389.55,
+      "peak_players": 985
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 373.36,
+      "peak_players": 668
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 414.48,
+      "peak_players": 716
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 435.78,
+      "peak_players": 744
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 467.13,
+      "peak_players": 776
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 528.01,
+      "peak_players": 861
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 578.82,
+      "peak_players": 925
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 552.05,
+      "peak_players": 907
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 519.15,
+      "peak_players": 1142
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 417.89,
+      "peak_players": 731
+    },
+    {
+      "month": "2024-02",
+      "avg_players": 459.25,
+      "peak_players": 802
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 498.67,
+      "peak_players": 1180
+    },
+    {
+      "month": "2023-12",
+      "avg_players": 485.57,
+      "peak_players": 825
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 603.22,
+      "peak_players": 1196
+    },
+    {
+      "month": "2023-10",
+      "avg_players": 793.25,
+      "peak_players": 1338
+    },
+    {
+      "month": "2023-09",
+      "avg_players": 679.59,
+      "peak_players": 1370
+    },
+    {
+      "month": "2023-08",
+      "avg_players": 583.75,
+      "peak_players": 1001
+    },
+    {
+      "month": "2023-07",
+      "avg_players": 724.65,
+      "peak_players": 1179
+    },
+    {
+      "month": "2023-06",
+      "avg_players": 991.23,
+      "peak_players": 2462
+    }
+  ]
+}

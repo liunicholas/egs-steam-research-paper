@@ -1,0 +1,212 @@
+{
+  "appid": 1944790,
+  "steam_name": "Train Sim World 3",
+  "epic_name": "Train Sim World 3 (example holiday slot)*",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 34.78,
+      "peak_players": 75
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 30.6,
+      "peak_players": 79
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 31.42,
+      "peak_players": 66
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 33.69,
+      "peak_players": 78
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 31.41,
+      "peak_players": 68
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 32.61,
+      "peak_players": 67
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 31.04,
+      "peak_players": 62
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 35.91,
+      "peak_players": 77
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 36.7,
+      "peak_players": 76
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 38.99,
+      "peak_players": 82
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 42.4,
+      "peak_players": 93
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 48.24,
+      "peak_players": 105
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 50.9,
+      "peak_players": 109
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 50.83,
+      "peak_players": 108
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 52.54,
+      "peak_players": 111
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 59.03,
+      "peak_players": 124
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 77.18,
+      "peak_players": 162
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 85.96,
+      "peak_players": 176
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 101.11,
+      "peak_players": 271
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 94.34,
+      "peak_players": 198
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 106.49,
+      "peak_players": 243
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 110.22,
+      "peak_players": 224
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 141.11,
+      "peak_players": 306
+    },
+    {
+      "month": "2024-02",
+      "avg_players": 166.58,
+      "peak_players": 387
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 199.94,
+      "peak_players": 490
+    },
+    {
+      "month": "2023-12",
+      "avg_players": 201.65,
+      "peak_players": 399
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 276.79,
+      "peak_players": 651
+    },
+    {
+      "month": "2023-10",
+      "avg_players": 217.41,
+      "peak_players": 474
+    },
+    {
+      "month": "2023-09",
+      "avg_players": 426.21,
+      "peak_players": 896
+    },
+    {
+      "month": "2023-08",
+      "avg_players": 592.8,
+      "peak_players": 1143
+    },
+    {
+      "month": "2023-07",
+      "avg_players": 872.24,
+      "peak_players": 1752
+    },
+    {
+      "month": "2023-06",
+      "avg_players": 450.29,
+      "peak_players": 1188
+    },
+    {
+      "month": "2023-05",
+      "avg_players": 492.92,
+      "peak_players": 1051
+    },
+    {
+      "month": "2023-04",
+      "avg_players": 558.9,
+      "peak_players": 1259
+    },
+    {
+      "month": "2023-03",
+      "avg_players": 605.34,
+      "peak_players": 1778
+    },
+    {
+      "month": "2023-02",
+      "avg_players": 570.73,
+      "peak_players": 1427
+    },
+    {
+      "month": "2023-01",
+      "avg_players": 566.06,
+      "peak_players": 1161
+    },
+    {
+      "month": "2022-12",
+      "avg_players": 543.1,
+      "peak_players": 1152
+    },
+    {
+      "month": "2022-11",
+      "avg_players": 426.02,
+      "peak_players": 892
+    },
+    {
+      "month": "2022-10",
+      "avg_players": 446.53,
+      "peak_players": 956
+    },
+    {
+      "month": "2022-09",
+      "avg_players": 678.09,
+      "peak_players": 1638
+    }
+  ]
+}

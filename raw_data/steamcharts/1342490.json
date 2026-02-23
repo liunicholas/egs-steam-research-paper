@@ -1,0 +1,32 @@
+{
+  "appid": 1342490,
+  "steam_name": "Daemon X Machina: Titanic Scion",
+  "epic_name": "Daemon X Machina",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 80.96,
+      "peak_players": 196
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 89.14,
+      "peak_players": 202
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 116.82,
+      "peak_players": 282
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 257.42,
+      "peak_players": 810
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 2511.98,
+      "peak_players": 10023
+    }
+  ]
+}

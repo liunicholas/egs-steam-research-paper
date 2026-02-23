@@ -1,0 +1,177 @@
+{
+  "appid": 763250,
+  "steam_name": "The Spectrum Retreat",
+  "epic_name": "The Spectrum Retreat",
+  "months": [
+    {
+      "month": "2021-08",
+      "avg_players": 1.24,
+      "peak_players": 5
+    },
+    {
+      "month": "2021-07",
+      "avg_players": 1.54,
+      "peak_players": 7
+    },
+    {
+      "month": "2021-06",
+      "avg_players": 1.1,
+      "peak_players": 10
+    },
+    {
+      "month": "2021-03",
+      "avg_players": 0.89,
+      "peak_players": 3
+    },
+    {
+      "month": "2021-01",
+      "avg_players": 0.92,
+      "peak_players": 4
+    },
+    {
+      "month": "2020-12",
+      "avg_players": 1.2,
+      "peak_players": 6
+    },
+    {
+      "month": "2020-11",
+      "avg_players": 0.65,
+      "peak_players": 3
+    },
+    {
+      "month": "2020-10",
+      "avg_players": 0.46,
+      "peak_players": 5
+    },
+    {
+      "month": "2020-09",
+      "avg_players": 0.86,
+      "peak_players": 4
+    },
+    {
+      "month": "2020-08",
+      "avg_players": 0.71,
+      "peak_players": 5
+    },
+    {
+      "month": "2020-07",
+      "avg_players": 1.27,
+      "peak_players": 5
+    },
+    {
+      "month": "2020-06",
+      "avg_players": 0.88,
+      "peak_players": 4
+    },
+    {
+      "month": "2020-05",
+      "avg_players": 1.02,
+      "peak_players": 5
+    },
+    {
+      "month": "2020-04",
+      "avg_players": 2.31,
+      "peak_players": 8
+    },
+    {
+      "month": "2020-03",
+      "avg_players": 0.64,
+      "peak_players": 3
+    },
+    {
+      "month": "2020-02",
+      "avg_players": 0.38,
+      "peak_players": 3
+    },
+    {
+      "month": "2020-01",
+      "avg_players": 0.94,
+      "peak_players": 4
+    },
+    {
+      "month": "2019-12",
+      "avg_players": 0.73,
+      "peak_players": 4
+    },
+    {
+      "month": "2019-11",
+      "avg_players": 0.64,
+      "peak_players": 3
+    },
+    {
+      "month": "2019-09",
+      "avg_players": 0.13,
+      "peak_players": 2
+    },
+    {
+      "month": "2019-08",
+      "avg_players": 0.15,
+      "peak_players": 2
+    },
+    {
+      "month": "2019-07",
+      "avg_players": 0.4,
+      "peak_players": 4
+    },
+    {
+      "month": "2019-06",
+      "avg_players": 0.29,
+      "peak_players": 3
+    },
+    {
+      "month": "2019-05",
+      "avg_players": 0.12,
+      "peak_players": 3
+    },
+    {
+      "month": "2019-04",
+      "avg_players": 0.19,
+      "peak_players": 3
+    },
+    {
+      "month": "2019-03",
+      "avg_players": 0.36,
+      "peak_players": 3
+    },
+    {
+      "month": "2019-02",
+      "avg_players": 0.58,
+      "peak_players": 5
+    },
+    {
+      "month": "2019-01",
+      "avg_players": 0.85,
+      "peak_players": 6
+    },
+    {
+      "month": "2018-12",
+      "avg_players": 1.26,
+      "peak_players": 7
+    },
+    {
+      "month": "2018-11",
+      "avg_players": 1.1,
+      "peak_players": 9
+    },
+    {
+      "month": "2018-10",
+      "avg_players": 0.38,
+      "peak_players": 4
+    },
+    {
+      "month": "2018-09",
+      "avg_players": 0.86,
+      "peak_players": 5
+    },
+    {
+      "month": "2018-08",
+      "avg_players": 1.85,
+      "peak_players": 9
+    },
+    {
+      "month": "2018-07",
+      "avg_players": 9.73,
+      "peak_players": 34
+    }
+  ]
+}

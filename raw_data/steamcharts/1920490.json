@@ -1,0 +1,182 @@
+{
+  "appid": 1920490,
+  "steam_name": "The Outer Worlds: Spacer's Choice Edition",
+  "epic_name": "The Outer Worlds: Spacer\u2019s Choice Edition",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 210.05,
+      "peak_players": 545
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 223.15,
+      "peak_players": 533
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 622.6,
+      "peak_players": 2060
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 433.12,
+      "peak_players": 1790
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 421.39,
+      "peak_players": 1349
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 253.96,
+      "peak_players": 710
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 258.0,
+      "peak_players": 726
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 220.99,
+      "peak_players": 545
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 95.26,
+      "peak_players": 196
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 150.76,
+      "peak_players": 405
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 148.45,
+      "peak_players": 338
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 188.43,
+      "peak_players": 510
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 198.84,
+      "peak_players": 485
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 207.49,
+      "peak_players": 460
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 152.19,
+      "peak_players": 406
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 90.86,
+      "peak_players": 184
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 154.67,
+      "peak_players": 375
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 107.5,
+      "peak_players": 233
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 123.75,
+      "peak_players": 268
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 124.21,
+      "peak_players": 250
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 130.03,
+      "peak_players": 283
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 145.34,
+      "peak_players": 319
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 139.91,
+      "peak_players": 328
+    },
+    {
+      "month": "2024-02",
+      "avg_players": 139.46,
+      "peak_players": 332
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 188.87,
+      "peak_players": 381
+    },
+    {
+      "month": "2023-12",
+      "avg_players": 163.34,
+      "peak_players": 357
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 149.33,
+      "peak_players": 370
+    },
+    {
+      "month": "2023-10",
+      "avg_players": 155.95,
+      "peak_players": 351
+    },
+    {
+      "month": "2023-09",
+      "avg_players": 271.9,
+      "peak_players": 565
+    },
+    {
+      "month": "2023-08",
+      "avg_players": 406.25,
+      "peak_players": 970
+    },
+    {
+      "month": "2023-07",
+      "avg_players": 555.42,
+      "peak_players": 1292
+    },
+    {
+      "month": "2023-06",
+      "avg_players": 106.76,
+      "peak_players": 320
+    },
+    {
+      "month": "2023-05",
+      "avg_players": 52.2,
+      "peak_players": 139
+    },
+    {
+      "month": "2023-04",
+      "avg_players": 64.37,
+      "peak_players": 152
+    },
+    {
+      "month": "2023-03",
+      "avg_players": 129.98,
+      "peak_players": 309
+    }
+  ]
+}

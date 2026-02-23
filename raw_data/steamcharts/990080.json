@@ -1,0 +1,187 @@
+{
+  "appid": 990080,
+  "steam_name": "Hogwarts Legacy",
+  "epic_name": "Hogwarts Legacy",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 14404.32,
+      "peak_players": 34783
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 17428.0,
+      "peak_players": 33842
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 11951.07,
+      "peak_players": 29261
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 14236.15,
+      "peak_players": 36377
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 9506.96,
+      "peak_players": 22535
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 7815.57,
+      "peak_players": 26418
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 8641.74,
+      "peak_players": 17211
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 6717.97,
+      "peak_players": 14569
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 7076.46,
+      "peak_players": 16498
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 8456.7,
+      "peak_players": 18615
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 10591.79,
+      "peak_players": 22578
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 12967.62,
+      "peak_players": 29998
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 16867.03,
+      "peak_players": 43562
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 16561.17,
+      "peak_players": 42342
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 12722.24,
+      "peak_players": 31741
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 9693.42,
+      "peak_players": 29056
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 13907.14,
+      "peak_players": 31361
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 7124.37,
+      "peak_players": 24380
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 9307.33,
+      "peak_players": 19857
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 8066.34,
+      "peak_players": 18001
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 5345.62,
+      "peak_players": 11431
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 7507.51,
+      "peak_players": 15602
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 8798.26,
+      "peak_players": 19453
+    },
+    {
+      "month": "2024-02",
+      "avg_players": 10876.95,
+      "peak_players": 24847
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 16236.91,
+      "peak_players": 41711
+    },
+    {
+      "month": "2023-12",
+      "avg_players": 13479.13,
+      "peak_players": 36353
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 8852.53,
+      "peak_players": 23284
+    },
+    {
+      "month": "2023-10",
+      "avg_players": 7284.74,
+      "peak_players": 17095
+    },
+    {
+      "month": "2023-09",
+      "avg_players": 8531.89,
+      "peak_players": 19038
+    },
+    {
+      "month": "2023-08",
+      "avg_players": 7451.41,
+      "peak_players": 14991
+    },
+    {
+      "month": "2023-07",
+      "avg_players": 10531.12,
+      "peak_players": 20128
+    },
+    {
+      "month": "2023-06",
+      "avg_players": 8548.23,
+      "peak_players": 18269
+    },
+    {
+      "month": "2023-05",
+      "avg_players": 12186.62,
+      "peak_players": 26908
+    },
+    {
+      "month": "2023-04",
+      "avg_players": 21934.78,
+      "peak_players": 59113
+    },
+    {
+      "month": "2023-03",
+      "avg_players": 67680.2,
+      "peak_players": 204096
+    },
+    {
+      "month": "2023-02",
+      "avg_players": 270553.06,
+      "peak_players": 527652
+    }
+  ]
+}

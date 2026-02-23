@@ -1,0 +1,202 @@
+{
+  "appid": 1550730,
+  "steam_name": "Ikonei Island: An Earthlock Adventure",
+  "epic_name": "Earthlock",
+  "months": [
+    {
+      "month": "2025-12",
+      "avg_players": 2.68,
+      "peak_players": 8
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 2.04,
+      "peak_players": 10
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 2.23,
+      "peak_players": 7
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 4.37,
+      "peak_players": 19
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 4.16,
+      "peak_players": 14
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 16.42,
+      "peak_players": 69
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 3.32,
+      "peak_players": 11
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 4.39,
+      "peak_players": 15
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 3.22,
+      "peak_players": 11
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 4.98,
+      "peak_players": 17
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 6.38,
+      "peak_players": 25
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 11.69,
+      "peak_players": 48
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 5.05,
+      "peak_players": 14
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 4.92,
+      "peak_players": 13
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 10.94,
+      "peak_players": 42
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 12.95,
+      "peak_players": 40
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 8.23,
+      "peak_players": 40
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 16.1,
+      "peak_players": 51
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 10.08,
+      "peak_players": 33
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 16.25,
+      "peak_players": 52
+    },
+    {
+      "month": "2024-02",
+      "avg_players": 7.55,
+      "peak_players": 24
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 9.28,
+      "peak_players": 29
+    },
+    {
+      "month": "2023-12",
+      "avg_players": 15.86,
+      "peak_players": 48
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 23.69,
+      "peak_players": 140
+    },
+    {
+      "month": "2023-10",
+      "avg_players": 3.0,
+      "peak_players": 16
+    },
+    {
+      "month": "2023-09",
+      "avg_players": 3.19,
+      "peak_players": 18
+    },
+    {
+      "month": "2023-08",
+      "avg_players": 4.8,
+      "peak_players": 22
+    },
+    {
+      "month": "2023-07",
+      "avg_players": 7.93,
+      "peak_players": 29
+    },
+    {
+      "month": "2023-06",
+      "avg_players": 5.22,
+      "peak_players": 18
+    },
+    {
+      "month": "2023-05",
+      "avg_players": 2.95,
+      "peak_players": 11
+    },
+    {
+      "month": "2023-04",
+      "avg_players": 3.27,
+      "peak_players": 12
+    },
+    {
+      "month": "2023-03",
+      "avg_players": 6.67,
+      "peak_players": 24
+    },
+    {
+      "month": "2023-02",
+      "avg_players": 4.02,
+      "peak_players": 20
+    },
+    {
+      "month": "2023-01",
+      "avg_players": 3.72,
+      "peak_players": 17
+    },
+    {
+      "month": "2022-12",
+      "avg_players": 3.31,
+      "peak_players": 14
+    },
+    {
+      "month": "2022-11",
+      "avg_players": 3.78,
+      "peak_players": 24
+    },
+    {
+      "month": "2022-10",
+      "avg_players": 5.52,
+      "peak_players": 15
+    },
+    {
+      "month": "2022-09",
+      "avg_players": 6.77,
+      "peak_players": 21
+    },
+    {
+      "month": "2022-08",
+      "avg_players": 16.29,
+      "peak_players": 37
+    }
+  ]
+}

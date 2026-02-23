@@ -1,0 +1,197 @@
+{
+  "appid": 1097800,
+  "steam_name": "Stranger Things 3: The Game",
+  "epic_name": "Stranger Things 3: The Game",
+  "months": [
+    {
+      "month": "2025-12",
+      "avg_players": 1.62,
+      "peak_players": 5
+    },
+    {
+      "month": "2022-11",
+      "avg_players": 0.99,
+      "peak_players": 3
+    },
+    {
+      "month": "2022-08",
+      "avg_players": 1.2,
+      "peak_players": 5
+    },
+    {
+      "month": "2022-07",
+      "avg_players": 1.84,
+      "peak_players": 6
+    },
+    {
+      "month": "2022-06",
+      "avg_players": 2.27,
+      "peak_players": 7
+    },
+    {
+      "month": "2022-05",
+      "avg_players": 1.43,
+      "peak_players": 8
+    },
+    {
+      "month": "2022-04",
+      "avg_players": 0.96,
+      "peak_players": 3
+    },
+    {
+      "month": "2022-01",
+      "avg_players": 0.87,
+      "peak_players": 4
+    },
+    {
+      "month": "2021-12",
+      "avg_players": 0.88,
+      "peak_players": 3
+    },
+    {
+      "month": "2021-11",
+      "avg_players": 0.99,
+      "peak_players": 4
+    },
+    {
+      "month": "2021-10",
+      "avg_players": 1.23,
+      "peak_players": 4
+    },
+    {
+      "month": "2021-09",
+      "avg_players": 1.78,
+      "peak_players": 5
+    },
+    {
+      "month": "2021-08",
+      "avg_players": 2.5,
+      "peak_players": 7
+    },
+    {
+      "month": "2021-07",
+      "avg_players": 3.6,
+      "peak_players": 11
+    },
+    {
+      "month": "2021-06",
+      "avg_players": 2.28,
+      "peak_players": 9
+    },
+    {
+      "month": "2021-05",
+      "avg_players": 2.52,
+      "peak_players": 9
+    },
+    {
+      "month": "2021-04",
+      "avg_players": 2.37,
+      "peak_players": 9
+    },
+    {
+      "month": "2021-03",
+      "avg_players": 2.82,
+      "peak_players": 12
+    },
+    {
+      "month": "2021-02",
+      "avg_players": 2.75,
+      "peak_players": 10
+    },
+    {
+      "month": "2021-01",
+      "avg_players": 3.19,
+      "peak_players": 9
+    },
+    {
+      "month": "2020-12",
+      "avg_players": 2.51,
+      "peak_players": 12
+    },
+    {
+      "month": "2020-11",
+      "avg_players": 2.81,
+      "peak_players": 12
+    },
+    {
+      "month": "2020-10",
+      "avg_players": 2.52,
+      "peak_players": 12
+    },
+    {
+      "month": "2020-09",
+      "avg_players": 2.87,
+      "peak_players": 13
+    },
+    {
+      "month": "2020-08",
+      "avg_players": 3.8,
+      "peak_players": 13
+    },
+    {
+      "month": "2020-07",
+      "avg_players": 7.06,
+      "peak_players": 19
+    },
+    {
+      "month": "2020-06",
+      "avg_players": 5.06,
+      "peak_players": 21
+    },
+    {
+      "month": "2020-05",
+      "avg_players": 3.92,
+      "peak_players": 14
+    },
+    {
+      "month": "2020-04",
+      "avg_players": 11.52,
+      "peak_players": 41
+    },
+    {
+      "month": "2020-03",
+      "avg_players": 4.09,
+      "peak_players": 13
+    },
+    {
+      "month": "2020-02",
+      "avg_players": 6.03,
+      "peak_players": 17
+    },
+    {
+      "month": "2020-01",
+      "avg_players": 8.65,
+      "peak_players": 35
+    },
+    {
+      "month": "2019-12",
+      "avg_players": 7.13,
+      "peak_players": 34
+    },
+    {
+      "month": "2019-11",
+      "avg_players": 5.97,
+      "peak_players": 20
+    },
+    {
+      "month": "2019-10",
+      "avg_players": 5.09,
+      "peak_players": 25
+    },
+    {
+      "month": "2019-09",
+      "avg_players": 21.71,
+      "peak_players": 71
+    },
+    {
+      "month": "2019-08",
+      "avg_players": 16.48,
+      "peak_players": 64
+    },
+    {
+      "month": "2019-07",
+      "avg_players": 35.37,
+      "peak_players": 94
+    }
+  ]
+}

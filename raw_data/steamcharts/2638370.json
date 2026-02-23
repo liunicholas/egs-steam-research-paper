@@ -1,0 +1,97 @@
+{
+  "appid": 2638370,
+  "steam_name": "Five Nights at Freddy's: Into the Pit",
+  "epic_name": "Five Nights at Freddy\u2019s: Into the Pit",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 34.38,
+      "peak_players": 108
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 41.23,
+      "peak_players": 119
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 21.66,
+      "peak_players": 74
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 22.15,
+      "peak_players": 65
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 16.57,
+      "peak_players": 43
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 24.17,
+      "peak_players": 58
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 42.18,
+      "peak_players": 97
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 42.1,
+      "peak_players": 117
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 25.85,
+      "peak_players": 65
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 24.64,
+      "peak_players": 67
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 38.37,
+      "peak_players": 135
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 35.64,
+      "peak_players": 120
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 43.78,
+      "peak_players": 125
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 50.72,
+      "peak_players": 153
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 51.34,
+      "peak_players": 135
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 71.94,
+      "peak_players": 188
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 182.19,
+      "peak_players": 627
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 1282.43,
+      "peak_players": 5690
+    }
+  ]
+}

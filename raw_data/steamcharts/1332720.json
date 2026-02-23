@@ -1,0 +1,147 @@
+{
+  "appid": 1332720,
+  "steam_name": "Thief Simulator 2",
+  "epic_name": "Thief",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 210.02,
+      "peak_players": 517
+    },
+    {
+      "month": "2025-12",
+      "avg_players": 194.58,
+      "peak_players": 444
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 115.71,
+      "peak_players": 321
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 154.48,
+      "peak_players": 364
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 175.96,
+      "peak_players": 476
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 177.58,
+      "peak_players": 436
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 224.34,
+      "peak_players": 596
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 183.94,
+      "peak_players": 479
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 276.56,
+      "peak_players": 816
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 116.86,
+      "peak_players": 280
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 154.56,
+      "peak_players": 371
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 142.0,
+      "peak_players": 401
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 174.31,
+      "peak_players": 401
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 168.84,
+      "peak_players": 349
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 148.27,
+      "peak_players": 362
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 136.0,
+      "peak_players": 272
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 170.52,
+      "peak_players": 408
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 196.57,
+      "peak_players": 549
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 221.4,
+      "peak_players": 430
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 223.02,
+      "peak_players": 535
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 217.54,
+      "peak_players": 574
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 195.47,
+      "peak_players": 462
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 226.86,
+      "peak_players": 491
+    },
+    {
+      "month": "2024-02",
+      "avg_players": 141.6,
+      "peak_players": 330
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 219.67,
+      "peak_players": 486
+    },
+    {
+      "month": "2023-12",
+      "avg_players": 284.44,
+      "peak_players": 592
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 344.46,
+      "peak_players": 821
+    },
+    {
+      "month": "2023-10",
+      "avg_players": 1314.79,
+      "peak_players": 4144
+    }
+  ]
+}

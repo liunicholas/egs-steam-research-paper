@@ -1,0 +1,197 @@
+{
+  "appid": 1135260,
+  "steam_name": "The Falconeer: Revolution Remaster",
+  "epic_name": "The Falconeer",
+  "months": [
+    {
+      "month": "2025-12",
+      "avg_players": 2.44,
+      "peak_players": 8
+    },
+    {
+      "month": "2025-11",
+      "avg_players": 11.81,
+      "peak_players": 40
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 2.43,
+      "peak_players": 8
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 1.82,
+      "peak_players": 10
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 2.19,
+      "peak_players": 9
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 2.17,
+      "peak_players": 9
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 10.42,
+      "peak_players": 52
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 4.65,
+      "peak_players": 18
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 2.35,
+      "peak_players": 11
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 3.48,
+      "peak_players": 15
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 3.19,
+      "peak_players": 11
+    },
+    {
+      "month": "2023-08",
+      "avg_players": 1.05,
+      "peak_players": 4
+    },
+    {
+      "month": "2023-07",
+      "avg_players": 2.12,
+      "peak_players": 9
+    },
+    {
+      "month": "2023-06",
+      "avg_players": 1.28,
+      "peak_players": 5
+    },
+    {
+      "month": "2023-05",
+      "avg_players": 3.04,
+      "peak_players": 15
+    },
+    {
+      "month": "2023-03",
+      "avg_players": 2.33,
+      "peak_players": 8
+    },
+    {
+      "month": "2023-02",
+      "avg_players": 2.05,
+      "peak_players": 6
+    },
+    {
+      "month": "2023-01",
+      "avg_players": 1.65,
+      "peak_players": 6
+    },
+    {
+      "month": "2022-12",
+      "avg_players": 2.94,
+      "peak_players": 10
+    },
+    {
+      "month": "2022-09",
+      "avg_players": 1.46,
+      "peak_players": 4
+    },
+    {
+      "month": "2022-06",
+      "avg_players": 2.88,
+      "peak_players": 17
+    },
+    {
+      "month": "2022-04",
+      "avg_players": 2.12,
+      "peak_players": 7
+    },
+    {
+      "month": "2022-03",
+      "avg_players": 2.49,
+      "peak_players": 12
+    },
+    {
+      "month": "2022-01",
+      "avg_players": 1.43,
+      "peak_players": 9
+    },
+    {
+      "month": "2021-12",
+      "avg_players": 1.56,
+      "peak_players": 5
+    },
+    {
+      "month": "2021-11",
+      "avg_players": 1.56,
+      "peak_players": 6
+    },
+    {
+      "month": "2021-10",
+      "avg_players": 1.42,
+      "peak_players": 6
+    },
+    {
+      "month": "2021-09",
+      "avg_players": 1.39,
+      "peak_players": 6
+    },
+    {
+      "month": "2021-08",
+      "avg_players": 2.84,
+      "peak_players": 13
+    },
+    {
+      "month": "2021-07",
+      "avg_players": 2.38,
+      "peak_players": 8
+    },
+    {
+      "month": "2021-06",
+      "avg_players": 2.79,
+      "peak_players": 18
+    },
+    {
+      "month": "2021-05",
+      "avg_players": 2.22,
+      "peak_players": 11
+    },
+    {
+      "month": "2021-04",
+      "avg_players": 2.25,
+      "peak_players": 10
+    },
+    {
+      "month": "2021-03",
+      "avg_players": 2.16,
+      "peak_players": 8
+    },
+    {
+      "month": "2021-02",
+      "avg_players": 2.77,
+      "peak_players": 15
+    },
+    {
+      "month": "2021-01",
+      "avg_players": 2.61,
+      "peak_players": 8
+    },
+    {
+      "month": "2020-12",
+      "avg_players": 2.65,
+      "peak_players": 10
+    },
+    {
+      "month": "2020-11",
+      "avg_players": 9.39,
+      "peak_players": 40
+    }
+  ]
+}
