@@ -1,0 +1,6349 @@
+{
+  "Subnautica": [
+    {
+      "id": 1962700,
+      "name": "Subnautica 2"
+    },
+    {
+      "id": 264710,
+      "name": "Subnautica"
+    },
+    {
+      "id": 848450,
+      "name": "Subnautica: Below Zero"
+    },
+    {
+      "id": 1619300,
+      "name": "Subnautica Original Soundtrack"
+    },
+    {
+      "id": 1619010,
+      "name": "Subnautica: Below Zero Original Soundtrack"
+    }
+  ],
+  "Super Meat Boy": [
+    {
+      "id": 40800,
+      "name": "Super Meat Boy"
+    },
+    {
+      "id": 3288210,
+      "name": "Super Meat Boy 3D"
+    },
+    {
+      "id": 4196240,
+      "name": "Super Meat Boy 3D Demo"
+    },
+    {
+      "id": 581660,
+      "name": "Super Meat Boy Forever"
+    },
+    {
+      "id": 969710,
+      "name": "Super Meat Boy Race Mode"
+    }
+  ],
+  "What Remains of Edith Finch": [
+    {
+      "id": 501300,
+      "name": "What Remains of Edith Finch"
+    },
+    {
+      "id": 629930,
+      "name": "What Remains of Edith Finch - Original Soundtrack"
+    }
+  ],
+  "The Jackbox Party Pack": [
+    {
+      "id": 3364070,
+      "name": "The Jackbox Party Pack 11"
+    },
+    {
+      "id": 434170,
+      "name": "The Jackbox Party Pack 3"
+    },
+    {
+      "id": 1211630,
+      "name": "The Jackbox Party Pack 7"
+    },
+    {
+      "id": 1005300,
+      "name": "The Jackbox Party Pack 6"
+    },
+    {
+      "id": 1552350,
+      "name": "The Jackbox Party Pack 8"
+    }
+  ],
+  "Axiom Verge": [
+    {
+      "id": 332200,
+      "name": "Axiom Verge"
+    },
+    {
+      "id": 946030,
+      "name": "Axiom Verge 2"
+    },
+    {
+      "id": 368920,
+      "name": "Axiom Verge Original Soundtrack"
+    }
+  ],
+  "Thimbleweed Park": [
+    {
+      "id": 569860,
+      "name": "Thimbleweed Park™"
+    },
+    {
+      "id": 638280,
+      "name": "Thimbleweed Park - Ransome *Unbeeped*"
+    },
+    {
+      "id": 1319580,
+      "name": "Thimbleweed Park Soundtrack"
+    },
+    {
+      "id": 1305720,
+      "name": "Delores: A Thimbleweed Park Mini-Adventure"
+    }
+  ],
+  "Slime Rancher": [
+    {
+      "id": 1657630,
+      "name": "Slime Rancher 2"
+    },
+    {
+      "id": 433340,
+      "name": "Slime Rancher"
+    },
+    {
+      "id": 2117970,
+      "name": "Slime Rancher 2: Original Soundtrack"
+    },
+    {
+      "id": 1079180,
+      "name": "Slime Rancher: Secret Style Pack"
+    },
+    {
+      "id": 671160,
+      "name": "Slime Rancher: Original Soundtrack"
+    }
+  ],
+  "Oxenfree": [
+    {
+      "id": 388880,
+      "name": "Oxenfree"
+    },
+    {
+      "id": 1574310,
+      "name": "OXENFREE II: Lost Signals"
+    },
+    {
+      "id": 433430,
+      "name": "Oxenfree - OST"
+    }
+  ],
+  "The Witness": [
+    {
+      "id": 210970,
+      "name": "The Witness"
+    },
+    {
+      "id": 2926180,
+      "name": "City Legends: The Witness in the Rye Collector's Edition"
+    },
+    {
+      "id": 2926480,
+      "name": "City Legends: The Witness in the Rye DLC"
+    },
+    {
+      "id": 2984060,
+      "name": "City Legends: The Witness in the Rye Collector's Edition Demo"
+    },
+    {
+      "id": 2024210,
+      "name": "Witness of the Night"
+    }
+  ],
+  "Transistor": [
+    {
+      "id": 237930,
+      "name": "Transistor"
+    },
+    {
+      "id": 299240,
+      "name": "Transistor: Original Soundtrack"
+    },
+    {
+      "id": 660200,
+      "name": "Transistor Defense"
+    }
+  ],
+  "World of Goo": [
+    {
+      "id": 3385670,
+      "name": "World of Goo 2"
+    },
+    {
+      "id": 22000,
+      "name": "World of Goo"
+    },
+    {
+      "id": 3681380,
+      "name": "World of Goo 2 Soundtrack"
+    },
+    {
+      "id": 1271470,
+      "name": "World of Goo Soundtrack"
+    },
+    {
+      "id": 22010,
+      "name": "World of Goo Demo"
+    }
+  ],
+  "Stories Untold": [
+    {
+      "id": 558420,
+      "name": "Stories Untold"
+    },
+    {
+      "id": 611740,
+      "name": "Stories Untold Official Soundtrack"
+    },
+    {
+      "id": 1108120,
+      "name": "The Unseen Fears: Stories Untold Collector's Edition"
+    },
+    {
+      "id": 871420,
+      "name": "Lovecraft's Untold Stories"
+    },
+    {
+      "id": 2426140,
+      "name": "Untold Love Stories Demo"
+    }
+  ],
+  "RiME": [
+    {
+      "id": 493200,
+      "name": "RiME"
+    },
+    {
+      "id": 2668130,
+      "name": "Para: Rime of Zealot"
+    },
+    {
+      "id": 312600,
+      "name": "Rime Berta"
+    },
+    {
+      "id": 2865930,
+      "name": "Rime's quest"
+    },
+    {
+      "id": 2496230,
+      "name": "Century - Rimeblood Starter Pack"
+    }
+  ],
+  "City of Brass": [
+    {
+      "id": 301840,
+      "name": "City of Brass"
+    },
+    {
+      "id": 834020,
+      "name": "City of Brass - OST"
+    },
+    {
+      "id": 3694210,
+      "name": "Fantasy Grounds - City of Brass (5e)"
+    }
+  ],
+  "Kingdom: New Lands": [
+    {
+      "id": 496300,
+      "name": "Kingdom: New Lands"
+    },
+    {
+      "id": 509430,
+      "name": "Kingdom: New Lands OST"
+    },
+    {
+      "id": 760200,
+      "name": "Kingdom: New Lands - Skull Island"
+    }
+  ],
+  "Enter the Gungeon": [
+    {
+      "id": 311690,
+      "name": "Enter the Gungeon"
+    },
+    {
+      "id": 2339840,
+      "name": "Enter the Gungeon 2"
+    },
+    {
+      "id": 457840,
+      "name": "Enter the Gungeon - Soundtrack"
+    },
+    {
+      "id": 457841,
+      "name": "Enter the Gungeon - Digital Comic"
+    },
+    {
+      "id": 457842,
+      "name": "Enter the Gungeon - Microtransaction Gun"
+    }
+  ],
+  "Rebel Galaxy": [
+    {
+      "id": 290300,
+      "name": "Rebel Galaxy"
+    },
+    {
+      "id": 910830,
+      "name": "Rebel Galaxy Outlaw"
+    }
+  ],
+  "Last Day of June": [
+    {
+      "id": 635320,
+      "name": "Last Day of June"
+    }
+  ],
+  "Overcooked!": [
+    {
+      "id": 728880,
+      "name": "Overcooked! 2"
+    },
+    {
+      "id": 1243830,
+      "name": "Overcooked! All You Can Eat"
+    },
+    {
+      "id": 448510,
+      "name": "Overcooked"
+    },
+    {
+      "id": 909720,
+      "name": "Overcooked! 2 - Surf 'n' Turf"
+    },
+    {
+      "id": 530060,
+      "name": "Overcooked - The Lost Morsel"
+    }
+  ],
+  "Torchlight": [
+    {
+      "id": 1974050,
+      "name": "Torchlight: Infinite"
+    },
+    {
+      "id": 200710,
+      "name": "Torchlight II"
+    },
+    {
+      "id": 1030210,
+      "name": "Torchlight III"
+    },
+    {
+      "id": 41500,
+      "name": "Torchlight"
+    },
+    {
+      "id": 41510,
+      "name": "Torchlight Demo"
+    }
+  ],
+  "Limbo": [
+    {
+      "id": 2246470,
+      "name": "Kulebra and the Souls of Limbo"
+    },
+    {
+      "id": 48000,
+      "name": "LIMBO"
+    },
+    {
+      "id": 4051540,
+      "name": "破禁 Limbo Break"
+    },
+    {
+      "id": 1389260,
+      "name": "Isles of Limbo"
+    },
+    {
+      "id": 568400,
+      "name": "Depths of Limbo"
+    }
+  ],
+  "Moonlighter": [
+    {
+      "id": 2350790,
+      "name": "Moonlighter 2: The Endless Vault"
+    },
+    {
+      "id": 606150,
+      "name": "Moonlighter"
+    },
+    {
+      "id": 1121580,
+      "name": "Moonlighter: Between Dimensions"
+    },
+    {
+      "id": 973740,
+      "name": "Moonlighter Original Soundtrack"
+    },
+    {
+      "id": 1159580,
+      "name": "Moonlighter: Between Dimensions Original Soundtrack"
+    }
+  ],
+  "This War of Mine": [
+    {
+      "id": 282070,
+      "name": "This War of Mine"
+    },
+    {
+      "id": 481090,
+      "name": "This War of Mine: The Little Ones"
+    },
+    {
+      "id": 354350,
+      "name": "This War of Mine Original Soundtrack"
+    },
+    {
+      "id": 348040,
+      "name": "This War of Mine: War Child Charity"
+    },
+    {
+      "id": 750031,
+      "name": "This War of Mine: Stories - Season Pass"
+    }
+  ],
+  "Alan Wake": [
+    {
+      "id": 108710,
+      "name": "Alan Wake"
+    },
+    {
+      "id": 202750,
+      "name": "Alan Wake's American Nightmare"
+    },
+    {
+      "id": 15407,
+      "name": "Alan Wake Origins Bundle"
+    },
+    {
+      "id": 108726,
+      "name": "Alan Wake Collector's Edition Extras"
+    },
+    {
+      "id": 268560,
+      "name": "Alan Wake Bonus Materials"
+    }
+  ],
+  "For Honor": [
+    {
+      "id": 304390,
+      "name": "FOR HONOR™"
+    },
+    {
+      "id": 4312460,
+      "name": "Juren - Hero - FOR HONOR"
+    },
+    {
+      "id": 1366900,
+      "name": "FOR HONOR™ - Warmonger Hero"
+    },
+    {
+      "id": 1641940,
+      "name": "FOR HONOR™ - Kyoshin Hero"
+    },
+    {
+      "id": 1837260,
+      "name": "FOR HONOR™ - Pirate Hero"
+    }
+  ],
+  "GNOG": [
+    {
+      "id": 290510,
+      "name": "GNOG"
+    }
+  ],
+  "Hyper Light Drifter": [
+    {
+      "id": 257850,
+      "name": "Hyper Light Drifter"
+    },
+    {
+      "id": 453020,
+      "name": "Hyper Light Drifter Original Soundtrack"
+    }
+  ],
+  "Mutant Year Zero: Road to Eden": [
+    {
+      "id": 760060,
+      "name": "Mutant Year Zero: Road to Eden"
+    },
+    {
+      "id": 887780,
+      "name": "Mutant Year Zero: Road to Eden - Fan Edition Content"
+    },
+    {
+      "id": 982530,
+      "name": "Mutant Year Zero: Road to Eden Demo"
+    }
+  ],
+  "Fez": [
+    {
+      "id": 224760,
+      "name": "FEZ"
+    },
+    {
+      "id": 224763,
+      "name": "FEZ Original Soundtrack"
+    },
+    {
+      "id": 2272930,
+      "name": "Math Party Fezgugel"
+    }
+  ],
+  "Inside": [
+    {
+      "id": 3166810,
+      "name": "Insider Trading"
+    },
+    {
+      "id": 3609750,
+      "name": "Organized Inside"
+    },
+    {
+      "id": 1987080,
+      "name": "Inside the Backrooms"
+    },
+    {
+      "id": 304430,
+      "name": "INSIDE"
+    },
+    {
+      "id": 3478920,
+      "name": "Getting Inside: Hentai Story"
+    }
+  ],
+  "Celeste": [
+    {
+      "id": 504230,
+      "name": "Celeste"
+    },
+    {
+      "id": 1092840,
+      "name": "Celeste Soundtrack"
+    },
+    {
+      "id": 3559850,
+      "name": "Rift of the NecroDancer: Celeste - \"Resurrections\" - Lena Raine"
+    },
+    {
+      "id": 3550090,
+      "name": "Rift of the NecroDancer: Celeste - \"Confronting Myself\" - Lena Raine"
+    },
+    {
+      "id": 3550070,
+      "name": "Rift of the NecroDancer: Celeste - \"Scattered and Lost\" - Lena Raine"
+    }
+  ],
+  "The End is Nigh": [
+    {
+      "id": 583470,
+      "name": "The End Is Nigh"
+    },
+    {
+      "id": 666670,
+      "name": "The End is Nigh - Soundtrack"
+    },
+    {
+      "id": 21010,
+      "name": "Watchmen: The End is Nigh"
+    },
+    {
+      "id": 13011,
+      "name": "Watchmen: The End is Nigh Bundle"
+    },
+    {
+      "id": 21030,
+      "name": "Watchmen: The End is Nigh Part 2"
+    }
+  ],
+  "ABZU": [
+    {
+      "id": 384190,
+      "name": "ABZU"
+    }
+  ],
+  "Conarium": [
+    {
+      "id": 313780,
+      "name": "Conarium"
+    },
+    {
+      "id": 651510,
+      "name": "Conarium OST"
+    }
+  ],
+  "Batman: Arkham Collection": [
+    {
+      "id": 320795,
+      "name": "Batman: Arkham Collection"
+    }
+  ],
+  "LEGO Batman Trilogy": [
+    {
+      "id": 53403,
+      "name": "LEGO Batman Trilogy"
+    }
+  ],
+  "Everything": [
+    {
+      "id": 2201320,
+      "name": "Date Everything!"
+    },
+    {
+      "id": 3526710,
+      "name": "Everything is Crab: The Animal Evolution Roguelite"
+    },
+    {
+      "id": 3043470,
+      "name": "Date Everything! - Lavish DLC"
+    },
+    {
+      "id": 4122860,
+      "name": "Z.A.T.O. // I Love the World and Everything In It"
+    },
+    {
+      "id": 582270,
+      "name": "Everything"
+    }
+  ],
+  "Metro 2033 Redux": [
+    {
+      "id": 286690,
+      "name": "Metro 2033 Redux"
+    }
+  ],
+  "Minit": [
+    {
+      "id": 609490,
+      "name": "Minit"
+    },
+    {
+      "id": 1503530,
+      "name": "Minit Fun Racer"
+    },
+    {
+      "id": 1089760,
+      "name": "Mini Transport"
+    },
+    {
+      "id": 2096260,
+      "name": "Mini Tank Mayhem"
+    },
+    {
+      "id": 481870,
+      "name": "Mini Thief"
+    }
+  ],
+  "Surviving Mars": [
+    {
+      "id": 3215050,
+      "name": "Surviving Mars: Relaunched"
+    },
+    {
+      "id": 3558730,
+      "name": "Surviving Mars: Pioneer"
+    },
+    {
+      "id": 3889470,
+      "name": "Surviving Mars: Relaunched - Prime Mission"
+    },
+    {
+      "id": 4163710,
+      "name": "Surviving Mars: Pioneer - Holiday Pack"
+    },
+    {
+      "id": 3889420,
+      "name": "Surviving Mars: Relaunched - Interplanetary Codex - Mission Sponsor"
+    }
+  ],
+  "Observer": [
+    {
+      "id": 3805230,
+      "name": "The Outlast Trials - Porcelain Observer Pack"
+    },
+    {
+      "id": 1386900,
+      "name": "Observer: System Redux"
+    },
+    {
+      "id": 514900,
+      "name": ">observer_"
+    },
+    {
+      "id": 1738710,
+      "name": "SCP: Observer"
+    },
+    {
+      "id": 4157310,
+      "name": "Observer The Cat"
+    }
+  ],
+  "Layers of Fear": [
+    {
+      "id": 1946700,
+      "name": "Layers of Fear"
+    },
+    {
+      "id": 391720,
+      "name": "Layers of Fear (2016)"
+    },
+    {
+      "id": 1029890,
+      "name": "Layers of Fear 2 (2019)"
+    },
+    {
+      "id": 1183030,
+      "name": "Layers of Fear VR"
+    },
+    {
+      "id": 1089320,
+      "name": "Layers of Fear 2－Original Soundtrack"
+    }
+  ],
+  "Q.U.B.E. 2": [
+    {
+      "id": 359100,
+      "name": "Q.U.B.E. 2"
+    },
+    {
+      "id": 822094,
+      "name": "Q.U.B.E. 2 Season Pass"
+    },
+    {
+      "id": 822093,
+      "name": "Q.U.B.E. 2 Original Soundtrack"
+    },
+    {
+      "id": 822091,
+      "name": "Q.U.B.E. 2 Puzzle Pack 2: Aftermath"
+    },
+    {
+      "id": 822090,
+      "name": "Q.U.B.E. 2 Puzzle Pack 1: Lost Orbit"
+    }
+  ],
+  "SOMA": [
+    {
+      "id": 282140,
+      "name": "SOMA"
+    },
+    {
+      "id": 1788800,
+      "name": "Soma Union"
+    },
+    {
+      "id": 587310,
+      "name": "Soma Spirits: Rebalance"
+    },
+    {
+      "id": 260530,
+      "name": "So Many Me"
+    },
+    {
+      "id": 3082660,
+      "name": "Akaneiro ni Somaru Saka"
+    }
+  ],
+  "Nuclear Throne": [
+    {
+      "id": 242680,
+      "name": "Nuclear Throne"
+    },
+    {
+      "id": 428400,
+      "name": "Nuclear Throne - Original Soundtrack by Jukio Kallio"
+    }
+  ],
+  "Ruiner": [
+    {
+      "id": 464060,
+      "name": "RUINER"
+    },
+    {
+      "id": 721620,
+      "name": "RUINER Official Soundtrack"
+    }
+  ],
+  "The Messenger": [
+    {
+      "id": 764790,
+      "name": "The Messenger"
+    },
+    {
+      "id": 1107180,
+      "name": "The Messenger - Picnic Panic DLC"
+    },
+    {
+      "id": 924330,
+      "name": "The Messenger Soundtrack - Disc I: The Past [8-Bit]"
+    },
+    {
+      "id": 924331,
+      "name": "The Messenger Soundtrack - Disc II: The Future [16-Bit]"
+    },
+    {
+      "id": 924332,
+      "name": "The Messenger EP by Keiji Yamagishi"
+    }
+  ],
+  "Bad North: Jotunn Edition": [
+    {
+      "id": 688420,
+      "name": "Bad North: Jotunn Edition"
+    },
+    {
+      "id": 970060,
+      "name": "Bad North: Jotunn Edition Deluxe Edition Upgrade"
+    }
+  ],
+  "Rayman Legends": [
+    {
+      "id": 242550,
+      "name": "Rayman® Legends"
+    },
+    {
+      "id": 243340,
+      "name": "Rayman® Legends Demo"
+    }
+  ],
+  "Jotun: Valhalla Edition": [
+    {
+      "id": 323580,
+      "name": "Jotun: Valhalla Edition"
+    }
+  ],
+  "The Escapists": [
+    {
+      "id": 641990,
+      "name": "The Escapists 2"
+    },
+    {
+      "id": 298630,
+      "name": "The Escapists"
+    },
+    {
+      "id": 716580,
+      "name": "The Escapists 2 - Wicked Ward"
+    },
+    {
+      "id": 701180,
+      "name": "The Escapists 2 - Season Pass"
+    },
+    {
+      "id": 784930,
+      "name": "The Escapists 2 - Big Top Breakout"
+    }
+  ],
+  "The Wolf Among Us": [
+    {
+      "id": 250320,
+      "name": "The Wolf Among Us"
+    }
+  ],
+  "Into the Breach": [
+    {
+      "id": 590380,
+      "name": "Into the Breach"
+    },
+    {
+      "id": 807320,
+      "name": "Into the Breach Soundtrack"
+    }
+  ],
+  "TowerFall Ascension": [],
+  "Superhot": [
+    {
+      "id": 617830,
+      "name": "SUPERHOT VR"
+    },
+    {
+      "id": 322500,
+      "name": "SUPERHOT"
+    },
+    {
+      "id": 690040,
+      "name": "SUPERHOT: MIND CONTROL DELETE"
+    },
+    {
+      "id": 1261380,
+      "name": "SUPERHOT: MIND CONTROL DELETE Soundtrack"
+    },
+    {
+      "id": 1626570,
+      "name": "Super Hot Potato"
+    }
+  ],
+  "Little Inferno": [
+    {
+      "id": 221260,
+      "name": "Little Inferno"
+    },
+    {
+      "id": 1270140,
+      "name": "Little Inferno Soundtrack"
+    },
+    {
+      "id": 2108900,
+      "name": "Little Inferno: Ho Ho Holiday"
+    }
+  ],
+  "Ape Out": [
+    {
+      "id": 447150,
+      "name": "APE OUT"
+    }
+  ],
+  "Totally Accurate Battle Simulator": [
+    {
+      "id": 508440,
+      "name": "Totally Accurate Battle Simulator"
+    },
+    {
+      "id": 1270340,
+      "name": "Totally Accurate Battle Simulator - BUG DLC"
+    }
+  ],
+  "FTL: Faster Than Light": [
+    {
+      "id": 212680,
+      "name": "FTL: Faster Than Light"
+    },
+    {
+      "id": 221001,
+      "name": "FTL: Faster Than Light - Soundtrack"
+    }
+  ],
+  "Shadow Tactics: Blades of the Shogun": [
+    {
+      "id": 418240,
+      "name": "Shadow Tactics: Blades of the Shogun"
+    },
+    {
+      "id": 556900,
+      "name": "Shadow Tactics: Blades of the Shogun - Official Soundtrack"
+    },
+    {
+      "id": 571410,
+      "name": "Shadow Tactics: Blades of the Shogun - Artbook & Strategy Guide"
+    },
+    {
+      "id": 1817050,
+      "name": "Shadow Tactics: Blades of the Shogun - Aiko's Choice - Soundtrack"
+    },
+    {
+      "id": 547490,
+      "name": "Shadow Tactics: Blades of the Shogun Demo"
+    }
+  ],
+  "The Talos Principle": [
+    {
+      "id": 257510,
+      "name": "The Talos Principle"
+    },
+    {
+      "id": 835960,
+      "name": "The Talos Principle 2"
+    },
+    {
+      "id": 2475690,
+      "name": "The Talos Principle 2 Soundtrack"
+    },
+    {
+      "id": 2981410,
+      "name": "The Talos Principle 2 - Road to Elysium"
+    },
+    {
+      "id": 2676320,
+      "name": "The Talos Principle 2 Digital Artbook"
+    }
+  ],
+  "Hello Neighbor": [
+    {
+      "id": 521890,
+      "name": "Hello Neighbor"
+    },
+    {
+      "id": 1321680,
+      "name": "Hello Neighbor 2"
+    },
+    {
+      "id": 2789680,
+      "name": "Hello Neighbor 3"
+    },
+    {
+      "id": 1373880,
+      "name": "Hello Neighbor 2 Alpha 1"
+    },
+    {
+      "id": 1364960,
+      "name": "Hello Neighbor 2 Alpha 1.5"
+    }
+  ],
+  "Yooka-Laylee and the Impossible Lair": [
+    {
+      "id": 846870,
+      "name": "Yooka-Laylee and the Impossible Lair"
+    },
+    {
+      "id": 1169811,
+      "name": "Yooka-Laylee and the Impossible Lair - OST"
+    }
+  ],
+  "Darksiders: Warmastered Edition": [
+    {
+      "id": 462780,
+      "name": "Darksiders Warmastered Edition"
+    }
+  ],
+  "Darksiders II: Deathinitive Edition": [
+    {
+      "id": 388410,
+      "name": "Darksiders II Deathinitive Edition"
+    },
+    {
+      "id": 417380,
+      "name": "Darksiders II Deathinitive Edition Soundtrack"
+    }
+  ],
+  "Steep": [
+    {
+      "id": 460920,
+      "name": "Steep™"
+    },
+    {
+      "id": 556392,
+      "name": "Steep™ - Extreme Pack"
+    },
+    {
+      "id": 951662,
+      "name": "Steep - X-Games DLC"
+    },
+    {
+      "id": 556390,
+      "name": "Steep™ - Welcome Pack"
+    },
+    {
+      "id": 1543760,
+      "name": "Steep Slopes"
+    }
+  ],
+  "Sundered: Eldritch Edition": [
+    {
+      "id": 535480,
+      "name": "Sundered®: Eldritch Edition"
+    },
+    {
+      "id": 686430,
+      "name": "Sundered: Eldritch Edition - OST"
+    }
+  ],
+  "Horace": [
+    {
+      "id": 629090,
+      "name": "Horace"
+    },
+    {
+      "id": 2006840,
+      "name": "The Horace Trilogy"
+    },
+    {
+      "id": 1146280,
+      "name": "Horace:First Trip"
+    },
+    {
+      "id": 2600050,
+      "name": "Horace Hagfish"
+    },
+    {
+      "id": 1171420,
+      "name": "Horace Official Soundtrack"
+    }
+  ],
+  "The Bridge": [
+    {
+      "id": 204240,
+      "name": "The Bridge"
+    },
+    {
+      "id": 2331330,
+      "name": "The Bridge Curse 2: The Extrication"
+    },
+    {
+      "id": 1611430,
+      "name": "The Bridge Curse Road to Salvation"
+    },
+    {
+      "id": 2786840,
+      "name": "The Bridge to Yesterday"
+    },
+    {
+      "id": 1375140,
+      "name": "The BridgeMancer"
+    }
+  ],
+  "Farming Simulator 19": [
+    {
+      "id": 787860,
+      "name": "Farming Simulator 19"
+    },
+    {
+      "id": 1107840,
+      "name": "Farming Simulator 19 - Platinum Expansion"
+    },
+    {
+      "id": 1374450,
+      "name": "Farming Simulator 19 - Season Pass"
+    },
+    {
+      "id": 1186560,
+      "name": "Farming Simulator 19 - Bourgault DLC"
+    },
+    {
+      "id": 1492030,
+      "name": "Farming Simulator 19 - Rottne DLC"
+    }
+  ],
+  "Ticket to Ride": [
+    {
+      "id": 2477010,
+      "name": "Ticket to Ride®"
+    },
+    {
+      "id": 2608230,
+      "name": "Ticket to Ride®: Round the World Ticket"
+    },
+    {
+      "id": 4404400,
+      "name": "Ticket to Ride®: Poland Expansion"
+    },
+    {
+      "id": 2608220,
+      "name": "Ticket to Ride®: Europe Expansion"
+    },
+    {
+      "id": 4119700,
+      "name": "Ticket to Ride®: Germany Expansion"
+    }
+  ],
+  "Carcassonne": [
+    {
+      "id": 598810,
+      "name": "Carcassonne - Tiles & Tactics"
+    },
+    {
+      "id": 875600,
+      "name": "Carcassonne - Traders & Builders"
+    },
+    {
+      "id": 648730,
+      "name": "Carcassonne - The River"
+    },
+    {
+      "id": 622030,
+      "name": "Carcassonne - Inns & Cathedrals"
+    },
+    {
+      "id": 984200,
+      "name": "Carcassonne - Winter and Gingerbread Man"
+    }
+  ],
+  "Kingdom Come: Deliverance": [
+    {
+      "id": 1771300,
+      "name": "Kingdom Come: Deliverance II"
+    },
+    {
+      "id": 379430,
+      "name": "Kingdom Come: Deliverance"
+    },
+    {
+      "id": 3368620,
+      "name": "Kingdom Come: Deliverance II Mysteria Ecclesiae"
+    },
+    {
+      "id": 3368610,
+      "name": "Kingdom Come: Deliverance II Legacy of the Forge"
+    },
+    {
+      "id": 368776,
+      "name": "Kingdom Come: Deliverance Royal Edition"
+    }
+  ],
+  "Aztez": [
+    {
+      "id": 244750,
+      "name": "Aztez"
+    }
+  ],
+  "Faeria": [
+    {
+      "id": 397060,
+      "name": "Faeria"
+    },
+    {
+      "id": 880521,
+      "name": "Faeria - Fall of Everlife DLC"
+    },
+    {
+      "id": 880520,
+      "name": "Faeria - Premium Edition DLC"
+    },
+    {
+      "id": 1054730,
+      "name": "Faeria - Chronicles of Gagana DLC"
+    },
+    {
+      "id": 939940,
+      "name": "Faeria - Resurgence DLC"
+    }
+  ],
+  "Assassin’s Creed Syndicate": [
+    {
+      "id": 368500,
+      "name": "Assassin's Creed® Syndicate"
+    },
+    {
+      "id": 371020,
+      "name": "Assassin's Creed Syndicate Season Pass"
+    },
+    {
+      "id": 407470,
+      "name": "Assassin's Creed Syndicate - Steampunk Pack"
+    },
+    {
+      "id": 452960,
+      "name": "Assassin's Creed® Syndicate - The Dreadful Crimes"
+    },
+    {
+      "id": 405080,
+      "name": "Assassin's Creed Syndicate - Jack The Ripper"
+    }
+  ],
+  "InnerSpace": [
+    {
+      "id": 347000,
+      "name": "InnerSpace"
+    },
+    {
+      "id": 747670,
+      "name": "InnerSpace - Soundtrack"
+    }
+  ],
+  "GoNNER": [
+    {
+      "id": 1117670,
+      "name": "GONNER2"
+    },
+    {
+      "id": 437570,
+      "name": "GoNNER"
+    },
+    {
+      "id": 984210,
+      "name": "GoNNER - BLÜEBERRY Edition"
+    },
+    {
+      "id": 533240,
+      "name": "GoNNER OST"
+    },
+    {
+      "id": 1419810,
+      "name": "GONNER2 Soundtrack"
+    }
+  ],
+  "Offworld Trading Company": [
+    {
+      "id": 271240,
+      "name": "Offworld Trading Company"
+    },
+    {
+      "id": 462280,
+      "name": "Offworld Trading Company - Soundtrack DLC"
+    },
+    {
+      "id": 756060,
+      "name": "Offworld Trading Company - Limited Supply DLC"
+    },
+    {
+      "id": 1037200,
+      "name": "Offworld Trading Company - Full Game Upgrade"
+    },
+    {
+      "id": 553160,
+      "name": "Offworld Trading Company - Blue Chip Ventures DLC"
+    }
+  ],
+  "Anodyne 2: Return to Dust": [
+    {
+      "id": 877810,
+      "name": "Anodyne 2: Return to Dust"
+    }
+  ],
+  "A Short Hike": [
+    {
+      "id": 1055540,
+      "name": "A Short Hike"
+    }
+  ],
+  "Mutazione": [
+    {
+      "id": 1080750,
+      "name": "Mutazione"
+    },
+    {
+      "id": 1197980,
+      "name": "Mutazione - Soundtrack"
+    }
+  ],
+  "Watch Dogs": [
+    {
+      "id": 447040,
+      "name": "Watch_Dogs® 2"
+    },
+    {
+      "id": 243470,
+      "name": "Watch_Dogs™"
+    },
+    {
+      "id": 2239550,
+      "name": "Watch Dogs®: Legion"
+    },
+    {
+      "id": 525031,
+      "name": "Watch_Dogs® 2 - No Compromise"
+    },
+    {
+      "id": 525030,
+      "name": "Watch_Dogs® 2 - Human Conditions"
+    }
+  ],
+  "The Stanley Parable": [
+    {
+      "id": 221910,
+      "name": "The Stanley Parable"
+    },
+    {
+      "id": 1703340,
+      "name": "The Stanley Parable: Ultra Deluxe"
+    },
+    {
+      "id": 247750,
+      "name": "The Stanley Parable Demo"
+    },
+    {
+      "id": 2021310,
+      "name": "The Stanley Parable: Ultra Deluxe - The Complete Soundtrack"
+    }
+  ],
+  "Figment": [
+    {
+      "id": 1085220,
+      "name": "Figment 2: Creed Valley"
+    },
+    {
+      "id": 1502260,
+      "name": "Figment 2: Creed Valley - Prologue"
+    },
+    {
+      "id": 735330,
+      "name": "Figment - Soundtrack"
+    },
+    {
+      "id": 493540,
+      "name": "Figment"
+    },
+    {
+      "id": 4274830,
+      "name": "Dreamera: Figment of Dreams"
+    }
+  ],
+  "Tormentor x Punisher": [],
+  "World War Z": [
+    {
+      "id": 699130,
+      "name": "World War Z"
+    },
+    {
+      "id": 4057370,
+      "name": "World War Z x The Walking Dead"
+    },
+    {
+      "id": 2243210,
+      "name": "World War Z: Aftermath Upgrade"
+    },
+    {
+      "id": 3362660,
+      "name": "World War Z VR"
+    },
+    {
+      "id": 3245120,
+      "name": "World War Z: Sin City Apocalypse Episode"
+    }
+  ],
+  "Drawful 2": [
+    {
+      "id": 442070,
+      "name": "Drawful 2"
+    }
+  ],
+  "Gone Home": [
+    {
+      "id": 232430,
+      "name": "Gone Home"
+    },
+    {
+      "id": 298720,
+      "name": "Gone Home Soundtrack"
+    }
+  ],
+  "Hob": [
+    {
+      "id": 2815310,
+      "name": "The Sims™ 4 Businesses & Hobbies Expansion Pack"
+    },
+    {
+      "id": 285160,
+      "name": "LEGO® The Hobbit™"
+    },
+    {
+      "id": 632300,
+      "name": "Hobo: Tough Life"
+    },
+    {
+      "id": 1182310,
+      "name": "The Excavation of Hob's Barrow"
+    },
+    {
+      "id": 3663660,
+      "name": "Train Sim World® 6: Morristown Line: New York & Hoboken - Dover Route Add-On "
+    }
+  ],
+  "Sherlock Holmes: Crimes and Punishments": [
+    {
+      "id": 241260,
+      "name": "Sherlock Holmes: Crimes and Punishments"
+    },
+    {
+      "id": 1168710,
+      "name": "Sherlock Holmes: Crimes and Punishments - Digital Book"
+    }
+  ],
+  "Close to the Sun": [
+    {
+      "id": 968870,
+      "name": "Close To The Sun"
+    },
+    {
+      "id": 1293591,
+      "name": "Close to the Sun Artbook"
+    },
+    {
+      "id": 1293590,
+      "name": "Close to the Sun Original Soundtrack"
+    }
+  ],
+  "Just Cause 4": [
+    {
+      "id": 517630,
+      "name": "Just Cause 4 Reloaded"
+    },
+    {
+      "id": 1087130,
+      "name": "Just Cause™ 4: Brawler Mech"
+    },
+    {
+      "id": 868429,
+      "name": "Just Cause™ 4: Renegade Pack"
+    },
+    {
+      "id": 1028920,
+      "name": "Just Cause™ 4: The Dragon"
+    },
+    {
+      "id": 972350,
+      "name": "Just Cause™ 4: Danger Rising"
+    }
+  ],
+  "Wheels of Aurelia": [
+    {
+      "id": 508740,
+      "name": "Wheels of Aurelia"
+    },
+    {
+      "id": 532000,
+      "name": "Wheels of Aurelia Original Soundtrack"
+    }
+  ],
+  "For the King": [
+    {
+      "id": 527230,
+      "name": "For The King"
+    },
+    {
+      "id": 1676840,
+      "name": "For The King II"
+    },
+    {
+      "id": 1630170,
+      "name": "For The King: Cyclops Armor"
+    },
+    {
+      "id": 3840400,
+      "name": "For The King II: Fallen Oaths Character Pack"
+    },
+    {
+      "id": 1768601,
+      "name": "For The King: Goblin Cosmetic Pack"
+    }
+  ],
+  "Amnesia: The Dark Descent": [
+    {
+      "id": 57300,
+      "name": "Amnesia: The Dark Descent"
+    }
+  ],
+  "Crashlands": [
+    {
+      "id": 1401730,
+      "name": "Crashlands 2"
+    },
+    {
+      "id": 391730,
+      "name": "Crashlands"
+    },
+    {
+      "id": 3593320,
+      "name": "Crashlands 2 Soundtrack"
+    },
+    {
+      "id": 432800,
+      "name": "Crashlands Soundtrack"
+    },
+    {
+      "id": 3665380,
+      "name": "Crashlands 2 - Digital Art and Design Book"
+    }
+  ],
+  "Death Coming": [
+    {
+      "id": 705120,
+      "name": "Death Coming/死神来了"
+    }
+  ],
+  "Grand Theft Auto V": [
+    {
+      "id": 3240220,
+      "name": "Grand Theft Auto V Enhanced"
+    },
+    {
+      "id": 1546990,
+      "name": "Grand Theft Auto: Vice City – The Definitive Edition"
+    }
+  ],
+  "Sid Meier’s Civilization VI": [
+    {
+      "id": 289070,
+      "name": "Sid Meier’s Civilization® VI"
+    },
+    {
+      "id": 947510,
+      "name": "Sid Meier's Civilization® VI: Gathering Storm"
+    },
+    {
+      "id": 645402,
+      "name": "Sid Meier’s Civilization® VI: Rise and Fall"
+    },
+    {
+      "id": 1388850,
+      "name": "Sid Meier's Civilization® VI: Babylon Pack"
+    },
+    {
+      "id": 1478300,
+      "name": "Sid Meier's Civilization® VI: Portugal Pack"
+    }
+  ],
+  "Borderlands: The Handsome Collection": [],
+  "Ark: Survival Evolved": [
+    {
+      "id": 346110,
+      "name": "ARK: Survival Evolved"
+    },
+    {
+      "id": 1646550,
+      "name": "ARK: Survival Evolved Original Soundtrack"
+    }
+  ],
+  "Samurai Shodown NeoGeo Collection": [
+    {
+      "id": 999660,
+      "name": "SAMURAI SHODOWN NEOGEO COLLECTION"
+    }
+  ],
+  "Pathway": [
+    {
+      "id": 2888890,
+      "name": "Polar Pathways"
+    },
+    {
+      "id": 546430,
+      "name": "Pathway"
+    },
+    {
+      "id": 608000,
+      "name": "Buzz Aldrin: Cycling Pathways to Mars"
+    },
+    {
+      "id": 1227670,
+      "name": "Areia: Pathway to Dawn - Soundtrack"
+    },
+    {
+      "id": 768460,
+      "name": "Areia: Pathway to Dawn"
+    }
+  ],
+  "AER: Memories of Old": [
+    {
+      "id": 331870,
+      "name": "AER Memories of Old"
+    },
+    {
+      "id": 699290,
+      "name": "AER Memories of Old Soundtrack"
+    }
+  ],
+  "Stranger Things 3: The Game": [],
+  "Hue": [
+    {
+      "id": 240500,
+      "name": "DCS: UH-1H Huey"
+    },
+    {
+      "id": 383270,
+      "name": "Hue"
+    },
+    {
+      "id": 718690,
+      "name": "SteamWorld Dig 2 OST Feat. El Huervo"
+    },
+    {
+      "id": 2236880,
+      "name": "I Won't Forget Hue"
+    },
+    {
+      "id": 517450,
+      "name": "Hue Official Soundtrack"
+    }
+  ],
+  "Killing Floor 2": [
+    {
+      "id": 232090,
+      "name": "Killing Floor 2"
+    },
+    {
+      "id": 1524820,
+      "name": "Killing Floor 2 - Armory Season Pass"
+    },
+    {
+      "id": 2363410,
+      "name": "Killing Floor 2 - Cosmetics Season Pass"
+    }
+  ],
+  "Lifeless Planet: Premier Edition": [
+    {
+      "id": 261530,
+      "name": "Lifeless Planet Premier Edition"
+    }
+  ],
+  "The Escapists 2": [
+    {
+      "id": 641990,
+      "name": "The Escapists 2"
+    },
+    {
+      "id": 716580,
+      "name": "The Escapists 2 - Wicked Ward"
+    },
+    {
+      "id": 701180,
+      "name": "The Escapists 2 - Season Pass"
+    },
+    {
+      "id": 784930,
+      "name": "The Escapists 2 - Big Top Breakout"
+    },
+    {
+      "id": 821170,
+      "name": "The Escapists 2 - Dungeons and Duct Tape"
+    }
+  ],
+  "Torchlight II": [
+    {
+      "id": 200710,
+      "name": "Torchlight II"
+    },
+    {
+      "id": 219850,
+      "name": "Torchlight II Demo"
+    },
+    {
+      "id": 1030210,
+      "name": "Torchlight III"
+    }
+  ],
+  "Next Up Hero": [
+    {
+      "id": 667810,
+      "name": "Next Up Hero"
+    },
+    {
+      "id": 717650,
+      "name": "Next Up Hero - Soundtrack"
+    }
+  ],
+  "Tacoma": [
+    {
+      "id": 1949472,
+      "name": "Forza Horizon 5 2019 Toyota Tacoma"
+    },
+    {
+      "id": 343860,
+      "name": "Tacoma"
+    }
+  ],
+  "20XX": [
+    {
+      "id": 322110,
+      "name": "20XX"
+    },
+    {
+      "id": 692510,
+      "name": "20XX Soundtrack"
+    },
+    {
+      "id": 3952630,
+      "name": "RHL 20XX"
+    },
+    {
+      "id": 1013560,
+      "name": "Starxium 20XX"
+    },
+    {
+      "id": 783990,
+      "name": "20XX - Hawk Character DLC"
+    }
+  ],
+  "Barony": [
+    {
+      "id": 371970,
+      "name": "Barony"
+    },
+    {
+      "id": 1010822,
+      "name": "Barony: Deserters & Disciples"
+    },
+    {
+      "id": 1010820,
+      "name": "Barony: Myths & Outcasts"
+    },
+    {
+      "id": 1010821,
+      "name": "Barony: Legends & Pariahs"
+    },
+    {
+      "id": 470540,
+      "name": "Barony Extended Soundtrack by Chris Kukla"
+    }
+  ],
+  "Superbrothers: Sword & Sworcery EP": [
+    {
+      "id": 204060,
+      "name": "Superbrothers: Sword & Sworcery EP"
+    }
+  ],
+  "Wilmot’s Warehouse": [
+    {
+      "id": 839870,
+      "name": "Wilmot's Warehouse"
+    }
+  ],
+  "3 out of 10: Season One (Ep 1)": [],
+  "Remnant: From the Ashes": [
+    {
+      "id": 617290,
+      "name": "Remnant: From the Ashes"
+    },
+    {
+      "id": 1344680,
+      "name": "Remnant: From the Ashes - Subject 2923"
+    },
+    {
+      "id": 1245150,
+      "name": "Remnant: From the Ashes - Swamps of Corsus"
+    }
+  ],
+  "The Alto Collection": [
+    {
+      "id": 2837600,
+      "name": "The Alto Collection"
+    }
+  ],
+  "God’s Trigger": [
+    {
+      "id": 488730,
+      "name": "God's Trigger"
+    },
+    {
+      "id": 1042870,
+      "name": "God's Triggers O.M.G. Extras"
+    }
+  ],
+  "Hitman (2016)": [],
+  "Shadowrun Collection": [],
+  "Railway Empire": [
+    {
+      "id": 1644320,
+      "name": "Railway Empire 2"
+    },
+    {
+      "id": 503940,
+      "name": "Railway Empire"
+    },
+    {
+      "id": 2677570,
+      "name": "Railway Empire 2 - India"
+    },
+    {
+      "id": 2677560,
+      "name": "Railway Empire 2 - High Voltage"
+    },
+    {
+      "id": 2677600,
+      "name": "Railway Empire 2 - Steel Dragons"
+    }
+  ],
+  "Where the Water Tastes Like Wine": [
+    {
+      "id": 447120,
+      "name": "Where the Water Tastes Like Wine"
+    },
+    {
+      "id": 798430,
+      "name": "Where The Water Tastes Like Wine - Original Soundtrack"
+    },
+    {
+      "id": 947120,
+      "name": "Where The Water Tastes Like Wine: Fireside Chats"
+    }
+  ],
+  "Stick It To The Man!": [
+    {
+      "id": 251830,
+      "name": "Stick it to The Man!"
+    }
+  ],
+  "Football Manager 2020": [
+    {
+      "id": 1100750,
+      "name": "Football Manager 2020 In-game Editor"
+    }
+  ],
+  "Watch Dogs 2": [
+    {
+      "id": 447040,
+      "name": "Watch_Dogs® 2"
+    },
+    {
+      "id": 525031,
+      "name": "Watch_Dogs® 2 - No Compromise"
+    },
+    {
+      "id": 525030,
+      "name": "Watch_Dogs® 2 - Human Conditions"
+    },
+    {
+      "id": 597076,
+      "name": "Watch_Dogs® 2 - Mega Pack"
+    },
+    {
+      "id": 525016,
+      "name": "Watch_Dogs® 2 - Guru Pack"
+    }
+  ],
+  "RollerCoaster Tycoon 3: Complete Edition": [],
+  "Pikuniku": [
+    {
+      "id": 572890,
+      "name": "Pikuniku"
+    },
+    {
+      "id": 1016520,
+      "name": "Pikuniku Collector's Edition"
+    }
+  ],
+  "ABZÛ": [
+    {
+      "id": 384190,
+      "name": "ABZU"
+    }
+  ],
+  "Rising Storm 2: Vietnam": [
+    {
+      "id": 418460,
+      "name": "Rising Storm 2: Vietnam"
+    },
+    {
+      "id": 629751,
+      "name": "Rising Storm 2: Vietnam - Official Soundtrack"
+    },
+    {
+      "id": 737272,
+      "name": "Rising Storm 2: Vietnam - Personalized Touch Cosmetic DLC"
+    },
+    {
+      "id": 794343,
+      "name": "Rising Storm 2: Vietnam - Rear Echelon Cosmetic DLC"
+    },
+    {
+      "id": 737270,
+      "name": "Rising Storm 2: Vietnam - Pulling Rank Cosmetic DLC"
+    }
+  ],
+  "Amnesia: A Machine for Pigs": [
+    {
+      "id": 239200,
+      "name": "Amnesia: A Machine for Pigs"
+    }
+  ],
+  "Kingdom New Lands": [
+    {
+      "id": 496300,
+      "name": "Kingdom: New Lands"
+    },
+    {
+      "id": 509430,
+      "name": "Kingdom: New Lands OST"
+    },
+    {
+      "id": 760200,
+      "name": "Kingdom: New Lands - Skull Island"
+    }
+  ],
+  "Costume Quest 2": [
+    {
+      "id": 275180,
+      "name": "Costume Quest 2"
+    }
+  ],
+  "Layers of Fear 2": [
+    {
+      "id": 1029890,
+      "name": "Layers of Fear 2 (2019)"
+    },
+    {
+      "id": 1089320,
+      "name": "Layers of Fear 2－Original Soundtrack"
+    },
+    {
+      "id": 391720,
+      "name": "Layers of Fear (2016)"
+    }
+  ],
+  "Blair Witch": [
+    {
+      "id": 1092660,
+      "name": "Blair Witch"
+    },
+    {
+      "id": 1576350,
+      "name": "Blair Witch VR"
+    },
+    {
+      "id": 1141710,
+      "name": "Blair Witch Original Soundtrack"
+    },
+    {
+      "id": 388292,
+      "name": "Blair Witch Deluxe Edition"
+    },
+    {
+      "id": 1141711,
+      "name": "The Art of Blair Witch"
+    }
+  ],
+  "Ghostbusters: The Video Game Remastered": [
+    {
+      "id": 1449280,
+      "name": "Ghostbusters: The Video Game Remastered"
+    }
+  ],
+  "Dungeons 3": [
+    {
+      "id": 493900,
+      "name": "Dungeons 3"
+    },
+    {
+      "id": 824610,
+      "name": "Dungeons 3 - Clash of Gods"
+    },
+    {
+      "id": 1049940,
+      "name": "Dungeons 3 - Famous Last Words"
+    },
+    {
+      "id": 975360,
+      "name": "Dungeons 3 - An Unexpected DLC"
+    },
+    {
+      "id": 711681,
+      "name": "Dungeons 3 - Lord of the Kings"
+    }
+  ],
+  "The Textorcist: The Story of Ray Bibbia": [
+    {
+      "id": 940680,
+      "name": "The Textorcist: The Story of Ray Bibbia"
+    }
+  ],
+  "Elite Dangerous": [
+    {
+      "id": 359320,
+      "name": "Elite Dangerous"
+    },
+    {
+      "id": 1336350,
+      "name": "Elite Dangerous: Odyssey"
+    },
+    {
+      "id": 1496130,
+      "name": "Elite Dangerous: Odyssey Official Soundtrack"
+    }
+  ],
+  "The World Next Door": [
+    {
+      "id": 755470,
+      "name": "The World Next Door"
+    },
+    {
+      "id": 1047590,
+      "name": "The World Next Door Demo"
+    },
+    {
+      "id": 1053810,
+      "name": "The World Next Door (Original Soundtrack)"
+    },
+    {
+      "id": 1053860,
+      "name": "The World Next Door - Prelude Comic"
+    }
+  ],
+  "MudRunner": [
+    {
+      "id": 2477340,
+      "name": "Expeditions: A MudRunner Game"
+    },
+    {
+      "id": 675010,
+      "name": "MudRunner"
+    },
+    {
+      "id": 3188340,
+      "name": "MudRunner VR"
+    },
+    {
+      "id": 891810,
+      "name": "MudRunner - American Wilds Expansion"
+    },
+    {
+      "id": 2826020,
+      "name": "Expeditions: A MudRunner Game - Ford Dual Pack"
+    }
+  ],
+  "Cave Story+": [
+    {
+      "id": 200900,
+      "name": "Cave Story+"
+    },
+    {
+      "id": 1812280,
+      "name": "Cave Story's Secret Santa"
+    }
+  ],
+  "Pillars of Eternity: Definitive Edition": [],
+  "Tyranny: Gold Edition": [],
+  "Cities: Skylines": [
+    {
+      "id": 255710,
+      "name": "Cities: Skylines"
+    },
+    {
+      "id": 949230,
+      "name": "Cities: Skylines II"
+    },
+    {
+      "id": 2427743,
+      "name": "Cities: Skylines II - Bridges & Ports"
+    },
+    {
+      "id": 3579790,
+      "name": "Cities: Skylines II - Creator Pack: Skyscrapers"
+    },
+    {
+      "id": 2313323,
+      "name": "Cities: Skylines - 90's Pop Radio"
+    }
+  ],
+  "Oddworld: New ‘n’ Tasty": [
+    {
+      "id": 314660,
+      "name": "Oddworld: New 'n' Tasty"
+    },
+    {
+      "id": 441040,
+      "name": "Oddworld: New 'n' Tasty - 720p Movies Pack"
+    },
+    {
+      "id": 391880,
+      "name": "Oddworld: New 'n' Tasty - Official Soundtrack"
+    },
+    {
+      "id": 323340,
+      "name": "Oddworld: New 'n' Tasty - Scrub Abe Costume"
+    },
+    {
+      "id": 323341,
+      "name": "Oddworld: New 'n' Tasty - Alf's Escape DLC"
+    }
+  ],
+  "The Long Dark": [
+    {
+      "id": 305620,
+      "name": "The Long Dark"
+    },
+    {
+      "id": 2091330,
+      "name": "The Long Dark: Tales from the Far Territory"
+    },
+    {
+      "id": 2095000,
+      "name": "The Long Dark: WINTERMUTE"
+    },
+    {
+      "id": 1586260,
+      "name": "BLACKFROST: The Long Dark 2"
+    },
+    {
+      "id": 690180,
+      "name": "Music for The Long Dark -- Volume One"
+    }
+  ],
+  "Defense Grid: The Awakening": [
+    {
+      "id": 18500,
+      "name": "Defense Grid: The Awakening"
+    },
+    {
+      "id": 18522,
+      "name": "Defense Grid: The Awakening - You Monster DLC"
+    },
+    {
+      "id": 18510,
+      "name": "Defense Grid: The Awakening Demo"
+    }
+  ],
+  "Alien: Isolation": [
+    {
+      "id": 214490,
+      "name": "Alien: Isolation"
+    },
+    {
+      "id": 282513,
+      "name": "Alien: Isolation - Trauma"
+    },
+    {
+      "id": 282514,
+      "name": "Alien: Isolation - Safe Haven"
+    },
+    {
+      "id": 282512,
+      "name": "Alien: Isolation - Corporate Lockdown"
+    },
+    {
+      "id": 282516,
+      "name": "Alien: Isolation - The Trigger"
+    }
+  ],
+  "Tropico 5": [
+    {
+      "id": 245620,
+      "name": "Tropico 5"
+    },
+    {
+      "id": 284441,
+      "name": "Tropico 5 - Espionage"
+    },
+    {
+      "id": 284440,
+      "name": "Tropico 5 - Waterborne"
+    },
+    {
+      "id": 306396,
+      "name": "Tropico 5 - Generalissimo"
+    },
+    {
+      "id": 306399,
+      "name": "Tropico 5 - Supervillain"
+    }
+  ],
+  "Darkest Dungeon": [
+    {
+      "id": 262060,
+      "name": "Darkest Dungeon®"
+    },
+    {
+      "id": 1940340,
+      "name": "Darkest Dungeon® II"
+    },
+    {
+      "id": 3205310,
+      "name": "Darkest Dungeon® II: Inhuman Bondage"
+    },
+    {
+      "id": 345800,
+      "name": "Darkest Dungeon Soundtrack"
+    },
+    {
+      "id": 580100,
+      "name": "Darkest Dungeon®: The Crimson Court"
+    }
+  ],
+  "My Time at Portia": [
+    {
+      "id": 666140,
+      "name": "My Time at Portia"
+    },
+    {
+      "id": 1134460,
+      "name": "My Time At Portia - Swimwear"
+    },
+    {
+      "id": 974290,
+      "name": "My Time At Portia - Original Soundtrack"
+    },
+    {
+      "id": 1075041,
+      "name": "My Time At Portia - NPC Attire Package"
+    },
+    {
+      "id": 1968911,
+      "name": "My Time At Portia - NPC Eveningwear Package"
+    }
+  ],
+  "Night in the Woods": [
+    {
+      "id": 481510,
+      "name": "Night in the Woods"
+    },
+    {
+      "id": 610220,
+      "name": "Night in the Woods - Soundtrack Vol. I"
+    },
+    {
+      "id": 610221,
+      "name": "Night in the Woods - Soundtrack Vol. II"
+    },
+    {
+      "id": 610222,
+      "name": "Night in the Woods - Soundtrack Vol. III"
+    },
+    {
+      "id": 921870,
+      "name": "Apocalipsis: One Night in the Woods"
+    }
+  ],
+  "Stranded Deep": [
+    {
+      "id": 313120,
+      "name": "Stranded Deep"
+    },
+    {
+      "id": 1492970,
+      "name": "Stranded Deep Original Soundtrack"
+    }
+  ],
+  "Solitairica": [
+    {
+      "id": 463980,
+      "name": "Solitairica"
+    }
+  ],
+  "Jurassic World Evolution": [
+    {
+      "id": 2958130,
+      "name": "Jurassic World Evolution 3"
+    },
+    {
+      "id": 1244460,
+      "name": "Jurassic World Evolution 2"
+    },
+    {
+      "id": 4131660,
+      "name": "Jurassic World Evolution 3: Wetlands "
+    },
+    {
+      "id": 3651200,
+      "name": "Jurassic World Evolution 3: Deluxe Upgrade Pack"
+    },
+    {
+      "id": 648350,
+      "name": "Jurassic World Evolution"
+    }
+  ],
+  "Crying Suns": [
+    {
+      "id": 873940,
+      "name": "Crying Suns"
+    },
+    {
+      "id": 879490,
+      "name": "Crying Suns Demo"
+    },
+    {
+      "id": 1147290,
+      "name": "Crying Suns - Original Soundtrack"
+    },
+    {
+      "id": 1271330,
+      "name": "Crying Suns - Digital Artbook"
+    }
+  ],
+  "Star Wars Battlefront II: Celebration Edition": [],
+  "Galactic Civilizations III": [
+    {
+      "id": 226860,
+      "name": "Galactic Civilizations III"
+    },
+    {
+      "id": 390740,
+      "name": "Galactic Civilizations III Soundtrack"
+    },
+    {
+      "id": 976210,
+      "name": "Galactic Civilizations III: Retribution Expansion"
+    },
+    {
+      "id": 747060,
+      "name": "Galactic Civilizations III: Intrigue Expansion"
+    },
+    {
+      "id": 527070,
+      "name": "Galactic Civilizations III: Crusade Expansion Pack"
+    }
+  ],
+  "Dandara: Trials of Fear Edition": [
+    {
+      "id": 612390,
+      "name": "Dandara: Trials of Fear Edition"
+    },
+    {
+      "id": 744990,
+      "name": "Dandara: Trials of Fear Edition Soundtrack 🎵"
+    }
+  ],
+  "For The King": [
+    {
+      "id": 527230,
+      "name": "For The King"
+    },
+    {
+      "id": 1676840,
+      "name": "For The King II"
+    },
+    {
+      "id": 1630170,
+      "name": "For The King: Cyclops Armor"
+    },
+    {
+      "id": 3840400,
+      "name": "For The King II: Fallen Oaths Character Pack"
+    },
+    {
+      "id": 1768601,
+      "name": "For The King: Goblin Cosmetic Pack"
+    }
+  ],
+  "Metro: Last Light Redux": [
+    {
+      "id": 287390,
+      "name": "Metro: Last Light Redux"
+    }
+  ],
+  "Halcyon 6: Starbase Commander": [
+    {
+      "id": 371200,
+      "name": "Halcyon 6: Starbase Commander"
+    },
+    {
+      "id": 651660,
+      "name": "Halcyon 6: Starbase Commander (LIGHTSPEED EDITION)"
+    },
+    {
+      "id": 528490,
+      "name": "Halcyon 6: Starbase Commander - Soundtrack"
+    }
+  ],
+  "Absolute Drift": [
+    {
+      "id": 320140,
+      "name": "Absolute Drift"
+    }
+  ],
+  "Rage 2": [
+    {
+      "id": 548570,
+      "name": "RAGE 2"
+    },
+    {
+      "id": 1067980,
+      "name": "RAGE 2 - RAGE Coins"
+    },
+    {
+      "id": 3841240,
+      "name": "AstroRage2049"
+    }
+  ],
+  "Sunless Sea": [
+    {
+      "id": 304650,
+      "name": "SUNLESS SEA"
+    },
+    {
+      "id": 452530,
+      "name": "Sunless Sea - Zubmariner"
+    }
+  ],
+  "Wargame: Red Dragon": [
+    {
+      "id": 251060,
+      "name": "Wargame: Red Dragon"
+    },
+    {
+      "id": 348330,
+      "name": "Wargame: Red Dragon - Norse Dragons"
+    },
+    {
+      "id": 529390,
+      "name": "Wargame: Red Dragon - Nation Pack: Israel"
+    },
+    {
+      "id": 443730,
+      "name": "Wargame: Red Dragon - Nation Pack: Netherlands"
+    },
+    {
+      "id": 3025360,
+      "name": "Wargame: Red Dragon - Nation Pack: Italy"
+    }
+  ],
+  "The Fall": [
+    {
+      "id": 1466060,
+      "name": "Tainted Grail: The Fall of Avalon"
+    },
+    {
+      "id": 290770,
+      "name": "The Fall"
+    },
+    {
+      "id": 3558490,
+      "name": "The fall"
+    },
+    {
+      "id": 4132150,
+      "name": "Tainted Grail: The Fall of Avalon - Sanctuary of Sarras DLC"
+    },
+    {
+      "id": 510490,
+      "name": "The Fall Part 2: Unbound"
+    }
+  ],
+  "Creature in the Well": [
+    {
+      "id": 852300,
+      "name": "Creature in the Well"
+    },
+    {
+      "id": 1261600,
+      "name": "Creature in the Well Soundtrack + Art Book"
+    }
+  ],
+  "Tales of the Neon Sea": [
+    {
+      "id": 828740,
+      "name": "Tales of the Neon Sea"
+    },
+    {
+      "id": 1335190,
+      "name": "Tales of the Neon Sea - Original Soundtrack"
+    }
+  ],
+  "3 out of 10: Season Two": [],
+  "Deponia: The Complete Journey": [
+    {
+      "id": 292910,
+      "name": "Deponia: The Complete Journey"
+    }
+  ],
+  "Ken Follett’s The Pillars of the Earth": [
+    {
+      "id": 234270,
+      "name": "Ken Follett's The Pillars of the Earth"
+    },
+    {
+      "id": 643650,
+      "name": "Ken Follett's The Pillars of the Earth - Soundtrack"
+    }
+  ],
+  "The First Tree": [
+    {
+      "id": 555150,
+      "name": "The First Tree"
+    }
+  ],
+  "Hand of Fate 2": [
+    {
+      "id": 456670,
+      "name": "Hand of Fate 2"
+    },
+    {
+      "id": 748680,
+      "name": "Hand of Fate 2 Soundtrack"
+    },
+    {
+      "id": 862450,
+      "name": "Hand of Fate 2 - Outlands and Outsiders"
+    },
+    {
+      "id": 969730,
+      "name": "Hand of Fate 2 - A Cold Hearth"
+    },
+    {
+      "id": 945450,
+      "name": "Hand of Fate 2 - The Servant and the Beast"
+    }
+  ],
+  "Idle Champions of the Forgotten Realms (pack)": [],
+  "Pine": [
+    {
+      "id": 2212790,
+      "name": "Asbury Pines"
+    },
+    {
+      "id": 1269640,
+      "name": "Beacon Pines"
+    },
+    {
+      "id": 1202200,
+      "name": "Paleo Pines"
+    },
+    {
+      "id": 2333000,
+      "name": "Silver Pines"
+    },
+    {
+      "id": 2456990,
+      "name": "Golf With Your Friends - Peaceful Pines Course"
+    }
+  ],
+  "The Lion’s Song": [
+    {
+      "id": 437160,
+      "name": "The Lion's Song: Episode 1 - Silence"
+    },
+    {
+      "id": 477020,
+      "name": "The Lion's Song: Episode 3 - Derivation"
+    },
+    {
+      "id": 477030,
+      "name": "The Lion's Song: Episode 4 - Closure"
+    },
+    {
+      "id": 459140,
+      "name": "The Lion's Song: Episode 2 - Anthology"
+    },
+    {
+      "id": 774871,
+      "name": "The Lion's Song - Soundtrack"
+    }
+  ],
+  "NBA 2K21": [],
+  "Among Us": [
+    {
+      "id": 945360,
+      "name": "Among Us"
+    },
+    {
+      "id": 3168600,
+      "name": "Among Us 3D"
+    },
+    {
+      "id": 1849900,
+      "name": "Among Us 3D: VR"
+    },
+    {
+      "id": 3769780,
+      "name": "Among Us Ranked (Unofficial)"
+    },
+    {
+      "id": 250320,
+      "name": "The Wolf Among Us"
+    }
+  ],
+  "Frostpunk": [
+    {
+      "id": 1601580,
+      "name": "Frostpunk 2"
+    },
+    {
+      "id": 323190,
+      "name": "Frostpunk"
+    },
+    {
+      "id": 2791510,
+      "name": "Frostpunk 2: Fractured Utopias"
+    },
+    {
+      "id": 3645160,
+      "name": "Frostpunk: 1886"
+    },
+    {
+      "id": 1146960,
+      "name": "Frostpunk: The Last Autumn"
+    }
+  ],
+  "Control": [
+    {
+      "id": 3669870,
+      "name": "CONTROL Resonant"
+    },
+    {
+      "id": 4165870,
+      "name": "Steam Controller"
+    },
+    {
+      "id": 1059550,
+      "name": "Valve Index® Controllers"
+    },
+    {
+      "id": 870780,
+      "name": "Control Ultimate Edition"
+    },
+    {
+      "id": 4046550,
+      "name": "Futa Zone: Lewd Control 🍒"
+    }
+  ],
+  "Hell is Other Demons": [
+    {
+      "id": 595790,
+      "name": "Hell is Other Demons"
+    },
+    {
+      "id": 1105400,
+      "name": "Hell is Other Demons - Soundtrack"
+    }
+  ],
+  "Overcooked! 2": [
+    {
+      "id": 728880,
+      "name": "Overcooked! 2"
+    },
+    {
+      "id": 1067770,
+      "name": "Overcooked! 2 - Season Pass"
+    },
+    {
+      "id": 909720,
+      "name": "Overcooked! 2 - Surf 'n' Turf"
+    },
+    {
+      "id": 1138400,
+      "name": "Overcooked! 2 - Carnival of Chaos"
+    },
+    {
+      "id": 1013300,
+      "name": "Overcooked! 2 - Campfire Cook Off"
+    }
+  ],
+  "Horizon Chase Turbo": [
+    {
+      "id": 389140,
+      "name": "Horizon Chase Turbo"
+    },
+    {
+      "id": 863520,
+      "name": "Horizon Chase Turbo Soundtrack"
+    },
+    {
+      "id": 1608540,
+      "name": "Horizon Chase Turbo - Senna Forever"
+    },
+    {
+      "id": 1174880,
+      "name": "Horizon Chase Turbo - Rookie Series"
+    },
+    {
+      "id": 1137940,
+      "name": "Horizon Chase Turbo - Summer Vibes"
+    }
+  ],
+  "Sonic Mania": [
+    {
+      "id": 584400,
+      "name": "Sonic Mania"
+    },
+    {
+      "id": 845640,
+      "name": "Sonic Mania - Encore DLC"
+    }
+  ],
+  "The Spectrum Retreat": [
+    {
+      "id": 763250,
+      "name": "The Spectrum Retreat"
+    }
+  ],
+  "Bridge Constructor: The Walking Dead": [
+    {
+      "id": 1336120,
+      "name": "Bridge Constructor: The Walking Dead"
+    }
+  ],
+  "Ironcast": [
+    {
+      "id": 327670,
+      "name": "Ironcast"
+    },
+    {
+      "id": 362820,
+      "name": "Ironcast Soundtrack"
+    }
+  ],
+  "Obduction": [
+    {
+      "id": 306760,
+      "name": "Obduction"
+    },
+    {
+      "id": 520871,
+      "name": "Obduction - Original Sound Track"
+    }
+  ],
+  "Verdun": [
+    {
+      "id": 242860,
+      "name": "Verdun"
+    },
+    {
+      "id": 987070,
+      "name": "Verdun - Supporter Edition Upgrade"
+    },
+    {
+      "id": 1378940,
+      "name": "Verdungo"
+    },
+    {
+      "id": 2345930,
+      "name": "HELL OF VERDUN"
+    },
+    {
+      "id": 1247200,
+      "name": "Verdun: Original Soundtrack"
+    }
+  ],
+  "Mothergunship": [
+    {
+      "id": 1931240,
+      "name": "MOTHERGUNSHIP: FORGE"
+    },
+    {
+      "id": 574090,
+      "name": "MOTHERGUNSHIP"
+    },
+    {
+      "id": 769860,
+      "name": "MOTHERGUNSHIP Gun Crafting Range"
+    },
+    {
+      "id": 924210,
+      "name": "MOTHERGUNSHIP OST"
+    }
+  ],
+  "Train Sim World 2": [
+    {
+      "id": 1282590,
+      "name": "Train Sim World® 2"
+    },
+    {
+      "id": 1664956,
+      "name": "Train Sim World® 2: New Journeys Expansion"
+    },
+    {
+      "id": 1490117,
+      "name": "Train Sim World® 2: Rush Hour - Boston Sprinter"
+    },
+    {
+      "id": 1304411,
+      "name": "Train Sim World® 2: Rapid Transit Route Add-On"
+    },
+    {
+      "id": 1304469,
+      "name": "Train Sim World® 2: DB BR 363 Loco Add-On"
+    }
+  ],
+  "A Plague Tale: Innocence": [
+    {
+      "id": 752590,
+      "name": "A Plague Tale: Innocence"
+    },
+    {
+      "id": 967380,
+      "name": "A Plague Tale: Innocence - Coats of Arms DLC"
+    },
+    {
+      "id": 1096660,
+      "name": "A Plague Tale: Innocence Demo"
+    }
+  ],
+  "Void Bastards": [
+    {
+      "id": 857980,
+      "name": "Void Bastards"
+    },
+    {
+      "id": 1091680,
+      "name": "Void Bastards - Bang Tydy"
+    },
+    {
+      "id": 1079360,
+      "name": "Void Bastards OST"
+    }
+  ],
+  "Yooka-Laylee": [
+    {
+      "id": 360830,
+      "name": "Yooka-Laylee"
+    },
+    {
+      "id": 564251,
+      "name": "Yooka-Laylee Digital Artbook"
+    },
+    {
+      "id": 846870,
+      "name": "Yooka-Laylee and the Impossible Lair"
+    },
+    {
+      "id": 564250,
+      "name": "Yooka-Laylee Soundtrack"
+    },
+    {
+      "id": 1169810,
+      "name": "Yooka-Laylee and the Kracklestone - Graphic Novel"
+    }
+  ],
+  "Automachef": [
+    {
+      "id": 984800,
+      "name": "Automachef"
+    },
+    {
+      "id": 1154820,
+      "name": "Automachef Original Soundtrack"
+    },
+    {
+      "id": 1046020,
+      "name": "Automachef Demo"
+    }
+  ],
+  "Saints Row: The Third Remastered": [
+    {
+      "id": 978300,
+      "name": "Saints Row®: The Third™ Remastered"
+    }
+  ],
+  "Yoku’s Island Express": [
+    {
+      "id": 334940,
+      "name": "Yoku's Island Express"
+    }
+  ],
+  "Sheltered": [
+    {
+      "id": 1289380,
+      "name": "Sheltered 2"
+    },
+    {
+      "id": 356040,
+      "name": "Sheltered"
+    },
+    {
+      "id": 364370,
+      "name": "The Sheltered"
+    },
+    {
+      "id": 3251940,
+      "name": "Sheltered from the Storm"
+    },
+    {
+      "id": 2396933,
+      "name": "Disgaea 7: Vows of the Virtueless - Bonus Story: The Overlord, Demon Lord, and Sheltered Girl"
+    }
+  ],
+  "Nioh: The Complete Edition": [
+    {
+      "id": 1325200,
+      "name": "Nioh 2 – The Complete Edition"
+    }
+  ],
+  "Speed Brawl": [
+    {
+      "id": 468670,
+      "name": "Speed Brawl"
+    },
+    {
+      "id": 1000730,
+      "name": "Speed Brawl Demo"
+    }
+  ],
+  "Tharsis": [
+    {
+      "id": 323060,
+      "name": "Tharsis"
+    }
+  ],
+  "Europa Universalis IV": [
+    {
+      "id": 236850,
+      "name": "Europa Universalis IV"
+    },
+    {
+      "id": 2223660,
+      "name": "Expansion - Europa Universalis IV: Domination"
+    },
+    {
+      "id": 1259360,
+      "name": "Expansion - Europa Universalis IV: Emperor"
+    },
+    {
+      "id": 415680,
+      "name": "Europa Universalis IV: Sabaton Soundtrack"
+    },
+    {
+      "id": 247890,
+      "name": "Europa Universalis IV Demo"
+    }
+  ],
+  "PC Building Simulator": [
+    {
+      "id": 621060,
+      "name": "PC Building Simulator"
+    },
+    {
+      "id": 1263560,
+      "name": "PC Building Simulator Soundtrack"
+    },
+    {
+      "id": 1252990,
+      "name": "PC Building Simulator - Esports Expansion"
+    },
+    {
+      "id": 1198960,
+      "name": "PC Building Simulator - NZXT Workshop"
+    },
+    {
+      "id": 1591920,
+      "name": "PC Building Simulator - EVGA Workshop"
+    }
+  ],
+  "Stubbs the Zombie in Rebel Without a Pulse": [
+    {
+      "id": 7800,
+      "name": "Stubbs the Zombie in Rebel Without a Pulse"
+    },
+    {
+      "id": 1560270,
+      "name": "Stubbs the Zombie in Rebel Without a Pulse - Official Soundtrack"
+    },
+    {
+      "id": 1560280,
+      "name": "Stubbs the Zombie in Rebel Without a Pulse - The Fartbook"
+    }
+  ],
+  "Among the Sleep: Enhanced Edition": [
+    {
+      "id": 250620,
+      "name": "Among the Sleep - Enhanced Edition"
+    }
+  ],
+  "DARQ: Complete Edition": [
+    {
+      "id": 433550,
+      "name": "DARQ: Complete Edition"
+    }
+  ],
+  "Aven Colony": [
+    {
+      "id": 484900,
+      "name": "Aven Colony"
+    },
+    {
+      "id": 645900,
+      "name": "Aven Colony - Cerulean Vale"
+    },
+    {
+      "id": 685820,
+      "name": "Aven Colony - Soundtrack"
+    }
+  ],
+  "Tiny Tina’s Assault on Dragon Keep: A Wonderlands One-shot Adventure": [
+    {
+      "id": 1712840,
+      "name": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure"
+    }
+  ],
+  "Rogue Company Season 4 Epic Pack (DLC)": [],
+  "Guild of Dungeoneering": [
+    {
+      "id": 317820,
+      "name": "Guild of Dungeoneering Ultimate Edition"
+    },
+    {
+      "id": 376820,
+      "name": "Guild of Dungeoneering Soundtrack"
+    },
+    {
+      "id": 1722490,
+      "name": "Guild of Dungeoneering Demo"
+    }
+  ],
+  "KID A MNESIA EXHIBITION": [],
+  "Never Alone (Kisima Ingitchuna)": [
+    {
+      "id": 295790,
+      "name": "Never Alone (Kisima Ingitchuna)"
+    }
+  ],
+  "Antstream – Epic Welcome Pack": [],
+  "theHunter: Call of the Wild": [],
+  "Dead by Daylight": [
+    {
+      "id": 381210,
+      "name": "Dead by Daylight"
+    },
+    {
+      "id": 4318580,
+      "name": "Dead by Daylight: Stranger Things Chapter 2"
+    },
+    {
+      "id": 1135280,
+      "name": "Dead by Daylight - Stranger Things Chapter"
+    },
+    {
+      "id": 1634040,
+      "name": "Dead by Daylight - Resident Evil Chapter"
+    },
+    {
+      "id": 3103150,
+      "name": "Dead by Daylight - Castlevania Chapter"
+    }
+  ],
+  "while True: learn()": [
+    {
+      "id": 619150,
+      "name": "while True: learn()"
+    },
+    {
+      "id": 1019360,
+      "name": "while True: learn() Soundtrack"
+    },
+    {
+      "id": 1026800,
+      "name": "while True: learn() Mega Map of Machine Learning"
+    },
+    {
+      "id": 1022720,
+      "name": "while True: learn() Art Pack"
+    }
+  ],
+  "Godfall: Challenger Edition": [],
+  "Prison Architect": [
+    {
+      "id": 233450,
+      "name": "Prison Architect"
+    },
+    {
+      "id": 1257610,
+      "name": "Prison Architect 2"
+    },
+    {
+      "id": 2448010,
+      "name": "Prison Architect 2 - Warden's Edition Upgrade"
+    },
+    {
+      "id": 1948120,
+      "name": "Prison Architect - Gangs"
+    },
+    {
+      "id": 1493470,
+      "name": "Prison Architect - Going Green"
+    }
+  ],
+  "Shenmue III": [
+    {
+      "id": 878670,
+      "name": "Shenmue III"
+    },
+    {
+      "id": 1047202,
+      "name": "Shenmue III - DLC3 Battle Rally"
+    },
+    {
+      "id": 1047200,
+      "name": "Shenmue III - DLC1 Story Quest Pack"
+    },
+    {
+      "id": 1047201,
+      "name": "Shenmue III - DLC2 Big Merry Cruise"
+    }
+  ],
+  "Neon Abyss": [
+    {
+      "id": 788100,
+      "name": "Neon Abyss"
+    },
+    {
+      "id": 2235200,
+      "name": "Neon Abyss 2"
+    },
+    {
+      "id": 3821980,
+      "name": "Neon Abyss 2 - Supporter Pack"
+    },
+    {
+      "id": 4060090,
+      "name": "Neon Abyss 2 - Archenemy Returns"
+    },
+    {
+      "id": 3821760,
+      "name": "Neon Abyss 2 Original Soundtrack"
+    }
+  ],
+  "The Vanishing of Ethan Carter": [
+    {
+      "id": 258520,
+      "name": "The Vanishing of Ethan Carter"
+    },
+    {
+      "id": 400430,
+      "name": "The Vanishing of Ethan Carter Redux"
+    },
+    {
+      "id": 319930,
+      "name": "The Vanishing of Ethan Carter - Collector's Edition Upgrade"
+    }
+  ],
+  "Loop Hero": [
+    {
+      "id": 1282730,
+      "name": "Loop Hero"
+    },
+    {
+      "id": 1562200,
+      "name": "Loop Hero Soundtrack"
+    },
+    {
+      "id": 1519390,
+      "name": "Loop Hero Demo"
+    }
+  ],
+  "Second Extinction": [],
+  "Vampyr": [
+    {
+      "id": 427290,
+      "name": "Vampyr"
+    },
+    {
+      "id": 728850,
+      "name": "Vampyr - The Hunters Heirlooms DLC"
+    },
+    {
+      "id": 313870,
+      "name": "A Vampyre Story"
+    },
+    {
+      "id": 3273370,
+      "name": "A Vampyre Story: A Bat's Tale"
+    },
+    {
+      "id": 3201740,
+      "name": "Vampyre Crusade"
+    }
+  ],
+  "Pathfinder: Kingmaker – Enhanced Plus Edition": [
+    {
+      "id": 640820,
+      "name": "Pathfinder: Kingmaker — Enhanced Plus Edition"
+    }
+  ],
+  "Prey": [
+    {
+      "id": 480490,
+      "name": "Prey"
+    },
+    {
+      "id": 3764390,
+      "name": "Sex Knight~Prey of the Lustful Nobles~"
+    },
+    {
+      "id": 865670,
+      "name": "Prey - Mooncrash"
+    },
+    {
+      "id": 1176130,
+      "name": "Ashes of the Singularity: Escalation - Hunter / Prey Expansion"
+    },
+    {
+      "id": 45300,
+      "name": "Wings of Prey"
+    }
+  ],
+  "Mages of Mystralia": [
+    {
+      "id": 529660,
+      "name": "Mages of Mystralia"
+    },
+    {
+      "id": 587200,
+      "name": "Mages of Mystralia - Original Soundtrack"
+    }
+  ],
+  "Moving Out": [
+    {
+      "id": 996770,
+      "name": "Moving Out"
+    },
+    {
+      "id": 1641700,
+      "name": "Moving Out 2"
+    },
+    {
+      "id": 2403460,
+      "name": "Moving Out 2 - Soundtrack"
+    },
+    {
+      "id": 2502500,
+      "name": "Moving Out 2 - Digital Artbook"
+    },
+    {
+      "id": 2725540,
+      "name": "College Kings 2 - Episodes 4 & 5 \"Moving Out\""
+    }
+  ],
+  "Salt and Sanctuary": [
+    {
+      "id": 283640,
+      "name": "Salt and Sanctuary"
+    }
+  ],
+  "Tomb Raider Trilogy (Tomb Raider GOTY, Rise of the Tomb Raider, Shadow of the Tomb Raider)": [],
+  "Gods Will Fall": [
+    {
+      "id": 1243690,
+      "name": "Gods Will Fall"
+    },
+    {
+      "id": 1636180,
+      "name": "Gods Will Fall - Valley of the Dormant Gods Season Pass"
+    }
+  ],
+  "Relicta": [
+    {
+      "id": 941570,
+      "name": "Relicta"
+    }
+  ],
+  "Daemon X Machina": [
+    {
+      "id": 1167450,
+      "name": "DAEMON X MACHINA"
+    },
+    {
+      "id": 1342490,
+      "name": "Daemon X Machina: Titanic Scion"
+    },
+    {
+      "id": 1211672,
+      "name": "DAEMON X MACHINA - Arsenal - \"Muramasa\""
+    },
+    {
+      "id": 1211673,
+      "name": "DAEMON X MACHINA - Arsenal - \"Rabbit 11\""
+    },
+    {
+      "id": 1211674,
+      "name": "DAEMON X MACHINA - Arsenal Patterns Bundle"
+    }
+  ],
+  "Windbound": [
+    {
+      "id": 1162130,
+      "name": "Windbound"
+    }
+  ],
+  "Brothers: A Tale of Two Sons": [
+    {
+      "id": 225080,
+      "name": "Brothers - A Tale of Two Sons"
+    },
+    {
+      "id": 2153350,
+      "name": "Brothers: A Tale of Two Sons Remake"
+    },
+    {
+      "id": 2692240,
+      "name": "Brothers: A Tale of Two Sons Remake - Soundtrack"
+    }
+  ],
+  "Cris Tales": [
+    {
+      "id": 1079830,
+      "name": "Cris Tales"
+    },
+    {
+      "id": 1642180,
+      "name": "Cris Tales Original Soundtrack"
+    }
+  ],
+  "Black Widow: Recharged": [
+    {
+      "id": 1714180,
+      "name": "Black Widow: Recharged"
+    }
+  ],
+  "Centipede: Recharged": [
+    {
+      "id": 1630960,
+      "name": "Centipede: Recharged"
+    }
+  ],
+  "In Sound Mind": [
+    {
+      "id": 1119980,
+      "name": "In Sound Mind"
+    },
+    {
+      "id": 1749910,
+      "name": "In Sound Mind Soundtrack"
+    },
+    {
+      "id": 1756610,
+      "name": "In Sound Mind - Deluxe Edition Artbook"
+    }
+  ],
+  "Demon’s Tilt": [
+    {
+      "id": 422510,
+      "name": "DEMON'S TILT"
+    },
+    {
+      "id": 1008730,
+      "name": "DEMON'S TILT Collectors Pack"
+    }
+  ],
+  "Total War: Warhammer": [
+    {
+      "id": 364360,
+      "name": "Total War: WARHAMMER"
+    },
+    {
+      "id": 1142710,
+      "name": "Total War: WARHAMMER III"
+    },
+    {
+      "id": 4199910,
+      "name": "Total War: WARHAMMER 40,000"
+    },
+    {
+      "id": 594570,
+      "name": "Total War: WARHAMMER II"
+    },
+    {
+      "id": 3450960,
+      "name": "Total War: WARHAMMER III - Aislinn – Tides of Torment"
+    }
+  ],
+  "Rogue Legacy": [
+    {
+      "id": 1253920,
+      "name": "Rogue Legacy 2"
+    },
+    {
+      "id": 241600,
+      "name": "Rogue Legacy"
+    },
+    {
+      "id": 1229970,
+      "name": "Rogue Legacy Soundtrack"
+    }
+  ],
+  "Insurmountable": [
+    {
+      "id": 1385100,
+      "name": "Insurmountable"
+    },
+    {
+      "id": 1951620,
+      "name": "Insurmountable Soundtrack"
+    },
+    {
+      "id": 1906210,
+      "name": "Insurmountable - Supporter Pack"
+    }
+  ],
+  "XCOM 2": [
+    {
+      "id": 268500,
+      "name": "XCOM® 2"
+    },
+    {
+      "id": 593380,
+      "name": "XCOM 2: War of the Chosen"
+    },
+    {
+      "id": 426321,
+      "name": "XCOM 2: Reinforcement Pack"
+    },
+    {
+      "id": 433090,
+      "name": "XCOM 2: Alien Hunters"
+    },
+    {
+      "id": 433091,
+      "name": "XCOM 2: Shen's Last Gift"
+    }
+  ],
+  "Amnesia: Rebirth": [
+    {
+      "id": 999220,
+      "name": "Amnesia: Rebirth"
+    }
+  ],
+  "Riverbond": [
+    {
+      "id": 459370,
+      "name": "Riverbond"
+    }
+  ],
+  "Just Die Already": [
+    {
+      "id": 979070,
+      "name": "Just Die Already"
+    }
+  ],
+  "Paradigm": [
+    {
+      "id": 600370,
+      "name": "Paradigm"
+    },
+    {
+      "id": 2780990,
+      "name": "Paradigm Island"
+    },
+    {
+      "id": 1686620,
+      "name": "Fear Protocol: Shadow Paradigm"
+    },
+    {
+      "id": 626180,
+      "name": "Paradigm - Official Soundtrack"
+    },
+    {
+      "id": 1503480,
+      "name": "Paradigm Shift"
+    }
+  ],
+  "Terraforming Mars": [
+    {
+      "id": 800270,
+      "name": "Terraforming Mars"
+    },
+    {
+      "id": 4143120,
+      "name": "Terraforming Mars - Colonies"
+    },
+    {
+      "id": 1245590,
+      "name": "Terraforming Mars - Prelude"
+    },
+    {
+      "id": 2625120,
+      "name": "Terraforming Mars - Venus Next"
+    },
+    {
+      "id": 1785010,
+      "name": "Terraforming Mars - Hellas & Elysium"
+    }
+  ],
+  "Redout: Enhanced Edition": [
+    {
+      "id": 517710,
+      "name": "Redout: Enhanced Edition"
+    }
+  ],
+  "Borderlands 3": [
+    {
+      "id": 397540,
+      "name": "Borderlands 3"
+    },
+    {
+      "id": 1233062,
+      "name": "Borderlands 3: Season Pass"
+    },
+    {
+      "id": 1396474,
+      "name": "Borderlands 3: Season Pass 2"
+    }
+  ],
+  "Bioshock: The Collection": [],
+  "Wolfenstein: The New Order": [
+    {
+      "id": 201810,
+      "name": "Wolfenstein: The New Order"
+    },
+    {
+      "id": 426820,
+      "name": "Wolfenstein: The New Order - Soundtrack"
+    }
+  ],
+  "Maneater": [
+    {
+      "id": 629820,
+      "name": "Maneater"
+    },
+    {
+      "id": 1611940,
+      "name": "Maneater: Truth Quest"
+    },
+    {
+      "id": 1899760,
+      "name": "Maneater and the Golden Teacher"
+    }
+  ],
+  "Supraland": [
+    {
+      "id": 813630,
+      "name": "Supraland"
+    },
+    {
+      "id": 1522870,
+      "name": "Supraland Six Inches Under"
+    },
+    {
+      "id": 1093730,
+      "name": "Supraland Crash"
+    },
+    {
+      "id": 1000560,
+      "name": "Supraland Demo"
+    },
+    {
+      "id": 1875080,
+      "name": "Supraland Six Inches Under Demo"
+    }
+  ],
+  "A Game of Thrones: The Board Game – Digital Edition": [
+    {
+      "id": 1075190,
+      "name": "A Game of Thrones: The Board Game - Digital Edition"
+    }
+  ],
+  "Car Mechanic Simulator 2018": [
+    {
+      "id": 645630,
+      "name": "Car Mechanic Simulator 2018"
+    },
+    {
+      "id": 717490,
+      "name": "Car Mechanic Simulator 2018 - Jeep DLC"
+    },
+    {
+      "id": 868280,
+      "name": "Car Mechanic Simulator 2018 - Ford DLC"
+    },
+    {
+      "id": 672270,
+      "name": "Car Mechanic Simulator 2018 - Mazda DLC"
+    },
+    {
+      "id": 947930,
+      "name": "Car Mechanic Simulator 2018 - Porsche DLC"
+    }
+  ],
+  "Geneforge 1: Mutagen": [
+    {
+      "id": 1424710,
+      "name": "Geneforge 1 - Mutagen"
+    }
+  ],
+  "Iratus: Lord of the Dead": [
+    {
+      "id": 807120,
+      "name": "Iratus: Lord of the Dead"
+    },
+    {
+      "id": 1125270,
+      "name": "Iratus: Lord of the Dead - Supporter Pack"
+    },
+    {
+      "id": 1018320,
+      "name": "Iratus: Lord of the Dead - Soundtrack"
+    },
+    {
+      "id": 1018330,
+      "name": "Iratus: Lord of the Dead - Illustrated Strategy Guide"
+    }
+  ],
+  "Ancient Enemy": [
+    {
+      "id": 993790,
+      "name": "Ancient Enemy"
+    }
+  ],
+  "Wonder Boy: The Dragon’s Trap": [
+    {
+      "id": 543260,
+      "name": "Wonder Boy: The Dragon's Trap"
+    },
+    {
+      "id": 649330,
+      "name": "Wonder Boy: The Dragon's Trap - Original Soundtrack"
+    }
+  ],
+  "Shop Titans (bundle)": [],
+  "Tannenberg": [
+    {
+      "id": 633460,
+      "name": "Tannenberg"
+    },
+    {
+      "id": 746960,
+      "name": "Tannenberg - Supporter Edition Upgrade"
+    },
+    {
+      "id": 1307591,
+      "name": "Steel Division 2 - Reinforcement Pack #10 - Tannenberg"
+    },
+    {
+      "id": 564890,
+      "name": "Wars Across the World: Tannenberg 1914"
+    },
+    {
+      "id": 1239620,
+      "name": "Tannenberg : Original Soundtrack"
+    }
+  ],
+  "Lawn Mowing Simulator": [
+    {
+      "id": 1480560,
+      "name": "Lawn Mowing Simulator"
+    },
+    {
+      "id": 3831210,
+      "name": "Lawn Mowing Simulator 2"
+    },
+    {
+      "id": 1844420,
+      "name": "Lawn Mowing Simulator - Dino Safari"
+    },
+    {
+      "id": 1685910,
+      "name": "Lawn Mowing Simulator - Ancient Britain"
+    },
+    {
+      "id": 3759600,
+      "name": "Lawn Mowing Simulator - Heritage Park"
+    }
+  ],
+  "Unrailed!": [
+    {
+      "id": 2211170,
+      "name": "Unrailed 2: Back on Track"
+    },
+    {
+      "id": 1016920,
+      "name": "Unrailed!"
+    },
+    {
+      "id": 1150940,
+      "name": "Unrailed! - Supporter Pack"
+    },
+    {
+      "id": 1150930,
+      "name": "Unrailed! - Soundtrack"
+    },
+    {
+      "id": 3393870,
+      "name": "Unrailed 2: Back on Track – Supporter Pack"
+    }
+  ],
+  "Cook, Serve, Delicious! 3?!": [
+    {
+      "id": 1000030,
+      "name": "Cook, Serve, Delicious! 3?!"
+    },
+    {
+      "id": 1231250,
+      "name": "Cook, Serve, Delicious! 3?! Soundtrack"
+    }
+  ],
+  "Rumbleverse Boom Boxer Pack (DLC)": [],
+  "Doom 64": [
+    {
+      "id": 1148590,
+      "name": "DOOM 64"
+    }
+  ],
+  "Ring of Pain": [
+    {
+      "id": 998740,
+      "name": "Ring of Pain"
+    },
+    {
+      "id": 1440710,
+      "name": "Ring of Pain Soundtrack"
+    }
+  ],
+  "Destiny 2: Bungie 30th Anniversary Pack": [
+    {
+      "id": 1656370,
+      "name": "Destiny 2: Bungie 30th Anniversary Pack"
+    }
+  ],
+  "Shadow of the Tomb Raider: Definitive Edition": [
+    {
+      "id": 750920,
+      "name": "Shadow of the Tomb Raider: Definitive Edition"
+    }
+  ],
+  "Submerged: Hidden Depths": [
+    {
+      "id": 1614270,
+      "name": "Submerged: Hidden Depths"
+    },
+    {
+      "id": 1732080,
+      "name": "Submerged: Hidden Depths Soundtrack"
+    }
+  ],
+  "Hundred Days – Winemaking Simulator": [
+    {
+      "id": 1042380,
+      "name": "Hundred Days - Winemaking Simulator"
+    }
+  ],
+  "Realm Royale Reforged Epic Launch Bundle (DLC)": [],
+  "Spirit of the North": [
+    {
+      "id": 1213700,
+      "name": "Spirit of the North"
+    },
+    {
+      "id": 1778840,
+      "name": "Spirit of the North 2"
+    },
+    {
+      "id": 3988930,
+      "name": "Spirit of the North 2: Turtle Island Home"
+    },
+    {
+      "id": 3816570,
+      "name": "Spirit of the North 2: SaveAFox Pack"
+    },
+    {
+      "id": 4031210,
+      "name": "Spirit of the North 2: Original Soundtrack"
+    }
+  ],
+  "The Captain": [
+    {
+      "id": 1721530,
+      "name": "The Captain"
+    },
+    {
+      "id": 1126580,
+      "name": "The Captain is Dead"
+    },
+    {
+      "id": 2251620,
+      "name": "Sunrider 4: The Captain's Return"
+    },
+    {
+      "id": 1532500,
+      "name": "The Captain is Dead OST"
+    },
+    {
+      "id": 1836270,
+      "name": "Dark Siren - The Captain's End"
+    }
+  ],
+  "ARK: Survival Evolved": [
+    {
+      "id": 346110,
+      "name": "ARK: Survival Evolved"
+    },
+    {
+      "id": 1646550,
+      "name": "ARK: Survival Evolved Original Soundtrack"
+    }
+  ],
+  "Gloomhaven": [
+    {
+      "id": 780290,
+      "name": "Gloomhaven"
+    },
+    {
+      "id": 1809490,
+      "name": "Gloomhaven - Jaws of the Lion"
+    },
+    {
+      "id": 2584170,
+      "name": "Gloomhaven - Jaws of the Lion Alternative Skins"
+    },
+    {
+      "id": 1958560,
+      "name": "Gloomhaven - Solo Scenarios: Mercenary Challenges"
+    }
+  ],
+  "The Drone Racing League Simulator": [
+    {
+      "id": 641780,
+      "name": "The Drone Racing League Simulator"
+    }
+  ],
+  "Runbow": [
+    {
+      "id": 464650,
+      "name": "Runbow"
+    },
+    {
+      "id": 505015,
+      "name": "Runbow - Satura's Space Adventure"
+    },
+    {
+      "id": 522170,
+      "name": "Runbow - Costumes and Music Pack"
+    }
+  ],
+  "Slain: Back from Hell": [
+    {
+      "id": 369070,
+      "name": "Slain: Back from Hell"
+    },
+    {
+      "id": 457120,
+      "name": "Slain: Back from Hell - Deluxe Edition DLC"
+    }
+  ],
+  "Rising Hell": [
+    {
+      "id": 657000,
+      "name": "Rising Hell"
+    },
+    {
+      "id": 1252580,
+      "name": "Rising Hell - Prologue"
+    },
+    {
+      "id": 1268220,
+      "name": "Rising Hell Demo"
+    },
+    {
+      "id": 1612600,
+      "name": "Rising Hell - Digital Artbook"
+    },
+    {
+      "id": 1606170,
+      "name": "Rising Hell - Original Soundtrack (OST)"
+    }
+  ],
+  "ToeJam & Earl: Back in the Groove!": [],
+  "Darkwood": [
+    {
+      "id": 274520,
+      "name": "Darkwood"
+    },
+    {
+      "id": 3708010,
+      "name": "Darkwood 2"
+    },
+    {
+      "id": 1161370,
+      "name": "Darkwood - Artbook"
+    },
+    {
+      "id": 1140120,
+      "name": "Darkwood - Soundtrack"
+    },
+    {
+      "id": 2271590,
+      "name": "The Secret of Darkwoods"
+    }
+  ],
+  "Evoland Legendary Edition": [
+    {
+      "id": 1020470,
+      "name": "Evoland Legendary Edition"
+    }
+  ],
+  "Fallout 3: Game of the Year Edition": [
+    {
+      "id": 22370,
+      "name": "Fallout 3: Game of the Year Edition"
+    }
+  ],
+  "Saturnalia": [
+    {
+      "id": 916350,
+      "name": "Saturnalia"
+    },
+    {
+      "id": 2487260,
+      "name": "Saturnalia Soundtrack and Artbook"
+    }
+  ],
+  "Warhammer 40,000: Mechanicus": [
+    {
+      "id": 673880,
+      "name": "Warhammer 40,000: Mechanicus"
+    },
+    {
+      "id": 2532480,
+      "name": "Warhammer 40,000: Mechanicus II"
+    },
+    {
+      "id": 1049290,
+      "name": "Warhammer 40,000: Mechanicus - Heretek"
+    },
+    {
+      "id": 1236640,
+      "name": "Warhammer 40,000: Mechanicus - Complete Original Soundtrack"
+    },
+    {
+      "id": 916250,
+      "name": "Warhammer 40,000: Mechanicus - Upgrade to Omnissiah Edition"
+    }
+  ],
+  "Filament": [
+    {
+      "id": 1137350,
+      "name": "Filament"
+    },
+    {
+      "id": 3538660,
+      "name": "Red Filament"
+    },
+    {
+      "id": 1279680,
+      "name": "Filament Soundtrack"
+    }
+  ],
+  "Alba: A Wildlife Adventure": [
+    {
+      "id": 1337010,
+      "name": "Alba: A Wildlife Adventure"
+    }
+  ],
+  "Evil Dead: The Game": [],
+  "Dark Deity": [
+    {
+      "id": 2446600,
+      "name": "Dark Deity 2"
+    },
+    {
+      "id": 1374840,
+      "name": "Dark Deity"
+    },
+    {
+      "id": 3549460,
+      "name": "Dark Deity 2 Soundtrack"
+    },
+    {
+      "id": 2024880,
+      "name": "Dark Deity - Suns Out, Swords Out"
+    },
+    {
+      "id": 1649220,
+      "name": "Dark Deity Soundtrack"
+    }
+  ],
+  "Star Wars: Squadrons": [
+    {
+      "id": 1222730,
+      "name": "STAR WARS™: Squadrons"
+    }
+  ],
+  "Fort Triumph": [
+    {
+      "id": 612570,
+      "name": "Fort Triumph"
+    }
+  ],
+  "RPG in a Box": [
+    {
+      "id": 498310,
+      "name": "RPG in a Box"
+    },
+    {
+      "id": 863330,
+      "name": "RPG in a Box Demo"
+    }
+  ],
+  "Wildcat Gun Machine": [
+    {
+      "id": 1288610,
+      "name": "Wildcat Gun Machine"
+    },
+    {
+      "id": 1982870,
+      "name": "Wildcat Gun Machine - Soundtrack"
+    },
+    {
+      "id": 1714940,
+      "name": "Wildcat Gun Machine - Supporter Pack"
+    }
+  ],
+  "Saints Row IV: Re‑Elected": [
+    {
+      "id": 206420,
+      "name": "Saints Row IV: Re-Elected"
+    }
+  ],
+  "Sable": [
+    {
+      "id": 757310,
+      "name": "Sable"
+    },
+    {
+      "id": 717850,
+      "name": "Sable's Grimoire"
+    },
+    {
+      "id": 892990,
+      "name": "Sable's Grimoire: A Dragon's Treasure"
+    },
+    {
+      "id": 1131410,
+      "name": "Sable's Grimoire: Man And Elf"
+    },
+    {
+      "id": 941900,
+      "name": "Sable's Grimoire Soundtrack"
+    }
+  ],
+  "Them’s Fightin’ Herds": [
+    {
+      "id": 574980,
+      "name": "Them's Fightin' Herds"
+    },
+    {
+      "id": 1522430,
+      "name": "Them's Fightin' Herds - Shanty"
+    },
+    {
+      "id": 1144180,
+      "name": "Them's Fightin' Herds - Official Soundtrack"
+    },
+    {
+      "id": 2153120,
+      "name": "Them's Fightin' Herds - Season 1 Pass"
+    },
+    {
+      "id": 2424370,
+      "name": "Them's Fightin' Herds - Character/Stage: Nidra"
+    }
+  ],
+  "LEGO Builder’s Journey": [
+    {
+      "id": 1544360,
+      "name": "LEGO® Builder's Journey"
+    }
+  ],
+  "Fallout Classic Collection": [
+    {
+      "id": 45615,
+      "name": "Fallout Classic Collection"
+    }
+  ],
+  "Encased": [
+    {
+      "id": 921800,
+      "name": "Encased: A Sci-Fi Post-Apocalyptic RPG"
+    },
+    {
+      "id": 1133130,
+      "name": "Encased RPG - Soundtrack"
+    },
+    {
+      "id": 1133090,
+      "name": "Encased RPG - Portrait Pack"
+    },
+    {
+      "id": 1209480,
+      "name": "Encased RPG - Run and Gun Kit"
+    }
+  ],
+  "Death Stranding": [
+    {
+      "id": 3280350,
+      "name": "DEATH STRANDING 2: ON THE BEACH"
+    },
+    {
+      "id": 1850570,
+      "name": "DEATH STRANDING DIRECTOR'S CUT"
+    },
+    {
+      "id": 1946740,
+      "name": "DEATH STRANDING Digital Artbook"
+    }
+  ],
+  "F.I.S.T.: Forged In Shadow Torch": [
+    {
+      "id": 1330470,
+      "name": "F.I.S.T.: Forged In Shadow Torch"
+    }
+  ],
+  "Severed Steel": [
+    {
+      "id": 1227690,
+      "name": "Severed Steel"
+    },
+    {
+      "id": 1754220,
+      "name": "Severed Steel Soundtrack"
+    },
+    {
+      "id": 1754230,
+      "name": "Severed Steel - Art Book"
+    },
+    {
+      "id": 1631910,
+      "name": "Severed Steel Demo"
+    }
+  ],
+  "Mortal Shell": [
+    {
+      "id": 1110910,
+      "name": "Mortal Shell"
+    },
+    {
+      "id": 2584270,
+      "name": "Mortal Shell II"
+    },
+    {
+      "id": 1672210,
+      "name": "Mortal Shell: The Virtuous Cycle"
+    }
+  ],
+  "Dishonored – Definitive Edition": [
+    {
+      "id": 31292,
+      "name": "Dishonored - Definitive Edition"
+    }
+  ],
+  "Eximius: Seize the Frontline": [
+    {
+      "id": 505740,
+      "name": "Eximius: Seize the Frontline"
+    }
+  ],
+  "Kerbal Space Program": [
+    {
+      "id": 220200,
+      "name": "Kerbal Space Program"
+    },
+    {
+      "id": 954850,
+      "name": "Kerbal Space Program 2"
+    },
+    {
+      "id": 982970,
+      "name": "Kerbal Space Program: Breaking Ground Expansion"
+    },
+    {
+      "id": 283740,
+      "name": "Kerbal Space Program: Making History Expansion"
+    }
+  ],
+  "Shadow Tactics: Aiko’s Choice": [
+    {
+      "id": 1579380,
+      "name": "Shadow Tactics: Aiko's Choice"
+    }
+  ],
+  "Divine Knockout": [],
+  "First Class Trouble": [
+    {
+      "id": 953880,
+      "name": "First Class Trouble"
+    },
+    {
+      "id": 1611050,
+      "name": "First Class Trouble Supporter Pack"
+    },
+    {
+      "id": 1749283,
+      "name": "First Class Trouble Runway Pack"
+    },
+    {
+      "id": 1783790,
+      "name": "First Class Trouble Wedding Pack"
+    },
+    {
+      "id": 1951600,
+      "name": "First Class Trouble Easter Pack"
+    }
+  ],
+  "Gamedec – Definitive Edition": [
+    {
+      "id": 917720,
+      "name": "Gamedec - Definitive Edition"
+    }
+  ],
+  "Epistory – Typing Chronicles": [
+    {
+      "id": 398850,
+      "name": "Epistory - Typing Chronicles"
+    },
+    {
+      "id": 497770,
+      "name": "Epistory - Typing Chronicles Demo"
+    }
+  ],
+  "Adios": [
+    {
+      "id": 725120,
+      "name": "ADIOS Amigos: Galactic Explorers"
+    },
+    {
+      "id": 1271400,
+      "name": "Adios"
+    }
+  ],
+  "Hell is Others": [
+    {
+      "id": 964440,
+      "name": "Hell is Others"
+    },
+    {
+      "id": 2160520,
+      "name": "Hell is Others Soundtrack"
+    },
+    {
+      "id": 2170430,
+      "name": "Hell is Others - Good Neighbor Pack"
+    }
+  ],
+  "City of Gangsters": [
+    {
+      "id": 1386780,
+      "name": "City of Gangsters"
+    },
+    {
+      "id": 1811230,
+      "name": "City of Gangsters: Atlantic City"
+    },
+    {
+      "id": 208520,
+      "name": "Omerta - City of Gangsters"
+    },
+    {
+      "id": 1968890,
+      "name": "City of Gangsters: Shadow Government"
+    },
+    {
+      "id": 1869410,
+      "name": "City of Gangsters: Criminal Record"
+    }
+  ],
+  "Recipe for Disaster": [
+    {
+      "id": 1492360,
+      "name": "Recipe for Disaster"
+    },
+    {
+      "id": 3777930,
+      "name": "Uncle Lee’s Cookbook: Five Recipes for Disaster"
+    },
+    {
+      "id": 3996880,
+      "name": "Uncle Lee’s Cookbook: Five Recipes for Disaster Demo"
+    }
+  ],
+  "Warpips": [
+    {
+      "id": 1291010,
+      "name": "Warpips"
+    },
+    {
+      "id": 1619140,
+      "name": "Warpips - Soundtrack"
+    },
+    {
+      "id": 1606930,
+      "name": "Warpips - Supporter Pack"
+    }
+  ],
+  "Duskers": [
+    {
+      "id": 254320,
+      "name": "Duskers"
+    }
+  ],
+  "Rise of Industry": [
+    {
+      "id": 671440,
+      "name": "Rise of Industry"
+    },
+    {
+      "id": 2532490,
+      "name": "Rise of Industry 2"
+    },
+    {
+      "id": 1139110,
+      "name": "Rise of Industry: 2130"
+    },
+    {
+      "id": 3693690,
+      "name": "Rise of Industry 2 Soundtrack"
+    },
+    {
+      "id": 3751110,
+      "name": "Rise of Industry 2: Artbook"
+    }
+  ],
+  "Call of the Sea": [
+    {
+      "id": 1042490,
+      "name": "Call of the Sea"
+    },
+    {
+      "id": 1475490,
+      "name": "Call of the Sea Soundtrack"
+    },
+    {
+      "id": 1475510,
+      "name": "Call of the Sea Art Book"
+    }
+  ],
+  "Gladius – Relics of War (Warhammer 40,000)": [
+    {
+      "id": 489630,
+      "name": "Warhammer 40,000: Gladius - Relics of War"
+    },
+    {
+      "id": 870530,
+      "name": "Warhammer 40,000: Gladius - Relics of War - Soundtrack"
+    },
+    {
+      "id": 870550,
+      "name": "Warhammer 40,000: Gladius - Relics of War - Wallpapers"
+    }
+  ],
+  "Chess Ultra": [
+    {
+      "id": 518060,
+      "name": "Chess Ultra"
+    },
+    {
+      "id": 638010,
+      "name": "Chess Ultra: Pantheon game pack"
+    },
+    {
+      "id": 638011,
+      "name": "Chess Ultra: Santa Monica Game Pack"
+    },
+    {
+      "id": 639000,
+      "name": "Chess Ultra Easter Island chess set"
+    },
+    {
+      "id": 639001,
+      "name": "Chess Ultra Imperial chess set"
+    }
+  ],
+  "World of Warships – Starter Pack: Ishizuchi (DLC)": [],
+  "The Silent Age": [
+    {
+      "id": 352520,
+      "name": "The Silent Age"
+    }
+  ],
+  "Tunche": [
+    {
+      "id": 887450,
+      "name": "Tunche"
+    },
+    {
+      "id": 1789240,
+      "name": "Tunche - Supporter Pack"
+    }
+  ],
+  "Dying Light Enhanced Edition": [
+    {
+      "id": 88801,
+      "name": "Dying Light Enhanced Edition ROW"
+    }
+  ],
+  "shapez": [
+    {
+      "id": 2162800,
+      "name": "shapez 2"
+    },
+    {
+      "id": 1318690,
+      "name": "shapez"
+    },
+    {
+      "id": 1625400,
+      "name": "shapez - Puzzle DLC"
+    },
+    {
+      "id": 1573840,
+      "name": "shapez - Soundtrack"
+    },
+    {
+      "id": 3075620,
+      "name": "shapez 2 Supporter Edition Upgrade"
+    }
+  ],
+  "Mordhau": [
+    {
+      "id": 629760,
+      "name": "MORDHAU"
+    },
+    {
+      "id": 2817460,
+      "name": "MORDHAU - Adventurer Pack"
+    },
+    {
+      "id": 2579610,
+      "name": "MORDHAU - Archduke Set"
+    },
+    {
+      "id": 3199060,
+      "name": "MORDHAU - Banisher Weapon Pack"
+    },
+    {
+      "id": 2172840,
+      "name": "MORDHAU - Dragon Set"
+    }
+  ],
+  "Beyond Blue": [
+    {
+      "id": 883360,
+      "name": "Beyond Blue"
+    }
+  ],
+  "Breathedge": [
+    {
+      "id": 738520,
+      "name": "Breathedge"
+    },
+    {
+      "id": 2412960,
+      "name": "Breathedge 2"
+    }
+  ],
+  "Poker Club": [
+    {
+      "id": 1174460,
+      "name": "Poker Club"
+    }
+  ],
+  "Against All Odds": [
+    {
+      "id": 1465560,
+      "name": "Against All Odds"
+    },
+    {
+      "id": 2218890,
+      "name": "Against All Odds"
+    },
+    {
+      "id": 2016470,
+      "name": "Against All Odds"
+    },
+    {
+      "id": 1200900,
+      "name": "Crypto: Against All Odds - Tower Defense"
+    },
+    {
+      "id": 812400,
+      "name": "BFG Unlocked Against All Odds"
+    }
+  ],
+  "Kao the Kangaroo": [
+    {
+      "id": 1370140,
+      "name": "Kao the Kangaroo"
+    },
+    {
+      "id": 2360020,
+      "name": "Kao the Kangaroo (2000 re-release)"
+    },
+    {
+      "id": 2052962,
+      "name": "Kao the Kangaroo - VIP"
+    },
+    {
+      "id": 2052960,
+      "name": "Kao the Kangaroo - Summer Drip"
+    },
+    {
+      "id": 2052963,
+      "name": "Kao the Kangaroo - Oh! Well"
+    }
+  ],
+  "The Sims 4 – Daring Lifestyle Bundle (DLC)": [],
+  "Fallout: New Vegas – Ultimate Edition": [],
+  "Midnight Ghost Hunt": [
+    {
+      "id": 915810,
+      "name": "Midnight Ghost Hunt"
+    },
+    {
+      "id": 1951320,
+      "name": "Midnight Ghost Hunt Soundtrack"
+    }
+  ],
+  "PAYDAY 2": [
+    {
+      "id": 218620,
+      "name": "PAYDAY 2"
+    },
+    {
+      "id": 826090,
+      "name": "PAYDAY 2 VR"
+    },
+    {
+      "id": 3847540,
+      "name": "PAYDAY 2: Subscription"
+    },
+    {
+      "id": 323500,
+      "name": "PAYDAY 2: Hotline Miami"
+    },
+    {
+      "id": 441600,
+      "name": "PAYDAY 2: Wolf Pack"
+    }
+  ],
+  "Guacamelee! Super Turbo Championship Edition": [
+    {
+      "id": 275390,
+      "name": "Guacamelee! Super Turbo Championship Edition"
+    }
+  ],
+  "Guacamelee! 2": [
+    {
+      "id": 534550,
+      "name": "Guacamelee! 2"
+    },
+    {
+      "id": 911610,
+      "name": "Guacamelee! 2 - Soundtrack"
+    },
+    {
+      "id": 942540,
+      "name": "Guacamelee! 2 - Three Enemigos Character Pack"
+    },
+    {
+      "id": 944350,
+      "name": "Guacamelee! 2 - The Proving Grounds (Challenge Level)"
+    }
+  ],
+  "The Dungeon of Naheulbeuk: The Amulet of Chaos": [
+    {
+      "id": 970830,
+      "name": "The Dungeon Of Naheulbeuk: The Amulet Of Chaos"
+    },
+    {
+      "id": 1403630,
+      "name": "The Dungeon Of Naheulbeuk: The Amulet Of Chaos - Goodies Pack"
+    },
+    {
+      "id": 1633910,
+      "name": "The Dungeon Of Naheulbeuk: The Amulet Of Chaos - Season Pass"
+    },
+    {
+      "id": 1403620,
+      "name": "The Dungeon Of Naheulbeuk: The Amulet Of Chaos Soundtrack"
+    }
+  ],
+  "The Elder Scrolls Online": [
+    {
+      "id": 306130,
+      "name": "The Elder Scrolls® Online"
+    },
+    {
+      "id": 3474740,
+      "name": "The Elder Scrolls Online: 2025 Content Pass"
+    },
+    {
+      "id": 460760,
+      "name": "The Elder Scrolls Online - Soundtrack"
+    },
+    {
+      "id": 2662630,
+      "name": "The Elder Scrolls Online: Gold Road"
+    },
+    {
+      "id": 535880,
+      "name": "The Elder Scrolls Online: Plus Membership"
+    }
+  ],
+  "Murder by Numbers": [
+    {
+      "id": 1140290,
+      "name": "Murder by Numbers"
+    },
+    {
+      "id": 1232780,
+      "name": "Murder by Numbers Soundtrack & Artbook"
+    }
+  ],
+  "Homeworld Remastered Collection": [
+    {
+      "id": 244160,
+      "name": "Homeworld Remastered Collection"
+    }
+  ],
+  "Bloons TD 6": [
+    {
+      "id": 960090,
+      "name": "Bloons TD 6"
+    },
+    {
+      "id": 2117950,
+      "name": "Bloons TD 6 Soundtrack"
+    },
+    {
+      "id": 4096360,
+      "name": "Bloons TD 6: Frontier Legends"
+    },
+    {
+      "id": 3377850,
+      "name": "Bloons TD 6: Rogue Legends"
+    }
+  ],
+  "Orwell: Keeping an Eye on You": [
+    {
+      "id": 491950,
+      "name": "Orwell: Keeping an Eye On You"
+    }
+  ],
+  "Black Book": [
+    {
+      "id": 1138660,
+      "name": "Black Book"
+    },
+    {
+      "id": 1535180,
+      "name": "Black Book - Supporter Pack"
+    },
+    {
+      "id": 1879710,
+      "name": "Black Book - Endless Battles"
+    },
+    {
+      "id": 2058530,
+      "name": "St. Yariman's Little Black Book ~Complete~"
+    },
+    {
+      "id": 2627380,
+      "name": "Halloween Stories: Black Book Collector's Edition"
+    }
+  ],
+  "Dodo Peak": [
+    {
+      "id": 2845610,
+      "name": "Dodo Peak"
+    }
+  ],
+  "Homeworld: Deserts of Kharak": [
+    {
+      "id": 281610,
+      "name": "Homeworld: Deserts of Kharak"
+    },
+    {
+      "id": 436550,
+      "name": "Homeworld: Deserts of Kharak - Soundtrack"
+    }
+  ],
+  "Spelldrifter": [
+    {
+      "id": 1766750,
+      "name": "Spelldrifter"
+    }
+  ],
+  "911 Operator": [
+    {
+      "id": 503560,
+      "name": "911 Operator"
+    },
+    {
+      "id": 580730,
+      "name": "911 Operator - Special Resources"
+    },
+    {
+      "id": 606970,
+      "name": "911 Operator - First Response"
+    },
+    {
+      "id": 606971,
+      "name": "911 Operator - Search & Rescue"
+    },
+    {
+      "id": 580731,
+      "name": "911 Operator - Every Life Matters"
+    }
+  ],
+  "Out of Line": [
+    {
+      "id": 1419290,
+      "name": "Out of Line"
+    }
+  ],
+  "The Forest Quartet": [
+    {
+      "id": 1620720,
+      "name": "The Forest Quartet"
+    },
+    {
+      "id": 2285460,
+      "name": "The Forest Quartet Soundtrack"
+    }
+  ],
+  "Out of Bandwidth (placeholder small title slot)*": [],
+  "Soulstice": [
+    {
+      "id": 1602080,
+      "name": "Soulstice"
+    },
+    {
+      "id": 2101860,
+      "name": "Soulstice Artbook"
+    },
+    {
+      "id": 2052060,
+      "name": "Soulstice Soundtrack"
+    },
+    {
+      "id": 2110210,
+      "name": "Soulstice: Ashen Blade Item Pack"
+    }
+  ],
+  "Model Builder": [
+    {
+      "id": 1164250,
+      "name": "Model Builder: Complete Edition"
+    },
+    {
+      "id": 1970360,
+      "name": "Model Builder: Expansion Pack no.1"
+    },
+    {
+      "id": 1938590,
+      "name": "Model Builder: Frostpunk DLC"
+    },
+    {
+      "id": 2138320,
+      "name": "Model Builder: Aether DLC"
+    },
+    {
+      "id": 2825630,
+      "name": "Model Builder: Military Pack"
+    }
+  ],
+  "Godlike Burger": [
+    {
+      "id": 1432910,
+      "name": "Godlike Burger"
+    },
+    {
+      "id": 1670590,
+      "name": "Godlike Burger - Soundtrack"
+    },
+    {
+      "id": 1670580,
+      "name": "Godlike Burger - Supporter Pack"
+    }
+  ],
+  "Blazing Sails": [
+    {
+      "id": 1158940,
+      "name": "Blazing Sails"
+    },
+    {
+      "id": 1455700,
+      "name": "Blazing Sails - Privateer Pack"
+    },
+    {
+      "id": 1691460,
+      "name": "Blazing Sails - Undead Pirate Pack"
+    },
+    {
+      "id": 1815620,
+      "name": "Blazing Sails - Conquistador Pack"
+    },
+    {
+      "id": 1455810,
+      "name": "Blazing Sails Original Soundtrack"
+    }
+  ],
+  "Q.U.B.E. Ultimate Bundle": [],
+  "Eternal Threads": [
+    {
+      "id": 1046790,
+      "name": "Eternal Threads"
+    },
+    {
+      "id": 1754270,
+      "name": "Eternal Threads Demo"
+    }
+  ],
+  "The Evil Within": [
+    {
+      "id": 268050,
+      "name": "The Evil Within"
+    },
+    {
+      "id": 601430,
+      "name": "The Evil Within 2"
+    },
+    {
+      "id": 757570,
+      "name": "The Evil Within 2 Demo"
+    },
+    {
+      "id": 65812,
+      "name": "The Evil Within Bundle"
+    },
+    {
+      "id": 446950,
+      "name": "The Evil Within - Soundtrack"
+    }
+  ],
+  "The Evil Within 2": [
+    {
+      "id": 601430,
+      "name": "The Evil Within 2"
+    },
+    {
+      "id": 757570,
+      "name": "The Evil Within 2 Demo"
+    }
+  ],
+  "Tandem: A Tale of Shadows": [
+    {
+      "id": 1436920,
+      "name": "Tandem: A Tale of Shadows"
+    },
+    {
+      "id": 1761330,
+      "name": "Tandem: A Tale of Shadows Soundtrack"
+    }
+  ],
+  "Turnip Boy Commits Tax Evasion": [
+    {
+      "id": 1205450,
+      "name": "Turnip Boy Commits Tax Evasion"
+    }
+  ],
+  "Golden Light": [
+    {
+      "id": 1245430,
+      "name": "Golden Light"
+    },
+    {
+      "id": 1440100,
+      "name": "Golden Light OST: The Meat Songs"
+    },
+    {
+      "id": 1915480,
+      "name": "Golden Light - Supporter Pack"
+    },
+    {
+      "id": 2276570,
+      "name": "The Golden Light Guardian"
+    },
+    {
+      "id": 458380,
+      "name": "Gahkthun of the Golden Lightning Steam Edition"
+    }
+  ],
+  "Earthlock": [
+    {
+      "id": 1550730,
+      "name": "Ikonei Island: An Earthlock Adventure"
+    },
+    {
+      "id": 761030,
+      "name": "EARTHLOCK"
+    },
+    {
+      "id": 826640,
+      "name": "EARTHLOCK 2"
+    },
+    {
+      "id": 820990,
+      "name": "EARTHLOCK - Original Soundtrack"
+    },
+    {
+      "id": 1075410,
+      "name": "EARTHLOCK Comic Book #2: Gnart Tigermoth: Trouble in Ramoo"
+    }
+  ],
+  "Surviving the Aftermath": [
+    {
+      "id": 684450,
+      "name": "Surviving the Aftermath"
+    },
+    {
+      "id": 1803782,
+      "name": "Surviving the Aftermath - Rebirth"
+    },
+    {
+      "id": 1803780,
+      "name": "Surviving the Aftermath: New Alliances"
+    },
+    {
+      "id": 2146190,
+      "name": "Surviving the Aftermath: Shattered Hope"
+    },
+    {
+      "id": 1803781,
+      "name": "Surviving the Aftermath: Forgotten Tracks"
+    }
+  ],
+  "Deliver Us Mars": [
+    {
+      "id": 1345890,
+      "name": "Deliver Us Mars"
+    },
+    {
+      "id": 2016260,
+      "name": "Deliver Us Mars Original Soundtrack"
+    }
+  ],
+  "Jitsu Squad": [
+    {
+      "id": 1522080,
+      "name": "Jitsu Squad"
+    }
+  ],
+  "Mighty Fight Federation": [
+    {
+      "id": 1096690,
+      "name": "Mighty Fight Federation"
+    },
+    {
+      "id": 1700750,
+      "name": "Mighty Fight Federation - Kunio & Riki Pack"
+    }
+  ],
+  "GigaBash": [
+    {
+      "id": 1546400,
+      "name": "GigaBash"
+    },
+    {
+      "id": 2161720,
+      "name": "GigaBash - Godzilla 4 Kaiju Pack"
+    },
+    {
+      "id": 2574860,
+      "name": "GigaBash - Ultraman 4 Characters Pack"
+    },
+    {
+      "id": 4074560,
+      "name": "GigaBash - GAMERA -Rebirth- DLC"
+    },
+    {
+      "id": 2920450,
+      "name": "GigaBash - Godzilla: Nemesis DLC"
+    }
+  ],
+  "Predecessor (starter pack)": [],
+  "Destiny 2: Legacy Collection (DLC bundle)": [],
+  "DNF Duel": [
+    {
+      "id": 1216060,
+      "name": "DNF Duel"
+    },
+    {
+      "id": 2430130,
+      "name": "DNF Duel - Season Pass"
+    },
+    {
+      "id": 2223030,
+      "name": "DNF Duel - DLC 1: Spectre"
+    },
+    {
+      "id": 2463773,
+      "name": "DNF Duel - DLC 5: Nen Master"
+    },
+    {
+      "id": 2463771,
+      "name": "DNF Duel - DLC 3: Battle Mage"
+    }
+  ],
+  "Melvor Idle": [
+    {
+      "id": 1267910,
+      "name": "Melvor Idle"
+    },
+    {
+      "id": 3218350,
+      "name": "Melvor Idle 2"
+    },
+    {
+      "id": 2860590,
+      "name": "Melvor Idle: Into the Abyss"
+    },
+    {
+      "id": 2492940,
+      "name": "Melvor Idle: Atlas of Discovery"
+    },
+    {
+      "id": 2055140,
+      "name": "Melvor Idle: Throne of the Herald"
+    }
+  ],
+  "Art of Rally": [
+    {
+      "id": 550320,
+      "name": "art of rally"
+    },
+    {
+      "id": 1421640,
+      "name": "art of rally 4k wallpaper pack"
+    },
+    {
+      "id": 2250420,
+      "name": "art of rally: australia"
+    },
+    {
+      "id": 1297600,
+      "name": "art of rally OST"
+    }
+  ],
+  "Ghostwire: Tokyo": [
+    {
+      "id": 1475810,
+      "name": "Ghostwire: Tokyo"
+    },
+    {
+      "id": 1817250,
+      "name": "Ghostwire: Tokyo - Prelude"
+    },
+    {
+      "id": 1702820,
+      "name": "Ghostwire: Tokyo - Deluxe Upgrade"
+    },
+    {
+      "id": 1944840,
+      "name": "Ghostwire: Tokyo Original Game Soundtrack"
+    },
+    {
+      "id": 2650130,
+      "name": "Ghostwire: Tokyo - Spider's Thread Soundtrack"
+    }
+  ],
+  "The Outer Worlds: Spacer’s Choice Edition": [
+    {
+      "id": 1920490,
+      "name": "The Outer Worlds: Spacer's Choice Edition"
+    },
+    {
+      "id": 2170820,
+      "name": "The Outer Worlds: Spacer's Choice Edition Upgrade"
+    }
+  ],
+  "Human Resource Machine": [
+    {
+      "id": 375820,
+      "name": "Human Resource Machine"
+    },
+    {
+      "id": 1273200,
+      "name": "Human Resource Machine Soundtrack"
+    }
+  ],
+  "Cursed to Golf": [
+    {
+      "id": 1726120,
+      "name": "Cursed to Golf"
+    }
+  ],
+  "Cat Quest": [
+    {
+      "id": 593280,
+      "name": "Cat Quest"
+    },
+    {
+      "id": 2305840,
+      "name": "Cat Quest III"
+    },
+    {
+      "id": 914710,
+      "name": "Cat Quest II"
+    },
+    {
+      "id": 3126830,
+      "name": "Cat Quest III: The World of Cat Quest Artbook"
+    },
+    {
+      "id": 678720,
+      "name": "Cat Quest: Demo"
+    }
+  ],
+  "Snakebird Complete": [],
+  "Saints Row (2022)": [],
+  "Ghostrunner": [
+    {
+      "id": 2144740,
+      "name": "Ghostrunner 2"
+    },
+    {
+      "id": 1139900,
+      "name": "Ghostrunner"
+    },
+    {
+      "id": 1760190,
+      "name": "Ghostrunner - Project_Hel"
+    },
+    {
+      "id": 1647450,
+      "name": "Ghostrunner - Neon Pack"
+    },
+    {
+      "id": 1542040,
+      "name": "Ghostrunner - Metal OX Pack"
+    }
+  ],
+  "Escape Academy": [
+    {
+      "id": 1812090,
+      "name": "Escape Academy"
+    },
+    {
+      "id": 3296060,
+      "name": "Escape Academy 2: Back 2 School"
+    },
+    {
+      "id": 4198180,
+      "name": "Escape Academy 2: Back 2 School Demo"
+    },
+    {
+      "id": 2023370,
+      "name": "Escape Academy Season Pass"
+    },
+    {
+      "id": 2067480,
+      "name": "Escape Academy: Escape From the Past"
+    }
+  ],
+  "20 Minutes Till Dawn": [
+    {
+      "id": 1966900,
+      "name": "20 Minutes Till Dawn"
+    },
+    {
+      "id": 2685140,
+      "name": "Apocalypse Party&20 Minutes Till Dawn Free Thanking DLC"
+    }
+  ],
+  "Marvel’s Guardians of the Galaxy": [
+    {
+      "id": 1088850,
+      "name": "Marvel's Guardians of the Galaxy"
+    }
+  ],
+  "Dishonored: Death of the Outsider": [
+    {
+      "id": 614570,
+      "name": "Dishonored®: Death of the Outsider™"
+    },
+    {
+      "id": 183038,
+      "name": "Dishonored: Death of the Outsider - Deluxe Bundle"
+    }
+  ],
+  "Idle Champions of the Forgotten Realms (DLC pack)": [],
+  "Train Valley 2": [
+    {
+      "id": 602320,
+      "name": "Train Valley 2"
+    },
+    {
+      "id": 3643660,
+      "name": "Train Valley 2 - Japanese Trails"
+    },
+    {
+      "id": 1154780,
+      "name": "Train Valley 2 - Passenger Flow"
+    },
+    {
+      "id": 2848820,
+      "name": "Train Valley 2 - Patent Pending"
+    },
+    {
+      "id": 2098230,
+      "name": "Train Valley 2: Workshop Gems - Ruby"
+    }
+  ],
+  "Grime": [
+    {
+      "id": 2529790,
+      "name": "GRIME II"
+    },
+    {
+      "id": 1123050,
+      "name": "GRIME"
+    },
+    {
+      "id": 3165090,
+      "name": "Grime&Gold"
+    },
+    {
+      "id": 1224360,
+      "name": "Grim Ember"
+    },
+    {
+      "id": 4103630,
+      "name": "Grime Reapers"
+    }
+  ],
+  "Train Sim World 3 (example holiday slot)*": [],
+  "Additional minor DLC / cosmetics slots (holiday pack group)*": [],
+  "Sail Forth": [
+    {
+      "id": 1031460,
+      "name": "Sail Forth"
+    },
+    {
+      "id": 2737630,
+      "name": "Sail Forth: Maelstrom"
+    }
+  ],
+  "LOVE": [
+    {
+      "id": 2692440,
+      "name": "LoveCraft"
+    },
+    {
+      "id": 2815270,
+      "name": "The Sims™ 4 Lovestruck Expansion Pack"
+    },
+    {
+      "id": 1703220,
+      "name": "Hey Stranger! I Dare You to Love Me!"
+    },
+    {
+      "id": 1730700,
+      "name": "We Love Katamari REROLL+ Royal Reverie"
+    },
+    {
+      "id": 1264710,
+      "name": "Love and Sex: Second Base"
+    }
+  ],
+  "Infinifactory": [
+    {
+      "id": 300570,
+      "name": "Infinifactory"
+    }
+  ],
+  "Doors: Paradox": [
+    {
+      "id": 1622770,
+      "name": "Doors: Paradox"
+    },
+    {
+      "id": 1881770,
+      "name": "Doors: Paradox Demo"
+    }
+  ],
+  "Doki Doki Literature Club Plus!": [
+    {
+      "id": 1388880,
+      "name": "Doki Doki Literature Club Plus!"
+    },
+    {
+      "id": 1781690,
+      "name": "Doki Doki Literature Club Plus! Soundtrack"
+    }
+  ],
+  "Dakar Desert Rally": [
+    {
+      "id": 1839940,
+      "name": "Dakar Desert Rally"
+    },
+    {
+      "id": 2173110,
+      "name": "Dakar Desert Rally - USA Tour"
+    },
+    {
+      "id": 2173080,
+      "name": "Dakar Desert Rally - Classics Vehicle Pack #1"
+    },
+    {
+      "id": 2104841,
+      "name": "Dakar Desert Rally - Saudi Arabia Map Extension"
+    },
+    {
+      "id": 2175710,
+      "name": "Dakar Desert Rally - Season Pass"
+    }
+  ],
+  "Thief (2014)": [
+    {
+      "id": 753776,
+      "name": "Rocksmith® 2014 Edition – Remastered – Stereophonics - “The Bartender and the Thief”"
+    }
+  ],
+  "The Big Con": [
+    {
+      "id": 1139280,
+      "name": "The Big Con"
+    },
+    {
+      "id": 2088790,
+      "name": "The Big Con Soundtrack and Artbook"
+    }
+  ],
+  "Town of Salem 2": [
+    {
+      "id": 2140510,
+      "name": "Town of Salem 2"
+    },
+    {
+      "id": 2448530,
+      "name": "Town of Salem 2 Soundtrack"
+    },
+    {
+      "id": 3824500,
+      "name": "Town of Salem 2: Mafia Pack"
+    }
+  ],
+  "LISA: The Painful – Definitive Edition": [],
+  "Industria": [
+    {
+      "id": 2679990,
+      "name": "Icarus: Industrial Furniture Pack"
+    },
+    {
+      "id": 2124750,
+      "name": "Stormworks: Industrial Frontier"
+    },
+    {
+      "id": 2313322,
+      "name": "Cities: Skylines - Content Creator Pack: Industrial Evolution"
+    },
+    {
+      "id": 1621470,
+      "name": "The Sims™ 4 Industrial Loft Kit"
+    },
+    {
+      "id": 1172650,
+      "name": "INDUSTRIA"
+    }
+  ],
+  "Orcs Must Die! 3": [
+    {
+      "id": 1522820,
+      "name": "Orcs Must Die! 3"
+    },
+    {
+      "id": 1661400,
+      "name": "Orcs Must Die! 3 Soundtrack"
+    },
+    {
+      "id": 1936590,
+      "name": "Orcs Must Die! 3 - Tipping the Scales DLC"
+    },
+    {
+      "id": 1781510,
+      "name": "Orcs Must Die! 3 - Cold as Eyes DLC"
+    }
+  ],
+  "Circus Electrique": [
+    {
+      "id": 1666250,
+      "name": "Circus Electrique"
+    },
+    {
+      "id": 2052860,
+      "name": "Circus Electrique Soundtrack"
+    },
+    {
+      "id": 2052890,
+      "name": "Circus Electrique - Artbook & Maps"
+    }
+  ],
+  "Dragon Age: Inquisition – Game of the Year Edition": [],
+  "Farming Simulator 22": [
+    {
+      "id": 1248130,
+      "name": "Farming Simulator 22"
+    },
+    {
+      "id": 2024410,
+      "name": "Farming Simulator 22: Platinum Expansion"
+    },
+    {
+      "id": 2243200,
+      "name": "Farming Simulator 22: Premium Expansion"
+    },
+    {
+      "id": 1988850,
+      "name": "Farming Simulator 22: Kubota Pack"
+    },
+    {
+      "id": 1967740,
+      "name": "Farming Simulator 22: AGI Pack"
+    }
+  ],
+  "Chivalry 2": [
+    {
+      "id": 1824220,
+      "name": "Chivalry 2"
+    },
+    {
+      "id": 1998240,
+      "name": "Chivalry 2 - Special Edition Content"
+    },
+    {
+      "id": 2140440,
+      "name": "Chivalry 2 - King's Edition Content"
+    }
+  ],
+  "LISA: The Joyful – Definitive Edition": [],
+  "Orcs Must Die! 2": [
+    {
+      "id": 201790,
+      "name": "Orcs Must Die! 2"
+    },
+    {
+      "id": 201809,
+      "name": "Orcs Must Die! 2 - Soundtrack"
+    },
+    {
+      "id": 215020,
+      "name": "Orcs Must Die! 2 Demo"
+    },
+    {
+      "id": 201802,
+      "name": "Orcs Must Die! 2 - Are We There Yeti?"
+    },
+    {
+      "id": 201805,
+      "name": "Orcs Must Die! 2 - Family Ties Booster Pack"
+    }
+  ],
+  "Cat Quest II": [
+    {
+      "id": 914710,
+      "name": "Cat Quest II"
+    },
+    {
+      "id": 1179900,
+      "name": "Cat Quest II Demo"
+    },
+    {
+      "id": 2305840,
+      "name": "Cat Quest III"
+    },
+    {
+      "id": 3126830,
+      "name": "Cat Quest III: The World of Cat Quest Artbook"
+    },
+    {
+      "id": 2921660,
+      "name": "Cat Quest III: Demo"
+    }
+  ],
+  "Firestone: Online Idle RPG – Epic Pack (DLC)": [],
+  "Marvel’s Midnight Suns": [
+    {
+      "id": 368260,
+      "name": "Marvel's Midnight Suns"
+    },
+    {
+      "id": 1922632,
+      "name": "Marvel's Midnight Suns - Redemption"
+    },
+    {
+      "id": 1922634,
+      "name": "Marvel's Midnight Suns - Blood Storm"
+    },
+    {
+      "id": 2074340,
+      "name": "Marvel's Midnight Suns Season Pass"
+    },
+    {
+      "id": 1922633,
+      "name": "Marvel's Midnight Suns - The Hunger"
+    }
+  ],
+  "Redout 2": [
+    {
+      "id": 1799930,
+      "name": "Redout 2"
+    },
+    {
+      "id": 2156680,
+      "name": "Redout 2 - Summer Pack"
+    },
+    {
+      "id": 2260140,
+      "name": "Redout 2 - Winter Pack"
+    },
+    {
+      "id": 1993350,
+      "name": "Redout 2 - Original Soundtrack"
+    },
+    {
+      "id": 2060820,
+      "name": "Redout 2 - Season Pass"
+    }
+  ],
+  "Freshly Frosted + Rumble Club pack": [],
+  "Sunless Skies: Sovereign Edition": [
+    {
+      "id": 596970,
+      "name": "Sunless Skies: Sovereign Edition"
+    }
+  ],
+  "The Falconeer": [
+    {
+      "id": 1135260,
+      "name": "The Falconeer: Revolution Remaster"
+    },
+    {
+      "id": 1434020,
+      "name": "The Falconeer: Revolution Remaster - Official Soundtrack"
+    },
+    {
+      "id": 1516140,
+      "name": "The Falconeer: Revolution Remaster - The Hunter"
+    },
+    {
+      "id": 1474610,
+      "name": "The Falconeer: Revolution Remaster - Game Manual"
+    },
+    {
+      "id": 1434030,
+      "name": "The Falconeer: Revolution Remaster - Game Guide"
+    }
+  ],
+  "Floppy Knights": [
+    {
+      "id": 1057800,
+      "name": "Floppy Knights"
+    },
+    {
+      "id": 1913250,
+      "name": "Floppy Knights (Original Soundtrack)"
+    }
+  ],
+  "Arcade Paradise": [
+    {
+      "id": 1388870,
+      "name": "Arcade Paradise"
+    },
+    {
+      "id": 1986511,
+      "name": "Arcade Paradise - Empathy"
+    },
+    {
+      "id": 2676160,
+      "name": "Arcade Paradise VR"
+    },
+    {
+      "id": 2217404,
+      "name": "Arcade Paradise - Vostok Inc. Pinball"
+    },
+    {
+      "id": 2217400,
+      "name": "Arcade Paradise - Kung Fury: Street Rage"
+    }
+  ],
+  "Maid of Sker": [
+    {
+      "id": 826940,
+      "name": "Maid of Sker"
+    },
+    {
+      "id": 4005370,
+      "name": "Maid of Sker VR"
+    },
+    {
+      "id": 1356980,
+      "name": "Maid of Sker Soundtrack"
+    }
+  ],
+  "Thief": [
+    {
+      "id": 1332720,
+      "name": "Thief Simulator 2"
+    },
+    {
+      "id": 704850,
+      "name": "Thief Simulator"
+    },
+    {
+      "id": 3223070,
+      "name": "Thief Simulator 3"
+    },
+    {
+      "id": 2800080,
+      "name": "Thief VR: Legacy of Shadow"
+    },
+    {
+      "id": 1344990,
+      "name": "Zefyr: A Thief's Melody"
+    }
+  ],
+  "The Callisto Protocol": [
+    {
+      "id": 1544020,
+      "name": "The Callisto Protocol™"
+    },
+    {
+      "id": 2005983,
+      "name": "The Callisto Protocol™ - Final Transmission"
+    },
+    {
+      "id": 2005984,
+      "name": "The Callisto Protocol™ - Riot Bundle"
+    },
+    {
+      "id": 2518840,
+      "name": "The Callisto Protocol - Gore Skin"
+    },
+    {
+      "id": 2015680,
+      "name": "The Callisto Protocol™ - Season Pass"
+    }
+  ],
+  "Lego Star Wars: The Skywalker Saga": [
+    {
+      "id": 920210,
+      "name": "LEGO® Star Wars™: The Skywalker Saga"
+    },
+    {
+      "id": 785847,
+      "name": "LEGO® Star Wars™: The Skywalker Saga Galactic Edition"
+    },
+    {
+      "id": 1353946,
+      "name": "LEGO® Star Wars™: The Skywalker Saga Trooper Pack"
+    },
+    {
+      "id": 2150631,
+      "name": "LEGO® Star Wars™: The Skywalker Saga Rebels Pack"
+    },
+    {
+      "id": 2150635,
+      "name": "LEGO® Star Wars™: The Skywalker Saga Andor Pack"
+    }
+  ],
+  "Deus Ex: Mankind Divided": [
+    {
+      "id": 337000,
+      "name": "Deus Ex: Mankind Divided"
+    },
+    {
+      "id": 413360,
+      "name": "Deus Ex: Mankind Divided - System Rift"
+    },
+    {
+      "id": 526180,
+      "name": "Deus Ex: Mankind Divided™ - VR Experience"
+    },
+    {
+      "id": 413390,
+      "name": "Deus Ex: Mankind Divided™ DLC - Tactical Pack"
+    },
+    {
+      "id": 413380,
+      "name": "Deus Ex: Mankind Divided™ DLC - Assault Pack"
+    }
+  ],
+  "World War Z: Aftermath": [
+    {
+      "id": 2243210,
+      "name": "World War Z: Aftermath Upgrade"
+    }
+  ],
+  "Garden Story": [
+    {
+      "id": 1062140,
+      "name": "Garden Story"
+    },
+    {
+      "id": 1709270,
+      "name": "Garden Story (Original Soundtrack)"
+    },
+    {
+      "id": 2530990,
+      "name": "Solitaire Quest: Garden Story"
+    }
+  ],
+  "HUMANKIND": [
+    {
+      "id": 536270,
+      "name": "Ancestors: The Humankind Odyssey"
+    },
+    {
+      "id": 1124300,
+      "name": "HUMANKIND™"
+    },
+    {
+      "id": 1833990,
+      "name": "HUMANKIND™ - Together We Rule Expansion Pack"
+    },
+    {
+      "id": 2320211,
+      "name": "HUMANKIND™ - Cultures of Oceania Pack"
+    },
+    {
+      "id": 1819400,
+      "name": "HUMANKIND™ - Cultures of Africa Pack"
+    }
+  ],
+  "F1 Manager 2024": [
+    {
+      "id": 2591280,
+      "name": "F1® Manager 2024"
+    },
+    {
+      "id": 2934790,
+      "name": "F1® Manager 2024 - Deluxe Upgrade Pack"
+    },
+    {
+      "id": 3205030,
+      "name": "F1® Manager 2024: Historical Livery Pack "
+    },
+    {
+      "id": 3205040,
+      "name": "F1® Manager 2024: Abstract Livery Pack "
+    },
+    {
+      "id": 2934780,
+      "name": "F1® Manager 2024 - Prepurchase Bonus"
+    }
+  ],
+  "Turmoil": [
+    {
+      "id": 361280,
+      "name": "Turmoil"
+    },
+    {
+      "id": 3106610,
+      "name": "Turmoil - Deeper Underground"
+    },
+    {
+      "id": 804760,
+      "name": "Turmoil - The Heat Is On"
+    },
+    {
+      "id": 2526110,
+      "name": "Strategic Command: World War I - Empires in Turmoil"
+    },
+    {
+      "id": 539310,
+      "name": "Turmoil Original Soundtrack"
+    }
+  ],
+  "Hell Let Loose": [
+    {
+      "id": 686810,
+      "name": "Hell Let Loose"
+    },
+    {
+      "id": 3079210,
+      "name": "Hell Let Loose: Vietnam"
+    },
+    {
+      "id": 2677820,
+      "name": "Hell Let Loose - Pea Dot"
+    },
+    {
+      "id": 2885540,
+      "name": "Hell Let Loose - Oak Leaf"
+    },
+    {
+      "id": 1793012,
+      "name": "Hell Let Loose - Tropic Fever"
+    }
+  ],
+  "The Lord of the Rings: Return to Moria": [
+    {
+      "id": 2933130,
+      "name": "The Lord of the Rings: Return to Moria™"
+    },
+    {
+      "id": 3080090,
+      "name": "The Lord of the Rings: Return to Moria™ Soundtrack"
+    },
+    {
+      "id": 3308250,
+      "name": "The Lord of the Rings: Return to Moria™ Rohan Pack"
+    },
+    {
+      "id": 3560550,
+      "name": "The Lord of the Rings: Return to Moria™ Ent-craft Pack"
+    },
+    {
+      "id": 3874660,
+      "name": "The Lord of the Rings: Return to Moria™ Durin's Folk Expansion"
+    }
+  ],
+  "Vampire Survivors": [
+    {
+      "id": 1794680,
+      "name": "Vampire Survivors"
+    },
+    {
+      "id": 3265700,
+      "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors"
+    },
+    {
+      "id": 3210350,
+      "name": "Vampire Survivors: Ode to Castlevania"
+    },
+    {
+      "id": 2169090,
+      "name": "Vampire Survivors Soundtrack"
+    },
+    {
+      "id": 2887680,
+      "name": "Vampire Survivors: Operation Guns"
+    }
+  ],
+  "Astrea: Six‑Sided Oracles": [
+    {
+      "id": 1755830,
+      "name": "Astrea: Six-Sided Oracles"
+    },
+    {
+      "id": 2608580,
+      "name": "Astrea: Six-Sided Oracles - Soundtrack"
+    },
+    {
+      "id": 1942700,
+      "name": "Astrea: Six-Sided Oracles - Demo"
+    },
+    {
+      "id": 2608590,
+      "name": "Astrea: Six-Sided Oracles - Art Book"
+    }
+  ],
+  "Wizard of Legend": [
+    {
+      "id": 445980,
+      "name": "Wizard of Legend"
+    },
+    {
+      "id": 2193540,
+      "name": "Wizard of Legend 2"
+    },
+    {
+      "id": 813840,
+      "name": "Wizard of Legend - Soundtrack"
+    }
+  ],
+  "Dark and Darker – Legendary Status (DLC)": [],
+  "DREDGE": [
+    {
+      "id": 1562430,
+      "name": "DREDGE"
+    },
+    {
+      "id": 2561450,
+      "name": "DREDGE - The Iron Rig"
+    },
+    {
+      "id": 2561440,
+      "name": "DREDGE - The Pale Reach"
+    },
+    {
+      "id": 2104240,
+      "name": "DREDGE - Blackstone Key"
+    },
+    {
+      "id": 2198580,
+      "name": "DREDGE - Original Soundtrack"
+    }
+  ],
+  "Ghostrunner 2": [
+    {
+      "id": 2144740,
+      "name": "Ghostrunner 2"
+    },
+    {
+      "id": 2593890,
+      "name": "Ghostrunner 2 Soundtrack"
+    },
+    {
+      "id": 2769320,
+      "name": "Ghostrunner 2 - Dragon Pack"
+    },
+    {
+      "id": 2574920,
+      "name": "Ghostrunner 2 - Season Pass"
+    },
+    {
+      "id": 3232490,
+      "name": "Ghostrunner 2 - Anniversary Pack"
+    }
+  ],
+  "Hot Wheels Unleashed": [
+    {
+      "id": 1271700,
+      "name": "HOT WHEELS UNLEASHED™"
+    },
+    {
+      "id": 2051120,
+      "name": "HOT WHEELS UNLEASHED™ 2 - Turbocharged"
+    },
+    {
+      "id": 2370247,
+      "name": "HOT WHEELS UNLEASHED™ 2 - Manga Free Pack"
+    },
+    {
+      "id": 2524800,
+      "name": "HOT WHEELS UNLEASHED™ 2 - AcceleRacers Expansion Pack"
+    },
+    {
+      "id": 2475560,
+      "name": "HOT WHEELS UNLEASHED™ 2 - Season Pass Vol. 1"
+    }
+  ],
+  "KILL KNIGHT": [
+    {
+      "id": 2694420,
+      "name": "KILL KNIGHT"
+    },
+    {
+      "id": 2865280,
+      "name": "KILL KNIGHT Demo"
+    },
+    {
+      "id": 3229490,
+      "name": "KILL KNIGHT Original Soundtrack"
+    }
+  ],
+  "Sifu": [
+    {
+      "id": 2138710,
+      "name": "Sifu"
+    },
+    {
+      "id": 4225940,
+      "name": "SIFU Kidnapped! Adventure in the Women's Kingdom"
+    },
+    {
+      "id": 2231950,
+      "name": "Sifu Deluxe Cosmetic Pack"
+    },
+    {
+      "id": 2253840,
+      "name": "The Sound of Sifu"
+    },
+    {
+      "id": 3082620,
+      "name": "Sifu's Quest"
+    }
+  ],
+  "REDACTED (mystery day 2024)*": [],
+  "Make Way": [
+    {
+      "id": 1445790,
+      "name": "Make Way"
+    },
+    {
+      "id": 1532270,
+      "name": "The Maker Way"
+    },
+    {
+      "id": 2421490,
+      "name": "The Maker Way Demo"
+    }
+  ],
+  "Machinarium": [
+    {
+      "id": 40700,
+      "name": "Machinarium"
+    },
+    {
+      "id": 40703,
+      "name": "Machinarium Soundtrack + Art Book"
+    },
+    {
+      "id": 40710,
+      "name": "Machinarium Demo"
+    }
+  ],
+  "Monument Valley": [
+    {
+      "id": 1927720,
+      "name": "Monument Valley"
+    },
+    {
+      "id": 3132930,
+      "name": "Monument Valley 3"
+    },
+    {
+      "id": 1927740,
+      "name": "Monument Valley 2"
+    },
+    {
+      "id": 3846460,
+      "name": "Monument Valley 3 - Original Soundtrack"
+    },
+    {
+      "id": 3864510,
+      "name": "Monument Valley 2 - Original Soundtrack"
+    }
+  ],
+  "Monument Valley 2": [
+    {
+      "id": 1927740,
+      "name": "Monument Valley 2"
+    },
+    {
+      "id": 3864510,
+      "name": "Monument Valley 2 - Original Soundtrack"
+    }
+  ],
+  "Jorel’s Brother and The Most Important Game of the Galaxy": [
+    {
+      "id": 1398910,
+      "name": "Jorel’s Brother and The Most Important Game of the Galaxy - Complete Edition"
+    }
+  ],
+  "Nightingale pack / early‑access bonus": [],
+  "Gravity Circuit": [
+    {
+      "id": 858710,
+      "name": "Gravity Circuit"
+    },
+    {
+      "id": 2392620,
+      "name": "Gravity Circuit Soundtrack"
+    }
+  ],
+  "Albion Online – Rogue Journeyman Bundle": [],
+  "Amnesia: The Bunker": [
+    {
+      "id": 1944430,
+      "name": "Amnesia: The Bunker"
+    }
+  ],
+  "Samorost 3": [
+    {
+      "id": 421120,
+      "name": "Samorost 3"
+    },
+    {
+      "id": 455370,
+      "name": "Samorost 3 Soundtrack + Art Book"
+    }
+  ],
+  "Fear the Spotlight": [
+    {
+      "id": 1959390,
+      "name": "Fear the Spotlight"
+    },
+    {
+      "id": 1960390,
+      "name": "Fear the Spotlight Demo"
+    }
+  ],
+  "Bendy and the Ink Machine": [
+    {
+      "id": 622650,
+      "name": "Bendy and the Ink Machine"
+    },
+    {
+      "id": 3966680,
+      "name": "Bendy and the Ink Machine - Official Soundtrack"
+    }
+  ],
+  "Five Nights at Freddy’s: Into the Pit": [
+    {
+      "id": 2638370,
+      "name": "Five Nights at Freddy's: Into the Pit"
+    }
+  ],
+  "Felix the Reaper": [
+    {
+      "id": 919410,
+      "name": "Felix The Reaper"
+    },
+    {
+      "id": 1159920,
+      "name": "Felix The Reaper - Soundtrack"
+    },
+    {
+      "id": 1159930,
+      "name": "Felix The Reaper - Supporter Pack"
+    }
+  ],
+  "ScourgeBringer": [
+    {
+      "id": 1037020,
+      "name": "ScourgeBringer"
+    },
+    {
+      "id": 1408640,
+      "name": "ScourgeBringer - Soundtrack"
+    },
+    {
+      "id": 1408650,
+      "name": "ScourgeBringer Supporter Pack"
+    }
+  ],
+  "Songs of Silence": [
+    {
+      "id": 2195410,
+      "name": "Songs of Silence"
+    },
+    {
+      "id": 3400120,
+      "name": "Songs of Silence - Lighteaters"
+    },
+    {
+      "id": 4179260,
+      "name": "Songs of Silence - Celestial Church Expansion"
+    },
+    {
+      "id": 2685660,
+      "name": "Songs of Silence - Digital Goodies & Artbook"
+    },
+    {
+      "id": 2591760,
+      "name": "Songs of Silence Demo"
+    }
+  ],
+  "Zero Hour": [
+    {
+      "id": 1359090,
+      "name": "Zero Hour"
+    },
+    {
+      "id": 1564000,
+      "name": "Zero Hour - Original Soundtrack"
+    },
+    {
+      "id": 2616600,
+      "name": "Zero Hour - Aesthetics Pack \"Redline\""
+    },
+    {
+      "id": 2726290,
+      "name": "Zero Hour - Aesthetics Pack \"Gold\""
+    },
+    {
+      "id": 2726300,
+      "name": "Zero Hour - Aesthetics Pack \"Platinum\""
+    }
+  ],
+  "Godzilla Voxel Wars": [
+    {
+      "id": 2439780,
+      "name": "Godzilla Voxel Wars"
+    }
+  ],
+  "Zoeti": [
+    {
+      "id": 1434540,
+      "name": "Zoeti"
+    },
+    {
+      "id": 2397780,
+      "name": "Zoeti - Soundtrack"
+    },
+    {
+      "id": 2550260,
+      "name": "Zoeti - Art Book"
+    }
+  ],
+  "Universe for Sale": [
+    {
+      "id": 1627840,
+      "name": "Universe For Sale"
+    },
+    {
+      "id": 1627820,
+      "name": "Universe For Sale - Prologue"
+    },
+    {
+      "id": 2676510,
+      "name": "Universe for Sale - Artbook"
+    },
+    {
+      "id": 2676500,
+      "name": "Universe for Sale - Soundtrack"
+    }
+  ],
+  "The Darkside Detective": [
+    {
+      "id": 368390,
+      "name": "The Darkside Detective"
+    },
+    {
+      "id": 795420,
+      "name": "The Darkside Detective: A Fumble in the Dark"
+    },
+    {
+      "id": 3990360,
+      "name": "The Darkside Detective: Backside of the Moon"
+    },
+    {
+      "id": 687140,
+      "name": "The Darkside Detective - Soundtrack"
+    },
+    {
+      "id": 451380,
+      "name": "The Darkside Detective Demo"
+    }
+  ],
+  "The Jackbox Party Pack 4": [
+    {
+      "id": 610180,
+      "name": "The Jackbox Party Pack 4"
+    },
+    {
+      "id": 714760,
+      "name": "The Jackbox Party Pack 4 - Soundtrack"
+    }
+  ],
+  "CYGNI: All Guns Blazing": [
+    {
+      "id": 1248080,
+      "name": "CYGNI: All Guns Blazing"
+    },
+    {
+      "id": 2217570,
+      "name": "CYGNI: All Guns Blazing Soundtrack"
+    }
+  ],
+  "Rawmen: Food Fighter Arena": [
+    {
+      "id": 782940,
+      "name": "RAWMEN: Food Fighter Arena 🍜"
+    }
+  ],
+  "LumbearJack": [
+    {
+      "id": 1582290,
+      "name": "LumbearJack"
+    }
+  ],
+  "Call of the Wild: The Angler": [
+    {
+      "id": 1408610,
+      "name": "Call of the Wild: The Angler™"
+    },
+    {
+      "id": 2165500,
+      "name": "Call of the Wild: The Angler™ - Norway Reserve"
+    },
+    {
+      "id": 2288430,
+      "name": "Call of the Wild: The Angler™ - Spain Reserve"
+    },
+    {
+      "id": 3046830,
+      "name": "Call of the Wild The Angler™ - Japan Fishing Reserve"
+    },
+    {
+      "id": 2500370,
+      "name": "Call of the Wild: The Angler™ - South Africa Reserve"
+    }
+  ],
+  "Invincible Presents: Atom Eve": [
+    {
+      "id": 2060870,
+      "name": "Invincible Presents: Atom Eve"
+    },
+    {
+      "id": 2857080,
+      "name": "Invincible Presents: Atom Eve Soundtrack"
+    }
+  ],
+  "Islets": [
+    {
+      "id": 1669420,
+      "name": "Islets"
+    },
+    {
+      "id": 3235170,
+      "name": "Islets Defense"
+    },
+    {
+      "id": 2546480,
+      "name": "Infinity Islets"
+    },
+    {
+      "id": 2556510,
+      "name": "Infinity Islets - Supporter Upgrade"
+    },
+    {
+      "id": 3475820,
+      "name": "Infinity Islets - Nightshade Supporter Upgrade"
+    }
+  ],
+  "Hogwarts Legacy": [
+    {
+      "id": 990080,
+      "name": "Hogwarts Legacy"
+    },
+    {
+      "id": 1880832,
+      "name": "Hogwarts Legacy: Dark Arts Pack"
+    }
+  ]
+}
