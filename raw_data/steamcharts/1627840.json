@@ -2,5 +2,46 @@
   "appid": 1627840,
   "steam_name": "Universe For Sale",
   "epic_name": "Universe for Sale",
-  "months": []
+  "months": [
+    {
+      "month": "2025-02",
+      "avg_players": 2.21,
+      "peak_players": 7
+    },
+    {
+      "month": "2025-01",
+      "avg_players": 2.91,
+      "peak_players": 10
+    },
+    {
+      "month": "2024-12",
+      "avg_players": 2.21,
+      "peak_players": 7
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 2.67,
+      "peak_players": 7
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 3.43,
+      "peak_players": 9
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 6.95,
+      "peak_players": 20
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 8.88,
+      "peak_players": 22
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 2.82,
+      "peak_players": 10
+    }
+  ]
 }

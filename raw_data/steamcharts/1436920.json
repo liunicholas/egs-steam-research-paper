@@ -2,5 +2,56 @@
   "appid": 1436920,
   "steam_name": "Tandem: A Tale of Shadows",
   "epic_name": "Tandem: A Tale of Shadows",
-  "months": []
+  "months": [
+    {
+      "month": "2022-12",
+      "avg_players": 1.16,
+      "peak_players": 5
+    },
+    {
+      "month": "2022-10",
+      "avg_players": 1.08,
+      "peak_players": 4
+    },
+    {
+      "month": "2022-08",
+      "avg_players": 1.09,
+      "peak_players": 5
+    },
+    {
+      "month": "2022-07",
+      "avg_players": 1.45,
+      "peak_players": 5
+    },
+    {
+      "month": "2022-05",
+      "avg_players": 1.65,
+      "peak_players": 6
+    },
+    {
+      "month": "2022-02",
+      "avg_players": 0.95,
+      "peak_players": 3
+    },
+    {
+      "month": "2022-01",
+      "avg_players": 1.89,
+      "peak_players": 7
+    },
+    {
+      "month": "2021-12",
+      "avg_players": 1.71,
+      "peak_players": 6
+    },
+    {
+      "month": "2021-11",
+      "avg_players": 2.55,
+      "peak_players": 9
+    },
+    {
+      "month": "2021-10",
+      "avg_players": 8.03,
+      "peak_players": 24
+    }
+  ]
 }

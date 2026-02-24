@@ -2,5 +2,16 @@
   "appid": 1620720,
   "steam_name": "The Forest Quartet",
   "epic_name": "The Forest Quartet",
-  "months": []
+  "months": [
+    {
+      "month": "2024-09",
+      "avg_players": 1.83,
+      "peak_players": 11
+    },
+    {
+      "month": "2024-08",
+      "avg_players": 5.02,
+      "peak_players": 22
+    }
+  ]
 }
