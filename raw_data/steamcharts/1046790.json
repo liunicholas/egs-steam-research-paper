@@ -1,0 +1,207 @@
+{
+  "appid": 1046790,
+  "steam_name": "Eternal Threads",
+  "epic_name": "Eternal Threads",
+  "months": [
+    {
+      "month": "2026-01",
+      "avg_players": 2.12,
+      "peak_players": 8
+    },
+    {
+      "month": "2025-10",
+      "avg_players": 2.09,
+      "peak_players": 10
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 2.74,
+      "peak_players": 7
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 1.77,
+      "peak_players": 11
+    },
+    {
+      "month": "2025-07",
+      "avg_players": 2.2,
+      "peak_players": 11
+    },
+    {
+      "month": "2025-06",
+      "avg_players": 2.66,
+      "peak_players": 11
+    },
+    {
+      "month": "2025-05",
+      "avg_players": 3.2,
+      "peak_players": 11
+    },
+    {
+      "month": "2025-04",
+      "avg_players": 2.83,
+      "peak_players": 10
+    },
+    {
+      "month": "2025-03",
+      "avg_players": 3.33,
+      "peak_players": 13
+    },
+    {
+      "month": "2025-02",
+      "avg_players": 2.67,
+      "peak_players": 10
+    },
+    {
+      "month": "2024-11",
+      "avg_players": 2.13,
+      "peak_players": 8
+    },
+    {
+      "month": "2024-10",
+      "avg_players": 3.23,
+      "peak_players": 13
+    },
+    {
+      "month": "2024-09",
+      "avg_players": 1.91,
+      "peak_players": 7
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 2.15,
+      "peak_players": 7
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 2.67,
+      "peak_players": 7
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 2.91,
+      "peak_players": 12
+    },
+    {
+      "month": "2024-04",
+      "avg_players": 1.84,
+      "peak_players": 6
+    },
+    {
+      "month": "2024-03",
+      "avg_players": 2.22,
+      "peak_players": 8
+    },
+    {
+      "month": "2024-02",
+      "avg_players": 2.38,
+      "peak_players": 8
+    },
+    {
+      "month": "2024-01",
+      "avg_players": 2.78,
+      "peak_players": 10
+    },
+    {
+      "month": "2023-12",
+      "avg_players": 2.82,
+      "peak_players": 11
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 3.11,
+      "peak_players": 11
+    },
+    {
+      "month": "2023-10",
+      "avg_players": 3.14,
+      "peak_players": 11
+    },
+    {
+      "month": "2023-09",
+      "avg_players": 3.27,
+      "peak_players": 10
+    },
+    {
+      "month": "2023-08",
+      "avg_players": 6.04,
+      "peak_players": 21
+    },
+    {
+      "month": "2023-07",
+      "avg_players": 11.91,
+      "peak_players": 33
+    },
+    {
+      "month": "2023-06",
+      "avg_players": 13.02,
+      "peak_players": 34
+    },
+    {
+      "month": "2023-05",
+      "avg_players": 1.82,
+      "peak_players": 7
+    },
+    {
+      "month": "2023-04",
+      "avg_players": 2.42,
+      "peak_players": 9
+    },
+    {
+      "month": "2023-03",
+      "avg_players": 3.3,
+      "peak_players": 11
+    },
+    {
+      "month": "2023-02",
+      "avg_players": 6.6,
+      "peak_players": 19
+    },
+    {
+      "month": "2023-01",
+      "avg_players": 2.67,
+      "peak_players": 13
+    },
+    {
+      "month": "2022-12",
+      "avg_players": 2.61,
+      "peak_players": 9
+    },
+    {
+      "month": "2022-11",
+      "avg_players": 2.58,
+      "peak_players": 10
+    },
+    {
+      "month": "2022-10",
+      "avg_players": 1.72,
+      "peak_players": 8
+    },
+    {
+      "month": "2022-09",
+      "avg_players": 2.53,
+      "peak_players": 10
+    },
+    {
+      "month": "2022-08",
+      "avg_players": 3.73,
+      "peak_players": 12
+    },
+    {
+      "month": "2022-07",
+      "avg_players": 8.09,
+      "peak_players": 28
+    },
+    {
+      "month": "2022-06",
+      "avg_players": 9.44,
+      "peak_players": 34
+    },
+    {
+      "month": "2022-05",
+      "avg_players": 29.01,
+      "peak_players": 74
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "appid": 1070790,
+  "steam_name": "Freshly Frosted",
+  "epic_name": "Freshly Frosted + Rumble Club pack",
+  "months": [
+    {
+      "month": "2025-10",
+      "avg_players": 2.0,
+      "peak_players": 14
+    },
+    {
+      "month": "2025-09",
+      "avg_players": 1.25,
+      "peak_players": 4
+    },
+    {
+      "month": "2025-08",
+      "avg_players": 1.36,
+      "peak_players": 4
+    },
+    {
+      "month": "2024-07",
+      "avg_players": 2.03,
+      "peak_players": 5
+    },
+    {
+      "month": "2024-06",
+      "avg_players": 1.61,
+      "peak_players": 5
+    },
+    {
+      "month": "2024-05",
+      "avg_players": 1.39,
+      "peak_players": 8
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 1.46,
+      "peak_players": 6
+    },
+    {
+      "month": "2023-10",
+      "avg_players": 1.76,
+      "peak_players": 5
+    },
+    {
+      "month": "2023-09",
+      "avg_players": 1.34,
+      "peak_players": 5
+    },
+    {
+      "month": "2023-06",
+      "avg_players": 2.87,
+      "peak_players": 14
+    },
+    {
+      "month": "2023-05",
+      "avg_players": 1.25,
+      "peak_players": 6
+    },
+    {
+      "month": "2023-04",
+      "avg_players": 1.32,
+      "peak_players": 6
+    },
+    {
+      "month": "2023-02",
+      "avg_players": 2.65,
+      "peak_players": 9
+    },
+    {
+      "month": "2023-01",
+      "avg_players": 2.25,
+      "peak_players": 9
+    },
+    {
+      "month": "2022-12",
+      "avg_players": 1.69,
+      "peak_players": 9
+    },
+    {
+      "month": "2022-11",
+      "avg_players": 2.11,
+      "peak_players": 7
+    },
+    {
+      "month": "2022-09",
+      "avg_players": 2.81,
+      "peak_players": 12
+    },
+    {
+      "month": "2022-08",
+      "avg_players": 2.51,
+      "peak_players": 8
+    },
+    {
+      "month": "2022-07",
+      "avg_players": 4.22,
+      "peak_players": 11
+    },
+    {
+      "month": "2022-06",
+      "avg_players": 9.08,
+      "peak_players": 45
+    }
+  ]
+}
