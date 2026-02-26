@@ -1,0 +1,102 @@
+{
+  "appid": 852300,
+  "steam_name": "Creature in the Well",
+  "epic_name": "Creature in the Well",
+  "months": [
+    {
+      "month": "2023-03",
+      "avg_players": 0.86,
+      "peak_players": 2
+    },
+    {
+      "month": "2022-02",
+      "avg_players": 1.02,
+      "peak_players": 4
+    },
+    {
+      "month": "2021-06",
+      "avg_players": 1.33,
+      "peak_players": 6
+    },
+    {
+      "month": "2021-01",
+      "avg_players": 1.27,
+      "peak_players": 6
+    },
+    {
+      "month": "2020-12",
+      "avg_players": 1.11,
+      "peak_players": 5
+    },
+    {
+      "month": "2020-11",
+      "avg_players": 1.02,
+      "peak_players": 5
+    },
+    {
+      "month": "2020-09",
+      "avg_players": 0.38,
+      "peak_players": 2
+    },
+    {
+      "month": "2020-08",
+      "avg_players": 0.57,
+      "peak_players": 4
+    },
+    {
+      "month": "2020-07",
+      "avg_players": 1.15,
+      "peak_players": 5
+    },
+    {
+      "month": "2020-06",
+      "avg_players": 1.63,
+      "peak_players": 6
+    },
+    {
+      "month": "2020-05",
+      "avg_players": 1.17,
+      "peak_players": 7
+    },
+    {
+      "month": "2020-04",
+      "avg_players": 0.95,
+      "peak_players": 4
+    },
+    {
+      "month": "2020-03",
+      "avg_players": 0.86,
+      "peak_players": 5
+    },
+    {
+      "month": "2020-02",
+      "avg_players": 0.88,
+      "peak_players": 4
+    },
+    {
+      "month": "2020-01",
+      "avg_players": 0.98,
+      "peak_players": 4
+    },
+    {
+      "month": "2019-12",
+      "avg_players": 2.05,
+      "peak_players": 7
+    },
+    {
+      "month": "2019-11",
+      "avg_players": 2.67,
+      "peak_players": 10
+    },
+    {
+      "month": "2019-10",
+      "avg_players": 1.53,
+      "peak_players": 6
+    },
+    {
+      "month": "2019-09",
+      "avg_players": 15.41,
+      "peak_players": 86
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "appid": 1582290,
+  "steam_name": "LumbearJack",
+  "epic_name": "LumbearJack",
+  "months": [
+    {
+      "month": "2025-04",
+      "avg_players": 2.96,
+      "peak_players": 11
+    },
+    {
+      "month": "2023-11",
+      "avg_players": 2.4,
+      "peak_players": 11
+    },
+    {
+      "month": "2022-06",
+      "avg_players": 2.67,
+      "peak_players": 13
+    }
+  ]
+}
