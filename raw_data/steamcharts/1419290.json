@@ -1,0 +1,22 @@
+{
+  "appid": 1419290,
+  "steam_name": "Out of Line",
+  "epic_name": "Out of Line",
+  "months": [
+    {
+      "month": "2021-11",
+      "avg_players": 0.84,
+      "peak_players": 3
+    },
+    {
+      "month": "2021-07",
+      "avg_players": 1.66,
+      "peak_players": 6
+    },
+    {
+      "month": "2021-06",
+      "avg_players": 4.04,
+      "peak_players": 11
+    }
+  ]
+}

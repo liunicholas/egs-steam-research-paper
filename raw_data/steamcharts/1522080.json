@@ -1,0 +1,42 @@
+{
+  "appid": 1522080,
+  "steam_name": "Jitsu Squad",
+  "epic_name": "Jitsu Squad",
+  "months": [
+    {
+      "month": "2024-06",
+      "avg_players": 2.08,
+      "peak_players": 9
+    },
+    {
+      "month": "2023-12",
+      "avg_players": 1.76,
+      "peak_players": 8
+    },
+    {
+      "month": "2023-07",
+      "avg_players": 1.77,
+      "peak_players": 7
+    },
+    {
+      "month": "2022-08",
+      "avg_players": 1.49,
+      "peak_players": 7
+    },
+    {
+      "month": "2022-06",
+      "avg_players": 1.5,
+      "peak_players": 7
+    },
+    {
+      "month": "2022-05",
+      "avg_players": 2.11,
+      "peak_players": 9
+    },
+    {
+      "month": "2022-04",
+      "avg_players": 6.44,
+      "peak_players": 29
+    }
+  ]
+}
