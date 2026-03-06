@@ -1,0 +1,227 @@
+{
+  "appid": 508740,
+  "steam_name": "Wheels of Aurelia",
+  "epic_name": "Wheels of Aurelia",
+  "months": [
+    {
+      "month": "2021-12",
+      "avg_players": 1.83,
+      "peak_players": 7
+    },
+    {
+      "month": "2021-04",
+      "avg_players": 1.16,
+      "peak_players": 21
+    },
+    {
+      "month": "2020-10",
+      "avg_players": 0.37,
+      "peak_players": 4
+    },
+    {
+      "month": "2020-09",
+      "avg_players": 0.25,
+      "peak_players": 2
+    },
+    {
+      "month": "2020-08",
+      "avg_players": 0.2,
+      "peak_players": 2
+    },
+    {
+      "month": "2020-07",
+      "avg_players": 0.27,
+      "peak_players": 2
+    },
+    {
+      "month": "2019-12",
+      "avg_players": 0.29,
+      "peak_players": 2
+    },
+    {
+      "month": "2019-09",
+      "avg_players": 0.41,
+      "peak_players": 3
+    },
+    {
+      "month": "2019-08",
+      "avg_players": 0.1,
+      "peak_players": 2
+    },
+    {
+      "month": "2019-07",
+      "avg_players": 0.15,
+      "peak_players": 2
+    },
+    {
+      "month": "2019-06",
+      "avg_players": 0.28,
+      "peak_players": 3
+    },
+    {
+      "month": "2019-05",
+      "avg_players": 0.15,
+      "peak_players": 2
+    },
+    {
+      "month": "2019-04",
+      "avg_players": 0.22,
+      "peak_players": 3
+    },
+    {
+      "month": "2019-03",
+      "avg_players": 0.13,
+      "peak_players": 2
+    },
+    {
+      "month": "2019-02",
+      "avg_players": 0.27,
+      "peak_players": 3
+    },
+    {
+      "month": "2019-01",
+      "avg_players": 0.3,
+      "peak_players": 3
+    },
+    {
+      "month": "2018-12",
+      "avg_players": 0.19,
+      "peak_players": 2
+    },
+    {
+      "month": "2018-11",
+      "avg_players": 0.26,
+      "peak_players": 3
+    },
+    {
+      "month": "2018-10",
+      "avg_players": 0.25,
+      "peak_players": 3
+    },
+    {
+      "month": "2018-09",
+      "avg_players": 0.09,
+      "peak_players": 2
+    },
+    {
+      "month": "2018-08",
+      "avg_players": 0.1,
+      "peak_players": 2
+    },
+    {
+      "month": "2018-07",
+      "avg_players": 0.31,
+      "peak_players": 3
+    },
+    {
+      "month": "2018-06",
+      "avg_players": 0.22,
+      "peak_players": 3
+    },
+    {
+      "month": "2018-05",
+      "avg_players": 0.33,
+      "peak_players": 4
+    },
+    {
+      "month": "2018-04",
+      "avg_players": 0.08,
+      "peak_players": 1
+    },
+    {
+      "month": "2018-03",
+      "avg_players": 0.1,
+      "peak_players": 2
+    },
+    {
+      "month": "2018-02",
+      "avg_players": 0.17,
+      "peak_players": 3
+    },
+    {
+      "month": "2018-01",
+      "avg_players": 0.26,
+      "peak_players": 3
+    },
+    {
+      "month": "2017-12",
+      "avg_players": 0.2,
+      "peak_players": 2
+    },
+    {
+      "month": "2017-11",
+      "avg_players": 0.27,
+      "peak_players": 3
+    },
+    {
+      "month": "2017-10",
+      "avg_players": 0.16,
+      "peak_players": 2
+    },
+    {
+      "month": "2017-09",
+      "avg_players": 0.15,
+      "peak_players": 2
+    },
+    {
+      "month": "2017-08",
+      "avg_players": 0.12,
+      "peak_players": 2
+    },
+    {
+      "month": "2017-07",
+      "avg_players": 0.27,
+      "peak_players": 3
+    },
+    {
+      "month": "2017-06",
+      "avg_players": 0.39,
+      "peak_players": 5
+    },
+    {
+      "month": "2017-05",
+      "avg_players": 0.12,
+      "peak_players": 2
+    },
+    {
+      "month": "2017-04",
+      "avg_players": 0.2,
+      "peak_players": 2
+    },
+    {
+      "month": "2017-03",
+      "avg_players": 0.24,
+      "peak_players": 3
+    },
+    {
+      "month": "2017-02",
+      "avg_players": 0.19,
+      "peak_players": 2
+    },
+    {
+      "month": "2017-01",
+      "avg_players": 0.7,
+      "peak_players": 5
+    },
+    {
+      "month": "2016-12",
+      "avg_players": 0.39,
+      "peak_players": 4
+    },
+    {
+      "month": "2016-11",
+      "avg_players": 0.47,
+      "peak_players": 5
+    },
+    {
+      "month": "2016-10",
+      "avg_players": 0.85,
+      "peak_players": 6
+    },
+    {
+      "month": "2016-09",
+      "avg_players": 1.92,
+      "peak_players": 15
+    }
+  ]
+}

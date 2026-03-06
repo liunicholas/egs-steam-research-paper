@@ -1,0 +1,17 @@
+{
+  "appid": 1288610,
+  "steam_name": "Wildcat Gun Machine",
+  "epic_name": "Wildcat Gun Machine",
+  "months": [
+    {
+      "month": "2022-06",
+      "avg_players": 1.01,
+      "peak_players": 4
+    },
+    {
+      "month": "2022-05",
+      "avg_players": 3.19,
+      "peak_players": 25
+    }
+  ]
+}
