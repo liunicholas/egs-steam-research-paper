@@ -1,0 +1,192 @@
+% Compile with: pdflatex (run TWICE to resolve cross-references), or paste into Overleaf.
+% Overleaf handles multiple passes automatically.
+\documentclass[11pt]{article}
+\usepackage[letterpaper, margin=1in, top=0.8in, bottom=0.8in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{palatino}
+\usepackage{microtype}
+\usepackage[htt]{hyphenat}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\titleformat{\section}{\normalfont\normalsize\bfseries}{\thesection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{1em}{0.3em}
+
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{3em}
+\setlist{itemsep=0.15em, topsep=0.2em, partopsep=0pt, leftmargin=1.4em}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries Epic Games Store Giveaways: Causal Effect on Steam Player Engagement}\\[0.4em]
+  {\small Nicholas Liu \quad|\quad 14.33 --- Data and Methods Draft}
+\end{center}
+
+\vspace{0.5em}
+\hrule
+\vspace{0.8em}
+
+\section{Data Sources}
+
+The analysis draws on two primary datasets merged into a single long-format panel at the game-month level.
+
+\textbf{Epic giveaway history.} I obtained a Kaggle dataset recording every free game offered through the Epic Games Store from December 2018 through 2025---541 giveaway events in total, corresponding to 476 unique game titles. The remaining 65 events are repeat appearances; the dataset flags them with a ``(repeat)'' suffix. Repeats cluster in two distinct patterns: \textit{distant repeats}, where a game is offered again more than twelve months after its first appearance (e.g., Kingdom Come: Deliverance at 57-month spacing), and \textit{proximate repeats}, where the same game is offered again within a few months or even days of the first---most notably during Epic's annual holiday giveaway batches in December 2019, 2020, 2022, and 2023, when the same titles were sometimes recycled within the same event sequence. These two patterns require different treatments, described in Section~2. Each observation records the game name, giveaway start and end dates, and a short free-text genre label. I retain \textit{all} giveaway dates for each game (not just the first) to support the multi-event analysis.
+
+\textbf{SteamCharts monthly player data.} For each Epic giveaway title I matched to a Steam App ID, I scraped monthly average and peak concurrent player counts from \texttt{steamcharts.com/app/\{appid\}}. SteamCharts renders its historical tables server-side, so standard HTTP requests suffice; I imposed a one-second rate limit per request. The final panel spans July 2012 through February 2026---the full history available on SteamCharts for every game in the sample.
+
+\textbf{Merge pipeline.} Matching Epic game names to Steam App IDs requires reconciling inconsistent titling (subtitles, punctuation, edition suffixes). I used RapidFuzz fuzzy string matching with a WRatio threshold of 88, which auto-matched 413 of 476 unique names with high confidence; 14 ambiguous cases received manual review; and 49 titles were classified as absent from Steam (free-to-play exclusives, delisted games, DLCs, or Epic-original titles) and excluded from the analysis.
+
+\textbf{Final panel.} The assembled dataset contains 38,579 game-month observations across 445 games, with columns: \texttt{appid}, \texttt{steam\_name}, \texttt{epic\_name}, \texttt{month} (first of month), \texttt{avg\_players}, \texttt{peak\_players}, \texttt{first\_giveaway\_date}, and \texttt{all\_giveaway\_dates} (a list of every giveaway date for that game). From \texttt{all\_giveaway\_dates} I construct \texttt{repeat\_event\_it}, a binary indicator equal to 1 in any month $t$ that falls within the post-treatment window $[0, 12]$ of game $i$'s \textit{second or later} giveaway. The treatment variable is the calendar month of each game's first Epic giveaway. Because all 445 games derive from the Epic giveaway log, all are technically treated; however, 7 games have a missing \texttt{first\_giveaway\_date} due to name-string discrepancies in the merge between the scraper cache and the giveaway CSV, and are dropped from the staggered DiD estimation, leaving 438 games with an identified treatment month. As a robustness check I will verify whether these 7 games are missing at random or disproportionately share a characteristic (e.g., non-ASCII characters in the title). The distribution of treatment cohorts is heavily concentrated in 2019--2021, reflecting the period when Epic's giveaway program was at its most active.
+
+\section{Proposed Empirical Test}
+
+I estimate a staggered difference-in-differences event study. The identifying variation is the \textit{timing} of each game's first Epic giveaway. Games scheduled for a future giveaway serve as controls for currently treated games---the ``not-yet-treated'' design---rather than relying on an external pool of games that were never on Epic.
+
+I estimate repeat giveaways both jointly with first giveaways and separately, yielding three complementary estimands.
+
+\textbf{Pooled specification (all events together).} The stacked dataset pools every giveaway event---first and repeat alike---as a separate treatment observation. For each event $s$ occurring in month $e^{(s)}_i$ for game $i$, I construct a clean event-study block $[-12, 12]$ with a control group of games whose nearest giveaway of any kind falls outside that window. Stacking all blocks and adding event-block fixed effects $\alpha_{si}$ and $\gamma_{st}$ yields:
+\begin{equation}
+\label{eq:pooled}
+\ln(y_{sit} + 1) = \alpha_{si} + \gamma_{st} +
+  \sum_{\substack{k \in [-12,\,12] \\ k \neq -1}}
+  \theta_k \cdot \mathbf{1}[t - e^{(s)}_i = k]
+  + \varepsilon_{sit}
+\end{equation}
+$\hat{\theta}_k$ estimates the average effect of \textit{any} Epic giveaway event, treating first and repeat appearances symmetrically. This answers the broadest question---does an Epic giveaway, whenever it occurs, shift Steam engagement?---and serves as the most statistically powerful estimate because it uses all 503 event-windows (438 first + 65 repeat giveaways, after collapsing micro-batch clusters).
+
+\textbf{Separated specification (first vs.\ repeat).} The panel-level regression decomposes giveaway effects by event order:
+\begin{equation}
+\label{eq:separated}
+\ln(y_{it} + 1) = \alpha_i + \gamma_t +
+  \sum_{\substack{k \in [-12,\,12] \\ k \neq -1}}
+  \beta_k \cdot \mathbf{1}[t - e^{(1)}_i = k]
+  \;+\;
+  \sum_{k \in [0,\,12]}
+  \delta_k \cdot \mathbf{1}[t - e^{(2+)}_i = k]
+  + \varepsilon_{it}
+\end{equation}
+where $e^{(1)}_i$ is the first giveaway month and $e^{(2+)}_i$ the next giveaway month (if any; $\delta_k \equiv 0$ for never-repeated games). $\beta_k$ isolates the first-giveaway causal effect and $\delta_k$ captures the \textit{incremental} effect of a repeat holding the first-event trajectory fixed. I log-transform the outcome ($+1$ for zero months) for approximate percentage-point interpretations. Standard errors are clustered at the game level.
+
+The three estimands $\theta_k$, $\beta_k$, and $\delta_k$ are jointly informative: if $\hat{\theta}_k \approx \hat{\beta}_k$ and $\hat{\delta}_k \approx 0$, repeat giveaways add nothing beyond what the first event achieves. If $\hat{\delta}_k > 0$ and mirrors $\hat{\beta}_k$ in shape, repeated free exposure compounds Steam engagement---suggesting the mechanism is demand expansion (each exposure attracts new players) rather than a one-time awareness shock. If $\hat{\delta}_k < 0$, repeats may cannibalize the residual engaged base.
+
+\textbf{Handling proximate vs.\ distant repeats.} Approximately 32 of the 55 unique titles with repeat giveaways have their second giveaway within 12 months of the first, so $e^{(2+)}_i$ falls inside the event window and $\delta_k$ is non-trivially identified. The remaining $\sim$23 games have repeats beyond 12 months; they contribute only to $\beta_k$. For the stacked pooled specification, both groups contribute separate event blocks regardless of repeat gap. A special case arises in the December holiday batches, where the same game was re-offered within days (e.g., Escape Academy appearing Dec 21, 2023, Jan 1, 2024, and again Jan 9, 2025). For micro-batch repeats with gaps under one month, I collapse the cluster to its earliest date and treat it as a single extended event.
+
+Because treatment timing is staggered across years 2018--2025, the standard two-way fixed effects (TWFE) estimator is potentially biased when treatment effects are heterogeneous \cite{callaway2021, sunab2021, goodmanbacon2021}. For the separated specification (Eq.~\eqref{eq:separated}), I therefore implement the Callaway--Sant'Anna (2021) group-time ATT estimator using the \texttt{did} R package, which computes cohort-specific ATT$(g,t)$ values using only not-yet-treated games as controls and aggregates them cleanly. For the pooled stacked specification (Eq.~\eqref{eq:pooled}), the stacked design already guards against negative-weighting bias by construction: each event-block's control group consists of clean not-yet-treated units, so OLS on the stacked dataset with block fixed effects is unbiased under within-block parallel trends. As a complementary check I also report the Sun--Abraham (2021) interaction-weighted estimator and run the Goodman-Bacon decomposition to verify that not-yet-treated comparison weights dominate the TWFE estimate. Standard errors are clustered at the game level throughout.
+
+\section{Identification Assumptions}
+
+\textbf{Parallel trends (conditional).} In the absence of treatment, log player counts for games in different giveaway cohorts would have followed the same time path after conditioning on game and month fixed effects. This is the central, untestable assumption. It is most plausible to the extent that Epic's program cycles through a wide variety of genres and release-year vintages without systematically selecting games at particular points in their life-cycle trajectories. The assumption is more credible for games within the same genre and release cohort, motivating the genre-stratified robustness checks described in Section~4. It is also partially testable: flat pre-treatment event-study coefficients are necessary (though not sufficient) evidence for parallel trends.
+
+\textbf{No anticipation.} Player behavior does not shift before the giveaway month. Epic typically announces the following week's free game only one week in advance, so systematic anticipation on Steam more than a month before the event is unlikely. One possible exception is high-profile titles (e.g., GTA V, Control) whose impending giveaway sometimes leaks or is widely speculated online, potentially generating a media-driven Steam surge in the weeks before the official announcement. I test for this explicitly using the extended pre-period window described in Section~4.
+
+\textbf{Stable unit treatment value assumption (SUTVA).} A giveaway of game~$A$ does not affect Steam player counts for a different game~$B$. This could be violated if giveaways shift attention or time budgets across competing titles on Steam---a concern in genres with close substitutes (e.g., two battle royale games).
+
+\textbf{Exogenous giveaway timing.} Conditional on game fixed effects, the \textit{month} that Epic selects a game for its giveaway is uncorrelated with the game's potential player-count trajectory on Steam. This would fail if Epic's curation team systematically selects games on an upswing (or downswing) in popularity at a specific point in time.
+
+\section{Testing the Assumptions}
+
+\textbf{Pre-trend test.} The primary test of parallel trends is the visual and statistical inspection of $\hat{\beta}_k$ for $k < 0$. If pre-period coefficients are jointly zero and display no systematic drift toward the treatment month, the assumption is supported. I will report the joint $F$-test $H_0: \beta_k = 0\ \forall\, k < 0$ alongside the event-study plot. Because the Callaway--Sant'Anna estimator conditions on not-yet-treated comparisons, I also inspect within-cohort pre-trends to confirm that no single treatment wave drives the rejection or non-rejection.
+
+\textbf{Anticipation check.} I will extend the event window to $k \in [-14,\, 12]$ and inspect $\hat{\beta}_{-2}$ and $\hat{\beta}_{-3}$ for any uptick immediately before $k = 0$. Given the short announcement window (one week), I would not expect economically meaningful anticipation effects, and any detected movement would likely indicate a pre-existing trend rather than true anticipation.
+
+\textbf{Popularity-stratified analysis.} I will split the sample at the pre-treatment median of $\log(1 + \text{avg\_players})$ and estimate Equation~\eqref{eq:separated} separately for high- and low-traffic games. If pre-trends are flat for high-traffic games but not for low-traffic games (where measurement noise dominates), the pooled estimate should be interpreted with caution.
+
+\textbf{Genre-stratified heterogeneity.} Although the Epic genre labels are free-text, I can hand-code a coarse grouping (action/shooter, puzzle/casual, RPG/adventure) and test whether treatment effect magnitudes and signs differ across groups. Differential effects would not invalidate the main estimate but would inform its interpretation.
+
+\textbf{SUTVA placebo.} I will identify months in which multiple closely related games were given away sequentially (e.g., two entries in the same series) and test whether the non-giveaway game's Steam counts also shift around the other game's treatment date. A null result supports SUTVA. The dataset contains natural test cases: the two \textit{Guacamelee!} entries were given away in the same week (June 2023), the \textit{Tomb Raider} trilogy was bundled together, and both \textit{Evil Within} games were given away in consecutive weeks---these offer clean same-series placebo windows.
+
+\textbf{Randomization placebo.} As an additional falsification test, I will randomly permute treatment dates across the 438 treated games (preserving cohort sizes) and re-estimate the event-study 500 times. If the $|\hat{\beta}_0|$ from the actual data lies in the tail of the permutation distribution, this confirms the result is not an artifact of the panel's time-series structure.
+
+\textbf{Bacon decomposition.} I will run the Goodman-Bacon (2021) decomposition to verify that the TWFE coefficient is dominated by not-yet-treated comparisons rather than already-treated-versus-treated comparisons, whose weights can be negative.
+
+\textbf{Repeat-giveaway analysis.} I will report four presentations of the repeat giveaway evidence side by side: (i) $\hat{\theta}_k$ from the pooled stacked specification (Eq.~\eqref{eq:pooled}), treating all events symmetrically; (ii) $\hat{\beta}_k$ from the separated specification (Eq.~\eqref{eq:separated}), isolating first-giveaway effects; (iii) $\hat{\delta}_k$ from the same separated specification, showing the incremental repeat effect; and (iv) a clean-sample robustness where all 32 games with a proximate repeat (within 12 months) are dropped entirely, leaving $\approx 406$ single-event games. The diagnostic logic is: if $\hat{\theta}_k \approx \hat{\beta}_k$ in both magnitude and shape, repeats contribute little on average and the pooled estimate is driven by first events. If $\hat{\beta}_k$ is stable between specification (ii) and robustness (iv), the $\delta_k$ controls in the separated spec are successfully absorbing the repeat effect rather than merely diluting it. If $\hat{\delta}_k$ is small and noisy in (iii), repeat scheduling is effectively random noise with respect to player counts---consistent with Epic's catalog-rotation logic.
+
+\section{Anticipated Problems}
+
+\textbf{Thin never-treated control group.} Only 7 of 445 games in the panel lack an identified treatment month (see Section~1), and these are likely merge artifacts rather than genuinely never-treated games. As a result, identification rests \textit{entirely} on the timing variation across the 438 treated games---i.e., on comparing earlier cohorts (treated 2019--2020) to later cohorts (treated 2022--2025) in the pre-treatment periods of the latter. If early-treated games differ systematically from late-treated games in unobserved ways (e.g., the 2019 cohort is dominated by indie cult classics with already-declining Steam counts, while the 2024 cohort includes more recently released AAA titles), the parallel trends assumption is harder to defend. This is the most fundamental threat to identification, and it is more difficult to diagnose than in settings with a substantial never-treated group. One partial mitigation: the Callaway--Sant'Anna estimator explicitly avoids using already-treated units as controls for later-treated units, so the bias concern reduces to whether different cohort vintages were on parallel trends \textit{before} both are treated---a narrower and more plausible condition.
+
+\textbf{Noisy low-player-count games.} 123 of 445 games have a median monthly average of fewer than 10 concurrent Steam players; 233 have fewer than 50. For these titles, a single additional player represents a large percentage change, and the SteamCharts figures may themselves be imprecise (the site reports averages rounded to two decimal places). The log transformation amplifies proportional noise for near-zero values. I plan a robustness check restricting to games with median pre-treatment average players above 50, roughly halving the sample.
+
+\textbf{Missing SteamCharts data.} During scraping, 14 games returned HTTP 500 errors from SteamCharts and have no cached data. Their exclusion introduces a potential non-random gap: smaller or less popular games may be more likely to return errors if their pages are stale. If these games have systematically different treatment effects, their absence biases the pooled estimate.
+
+\textbf{Repeat giveaways.} Of the roughly 55 unique titles given away more than once, approximately 32 have their second giveaway within 12 months of the first. Pooling all events in Eq.~\eqref{eq:pooled} avoids contamination by construction---each event-block has its own clean control group---but estimates a blended $\hat{\theta}_k$ that mixes first-event and repeat-event dynamics. The separated spec (Eq.~\eqref{eq:separated}) disentangles them but introduces a residual identification challenge: the ``pre-period'' for $\delta_k$ is the game's own post-first-giveaway window, which is already treated. Parallel trends for $\delta_k$ therefore requires only that, \textit{conditional on the first-giveaway trajectory already captured by $\beta_k$}, the \textit{timing} of the repeat is uncorrelated with subsequent Steam deviations---plausible if Epic's repeat scheduling is driven by catalog rotation and holiday programming rather than real-time player-count monitoring. Neither specification dominates the other; the diagnostic value lies in comparing them.
+
+\textbf{Selection into giveaway timing.} Even after conditioning on game fixed effects, the \textit{timing} of selection may correlate with short-run popularity trends. For example, Epic might choose a game for its giveaway slot partly in response to a recent resurgence in media coverage---which could itself coincide with rising Steam counts. This would bias $\hat{\beta}_0$ upward and potentially inflate pre-$k=0$ coefficients too, making the pre-trend test a weaker validity check.
+
+\textbf{Games released on Steam after Epic giveaway.} Some games were given away on Epic before they were available on Steam (Epic exclusivity periods). These games have no Steam pre-period observations and drop out of the event-study window entirely, introducing attrition that is mechanically correlated with treatment timing.
+
+\textbf{Genre-stratified analysis limitations.} The \texttt{Genre} field in the Epic Kaggle dataset contains short free-text editorial descriptions (e.g., ``Physics puzzler.'', ``Party game bundle.'') rather than standardized tags. Extracting clean genre categories requires manual or heuristic coding, limiting the precision of any genre-stratified heterogeneity analysis.
+
+\section{Related Literature}
+
+The most closely related work is Venkataraman et al.\ (2024), presented at the Decision Sciences Institute Annual Conference, which directly examines whether giveaways on one gaming platform generate spillover traffic effects for the same products on a competing platform, using a Steam quasi-experiment. Their question mirrors mine, though the platform direction is reversed (they study giveaways on Steam and spillovers to other platforms); their findings are not yet available in published form.
+
+On free promotions and gaming engagement more broadly, Pieper (2019) exploits Steam Free Weekend events as a natural experiment and finds that free trial access raises subsequent purchase rates by 10.8\% in the week following the trial, with Twitch viewership rising 150\% during the trial itself---but all effects decay within one additional week. This supports a short-lived demand-stimulation mechanism analogous to the complementarity hypothesis I test.
+
+Tud\'on (2022) estimates the magnitude of direct network effects on Steam using price elasticity comparisons between socially isolated and connected consumers, finding a 0.13\% own-demand increase per 1\% increase in friends' demand. Counterfactual simulations suggest that targeted giveaways to highly networked users could raise platform-wide demand by approximately 5\%. This social-multiplier channel provides a microeconomic mechanism for why an Epic giveaway might increase Steam engagement: by expanding the addressable player community, even a free copy on a rival platform can activate network complementarities that benefit the incumbent.
+
+In the free-sampling literature outside gaming, Bawa and Shoemaker (2004) document three distinct effects of physical product sampling: an \textit{acceleration effect} (earlier repeat purchase), a \textit{cannibalization effect} (substitution for paid trials), and an \textit{expansion effect} (bringing in consumers who would not have purchased otherwise). Their finding that sampling effects persist for up to twelve months post-promotion suggests a plausible long-run horizon for this study's post-treatment event window.
+
+On platform competition more broadly, Nabil and Ariatmanto (2025) conduct a user-satisfaction survey comparing Steam and the Epic Games Store using the End User Computing Satisfaction framework (76 respondents). They find that Steam significantly outperforms Epic on content variety, ease of use, and timeliness, while no significant difference exists on accuracy or visual format. Their result that Epic's free game program attracts users without closing the satisfaction gap suggests that Steam's incumbency advantage may be more durable than price competition alone would predict---consistent with a world where a zero-price substitute on Epic is insufficient to drain Steam's active player base.
+
+The methodological backbone of the empirical strategy draws on Callaway and Sant'Anna (2021) and Sun and Abraham (2021), who establish that staggered treatment designs require cohort-specific estimands and not-yet-treated control groups to avoid the negative-weighting bias that afflicts standard TWFE panel regressions when treatment effects are heterogeneous across adoption cohorts.
+
+\vspace{1.5em}
+\noindent\rule{\textwidth}{0.4pt}
+\vspace{0.3em}
+
+\begin{thebibliography}{9}
+\setlength{\itemsep}{0.1em}
+
+\bibitem{bawa2004}
+Bawa, K.\ and Shoemaker, R.\ (2004).
+``The Effects of Free Sample Promotions on Incremental Brand Sales.''
+\textit{Marketing Science}, 23(3), 345--363.
+
+\bibitem{callaway2021}
+Callaway, B.\ and Sant'Anna, P.H.C.\ (2021).
+``Difference-in-Differences with Multiple Time Periods.''
+\textit{Journal of Econometrics}, 225(2), 200--230.
+
+\bibitem{goodmanbacon2021}
+Goodman-Bacon, A.\ (2021).
+``Difference-in-Differences with Variation in Treatment Timing.''
+\textit{Journal of Econometrics}, 225(2), 254--277.
+
+\bibitem{nabil2025}
+Nabil, M.\ and Ariatmanto, D.\ (2025).
+``Analysis of User Satisfaction and Preferences in Choosing a Digital Game Platform (Study Case: Steam vs Epic Games Store).''
+\textit{G-Tech: Jurnal Teknologi Terapan}, 9(3), 1166--1175.
+
+\bibitem{pieper2019}
+Pieper, M.\ (2019).
+``From Free to Fee: The Causal Effect of Free Trials on Online Video Game Sales.''
+Master's thesis, Universidade Cat\'olica Portuguesa.
+
+\bibitem{venkataraman2024}
+Venkataraman, S., Tereyagoglu, N., Li, S., and Clarkson, C.\ (2024).
+``The Spillover Effects of Giveaways on Gaming Platforms: Evidence from a Quasi-experiment on Steam.''
+Presented at the Decision Sciences Institute Annual Conference.
+
+\bibitem{sunab2021}
+Sun, L.\ and Abraham, S.\ (2021).
+``Estimating Dynamic Treatment Effects in Event Studies with Heterogeneous Treatment Effects.''
+\textit{Journal of Econometrics}, 225(2), 175--199.
+
+\bibitem{tudon2022}
+Tud\'on, J.\ (2022).
+``Distilling Network Effects from Steam.''
+\textit{Quantitative Marketing and Economics}, 20, 293--312.
+
+\end{thebibliography}
+
+\vspace{1em}
+\noindent\textit{Note on AI usage: I used AI to assist with drafting and formatting this document in \LaTeX.}
+
+\end{document}
