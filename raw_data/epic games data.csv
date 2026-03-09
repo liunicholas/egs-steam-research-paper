@@ -221,7 +221,7 @@ serial no.,Game,Start,End,Genre
 220,The Escapists (repeat),23-09-2021,30-09-2021,Prison escape sim.
 221,Europa Universalis IV,30-09-2021,07-10-2021,Grand strategy.
 222,PC Building Simulator,07-10-2021,14-10-2021,PC repair/assembly sim.
-223,Stubbs the Zombie in Rebel Without a Pulse (repeat),14-10-2021,21-10-2021,Comedy zombie action.
+223,Stubbs the Zombie in Rebel Without a Pulse,14-10-2021,21-10-2021,Comedy zombie action.
 224,Among the Sleep: Enhanced Edition,21-10-2021,28-10-2021,Horror adventure.
 225,DARQ: Complete Edition,28-10-2021,04-11-2021,Puzzle horror.
 226,Aven Colony,04-11-2021,11-11-2021,Sci‑fi city‑builder.
@@ -298,7 +298,7 @@ serial no.,Game,Start,End,Genre
 297,Doom 64,18-08-2022,25-08-2022,Classic shooter.
 298,Ring of Pain,25-08-2022,01-09-2022,Card roguelike.
 299,Destiny 2: Bungie 30th Anniversary Pack,25-08-2022,01-09-2022,DLC expansion.
-300,Shadow of the Tomb Raider: Definitive Edition (repeat),01-09-2022,08-09-2022,Action‑adventure.
+300,Shadow of the Tomb Raider: Definitive Edition,01-09-2022,08-09-2022,Action‑adventure.
 301,Submerged: Hidden Depths,01-09-2022,08-09-2022,Third‑person exploration.
 302,Hundred Days – Winemaking Simulator,08-09-2022,15-09-2022,Winemaking management sim.
 303,Realm Royale Reforged Epic Launch Bundle (DLC),08-09-2022,15-09-2022,F2P cosmetics/boosts.
@@ -416,22 +416,22 @@ serial no.,Game,Start,End,Genre
 415,GigaBash,30-11-2023,07-12-2023,Kaiju party brawler.
 416,Predecessor (starter pack),30-11-2023,07-12-2023,MOBA bundle.
 417,Destiny 2: Legacy Collection (DLC bundle),07-12-2023,14-12-2023,Expansion pack trio.
-418,DNF Duel (repeat),14-12-2023,21-12-2023,Anime fighting game.
+418,DNF Duel,14-12-2023,21-12-2023,Anime fighting game.
 419,Melvor Idle,14-12-2023,21-12-2023,Idle/RPG inspired by RuneScape.
 420,Art of Rally,21-12-2023,31-12-2023,"Stylized rally racer, part of 2023 holiday run."
 421,Fallout 3: Game of the Year Edition (repeat),21-12-2023,31-12-2023,Open‑world RPG.
 422,Ghostwire: Tokyo,21-12-2023,31-12-2023,Supernatural action‑adventure.
-423,The Outer Worlds: Spacer’s Choice Edition (repeat),21-12-2023,31-12-2023,Enhanced RPG edition.
+423,The Outer Worlds: Spacer’s Choice Edition,21-12-2023,31-12-2023,Enhanced RPG edition.
 424,Human Resource Machine,21-12-2023,31-12-2023,Programming‑puzzle game.
 425,Cursed to Golf,21-12-2023,31-12-2023,Roguelike golf platformer.
 426,Cat Quest,21-12-2023,31-12-2023,Action RPG.
 427,Snakebird Complete,21-12-2023,31-12-2023,Difficult puzzle game.
 428,Saints Row (2022),21-12-2023,31-12-2023,Open‑world action reboot.
 429,Ghostrunner,21-12-2023,31-12-2023,Cyberpunk parkour slasher.
-430,Escape Academy (repeat),21-12-2023,31-12-2023,Co‑op escape‑room puzzler.
-431,20 Minutes Till Dawn (repeat),21-12-2023,31-12-2023,Survivor‑like shooter.
+430,Escape Academy,21-12-2023,31-12-2023,Co‑op escape‑room puzzler.
+431,20 Minutes Till Dawn,21-12-2023,31-12-2023,Survivor‑like shooter.
 432,A Plague Tale: Innocence (repeat),21-12-2023,31-12-2023,Story‑driven adventure.
-433,Marvel’s Guardians of the Galaxy (repeat),21-12-2023,31-12-2023,AAA story action game.
+433,Marvel’s Guardians of the Galaxy,21-12-2023,31-12-2023,AAA story action game.
 434,Dishonored: Death of the Outsider,21-12-2023,31-12-2023,Standalone immersive‑sim spin‑off.
 435,Idle Champions of the Forgotten Realms (DLC pack) (repeat),21-12-2023,31-12-2023,F2P booster.
 436,theHunter: Call of the Wild (repeat),21-12-2023,31-12-2023,Hunting sim.
@@ -462,7 +462,7 @@ serial no.,Game,Start,End,Genre
 461,Farming Simulator 22,18-04-2024,25-04-2024,Modern farming sim.
 462,Chivalry 2,25-04-2024,02-05-2024,Multiplayer medieval slasher.
 463,LISA: The Joyful – Definitive Edition,02-05-2024,09-05-2024,DLC‑scale sequel to LISA.
-464,Orcs Must Die! 2 (repeat),09-05-2024,16-05-2024,Hybrid tower defense.
+464,Orcs Must Die! 2,09-05-2024,16-05-2024,Hybrid tower defense.
 465,Cat Quest II,16-05-2024,23-05-2024,Co‑op action RPG.
 466,Firestone: Online Idle RPG – Epic Pack (DLC),23-05-2024,30-05-2024,F2P booster bundle.
 467,Marvel’s Midnight Suns,30-05-2024,06-06-2024,Tactical card‑based superhero RPG.
@@ -475,7 +475,7 @@ serial no.,Game,Start,End,Genre
 474,Arcade Paradise,18-07-2024,25-07-2024,Laundromat/arcade management.
 475,Maid of Sker,18-07-2024,25-07-2024,Stealth horror.
 476,F.I.S.T.: Forged In Shadow Torch (repeat),25-07-2024,01-08-2024,Metroidvania.
-477,Thief (repeat),01-08-2024,08-08-2024,Stealth action.
+477,Thief,01-08-2024,08-08-2024,Stealth action.
 478,The Callisto Protocol,08-08-2024,15-08-2024,AAA sci‑fi horror.
 479,Lego Star Wars: The Skywalker Saga,15-08-2024,22-08-2024,Full‑saga Lego action adventure.
 480,The Outer Worlds: Spacer’s Choice Edition (repeat),22-08-2024,29-08-2024,Enhanced RPG edition.
