@@ -1,0 +1,6 @@
+Variable,N,Mean,SD,Min,P25,Median,P75,Max
+Avg. concurrent Steam players (monthly),"38,579","1,586.44","7,449.76",0.00,12.84,65.42,396.04,"270,553.06"
+Peak concurrent Steam players (monthly),"38,579","3,219.28","14,872.72",0.00,38.00,172.00,978.00,"527,652.00"
+ln(avg players + 1)  [outcome variable],"38,579",4.44,2.35,0.00,2.63,4.20,5.98,12.51
+In post-window of repeat giveaway (0/1),"38,579",0.02,0.15,0.00,0.00,0.00,0.00,1.00
+Months observed per game,445,86.7,41.2,1,53,88,117,163

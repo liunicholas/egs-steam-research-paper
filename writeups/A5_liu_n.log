@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.9)  9 MAR 2026 03:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.9)  9 MAR 2026 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -605,9 +605,6 @@ L3 programming layer <2024-01-22>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `A5_liu_n.out' has not changed.
 (rerunfilecheck)             Checksum: 590429B3230F210947837BD80491B9C3;892.
  ) 
@@ -630,7 +627,7 @@ ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/cour
 ier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on A5_liu_n.pdf (8 pages, 185232 bytes).
+Output written on A5_liu_n.pdf (8 pages, 185200 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  125 compressed objects within 2 object streams
