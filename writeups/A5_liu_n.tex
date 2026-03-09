@@ -66,7 +66,7 @@ Total giveaway events & 541 \\
 
 \textbf{Merge pipeline.} Matching Epic game names to Steam App IDs requires reconciling inconsistent titling (subtitles, punctuation, edition suffixes). I used RapidFuzz fuzzy string matching with a WRatio threshold of 88, which auto-matched 413 of 471 unique names with high confidence; the remaining 58 received manual review, of which 50 were resolved to a valid Steam app ID and 8 were confirmed absent from Steam---5 Epic Games Store exclusives and 3 placeholder entries (Table~\ref{tab:pipeline}). Fifteen of the 463 matched entries are DLC packs, bundles, or in-game content releases mapped to the base game's Steam App ID (e.g., \textit{Destiny 2: Bungie 30th Anniversary Pack} $\to$ \texttt{appid} 1085660, \textit{The Sims 4 – Daring Lifestyle Bundle} $\to$ \texttt{appid} 1222670); these are retained but introduce a measurement mismatch discussed in Section~\ref{sec:problems}.
 
-\textbf{Final panel.} The assembled dataset contains 38,642 game-month observations across 446 games, with columns: \texttt{appid}, \texttt{steam\_name}, \texttt{epic\_name}, \texttt{month} (first of month), \texttt{avg\_players}, \texttt{peak\_players}, \texttt{first\_giveaway\_date}, and \texttt{all\_giveaway\_dates} (a list of every giveaway date for that game). From \texttt{all\_giveaway\_dates} I construct \texttt{repeat\_event\_it}, a binary indicator equal to 1 in any month $t$ that falls within the post-treatment window $[0, 12]$ of game $i$'s \textit{second or later} giveaway. The treatment variable is the calendar month of each game's first Epic giveaway. Because all 446 games derive from the Epic giveaway log, all are technically treated, and all 446 have an identified treatment month after correcting name-string discrepancies between the scraper cache and the giveaway CSV (see Section~\ref{sec:problems}). The distribution of treatment cohorts is heavily concentrated in 2019--2021, reflecting the period when Epic's giveaway program was at its most active.
+\textbf{Final panel.} The assembled dataset contains 38,642 game-month observations across 446 games, with columns: \texttt{appid}, \texttt{steam\_name}, \texttt{epic\_name}, \texttt{month} (first of month), \texttt{avg\_players}, \texttt{peak\_players}, \texttt{first\_giveaway\_date}, and \texttt{all\_giveaway\_dates} (a list of every giveaway date for that game). From \texttt{all\_giveaway\_dates} I construct \texttt{repeat\_event\_it}, a binary indicator equal to 1 in any month $t$ that falls within the post-treatment window $[0, 12]$ of game $i$'s \textit{second or later} giveaway. The treatment variable is the calendar month of each game's first Epic giveaway. Because all 446 games derive from the Epic giveaway log, all are technically treated; 421 of 446 have SteamCharts data covering the treatment month itself, and 336 have a full $[-12,+12]$ symmetric window of observations available for event-study estimation. The distribution of treatment cohorts is heavily concentrated in 2019--2021, reflecting the period when Epic's giveaway program was at its most active.
 
 \begin{table}[h]
 \centering\small
@@ -87,7 +87,8 @@ Unique Epic titles (input to matching) & 471 \\
 \midrule
 No SteamCharts data (HTTP 500) & 13 \\
 \textbf{Games in final panel} & \textbf{446} \\
-\quad With identified treatment month & 446 \\
+\quad Treatment month observed in SteamCharts & 421 \\
+\quad Full $[-12,+12]$ window observed in SteamCharts & 336 \\
 \bottomrule
 \end{tabular}
 \end{table}
