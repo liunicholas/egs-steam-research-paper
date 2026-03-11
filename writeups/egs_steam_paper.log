@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.9)  11 MAR 2026 02:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.9)  11 MAR 2026 02:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/nicholasliu/wsl_code/14.33_project/writeups/full_research_paper
-(/home/nicholasliu/wsl_code/14.33_project/writeups/full_research_paper.tex
+**/home/nicholasliu/wsl_code/14.33_project/writeups/egs_steam_paper
+(/home/nicholasliu/wsl_code/14.33_project/writeups/egs_steam_paper.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -367,8 +367,9 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count302
 \l__pdf_internal_box=\box58
-) (./full_research_paper.aux)
-\openout1 = `full_research_paper.aux'.
+)
+No file egs_steam_paper.aux.
+\openout1 = `egs_steam_paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
@@ -388,7 +389,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -587,11 +587,14 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 38.
- (./full_research_paper.out) (./full_research_paper.out)
 \@outlinefile=\write3
-\openout3 = `full_research_paper.out'.
+\openout3 = `egs_steam_paper.out'.
 
- (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+
+
+Package natbib Warning: Citation `callaway2021' on page 1 undefined on input line 63.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
@@ -605,9 +608,141 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [1
+)
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2] [3] [4] [5] [6] [7] [8] [9]
+Package natbib Warning: Citation `oshry2026' on page 1 undefined on input line 100.
+
+
+Package natbib Warning: Citation `reddit2026' on page 1 undefined on input line 105.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+
+Package natbib Warning: Citation `nabil2025' on page 2 undefined on input line 128.
+
+[2]
+
+LaTeX Warning: Reference `sec:lit' on page 3 undefined on input line 165.
+
+
+LaTeX Warning: Reference `sec:data' on page 3 undefined on input line 166.
+
+
+LaTeX Warning: Reference `sec:method' on page 3 undefined on input line 167.
+
+
+LaTeX Warning: Reference `sec:results' on page 3 undefined on input line 167.
+
+
+LaTeX Warning: Reference `sec:discussion' on page 3 undefined on input line 168.
+
+
+LaTeX Warning: Reference `sec:conclusion' on page 3 undefined on input line 169.
+
+
+Package natbib Warning: Citation `clarkson2025' on page 3 undefined on input line 178.
+
+
+Package natbib Warning: Citation `rochet2003' on page 3 undefined on input line 193.
+
+
+Package natbib Warning: Citation `armstrong2006' on page 3 undefined on input line 193.
+
+
+Package natbib Warning: Citation `tudon2022' on page 3 undefined on input line 204.
+
+
+Package natbib Warning: Citation `nabil2025' on page 3 undefined on input line 216.
+
+[3]
+
+Package natbib Warning: Citation `frvr2026' on page 4 undefined on input line 228.
+
+
+Package natbib Warning: Citation `callaway2021' on page 4 undefined on input line 236.
+
+
+Package natbib Warning: Citation `goodmanbacon2021' on page 4 undefined on input line 237.
+
+
+Package natbib Warning: Citation `dube2023' on page 4 undefined on input line 240.
+
+
+Package natbib Warning: Citation `dongre2025' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Reference `tab:epic_csv' on page 4 undefined on input line 265.
+
+[4]
+
+LaTeX Warning: Reference `tab:pipeline' on page 5 undefined on input line 286.
+
+
+LaTeX Warning: Reference `tab:sumstats' on page 5 undefined on input line 298.
+
+
+LaTeX Warning: Reference `fig:outcome' on page 5 undefined on input line 305.
+
+
+LaTeX Warning: Reference `fig:desc' on page 5 undefined on input line 315.
+
+[5]
+
+Package natbib Warning: Citation `callaway2021' on page 6 undefined on input line 389.
+
+
+Package natbib Warning: Citation `goodmanbacon2021' on page 6 undefined on input line 389.
+
+
+Package natbib Warning: Citation `dube2023' on page 6 undefined on input line 391.
+
+
+Package natbib Warning: Citation `callaway2021' on page 6 undefined on input line 398.
+
+[6]
+
+LaTeX Warning: Reference `eq:pooled' on page 7 undefined on input line 408.
+
+
+LaTeX Warning: Reference `fig:pooled' on page 7 undefined on input line 424.
+
+
+LaTeX Warning: Reference `tab:coefs' on page 7 undefined on input line 430.
+
+
+LaTeX Warning: Reference `fig:compare' on page 7 undefined on input line 456.
+
+[7]
+
+LaTeX Warning: Reference `fig:separated' on page 8 undefined on input line 476.
+
+
+LaTeX Warning: Reference `eq:separated' on page 8 undefined on input line 476.
+
+
+LaTeX Warning: Reference `fig:popularity' on page 8 undefined on input line 486.
+
+
+LaTeX Warning: Reference `fig:csatt' on page 8 undefined on input line 496.
+
+
+LaTeX Warning: Reference `fig:placebo' on page 8 undefined on input line 509.
+
+
+LaTeX Warning: Reference `fig:robustness' on page 8 undefined on input line 518.
+
+[8]
+
+LaTeX Warning: Reference `sec:lit' on page 9 undefined on input line 534.
+
+
+Package natbib Warning: Citation `clarkson2025' on page 9 undefined on input line 541.
+
+
+Package natbib Warning: Citation `oshry2026' on page 9 undefined on input line 548.
+
+[9]
 Overfull \hbox (0.53148pt too wide) in paragraph at lines 603--611
 \T1/ppl/m/n/10.95 (-20) question for Epic's strategy---whether the giveaway program builds durable EGS user engagement---
  []
@@ -615,60 +750,105 @@ Overfull \hbox (0.53148pt too wide) in paragraph at lines 603--611
 [10] [11] [12
 
 ]
-<../output/fig_outcome_histogram.pdf, id=297, 860.27084pt x 342.76244pt>
+<../output/fig_outcome_histogram.pdf, id=104, 860.27084pt x 342.76244pt>
 File: ../output/fig_outcome_histogram.pdf Graphic file (type pdf)
 <use ../output/fig_outcome_histogram.pdf>
 Package pdftex.def Info: ../output/fig_outcome_histogram.pdf  used on input line 786.
 (pdftex.def)             Requested size: 413.3867pt x 164.70715pt.
-<../output/fig_descriptives.pdf, id=302, 1005.12642pt x 296.50964pt>
+
+
+Package natbib Warning: Citation `dongre2025' on page 13 undefined on input line 793.
+
+
+Package natbib Warning: Citation `dongre2025' on page 13 undefined on input line 793.
+
+<../output/fig_descriptives.pdf, id=105, 1005.12642pt x 296.50964pt>
 File: ../output/fig_descriptives.pdf Graphic file (type pdf)
 <use ../output/fig_descriptives.pdf>
 Package pdftex.def Info: ../output/fig_descriptives.pdf  used on input line 801.
 (pdftex.def)             Requested size: 413.3867pt x 121.94978pt.
- [13 <../output/fig_outcome_histogram.pdf>]
-<../output/fig_event_study_pooled.pdf, id=382, 642.83289pt x 319.69414pt>
+
+Package natbib Warning: Citation `dongre2025' on page 13 undefined on input line 808.
+
+
+Package natbib Warning: Citation `dongre2025' on page 13 undefined on input line 808.
+
+[13 <../output/fig_outcome_histogram.pdf>]
+<../output/fig_event_study_pooled.pdf, id=183, 642.83289pt x 319.69414pt>
 File: ../output/fig_event_study_pooled.pdf Graphic file (type pdf)
 <use ../output/fig_event_study_pooled.pdf>
 Package pdftex.def Info: ../output/fig_event_study_pooled.pdf  used on input line 816.
 (pdftex.def)             Requested size: 385.20255pt x 191.57405pt.
-<../output/fig_estimator_comparison.pdf, id=385, 642.83289pt x 319.77757pt>
+
+
+LaTeX Warning: Reference `eq:pooled' on page 14 undefined on input line 820.
+
+
+LaTeX Warning: Reference `eq:pooled' on page 14 undefined on input line 820.
+
+<../output/fig_estimator_comparison.pdf, id=184, 642.83289pt x 319.77757pt>
 File: ../output/fig_estimator_comparison.pdf Graphic file (type pdf)
 <use ../output/fig_estimator_comparison.pdf>
 Package pdftex.def Info: ../output/fig_estimator_comparison.pdf  used on input line 828.
 (pdftex.def)             Requested size: 385.20255pt x 191.62404pt.
- [14 <../output/fig_descriptives.pdf> <../output/fig_event_study_pooled.pdf>]
-<../output/fig_event_study_separated.pdf, id=503, 642.83289pt x 319.95009pt>
+[14 <../output/fig_descriptives.pdf> <../output/fig_event_study_pooled.pdf>]
+<../output/fig_event_study_separated.pdf, id=305, 642.83289pt x 319.95009pt>
 File: ../output/fig_event_study_separated.pdf Graphic file (type pdf)
 <use ../output/fig_event_study_separated.pdf>
 Package pdftex.def Info: ../output/fig_event_study_separated.pdf  used on input line 840.
 (pdftex.def)             Requested size: 385.20255pt x 191.72742pt.
-<../output/fig_event_study_popularity.pdf, id=504, 642.83289pt x 319.95009pt>
+<../output/fig_event_study_popularity.pdf, id=306, 642.83289pt x 319.95009pt>
 File: ../output/fig_event_study_popularity.pdf Graphic file (type pdf)
 <use ../output/fig_event_study_popularity.pdf>
 Package pdftex.def Info: ../output/fig_event_study_popularity.pdf  used on input line 853.
 (pdftex.def)             Requested size: 413.3867pt x 205.75352pt.
  [15 <../output/fig_estimator_comparison.pdf> <../output/fig_event_study_separated.pdf>]
-<../output/fig_cs_att.pdf, id=636, 932.4549pt x 333.00598pt>
+<../output/fig_cs_att.pdf, id=440, 932.4549pt x 333.00598pt>
 File: ../output/fig_cs_att.pdf Graphic file (type pdf)
 <use ../output/fig_cs_att.pdf>
 Package pdftex.def Info: ../output/fig_cs_att.pdf  used on input line 865.
 (pdftex.def)             Requested size: 385.20255pt x 137.56482pt.
-<../output/fig_randomization_placebo.pdf, id=637, 499.09523pt x 283.15172pt>
+<../output/fig_randomization_placebo.pdf, id=441, 499.09523pt x 283.15172pt>
 File: ../output/fig_randomization_placebo.pdf Graphic file (type pdf)
 <use ../output/fig_randomization_placebo.pdf>
 Package pdftex.def Info: ../output/fig_randomization_placebo.pdf  used on input line 876.
 (pdftex.def)             Requested size: 338.22418pt x 191.88388pt.
  [16 <../output/fig_event_study_popularity.pdf> <../output/fig_cs_att.pdf>] [17 <../output/fig_randomization_placebo.pdf>]
-<../output/fig_event_study_robustness.pdf, id=828, 642.83289pt x 319.95009pt>
+
+LaTeX Warning: Reference `fig:robustness' on page 18 undefined on input line 903.
+
+<../output/fig_event_study_robustness.pdf, id=633, 642.83289pt x 319.95009pt>
 File: ../output/fig_event_study_robustness.pdf Graphic file (type pdf)
 <use ../output/fig_event_study_robustness.pdf>
 Package pdftex.def Info: ../output/fig_event_study_robustness.pdf  used on input line 911.
 (pdftex.def)             Requested size: 385.20255pt x 191.72742pt.
- [18
 
- <../output/fig_event_study_robustness.pdf>] [19] [20
+LaTeX Warning: Reference `fig:pooled' on page 18 undefined on input line 914.
 
-] (./full_research_paper.aux)
+
+LaTeX Warning: Reference `fig:pooled' on page 18 undefined on input line 914.
+
+[18
+
+ <../output/fig_event_study_robustness.pdf>]
+
+LaTeX Warning: Reference `tab:fullcoefs' on page 19 undefined on input line 923.
+
+
+LaTeX Warning: Reference `eq:pooled' on page 19 undefined on input line 924.
+
+[19]
+
+Package natbib Warning: There were undefined citations.
+
+[20
+
+] (./egs_steam_paper.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -677,22 +857,34 @@ L3 programming layer <2024-01-22>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `full_research_paper.out' has not changed.
-(rerunfilecheck)             Checksum: 0B15DFDCA27C07B5C1350A185C6A00A6;6895.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `egs_steam_paper.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `egs_steam_paper.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  0B15DFDCA27C07B5C1350A185C6A00A6;6895.
  ) 
 Here is how much of TeX's memory you used:
- 15550 strings out of 474222
- 246237 string characters out of 5748734
+ 15523 strings out of 474222
+ 245602 string characters out of 5748734
  1943975 words of memory out of 5000000
- 37225 multiletter control sequences out of 15000+600000
- 604126 words of font info for 284 fonts, out of 8000000 for 9000
+ 37187 multiletter control sequences out of 15000+600000
+ 604738 words of font info for 295 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,79p,1062b,471s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,79p,1058b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on full_research_paper.pdf (20 pages, 400913 bytes).
+Output written on egs_steam_paper.pdf (20 pages, 395718 bytes).
 PDF statistics:
- 998 PDF objects out of 1000 (max. 8388607)
- 475 compressed objects within 5 object streams
+ 813 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
  84 named destinations out of 1000 (max. 500000)
- 63302 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 63022 words of extra memory for PDF output out of 74296 (max. 10000000)
 
