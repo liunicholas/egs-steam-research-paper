@@ -11,6 +11,7 @@
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{booktabs}
+\usepackage{float}
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{hyperref}
@@ -71,9 +72,8 @@ than 12 months.
 
 \textbf{Treatment variable.} All 446 games in the panel are eventually treated (Epic
 giveaways were the source criterion for inclusion). Treatment is defined as the calendar
-month of each game's \textit{first} Epic free giveaway. Of the 446 treated games, 421
-have SteamCharts data covering the treatment month itself, and 336 have a full
-$[-12,+12]$ symmetric observation window that supports the event-study regression.
+month of each game's \textit{first} Epic free giveaway. Of the 446 treated games, 421 have SteamCharts data covering the treatment month, and
+336 have a full $[-12,+12]$ event window for the event-study regression.
 Treatment cohorts are distributed across 80 distinct calendar months, with the bulk
 concentrated in 2019--2023.
 
@@ -93,10 +93,9 @@ The raw player counts are highly right-skewed: the mean monthly average of
 $1{,}584$ players is more than 24 times the median of $65$ players, and the maximum
 of $270{,}553$ reflects large-player-base titles such as GTA V and Destiny~2. The
 log-transformed outcome is far better behaved (mean 4.43, SD 2.36), as intended. The
-repeat-event indicator is a binary flag equal to 1 in any month falling within the
-12-month post-treatment window of a game's \textit{second or later} giveaway; only
-2\% of game--month observations carry this flag, reflecting that most games were given
-away exactly once.
+repeat-event indicator equals 1 in months within 12 months after a game's
+\textit{second or later} Epic giveaway; only 2\% of game--month observations have this
+flag, since most games were given away exactly once.
 
 \begin{table}[h]
 \centering\small
@@ -133,37 +132,25 @@ Figure~\ref{fig:outcome} presents two panels. The \textbf{left panel} shows over
 density histograms of the log-transformed outcome variable for pre-giveaway months
 ($k < 0$, i.e., months before the first Epic giveaway) and post-giveaway months
 ($k \geq 0$). The distributions are broadly similar in shape---both are roughly
-unimodal with a long right tail---but the post-giveaway distribution exhibits a
-discernible rightward shift: the mean of the post distribution exceeds that of the
-pre distribution by approximately 0.13 log points (roughly 14\%). The large mass
-near zero in both distributions reflects the 123 games with fewer than 10 median
+unimodal with a long right tail---but the post-giveaway distribution is shifted
+left: the mean of the post distribution is lower than that of the pre distribution
+by approximately 0.28 log points (roughly 25\% in levels). This unconditional
+comparison is confounded by composition: post-giveaway months pool across many
+games and calendar years, including more low-traffic titles. The large mass near
+zero in both distributions reflects the 123 games with fewer than 10 median
 monthly concurrent players; these near-zero-count games dominate the lower tail
 when log-transformed.
 
 The \textbf{right panel} plots the unconditional mean of the outcome variable at
 each event-time $k \in [-12, 12]$, with 95\% confidence intervals computed across
-all games observed at that relative period. This is a raw analog of the event-study
-coefficient plot: it does \textit{not} partial out game or calendar-time fixed
-effects, so the level shifts partly reflect cohort composition differences between
-games at different stages of their Steam life cycle. Nonetheless, two features of
+all games observed at that relative period. This is a raw analog of the event-study plot: it does \textit{not} control for game
+or calendar-time fixed effects, so level differences partly reflect cohort
+composition and life-cycle stage. Nonetheless, two features of
 the raw profile are notable. First, the pre-period mean is approximately flat across
 $k \in [-12, -1]$, providing preliminary (unconditional) support for the parallel
 trends assumption. Second, there is a sharp visible uptick at $k = 0$ (the giveaway
 month itself), consistent with a positive contemporaneous treatment effect that is
 subsequently partially sustained in months $k = 1$ through $k = 12$.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.88\linewidth]{../output/fig_outcome_histogram.pdf}
-\caption{Steam player engagement (log scale) around Epic free giveaways.
-  \textbf{Left:} Density histogram of $\ln(\texttt{avg\_players}+1)$ for pre-giveaway
-  months ($k < 0$, blue) and post-giveaway months ($k \geq 0$, orange), pooled across all 446 games.
-  \textbf{Right:} Unconditional mean (with 95\% CI) of the outcome by event-time $k \in [-12,12]$;
-  the dashed vertical line marks the giveaway month ($k = 0$). Both panels use 38,641
-  game--month observations.
-  \textit{Source:} SteamCharts.com; Epic Games Store giveaway log (Kaggle, Dongre 2025).}
-\label{fig:outcome}
-\end{figure}
 
 \subsection*{Figure 2: Panel Descriptives --- Pre-Treatment Distribution, Cohort Timing, and Repeat Structure}
 
@@ -171,22 +158,34 @@ Figure~\ref{fig:desc} provides three additional panels characterizing the panel'
 structure.
 
 \textbf{Panel (a): Pre-treatment player distribution.} The log-transformed
-pre-treatment median player count across 446 games is roughly bimodal---a large cluster
-of low-traffic titles (fewer than 20 median players) and a smaller cluster of more
-popular ones---motivating the popularity-stratified robustness checks in the main analysis.
+pre-treatment median player count across 446 games is right-skewed, with many
+low-traffic titles and a long tail of more popular ones, motivating the
+popularity-stratified robustness checks in the main analysis.
 
-\textbf{Panel (b): Treatment cohort distribution.} Treatment cohorts are broadly
+\textbf{Panel (b): Treatment cohort by year.} First-giveaway cohorts are broadly
 evenly distributed across 2019--2023. The 2018 cohort is small (program launched
-December 2018) and the 2024--2025 cohorts are smaller due to observation-window
-truncation at the February 2026 scrape cutoff. The multi-year spread provides the
-timing variation needed for the staggered DiD identification.
+December 2018); 2024--2025 cohorts are smaller due to truncation at the February
+2026 scrape. This spread provides the timing variation for staggered DiD.
 
 \textbf{Panel (c): Repeat-giveaway share.} The fraction of games with a proximate
 repeat giveaway (second event within 12 months of the first) ranges from 0\% to about
 20\% across cohort years, averaging roughly 10\%. These roughly 30 games are the
 primary source of identifying variation for the repeat-event coefficient $\hat{\delta}$.
 
-\begin{figure}[ht]
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\linewidth]{../output/fig_outcome_histogram.pdf}
+\caption{Steam player engagement (log scale) around Epic free giveaways.
+  \textbf{Left:} Density histogram of $\ln(\texttt{avg\_players}+1)$ for pre-giveaway
+  months ($k < 0$, blue) and post-giveaway months ($k \geq 0$, orange), pooled across all 446 games.
+  \textbf{Right:} Unconditional mean (with 95\% CI) of the outcome by event-time $k \in [-12,12]$;
+  the dashed vertical line marks the giveaway month ($k = 0$). Both panels use 38,642
+  game--month observations.
+  \textit{Source:} SteamCharts.com; Epic Games Store giveaway log (Kaggle, Dongre 2025).}
+\label{fig:outcome}
+\end{figure}
+
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.88\linewidth]{../output/fig_descriptives.pdf}
 \caption{Panel structure and descriptive statistics.

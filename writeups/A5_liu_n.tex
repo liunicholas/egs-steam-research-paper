@@ -57,7 +57,7 @@ $\hat{\theta}_k$ estimates the average effect of an Epic giveaway on log Steam p
 \end{equation}
 $\beta_k$ isolates the first-giveaway effect; $\delta$ captures the incremental level shift from a repeat. Standard errors are clustered at the game level.
 
-As a robustness check I compare TWFE estimates to LP-DiD \citep{dube2023}, which uses only not-yet-treated controls and is robust to heterogeneous treatment effects \citep{callaway2021, goodmanbacon2021}.
+As robustness checks against heterogeneous treatment effects, I compare TWFE estimates to three alternative estimators: LP-DiD \citep{dube2023}, which restricts each period-$k$ comparison to not-yet-treated controls; stacked DiD \citep{cengiz2019}, which constructs cohort-specific balanced stacks with not-yet-treated controls to avoid negative-weighting bias; and cohort-specific ATTs following \citet{callaway2021}, which estimates each cohort's average treatment effect using not-yet-treated games as within-cohort controls before aggregating.
 
 \section{Identification Assumptions}
 
@@ -77,7 +77,7 @@ As a robustness check I compare TWFE estimates to LP-DiD \citep{dube2023}, which
 
 \textbf{Randomization placebo.} I permute treatment dates across all 446 games 200 times and compare the actual $|\hat{\theta}_0|$ to the permutation null distribution. An observed effect above the 95th percentile rules out a spurious result driven by the panel's time-series structure.
 
-\textbf{LP-DiD comparison.} Agreement between TWFE and LP-DiD estimates supports the internal validity of TWFE; divergence flags negative-weighting concerns.
+\textbf{Estimator comparison.} Agreement between TWFE, LP-DiD \citep{dube2023}, stacked DiD \citep{cengiz2019}, and Callaway--Sant'Anna cohort ATTs \citep{callaway2021} supports the internal validity of TWFE under heterogeneous treatment effects; divergence across estimators flags negative-weighting concerns.
 
 \section{Anticipated Problems}
 
@@ -93,7 +93,7 @@ As a robustness check I compare TWFE estimates to LP-DiD \citep{dube2023}, which
 
 \section{Related Literature}
 
-\citet{clarkson2025} is the most directly related work, finding that Epic giveaways increase Steam traffic by more than 24\% and raise Steam review activity, with larger spillovers for games that leverage Steam-exclusive features. \citet{tudon2022} estimates social-multiplier effects on Steam, finding a 0.13\% own-demand increase per 1\% increase in friends' demand---a mechanism through which Epic giveaways could amplify Steam engagement by expanding the addressable player community. \citet{nabil2025} survey Steam vs.\ Epic user satisfaction and find that Steam's incumbency advantage persists despite Epic's free game program, suggesting free copies on a rival platform do not drain Steam's active player base. The methodological backbone draws on \citet{callaway2021} and \citet{goodmanbacon2021} for cohort-robust staggered DiD, and \citet{dube2023} for LP-DiD robustness checks.
+\citet{clarkson2025} is the most directly related work, finding that Epic giveaways increase Steam traffic by more than 24\% and raise Steam review activity, with larger spillovers for games that leverage Steam-exclusive features. \citet{tudon2022} estimates social-multiplier effects on Steam, finding a 0.13\% own-demand increase per 1\% increase in friends' demand---a mechanism through which Epic giveaways could amplify Steam engagement by expanding the addressable player community. \citet{nabil2025} survey Steam vs.\ Epic user satisfaction and find that Steam's incumbency advantage persists despite Epic's free game program, suggesting free copies on a rival platform do not drain Steam's active player base. The methodological backbone draws on \citet{callaway2021} for cohort-robust staggered DiD, \citet{cengiz2019} for stacked DiD, and \citet{dube2023} for LP-DiD robustness checks.
 
 \vspace{1em}
 \noindent\rule{\textwidth}{0.4pt}
@@ -105,14 +105,14 @@ As a robustness check I compare TWFE estimates to LP-DiD \citep{dube2023}, which
 \bibitem[Dongre(2025)]{dongre2025}
 Dongre, P.\ (2025). ``Epic Games Free Giveaway History 2018--2025.'' Kaggle dataset.
 
-\bibitem[Callaway and Sant'Anna(2021)]{callaway2021}
-Callaway, B.\ and Sant'Anna, P.H.C.\ (2021). ``Difference-in-Differences with Multiple Time Periods.'' \textit{Journal of Econometrics}, 225(2), 200--230.
-
-\bibitem[Goodman-Bacon(2021)]{goodmanbacon2021}
-Goodman-Bacon, A.\ (2021). ``Difference-in-Differences with Variation in Treatment Timing.'' \textit{Journal of Econometrics}, 225(2), 254--277.
-
 \bibitem[Dub\'{e} et al.(2023)]{dube2023}
 Dub\'{e}, A., Girardi, D., Jord\`{a}, O., and Taylor, A.M.\ (2023). ``A Local Projections Approach to Difference-in-Differences Event Studies.'' NBER Working Paper No.\ 31184.
+
+\bibitem[Cengiz et al.(2019)]{cengiz2019}
+Cengiz, D., Dube, A., Lindner, A., and Zipperer, B.\ (2019). ``The Effect of Minimum Wages on Low-Wage Jobs.'' \textit{Quarterly Journal of Economics}, 134(3), 1405--1454.
+
+\bibitem[Callaway and Sant'Anna(2021)]{callaway2021}
+Callaway, B.\ and Sant'Anna, P.H.C.\ (2021). ``Difference-in-Differences with Multiple Time Periods.'' \textit{Journal of Econometrics}, 225(2), 200--230.
 
 \bibitem[Clarkson(2025)]{clarkson2025}
 Clarkson, T.C.\ (2025). ``Essays on Platform Operations.'' Doctoral dissertation, Moore School of Business, University of South Carolina.
