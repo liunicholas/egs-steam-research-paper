@@ -42,8 +42,8 @@
   {\LARGE\bfseries Epic Games Store Giveaways:\\[0.3em]
    Causal Effect on Steam Player Engagement}\\[1em]
   {\large Nicholas Liu}\\[0.4em]
-  {\normalsize 14.33 --- Research Paper \quad|\quad Spring 2026}\\[0.4em]
-  {\small MIT Department of Economics}
+  {\normalsize 14.33 | Spring 2026}\\[0.4em]
+  % {\small MIT Department of Economics}
 \end{center}
 
 \vspace{0.8em}
@@ -55,22 +55,15 @@
   \textbf{Abstract}
 \end{center}
 
-\noindent This paper estimates the causal effect of Epic Games Store free game giveaways on
-Steam concurrent player counts for the same title. Using a staggered
-difference-in-differences event study across 446 treated games and 2018--2025, we find
-a two-phase dynamic: short-run complementarity followed by medium-run substitution.
-In the giveaway month, Steam player counts rise by approximately 5--14\%
-across four complementary estimators---TWFE, LP-DiD \citep{dube2023}, stacked DiD
-\citep{cengiz2019}, and cohort-specific ATTs \citep{callaway2021}---consistent with
-the giveaway functioning as a marketing event that drives traffic to the incumbent
-discovery platform. This effect reverses quickly and declines significantly below
-pre-giveaway baseline through the entire one-year post-treatment window, reaching
-approximately 10--23\% below baseline by month twelve depending on estimator.
-The contemporaneous spike is robust to estimator choice and passes a randomization
-placebo test ($p<0.001$). Repeat giveaways generate no additional engagement
-($\hat{\delta}\approx 0$, $p=0.999$). The results suggest that Epic giveaways serve
-primarily as advertising that temporarily lifts Steam awareness, while the
-free copy on a rival platform gradually substitutes Steam engagement over subsequent months.
+\noindent Does a free game giveaway on the Epic Games Store increase or decrease engagement
+for the same title on Steam? Using a staggered difference-in-differences event study
+across 446 treated games from 2018--2025, we find a two-phase dynamic. In the giveaway
+month, Steam concurrent players rise by approximately 5--14\%, consistent with the
+giveaway functioning as an advertising event. This effect fully reverses within two
+months and declines to approximately 10--23\% below pre-giveaway baseline by month
+twelve. The results suggest that Epic's free-game strategy inadvertently advertises
+titles on Steam in the short run while gradually substituting Steam engagement over
+the following year.
 
 \vspace{0.5em}
 \noindent\textit{Keywords:} platform competition, digital games, difference-in-differences,
@@ -83,8 +76,8 @@ cross-platform spillovers, Epic Games Store, Steam
 % ─────────────────────────── 1. INTRODUCTION ───────────────────────────────
 \section{Introduction}
 
-When most gamers hear about a new video game---whether through social media, a friend's
-recommendation, or a news headline---the first instinct is to open Steam and search for it,
+When most gamers hear about a new video game, whether through social media, a friend's
+recommendation, or a news headline, the first instinct is to open Steam and search for it,
 not the Epic Games Store, GOG, or any other platform. Steam is simply where games
 \textit{live} in the average gamer's mental model, regardless of where they are sold or
 given away. This behavior reflects the social ecosystem Steam has cultivated: friend
@@ -94,10 +87,10 @@ for PC gaming. Even a game distributed entirely for free on a rival platform is 
 to drive curious players to \textit{Steam} first.
 
 This intuition recently received vivid anecdotal support. In January 2026, Dave Oshry,
-CEO of New Blood Interactive, publicly shared that when \textit{Blood West}---a cult
-eldritch first-person shooter published on Steam by New Blood---was given away for
+CEO of New Blood Interactive, publicly shared that when \textit{Blood West}, a cult
+eldritch first-person shooter published on Steam by New Blood, was given away for
 free on the Epic Games Store over the 2025 holiday period, Steam sales surged by
-approximately 200\% on the same day \citep{oshry2026}. ``I used to think EGS was a
+approximately 200\% on the same day \citep{frvr2026}. ``I used to think EGS was a
 Marketing Black Hole,'' Oshry wrote, ``but turns out having your game be free on Epic is
 great advertising for Steam sales!'' The comment went viral in the gaming community,
 sparking a Reddit thread on r/Steam that reached hundreds of upvotes and generated
@@ -106,12 +99,12 @@ engagement rather than draining it \citep{reddit2026}.
 
 These observations raise a precise and economically interesting causal question: does an
 Epic Games Store free giveaway \textit{increase} or \textit{decrease} engagement for
-the same game on Steam? Standard substitution logic predicts a decrease---a zero-price
+the same game on Steam? Standard substitution logic predicts a decrease: a zero-price
 substitute on a rival platform should divert players away from Steam. Yet the anecdotal
 evidence points in the opposite direction, at least in the short run. The giveaway
 may function as an advertising shock: it generates media coverage, social media chatter,
 and word-of-mouth that raises awareness of the title and drives traffic to the platform
-where players have their existing library, social graph, and community history---Steam.
+where players have their existing library, social graph, and community history: Steam.
 
 The PC gaming platform market is a compelling laboratory for this question. Steam,
 operated by Valve and launched in 2003, remains overwhelmingly dominant with more than
@@ -122,8 +115,7 @@ layer that creates switching costs no price cut can easily replicate. The Epic G
 Store (EGS), launched in December 2018 on the back of \textit{Fortnite}'s enormous
 revenue, has pursued an aggressive free-game strategy as its primary differentiation
 lever: since its launch, it has given away more than 540 games at no cost to users.
-Other platforms---GOG (DRM-free, $\sim$6{,}000 titles), itch.io (indie-focused), Xbox
-Game Pass (subscription), and console storefronts---occupy different market segments
+Other platforms (GOG, itch.io, Xbox Game Pass, and console storefronts) occupy different market segments
 and present less direct competition to Steam's mass-market general catalogue.
 \citet{nabil2025} document that Steam significantly outperforms EGS on content variety,
 ease of use, and timeliness in user-satisfaction surveys, suggesting that Epic's
@@ -137,8 +129,17 @@ serve as controls for currently treated games, exploiting the rolling staggered 
 of the Epic program rather than relying on an external never-treated comparison group.
 Engagement is measured via monthly average concurrent players from SteamCharts.
 
+To fix ideas, consider two games, both eventually given away by Epic, whose first
+giveaways fall eighteen months apart. In the absence of treatment, we would expect
+their Steam player trajectories to follow similar paths once we condition on
+calendar-month shocks common to all games. Comparing the earlier-treated game's
+trajectory around its giveaway month, using the later-treated game as a not-yet-treated
+control, identifies the causal effect of the promotion. Stacking such comparisons
+across the eighty distinct treatment cohorts in the data traces out the full
+event-study path from twelve months before to twelve months after treatment.
+
 The central empirical finding is a two-phase dynamic. In the month of the giveaway and
-the month after, Steam player counts rise by approximately 5--14\%---a positive
+the month after, Steam player counts rise by approximately 5--14\%, a positive
 cross-platform spillover consistent with the advertising mechanism. This effect, however,
 fully reverses within two months of the giveaway and declines steadily below the
 pre-giveaway baseline through the remaining one-year window, reaching approximately
@@ -154,13 +155,10 @@ primary discovery), generating a temporary engagement spike; but the free copy
 distributed via Epic gradually substitutes Steam engagement as players migrate their
 playtime to the platform on which they received the game.
 
-The paper makes three main contributions. First, it provides a large-sample causal
-estimate (446 games, 38{,}641 game-month observations, seven years of giveaway history)
-of cross-platform spillovers from free game promotions, substantially expanding on
-prior single-firm or case-study evidence. Second, it documents the full dynamic
-trajectory of the effect---including the sustained post-giveaway reversal---which
-prior work has not characterized. Third, it provides a clean null result for repeat
-giveaways, with practical implications for platform curation strategy.
+The central contribution is the first large-scale causal estimate of the \textit{full
+dynamic trajectory} of cross-platform spillovers from free game promotions (446 games,
+38{,}641 game-month observations, seven years of giveaway history), including the
+sustained post-giveaway reversal that prior work has not characterized.
 
 The remainder of the paper is organized as follows. Section~\ref{sec:lit} reviews
 related literature. Section~\ref{sec:data} describes the data and panel construction.
@@ -181,7 +179,7 @@ platform giveaways. Using Steam player traffic data, Clarkson finds that games g
 away by a competing platform (Epic) see Steam traffic increase by more than 24\%.
 He also documents that word-of-mouth and Steam review activity increase significantly
 during these promotions, and that spillover effects are larger for games that leverage
-Steam-exclusive features---friend lists, achievements, community hubs---inaccessible
+Steam-exclusive features (friend lists, achievements, community hubs) that are inaccessible
 on the competing platform. The dissertation's question is nearly identical in spirit
 to this paper, and its findings provide direct empirical support for a positive
 cross-platform spillover mechanism. However, Clarkson's analysis focuses on the
@@ -190,12 +188,12 @@ twelve-month post-treatment trajectory and documents the subsequent reversal bel
 baseline.
 
 More broadly, the question fits into the literature on platform competition and
-multi-homing in two-sided markets \citep{rochet2003, armstrong2006}. In two-sided
+multi-homing in two-sided markets \citep{rochet2003}. In two-sided
 platforms, price cuts on one side (distributing games free to users) can strengthen
 the platform's network if they attract more users and thereby make the platform more
-attractive to developers. However, when two platforms primarily serve the same user
-base---as Steam and EGS do for PC gamers---a free promotion on one platform may
-simply reallocate engagement rather than expand the aggregate market. The time-series
+attractive to developers. However, when two platforms primarily serve the same user base, as Steam and EGS do
+for PC gamers, a free promotion on one platform may simply reallocate engagement
+rather than expand the aggregate market. The time-series
 evidence in this paper is consistent with initial market-expansion (aggregate awareness
 rising) followed by platform-reallocation (players migrating to the free-copy platform).
 
@@ -218,15 +216,14 @@ Store using the End User Computing Satisfaction (EUCS) framework across 76 respo
 They find that Steam significantly outperforms EGS on content variety, ease of use, and
 timeliness, while no significant difference exists on accuracy or visual format. Their
 finding that Epic's free game program attracts users without closing the satisfaction
-gap is consistent with a world where Steam's incumbency advantage is durable---players
+gap is consistent with a world where Steam's incumbency advantage is durable: players
 who obtain a game via Epic may continue to engage with Steam's ecosystem (reviews,
 community hubs, friends) even if they play the game via Epic.
 
 The observation that gamers treat Steam as their default discovery platform echoes the
 insight from Adrian Chmielarz (creator of \textit{Painkiller} and \textit{Witchfire}):
 ``EGS is a shop, and Steam is a community. They don't have written reviews. They don't
-have the forums. There's nothing to do there but to buy.'' \citep{frvr2026}. This
-functional asymmetry---Steam as a social community, EGS as a transactional storefront---
+have the forums. There's nothing to do there but to buy.'' \citep{frvr2026}. This functional asymmetry (Steam as a social community, EGS as a transactional storefront)
 may explain why even free distribution via EGS can generate Steam traffic: the social
 activity associated with a game (discussion, reviews, achievement hunting) predominantly
 occurs on Steam regardless of which platform delivered the copy.
@@ -252,7 +249,7 @@ standard TWFE estimator.
 \subsection{Epic Giveaway History}
 
 We obtained a Kaggle dataset \citep{dongre2025} recording every free game offered through
-the Epic Games Store from December 2018 through 2025---541 giveaway events corresponding
+the Epic Games Store from December 2018 through 2025, comprising 541 giveaway events corresponding
 to 471 unique game titles. The remaining 70 events are repeat appearances. The source
 dataset flags repeat appearances with a ``(repeat)'' suffix appended to the game name.
 Nine titles had this suffix incorrectly applied to their \textit{first} appearance;
@@ -262,7 +259,7 @@ subsequent giveaways of the same title carry the suffix.
 Repeats cluster in two distinct patterns: \textit{distant repeats}, where a game is
 offered again more than twelve months after its first appearance (e.g., \textit{Kingdom
 Come: Deliverance} at 57-month spacing), and \textit{proximate repeats}, where the same
-game is offered within a few months or even days of the first---most notably during
+game is offered within a few months or even days of the first, most notably during
 Epic's annual holiday giveaway batches in December 2019, 2020, 2022, and 2023.
 Table~\ref{tab:epic_csv} summarizes the giveaway structure. We retain \textit{all}
 giveaway dates for each game to support the multi-event analysis.
@@ -316,11 +313,23 @@ persistence into $k = 1$ before declining.
 
 Figure~\ref{fig:desc} provides three additional panels characterizing the panel's
 structure. Panel (a) shows a roughly bimodal pre-treatment distribution of log players
-across games---a large cluster of low-traffic titles (fewer than 20 median players)
+across games, with a large cluster of low-traffic titles (fewer than 20 median players)
 and a smaller cluster of popular ones. Panel (b) shows that treatment cohorts are
 broadly evenly distributed across 2019--2023, providing the timing variation needed
 for staggered DiD identification. Panel (c) shows that approximately 10\% of games
 in most cohort years have a proximate repeat giveaway (second event within 12 months).
+
+\subsection{Data Limitations}
+
+Three data-source limitations bear on interpretation. First, SteamCharts reports
+concurrent players, not purchases or unique installs; the giveaway effect on purchases
+may be larger or differently timed than the player-count effect we estimate. Second,
+fifteen matched events distributed DLC or in-game content rather than a standalone
+base game; mapping these to the base game's App ID likely attenuates the estimated
+treatment effect for those observations. Third, the dataset contains no genre
+metadata, precluding a direct comparison of single-player versus multiplayer titles
+within the current analysis, a distinction that matters because platform-switching
+costs differ substantially across those game types.
 
 % ─────────────────────────── 4. EMPIRICAL METHOD ───────────────────────────
 \section{Empirical Method}
@@ -339,9 +348,20 @@ systematically different.
 The key identifying assumption is parallel trends: in the absence of treatment, the
 log player trajectory of games in different giveaway cohorts would have followed the
 same path after conditioning on game and calendar-month fixed effects. This assumption
-is partially testable via pre-treatment event-study coefficients and is more plausible
-to the extent that Epic's curation team does not systematically select games at
-particular inflection points in their Steam life-cycle.
+is more plausible to the extent that Epic's curation team does not systematically
+select games at particular inflection points in their Steam life-cycle.
+
+The assumption is partially testable. If parallel trends holds, the estimated
+event-study coefficients for pre-treatment periods $k \in [-12, -2]$ should be
+jointly indistinguishable from zero. We test this formally with a joint Wald test
+of $H_0\colon \theta_k = 0$ for $k \in [-12,-2]$; failure to reject supports
+approximate parallel trends. One caveat: observations with $k < -12$ are binned
+into the $k=-12$ endpoint cell (boundary-bin clipping), which can inflate the
+far-left pre-trend coefficients mechanically. We therefore supplement the full
+pre-trend test with a separate test restricted to the window $k \in [-5, -2]$
+and with a test on the high-traffic subsample, where player-count series are
+more stable and the boundary concern is less acute. Results are in
+Section~\ref{sec:results}.
 
 \subsection{Pooled TWFE Specification}
 
@@ -444,7 +464,7 @@ appears at $k = -11$ and $k = -9$, which we discuss below. The post-period shows
 sharp, significant spike at $k = 0$ followed by rapid reversal.
 
 Table~\ref{tab:coefs} reports the key coefficient estimates. In the giveaway month
-($k = 0$), $\hat{\theta}_0 = 0.101$ (SE = 0.022, $t = 4.64$, $p < 0.001$), implying
+($k = 0$), $\hat{\theta}_0 = 0.101$ (SE = 0.022, $p < 0.001$), implying
 approximately a 10.6\% increase in Steam concurrent players on the log scale. This is
 the largest single-period effect. The effect remains marginally positive in $k = 1$
 ($\hat{\theta}_1 = 0.045$, $p = 0.047$) but turns negative and highly significant from
@@ -456,14 +476,14 @@ $k = 12$, it is $-0.267$ (23.4\% below baseline).
 The joint pre-trend Wald test of $H_0: \theta_k = 0$ for $k \in [-12, -2]$ yields
 $\chi^2 = 21.77$ ($df = 11$, $p = 0.026$). The marginal rejection is driven primarily
 by coefficients at $k = -11$ (0.105, $p = 0.007$) and to a lesser extent $k = -9$
-(0.066, $p = 0.057$)---positive drift at the far left boundary that likely reflects
+(0.066, $p = 0.057$), positive drift at the far left boundary that likely reflects
 boundary-bin clipping bias in the TWFE specification (observations with $k < -12$ are
 binned into $k = -12$, inflating the endpoint cell) rather than a genuine anticipation effect. Coefficients in the
 window $k \in [-5, -2]$ are all close to zero and individually insignificant, supporting
 approximate parallel trends in the months immediately preceding treatment.
 
 For the high-traffic subsample, the pre-trend Wald test yields $\chi^2 = 9.35$
-($df = 11$, $p = 0.589$)---a clean failure to reject, indicating no systematic
+($df = 11$, $p = 0.589$), a clean failure to reject, indicating no systematic
 pre-trend among the games with more stable, high-population player counts. This provides
 stronger identification support for that subsample.
 
@@ -522,39 +542,10 @@ stacked DiD providing the lower bound and LP-DiD the upper bound. The robust agr
 on the reversal — which is significant at the 5\% level under all three estimators from
 $k = 5$ onward — substantially strengthens the substitution interpretation.
 
-\begin{table}[H]
-\centering\small
-\caption{Estimator comparison: selected event-time coefficients}
-\label{tab:estimator_compare}
-\begin{tabular}{lccc}
-\toprule
-Event time $k$ & TWFE & LP-DiD & Stacked DiD \\
-\midrule
-$-4$ & $-0.003$ & $-0.046^{*}$ & $-0.010$ \\
-$-2$ & $-0.011$ & $-0.026$ & $-0.025^{**}$ \\
-$ 0$ & $ 0.101^{***}$ & $ 0.131^{***}$ & $ 0.047^{***}$ \\
-$ 1$ & $ 0.045^{*}$ & $ 0.099^{***}$ & $-0.008$ \\
-$ 2$ & $-0.063^{**}$ & $ 0.000$ & $-0.032^{***}$ \\
-$ 5$ & $-0.145^{***}$ & $-0.064^{*}$ & $-0.073^{***}$ \\
-$10$ & $-0.199^{***}$ & $-0.121^{***}$ & $-0.164^{***}$ \\
-$12$ & $-0.267^{***}$ & $-0.105^{**}$ & $-0.118^{***}$ \\
-\bottomrule
-\end{tabular}
-\medskip
-
-\noindent\small\textit{Notes:} $^{*}p<0.05$, $^{**}p<0.01$, $^{***}p<0.001$.
-Standard errors clustered by game. Reference period $k = -1$.
-TWFE uses game and calendar-month fixed effects on the full unbalanced panel.
-LP-DiD uses not-yet-treated controls at each period $k$ \citep{dube2023}.
-Stacked DiD constructs cohort-specific balanced panels with not-yet-treated controls,
-weighted by $1/\text{number of stacks}$ \citep{cengiz2019}.
-\end{table}
-
 \subsection{Separated Specification: First vs.\ Repeat Giveaways}
 
 Figure~\ref{fig:separated} presents the separated specification (Eq.~\eqref{eq:separated}).
-The repeat-giveaway coefficient is $\hat{\delta} = 0.0001$ (SE = 0.061, $t = 0.002$,
-$p = 0.999$)---indistinguishable from zero. A game's second free giveaway on Epic adds
+The repeat-giveaway coefficient is $\hat{\delta} = 0.0001$ (SE = 0.061, $p = 0.999$), indistinguishable from zero. A game's second free giveaway on Epic adds
 essentially no incremental Steam engagement above the first-giveaway trajectory. The
 $\hat{\beta}_k$ coefficients in the separated specification are visually and numerically
 very close to the pooled $\hat{\theta}_k$ coefficients, confirming that the repeat-event
@@ -567,7 +558,7 @@ Figure~\ref{fig:popularity} presents event-study estimates split by pre-treatmen
 High-traffic games exhibit a cleaner pattern: a larger and more precisely estimated spike
 at $k = 0$, flat pre-trends ($p = 0.589$), and a similarly sharp reversal. Low-traffic
 games show more noise, a marginally significant pre-trend rejection ($p = 0.056$), and a
-less sharp contemporaneous effect---consistent with the log transformation amplifying
+less sharp contemporaneous effect, consistent with the log transformation amplifying
 proportional noise for near-zero player counts. The qualitative two-phase dynamic is
 present in both strata.
 
@@ -575,7 +566,7 @@ present in both strata.
 
 Figure~\ref{fig:csatt} presents the cohort-aggregated ATT estimates using not-yet-treated
 controls within each treatment-quarter cohort.
-The CS ATT estimate at $k = 0$ is 0.048 (SE = 0.040, CI $[-0.030, 0.126]$)---positive
+The CS ATT estimate at $k = 0$ is 0.048 (SE = 0.040, CI $[-0.030, 0.126]$), positive
 in direction but not statistically significant at conventional levels. The reduced
 precision relative to TWFE and LP-DiD is expected: the CS estimator conditions on narrow
 within-cohort comparisons, sacrificing power in exchange for immunity to negative-weighting
@@ -611,8 +602,8 @@ The $k = 0$ and $k = 1$ positive effects are consistent with the Epic giveaway
 functioning as an advertising shock that temporarily lifts Steam engagement. When a
 popular or cult title is announced as free on Epic, gaming media covers the announcement,
 the game trends on social platforms, and players who were marginally aware of the title
-are prompted to investigate. For the reasons discussed in Section~\ref{sec:lit}---Steam's
-position as the primary discovery and community layer for PC games---this awareness
+are prompted to investigate. For the reasons discussed in Section~\ref{sec:lit}, Steam's
+position as the primary discovery and community layer for PC games means this awareness
 surge manifests as increased Steam activity: players checking the store page, reading
 reviews, joining community hubs, and actively playing on Steam even if they also claim
 the free Epic copy.
@@ -621,12 +612,12 @@ The magnitude of the spike (5--14\% in log players, depending on estimator) is c
 somewhat smaller than, the 24\% effect found by \citet{clarkson2025}. The difference
 may reflect sample composition: Clarkson's analysis may weight more heavily toward
 high-profile titles where the advertising effect is more pronounced, whereas this
-paper's sample includes 101 games with pre-treatment median players below 10---nearly
+paper's sample includes 101 games with pre-treatment median players below 10, nearly
 zero-engagement titles where a percentage spike is mechanically noisy and likely
 attenuated in the average.
 
-The Blood West case \citep{oshry2026}---which reported a 200\% spike in Steam
-\textit{sales}---likely represents the extreme upper tail of this distribution.
+The Blood West case \citep{frvr2026}, which reported a 200\% spike in Steam
+\textit{sales}, likely represents the extreme upper tail of this distribution.
 Sales spikes can be larger than engagement spikes if the giveaway announcement
 converts a large fraction of wishlisted-but-not-purchased users into buyers.
 The present analysis measures concurrent players rather than sales, which is a
@@ -638,8 +629,8 @@ The sustained reversal below baseline from $k = 2$ through $k = 12$ is the most 
 finding in this paper and warrants careful interpretation. Two mechanisms likely contribute:
 
 \textbf{Direct substitution.} Players who claimed the free Epic copy gradually shift
-their playtime from Steam to Epic. This effect is slow to materialize---it takes time
-for players to actually install and play the game they claimed---which explains why
+their playtime from Steam to Epic. This effect is slow to materialize: it takes time
+for players to actually install and play the game they claimed, which explains why
 the reversal begins at $k = 2$ rather than $k = 0$. By month 3--4, the pool of
 Epic-copy holders who are actively playing has grown large enough to depress Steam
 concurrent counts relative to the counterfactual.
@@ -681,18 +672,18 @@ sustained player-count erosion may be costly; for completed single-player titles
 tradeoff may favor accepting the deal.
 
 For Epic, the results paint a mixed picture. The giveaway program successfully
-generates Steam publicity for featured games---but this publicity primarily benefits
+generates Steam publicity for featured games, but this publicity primarily benefits
 Steam, not Epic, since the discovery activity occurs on Steam. The zero repeat-giveaway
 effect further suggests that repeat promotions of the same title are not useful for
-building EGS engagement. The more important question for Epic's strategy---whether the
-giveaway program builds durable EGS user engagement---is not directly testable with
+building EGS engagement. The more important question for Epic's strategy, whether the
+giveaway program builds durable EGS user engagement, is not directly testable with
 this data, but the evidence that the giveaway functions primarily as a Steam advertising
 event suggests limited platform-building benefit.
 
 \subsection{Limitations}
 
 \textbf{No never-treated group.} All 446 games are treated, so identification rests
-entirely on timing variation across cohorts---the most important limitation of the
+entirely on timing variation across cohorts, the most important limitation of the
 design. If earlier cohorts (2019--2020) differ systematically from later cohorts
 (2022--2025) in unobserved ways (e.g., Epic's early catalogue skewing toward
 higher-profile titles), parallel trends is harder to defend. Three mitigations are
@@ -710,7 +701,7 @@ rather than the base game. Mapping these to the base game's Steam App ID likely
 attenuates the estimated treatment effect for those observations.
 
 \textbf{Genre heterogeneity.} The Epic giveaway catalogue mixes single-player games
-(where the substitution mechanism is weaker---players typically play through once and
+(where the substitution mechanism is weaker, as players typically play through once and
 leave) and multiplayer games (where platform choice has continuous consequences for
 matchmaking and community). The pooled estimate conflates these mechanisms.
 A genre-stratified analysis is deferred to future work; the popularity-stratified
@@ -737,7 +728,11 @@ The giveaway generates media awareness that temporarily lifts Steam traffic; but
 free Epic copy gradually substitutes Steam engagement over subsequent months. Taken
 together, the findings suggest that Epic's free-game strategy may function more as
 an inadvertent Steam advertising program than as a durable driver of Epic platform
-engagement.
+engagement. For developers and platform operators weighing EGS giveaway deals, the
+estimates imply that the short-run advertising benefit is real but transient, while
+the long-run substitution cost accrues gradually, a tradeoff that likely favors the
+deal for completed single-player titles but cuts against it for live-service games
+where an active Steam player base has ongoing value.
 
 Future work could extend this analysis by: (1) separating single-player from
 multiplayer titles to test whether the substitution mechanism is stronger in
@@ -812,7 +807,7 @@ No SteamCharts data (HTTP 500) & 13 \\
 
 \begin{table}[H]
 \centering\small
-\caption{Summary statistics --- Epic giveaway panel}
+\caption{Summary statistics: Epic giveaway panel}
 \label{tab:sumstats}
 \begin{tabular}{lrccccc}
 \toprule
@@ -841,22 +836,22 @@ Months of SteamCharts data per game & 446 & 86.6 & 41.1 & 1 & 88 & 163 \\
 \centering\small
 \caption{Selected TWFE event-study coefficients (pooled specification)}
 \label{tab:coefs}
-\begin{tabular}{rrccc}
+\begin{tabular}{rrcc}
 \toprule
-$k$ & Estimate & SE & $t$-stat & $p$-value \\
+$k$ & Estimate & SE & $p$-value \\
 \midrule
-$-5$ &  0.005 & 0.025 &  0.21 & 0.833 \\
-$-4$ & $-0.003$ & 0.024 & $-0.11$ & 0.915 \\
-$-3$ & $-0.009$ & 0.025 & $-0.37$ & 0.710 \\
-$-2$ & $-0.011$ & 0.022 & $-0.51$ & 0.608 \\
+$-5$ &  0.005 & 0.025 & 0.833 \\
+$-4$ & $-0.003$ & 0.024 & 0.915 \\
+$-3$ & $-0.009$ & 0.025 & 0.710 \\
+$-2$ & $-0.011$ & 0.022 & 0.608 \\
 \midrule
-$\phantom{-}0$ & $\mathbf{0.101}$ & 0.022 & 4.64 & $<$0.001 \\
-$\phantom{-}1$ & 0.045 & 0.022 & 1.99 & 0.047 \\
-$\phantom{-}2$ & $-0.063$ & 0.023 & $-2.80$ & 0.005 \\
-$\phantom{-}3$ & $-0.097$ & 0.024 & $-4.07$ & $<$0.001 \\
-$\phantom{-}6$ & $-0.160$ & 0.027 & $-5.93$ & $<$0.001 \\
-$\phantom{-}9$ & $-0.178$ & 0.031 & $-5.76$ & $<$0.001 \\
-$\phantom{-}12$ & $-0.267$ & 0.053 & $-5.09$ & $<$0.001 \\
+$\phantom{-}0$ & $\mathbf{0.101}^{***}$ & 0.022 & $<$0.001 \\
+$\phantom{-}1$ & $0.045^{*}$ & 0.022 & 0.047 \\
+$\phantom{-}2$ & $-0.063^{**}$ & 0.023 & 0.005 \\
+$\phantom{-}3$ & $-0.097^{***}$ & 0.024 & $<$0.001 \\
+$\phantom{-}6$ & $-0.160^{***}$ & 0.027 & $<$0.001 \\
+$\phantom{-}9$ & $-0.178^{***}$ & 0.031 & $<$0.001 \\
+$\phantom{-}12$ & $-0.267^{***}$ & 0.053 & $<$0.001 \\
 \bottomrule
 \end{tabular}
 \medskip
@@ -864,6 +859,36 @@ $\phantom{-}12$ & $-0.267$ & 0.053 & $-5.09$ & $<$0.001 \\
 \noindent\small\textit{Notes:} Game and calendar-month fixed effects; standard errors clustered
 by game ($N = 38{,}641$; 446 games). Omitted period: $k = -1$.
 $R^2 = 0.884$; within $R^2 = 0.008$.
+\end{table}
+
+\vspace{2em}
+
+\begin{table}[H]
+\centering\small
+\caption{Estimator comparison: selected event-time coefficients}
+\label{tab:estimator_compare}
+\begin{tabular}{lccc}
+\toprule
+Event time $k$ & TWFE & LP-DiD & Stacked DiD \\
+\midrule
+$-4$ & $-0.003$ & $-0.046^{*}$ & $-0.010$ \\
+$-2$ & $-0.011$ & $-0.026$ & $-0.025^{**}$ \\
+$ 0$ & $ 0.101^{***}$ & $ 0.131^{***}$ & $ 0.047^{***}$ \\
+$ 1$ & $ 0.045^{*}$ & $ 0.099^{***}$ & $-0.008$ \\
+$ 2$ & $-0.063^{**}$ & $ 0.000$ & $-0.032^{***}$ \\
+$ 5$ & $-0.145^{***}$ & $-0.064^{*}$ & $-0.073^{***}$ \\
+$10$ & $-0.199^{***}$ & $-0.121^{***}$ & $-0.164^{***}$ \\
+$12$ & $-0.267^{***}$ & $-0.105^{**}$ & $-0.118^{***}$ \\
+\bottomrule
+\end{tabular}
+\medskip
+
+\noindent\small\textit{Notes:} $^{*}p<0.05$, $^{**}p<0.01$, $^{***}p<0.001$.
+Standard errors clustered by game. Reference period $k = -1$.
+TWFE uses game and calendar-month fixed effects on the full unbalanced panel.
+LP-DiD uses not-yet-treated controls at each period $k$ \citep{dube2023}.
+Stacked DiD constructs cohort-specific balanced panels with not-yet-treated controls,
+weighted by $1/\text{number of stacks}$ \citep{cengiz2019}.
 \end{table}
 
 \vspace{1.5em}
@@ -1016,36 +1041,36 @@ specification (Equation~\eqref{eq:pooled}), including confidence intervals.
 \centering\small
 \caption{Full pooled TWFE event-study coefficients ($\hat{\theta}_k$)}
 \label{tab:fullcoefs}
-\begin{tabular}{rrccccc}
+\begin{tabular}{rrcccc}
 \toprule
-$k$ & Estimate & SE & $t$-stat & $p$-value & 2.5\% & 97.5\% \\
+$k$ & Estimate & SE & $p$-value & 2.5\% & 97.5\% \\
 \midrule
-$-12$ &  0.077 & 0.053 &  1.46 & 0.145 & $-0.027$ & 0.181 \\
-$-11$ &  0.105 & 0.039 &  2.70 & 0.007 &    0.028 & 0.181 \\
-$-10$ &  0.041 & 0.035 &  1.17 & 0.242 & $-0.028$ & 0.110 \\
-$-9$  &  0.066 & 0.035 &  1.91 & 0.057 & $-0.002$ & 0.134 \\
-$-8$  &  0.049 & 0.032 &  1.51 & 0.132 & $-0.015$ & 0.112 \\
-$-7$  &  0.049 & 0.030 &  1.64 & 0.102 & $-0.010$ & 0.109 \\
-$-6$  &  0.038 & 0.028 &  1.38 & 0.168 & $-0.016$ & 0.093 \\
-$-5$  &  0.005 & 0.025 &  0.21 & 0.833 & $-0.044$ & 0.055 \\
-$-4$  & $-0.003$ & 0.024 & $-0.11$ & 0.915 & $-0.050$ & 0.045 \\
-$-3$  & $-0.009$ & 0.025 & $-0.37$ & 0.710 & $-0.058$ & 0.040 \\
-$-2$  & $-0.011$ & 0.022 & $-0.51$ & 0.608 & $-0.055$ & 0.032 \\
-$-1$  & 0 (ref) & --- & --- & --- & --- & --- \\
+$-12$ &  0.077 & 0.053 & 0.145 & $-0.027$ & 0.181 \\
+$-11$ &  0.105 & 0.039 & 0.007 &    0.028 & 0.181 \\
+$-10$ &  0.041 & 0.035 & 0.242 & $-0.028$ & 0.110 \\
+$-9$  &  0.066 & 0.035 & 0.057 & $-0.002$ & 0.134 \\
+$-8$  &  0.049 & 0.032 & 0.132 & $-0.015$ & 0.112 \\
+$-7$  &  0.049 & 0.030 & 0.102 & $-0.010$ & 0.109 \\
+$-6$  &  0.038 & 0.028 & 0.168 & $-0.016$ & 0.093 \\
+$-5$  &  0.005 & 0.025 & 0.833 & $-0.044$ & 0.055 \\
+$-4$  & $-0.003$ & 0.024 & 0.915 & $-0.050$ & 0.045 \\
+$-3$  & $-0.009$ & 0.025 & 0.710 & $-0.058$ & 0.040 \\
+$-2$  & $-0.011$ & 0.022 & 0.608 & $-0.055$ & 0.032 \\
+$-1$  & 0 (ref) & --- & --- & --- & --- \\
 \midrule
-$0$  & $\mathbf{0.101}$ & 0.022 &  4.64 & $<$0.001 & 0.058 & 0.144 \\
-$1$  & 0.045 & 0.022 &  1.99 & 0.047 &  0.001 & 0.089 \\
-$2$  & $-0.063$ & 0.023 & $-2.80$ & 0.005 & $-0.108$ & $-0.019$ \\
-$3$  & $-0.097$ & 0.024 & $-4.07$ & $<$0.001 & $-0.145$ & $-0.050$ \\
-$4$  & $-0.114$ & 0.026 & $-4.46$ & $<$0.001 & $-0.165$ & $-0.064$ \\
-$5$  & $-0.145$ & 0.027 & $-5.47$ & $<$0.001 & $-0.198$ & $-0.093$ \\
-$6$  & $-0.160$ & 0.027 & $-5.93$ & $<$0.001 & $-0.213$ & $-0.107$ \\
-$7$  & $-0.164$ & 0.028 & $-5.85$ & $<$0.001 & $-0.219$ & $-0.109$ \\
-$8$  & $-0.169$ & 0.028 & $-6.02$ & $<$0.001 & $-0.224$ & $-0.114$ \\
-$9$  & $-0.178$ & 0.031 & $-5.76$ & $<$0.001 & $-0.238$ & $-0.117$ \\
-$10$ & $-0.199$ & 0.031 & $-6.45$ & $<$0.001 & $-0.259$ & $-0.138$ \\
-$11$ & $-0.181$ & 0.032 & $-5.71$ & $<$0.001 & $-0.243$ & $-0.119$ \\
-$12$ & $-0.267$ & 0.053 & $-5.09$ & $<$0.001 & $-0.371$ & $-0.164$ \\
+$0$  & $\mathbf{0.101}^{***}$ & 0.022 & $<$0.001 & 0.058 & 0.144 \\
+$1$  & $0.045^{*}$ & 0.022 & 0.047 &  0.001 & 0.089 \\
+$2$  & $-0.063^{**}$ & 0.023 & 0.005 & $-0.108$ & $-0.019$ \\
+$3$  & $-0.097^{***}$ & 0.024 & $<$0.001 & $-0.145$ & $-0.050$ \\
+$4$  & $-0.114^{***}$ & 0.026 & $<$0.001 & $-0.165$ & $-0.064$ \\
+$5$  & $-0.145^{***}$ & 0.027 & $<$0.001 & $-0.198$ & $-0.093$ \\
+$6$  & $-0.160^{***}$ & 0.027 & $<$0.001 & $-0.213$ & $-0.107$ \\
+$7$  & $-0.164^{***}$ & 0.028 & $<$0.001 & $-0.219$ & $-0.109$ \\
+$8$  & $-0.169^{***}$ & 0.028 & $<$0.001 & $-0.224$ & $-0.114$ \\
+$9$  & $-0.178^{***}$ & 0.031 & $<$0.001 & $-0.238$ & $-0.117$ \\
+$10$ & $-0.199^{***}$ & 0.031 & $<$0.001 & $-0.259$ & $-0.138$ \\
+$11$ & $-0.181^{***}$ & 0.032 & $<$0.001 & $-0.243$ & $-0.119$ \\
+$12$ & $-0.267^{***}$ & 0.053 & $<$0.001 & $-0.371$ & $-0.164$ \\
 \bottomrule
 \end{tabular}
 \medskip
@@ -1060,11 +1085,6 @@ $12$ & $-0.267$ & 0.053 & $-5.09$ & $<$0.001 & $-0.371$ & $-0.164$ \\
 % ─────────────────────────── REFERENCES ────────────────────────────────────
 \begin{thebibliography}{Callaway and Sant'Anna (2021)}
 \setlength{\itemsep}{0.8em}
-
-\bibitem[Armstrong(2006)]{armstrong2006}
-Armstrong, M.\ (2006).
-``Competition in Two-Sided Markets.''
-\textit{RAND Journal of Economics}, 37(3), 668--691.
 
 \bibitem[Callaway and Sant'Anna(2021)]{callaway2021}
 Callaway, B.\ and Sant'Anna, P.H.C.\ (2021).
@@ -1104,13 +1124,6 @@ Nabil, M.\ and Ariatmanto, D.\ (2025).
 ``Analysis of User Satisfaction and Preferences in Choosing a Digital Game Platform
 (Study Case: Steam vs Epic Games Store).''
 \textit{G-Tech: Jurnal Teknologi Terapan}, 9(3), 1166--1175.
-
-\bibitem[Oshry(2026)]{oshry2026}
-Oshry, D.\ (2026).
-``[Social media post on the Steam sales impact of the Blood West EGS giveaway.]''
-Cited in r/Steam, ``Epic Game Store's free giveaways just cause a huge spike in
-Steam sales,'' January 2026.
-Retrieved from \url{https://www.reddit.com/r/Steam/comments/1qi94gk/}.
 
 \bibitem[Reddit(2026)]{reddit2026}
 r/Steam\ (2026).
