@@ -1053,6 +1053,33 @@ repeat-contamination bias.
 
 \newpage
 
+\section{Per-Cohort Event-Study Paths}
+\label{app:cohort_paths}
+
+Figure~\ref{fig:cohort_paths} overlays the full event-study path
+$\widehat{\text{ATT}}(g,k)$ for each treatment cohort, coloured from early
+(dark purple) to late (bright yellow) by quarter of first-giveaway exposure.
+Lines are semi-transparent to reveal the density of trajectories; the thick
+black dashed line reproduces the weighted CS aggregate from
+Figure~\ref{fig:csatt}(a).
+Despite heterogeneity across cohorts, the common pattern of a sharp positive
+spike at $k=0$ followed by gradual mean-reversion is visible throughout,
+corroborating the aggregate estimate.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\linewidth]{../output/fig_cs_cohort_event_study.pdf}
+\caption{Per-cohort Callaway--Sant'Anna event-study paths. Each thin line
+  traces $\widehat{\text{ATT}}(g,k)$ for one treatment cohort $g$ across
+  event times $k \in [-12,\,12]$; cohorts are coloured chronologically
+  (early $\to$ late: purple $\to$ yellow, \textit{plasma} palette).
+  The thick black dashed line is the cohort-size-weighted CS aggregate.
+  Vertical dotted line marks $k=-0.5$; horizontal dashed line marks zero.}
+\label{fig:cohort_paths}
+\end{figure}
+
+\newpage
+
 \section{Full TWFE Coefficient Table}
 \label{app:coeftable}
 
