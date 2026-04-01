@@ -59,11 +59,13 @@
 engagement for the same title on Steam? Using a staggered difference-in-differences
 event study across 446 treated games from 2018--2025, we find a two-phase dynamic:
 Steam concurrent players rise 5--14\% in the giveaway month, then decline to
-10--23\% below baseline by month twelve. Pre-period drift in treated games relative
-to not-yet-treated controls suggests that games selected for giveaways may already
-be on a downward trajectory. The short-run spike is consistent with the giveaway 
-functioning as an advertising event; the medium-run decline likely reflects 
-a combination of platform substitution and selection of games already in lifecycle decline.
+10--23\% below baseline by month twelve. A downward pre-period event-study path indicates that games
+selected for giveaways are already declining on Steam prior to treatment.
+The short-run spike is consistent with the giveaway functioning as an advertising event;
+the medium-run decline is primarily explained by the continuation of this pre-existing
+lifecycle decline in selected titles, with platform substitution a possible but
+secondary contributor. The LP-DiD estimate of approximately 10--12\% below baseline
+should be interpreted as an upper bound on the true causal substitution effect.
 
 \vspace{0.5em}
 \noindent\textit{Keywords:} platform competition, cross-platform spillovers, video games, Epic Games Store, Steam
@@ -75,15 +77,14 @@ a combination of platform substitution and selection of games already in lifecyc
 % ─────────────────────────── 1. INTRODUCTION ───────────────────────────────
 \section{Introduction}
 
-When most gamers hear about a new video game, whether through social media, a friend's
-recommendation, or a news headline, the first instinct is to open Steam and search for it,
-not the Epic Games Store, GOG, or any other platform. Steam is simply where games
-live in the average gamer's mental model, regardless of where they are sold or
-given away. This behavior reflects the social ecosystem Steam has cultivated: friend
+When most gamers hear about a new video game, the first instinct is to open Steam and search for it.
+Not the Epic Games Store, GOG, or any other platform. 
+Steam is simply where games live in the average gamer's mental model. 
+This behavior reflects the social ecosystem Steam has cultivated: friend
 lists, community hubs, reviews, achievements, and wishlist notifications so comprehensive
 that it functions not merely as a store but as the primary discovery and identity layer
-for PC gaming. Even a game distributed entirely for free on a rival platform is liable
-to drive curious players to \textit{Steam} first.
+for PC gaming. Even a game distributed \textit{entirely for free} on a rival platform is liable
+to drive curious players to Steam first.
 
 This intuition recently received vivid anecdotal support. In January 2026, Dave Oshry,
 CEO of New Blood Interactive, publicly shared that when \textit{Blood West}, a 
@@ -92,11 +93,11 @@ free on the Epic Games Store over the 2025 holiday period, Steam sales surged by
 approximately 200\% on the same day \citep{frvr2026}. ``I used to think EGS was a
 Marketing Black Hole,'' Oshry wrote, ``but turns out having your game be free on Epic is
 great advertising for Steam sales!'' The comment went viral in the gaming community,
-sparking a Reddit thread on r/Steam that reached hundreds of upvotes and generated
+sparking a Reddit thread on r/Steam that reached thousands of upvotes and generated
 broad discussion about whether the Epic giveaway program systematically benefits Steam
 engagement rather than draining it \citep{reddit2026}.
 
-These observations raise a precise and economically interesting causal question: does an
+These observations raise an economically interesting causal question: does an
 Epic Games Store free giveaway increase or decrease engagement for
 the same game on Steam? Standard substitution logic predicts a decrease: a zero-price
 substitute on a rival platform should divert players away from Steam. Yet the anecdotal
@@ -144,12 +145,20 @@ pre-giveaway baseline through the remaining one-year window, reaching approximat
 significant and robust to alternative estimators. Repeat giveaways of the same game
 generate essentially zero additional effect.
 
-This pattern shows evidence for both the advertising hypothesis and
-substitution theory at different time horizons. The
-giveaway announcement attracts attention to the title on Steam, generating a temporary 
-engagement spike; but the free copy distributed via Epic gradually substitutes Steam 
-engagement. Additionally, there could be selection bias for games already losing popularity
-with a slight bump in engagement due to the giveaway.
+This pattern is consistent with three mechanisms operating at different time horizons.
+First, the giveaway announcement attracts attention to the title on Steam, generating
+a temporary engagement spike, consistent with an advertising mechanism.
+Second, and most importantly for interpreting the medium-run reversal, games selected
+for EGS giveaways appear to already be on a downward Steam trajectory prior to
+treatment: the pre-period event-study coefficients for $k \in [-12, -1]$ trace a
+negative slope relative to not-yet-treated controls, indicating that treated titles
+were already losing engagement before the giveaway and that Epic preferentially selects
+titles already in lifecycle decline. Much of the observed post-giveaway decline likely
+reflects this pre-existing trajectory continuing, not a causal consequence of the
+giveaway. Third, platform substitution (players migrating from Steam to their free
+Epic copy) may contribute a residual causal component, but the LP-DiD estimate
+(approximately 10--12\% below baseline) should be treated as an upper bound on this
+substitution effect, not a point estimate of it.
 
 The central contribution is the large-scale causal estimate of the full
 dynamic trajectory of cross-platform spillovers from free game promotions (446 games,
@@ -240,8 +249,8 @@ We obtained a Kaggle dataset \citep{dongre2025} recording every free game offere
 the Epic Games Store from December 2018 through 2025, comprising 541 giveaway events corresponding
 to 471 unique game titles. The remaining 70 events are repeat appearances. The source
 dataset flags repeat appearances with a ``(repeat)'' suffix appended to the game name.
-Nine titles had this suffix incorrectly applied to their \textit{first} appearance;
 these have been manuallycorrected so that every title's earliest entry is flag-free and only
+Nine titles had this suffix incorrectly applied to their \textit{first} appearance;
 subsequent giveaways of the same title carry the suffix.
 
 Repeats cluster in two distinct patterns: \textit{distant repeats}, where a game is
@@ -334,25 +343,25 @@ The key identifying assumption is parallel trends: in the absence of treatment, 
 log player trajectory of games in different giveaway cohorts would have followed the
 same path after conditioning on game and calendar-month fixed effects. This assumption
 is more plausible to the extent that Epic's curation team does not systematically
-select games at particular inflection points in their Steam life-cycle. The LP-DiD
-pre-period estimates provide some evidence that this assumption is partially violated:
-at $k = -4$ and $k = -3$, treated games show marginally significant negative
-coefficients ($-0.046$ and $-0.045$) relative to not-yet-treated controls, consistent
-with Epic preferentially selecting titles already in lifecycle decline. This selection
-concern motivates our preference for the LP-DiD estimate as the most conservative
-characterization of the causal reversal.
+select games at particular inflection points in their Steam life-cycle. There is,
+however, reason to believe this assumption is at least partially violated: as documented
+in Section~\ref{sec:results}, the pre-period event-study coefficients for $k \in [-12, -1]$
+trace a negative slope, consistent with Epic preferentially selecting titles
+already in lifecycle decline. This selection concern is the central identification caveat
+of the design and implies that observed post-giveaway declines in Steam engagement may
+partly reflect the continuation of a pre-existing downward trajectory rather than a
+causal effect of the giveaway.
 
 The assumption is partially testable. If parallel trends holds, the estimated
 event-study coefficients for pre-treatment periods $k \in [-12, -2]$ should be
 jointly indistinguishable from zero. We test this formally with a joint Wald test
-of $H_0\colon \theta_k = 0$ for $k \in [-12,-2]$; failure to reject supports
-approximate parallel trends. One caveat: observations with $k < -12$ are binned
-into the $k=-12$ endpoint cell (boundary-bin clipping), which can inflate the
-far-left pre-trend coefficients mechanically. We therefore supplement the full
-pre-trend test with a separate test restricted to the window $k \in [-5, -2]$
-and with a test on the high-traffic subsample, where player-count series are
-more stable and the boundary concern is less acute. Results are in
-Section~\ref{sec:results}.
+of $H_0\colon \theta_k = 0$ for $k \in [-12,-2]$. The marginal rejection of this test
+($p = 0.026$) is consistent with a genuine negative pre-trend rather than purely a
+statistical artifact; boundary-bin clipping (observations with $k < -12$ binned into
+$k = -12$) likely inflates the specific coefficient at $k = -11$ but does not account
+for the overall pre-period slope. We supplement the full pre-trend test with a test
+restricted to $k \in [-5, -2]$ and with a test on the high-traffic subsample, where
+lifecycle decline is less pronounced. Results are in Section~\ref{sec:results}.
 
 \subsection{Pooled TWFE Specification}
 
@@ -465,18 +474,33 @@ $k = 12$, it is $-0.267$ (23.4\% below baseline).
 \subsection{Pre-Trend Test}
 
 The joint pre-trend Wald test of $H_0: \theta_k = 0$ for $k \in [-12, -2]$ yields
-$\chi^2 = 21.77$ ($df = 11$, $p = 0.026$). The marginal rejection is driven primarily
-by coefficients at $k = -11$ (0.105, $p = 0.007$) and to a lesser extent $k = -9$
-(0.066, $p = 0.057$), positive drift at the far left boundary that likely reflects
-boundary-bin clipping bias in the TWFE specification (observations with $k < -12$ are
-binned into $k = -12$, inflating the endpoint cell) rather than a genuine anticipation effect. Coefficients in the
-window $k \in [-5, -2]$ are all close to zero and individually insignificant, supporting
-approximate parallel trends in the months immediately preceding treatment.
+$\chi^2 = 21.77$ ($df = 11$, $p = 0.026$), marginally rejecting zero pre-trends.
+This rejection is consistent with a genuine negative pre-trend in treated games
+relative to controls, reflecting the selection of titles already in lifecycle decline.
+Boundary-bin clipping (observations with $k < -12$ are binned into $k = -12$) likely
+inflates the coefficient at $k = -11$ (0.105, $p = 0.007$) specifically, but clipping
+alone does not account for the overall downward slope of the pre-period path across
+$k \in [-12, -1]$. The broader pre-period trajectory is better interpreted as
+evidence that parallel trends is violated for games selected by Epic: treated titles
+were already on a declining trajectory before the giveaway, and that decline continues
+into the post-period.
 
 For the high-traffic subsample, the pre-trend Wald test yields $\chi^2 = 9.35$
-($df = 11$, $p = 0.589$), a clean failure to reject, indicating no systematic
-pre-trend among the games with more stable, high-population player counts. This provides
-stronger identification support for that subsample.
+($df = 11$, $p = 0.589$), a clean failure to reject. This suggests that the
+pre-trend violation is concentrated in lower-traffic titles, where lifecycle decline
+is more pronounced and boundary noise is larger, and that identification is cleaner
+for the high-traffic subsample.
+
+Across estimators, the pre-period coefficients for $k \in [-12, -1]$ trace a
+negative slope: treated games are gradually losing ground relative to not-yet-treated
+controls in the months leading up to the giveaway. This downward pre-period trajectory
+is consistent with Epic preferentially selecting titles already in lifecycle decline,
+whether because fading titles are cheaper to license or because publishers of declining
+games are more receptive to giveaway terms. Under this interpretation, a meaningful
+portion of the post-giveaway reversal is not caused by the giveaway but is simply the
+continuation of a pre-existing downward trajectory. This selection concern is the
+primary reason the LP-DiD estimate of $-0.121$ at $k = 10$ should be read as an
+\emph{upper bound} on the true causal substitution effect rather than a point estimate.
 
 \subsection{Estimator Comparison: TWFE, LP-DiD, and Stacked DiD}
 
@@ -512,17 +536,20 @@ in the medium run. The spread across estimators reflects heterogeneity in cohort
 trajectories rather than uncertainty about the existence of the reversal: all three
 confidence intervals are entirely below zero by $k = 5$.
 
-\textbf{Pre-period patterns.} TWFE pre-period coefficients for $k \in [-5, -2]$ are
-small and statistically insignificant (all $|t| < 0.6$), consistent with parallel
-trends. LP-DiD shows a more pronounced negative pre-trend at $k = -4$ and $k = -3$
-($-0.046$ and $-0.045$, marginally significant), reflecting that not-yet-treated
-control games tend to be on a slight upward trajectory relative to already-treated
-comparators — a drift absorbed into the fixed effects under TWFE. Stacked DiD
-pre-period coefficients are generally small but show a borderline-significant positive
-spike at $k = -6$ (0.060, CI [0.038, 0.083]) and $k = -7$ (0.026, CI [0.003, 0.050]).
-These may reflect that games in cohorts with many not-yet-treated controls experience
-elevated engagement six to seven months before treatment, possibly due to pre-announcement
-media coverage, though this interpretation warrants caution.
+\textbf{Pre-period patterns.} Across all three estimators, the pre-period coefficients
+for $k \in [-12, -1]$ trace a negative slope: treated games lose ground relative
+to not-yet-treated controls in the months approaching the giveaway. This downward
+pre-period trajectory is the most direct evidence of selection on lifecycle decline;
+Epic's curation appears to favour titles already on a downward Steam trajectory. TWFE
+pre-period coefficients for $k \in [-5, -2]$ are individually small and insignificant
+(all $|t| < 0.6$), but the overall pre-period slope from $k = -12$ onward is
+negative. LP-DiD, which compares treated games only to genuinely not-yet-treated
+controls, makes this pattern more visible: the negative pre-period slope is not
+absorbed by fixed effects that condition on already-treated comparators who share the
+same selection filter. Stacked DiD pre-period coefficients are generally small but
+show a borderline-significant positive spike at $k = -6$ (0.060, CI [0.038, 0.083])
+and $k = -7$ (0.026, CI [0.003, 0.050]); these may reflect pre-announcement media
+effects, though this interpretation warrants caution.
 
 \textbf{Overall assessment.} Despite the quantitative differences, all three estimators
 produce the same qualitative two-phase pattern: a short-lived positive spike at $k = 0$
@@ -530,8 +557,13 @@ followed by a sustained and statistically significant decline below baseline thr
 full $[-12, 12]$ window. The spread in the contemporaneous effect (0.047 to 0.131) is
 itself informative: it bounds the plausible range of the true ATT at $k = 0$, with the
 stacked DiD providing the lower bound and LP-DiD the upper bound. The robust agreement
-on the reversal — which is significant at the 5\% level under all three estimators from
-$k = 5$ onward — substantially strengthens the substitution or dying lifecycle interpretation.
+on the reversal, significant at the 5\% level under all three estimators from $k = 5$
+onward, is consistent with a medium-run decline driven primarily by the continuation
+of pre-existing lifecycle decline in selected titles, with platform substitution as a
+possible secondary contributor. Because the pre-period estimates show that treated
+games were already declining before the giveaway, the LP-DiD medium-run estimate of
+$-0.121$ should be read as an upper bound on the true causal substitution effect;
+the actual causal impact on Steam engagement may be substantially smaller.
 
 \subsection{Separated Specification: First vs.\ Repeat Giveaways}
 
@@ -618,42 +650,45 @@ noisier but more direct proxy for actual engagement.
 
 The sustained reversal below baseline from $k = 2$ through $k = 12$ is the most novel
 finding in this paper and warrants careful interpretation. Three mechanisms likely
-contribute:
+contribute, though they are not equally supported by the empirical evidence:
 
-\textbf{Direct substitution.} Players who claimed the free Epic copy gradually shift
-their playtime from Steam to Epic. This effect is slow to materialize: it takes time
-for players to actually install and play the game they claimed, which explains why
-the reversal begins at $k = 2$ rather than $k = 0$. By month 3--4, the pool of
-Epic-copy holders who are actively playing has grown large enough to depress Steam
-concurrent counts relative to the counterfactual.
-
-\textbf{Counterfactual trajectory.} The reversal may partially reflect that the
-giveaway ``exhausts'' the marginal demand for Steam purchases. Players who were on the
-verge of buying the game on Steam instead claimed it free on Epic, meaning Steam
-permanently loses those players from its post-treatment baseline. Under this mechanism,
-the reversal represents a permanent level shift rather than a gradual migration.
-
-\textbf{Selection of games in lifecycle decline.} A third and arguably the most
-important mechanism is selection bias: Epic's curation team may preferentially select
-titles whose Steam player base is already declining, whether because declining games
-are cheaper to license or because publishers of fading titles are more willing to
-accept giveaway terms. Under this mechanism, part of the observed post-giveaway
+\textbf{Selection of games in lifecycle decline.} The primary and best-supported
+explanation is selection bias: Epic's curation team preferentially selects titles
+whose Steam player base is already declining, whether because declining games are
+cheaper to license or because publishers of fading titles are more willing to
+accept giveaway terms. Under this mechanism, much of the observed post-giveaway
 decline is simply the continuation of a pre-existing downward trend, not a causal
-consequence of the giveaway. The LP-DiD pre-period estimates provide the clearest
-empirical evidence for this: at $k = -4$ and $k = -3$, treated games show marginally
-significant negative coefficients ($-0.046$ and $-0.045$) relative to not-yet-treated
-controls, consistent with a pre-existing decline in selected titles. Crucially, this
-selection concern cannot explain the contemporaneous spike at $k = 0$ (which is
-robustly causal and passes the randomization placebo), but it likely accounts for a
-substantial share of the estimated medium-run reversal.
+consequence of the giveaway. The clearest empirical evidence for this is the negative
+slope of the pre-period event-study path across $k \in [-12, -1]$: treated games
+were already losing engagement relative to not-yet-treated controls in the months
+before the giveaway, and that trajectory continues into the post-period. Crucially,
+this selection mechanism cannot explain the contemporaneous spike at $k = 0$ (which is
+robustly causal and passes the randomization placebo); but it likely accounts for the
+dominant share of the estimated medium-run reversal.
 
-All three mechanisms are consistent with the observation that LP-DiD (which conditions
-on richer cohort-specific pre-treatment trends) shows a materially smaller reversal
-than TWFE\@. The approximately 0.08 log-point gap between TWFE ($-0.199$ at $k = 10$)
-and LP-DiD ($-0.121$) likely reflects the pre-existing lifecycle decline that LP-DiD
-absorbs but TWFE attributes to the giveaway. The LP-DiD estimate of $-0.121$ is
-therefore the preferred, more conservative characterization of the true causal
-reversal; the TWFE estimate should be treated as an upper bound.
+\textbf{Direct substitution.} A secondary causal mechanism is that players who
+claimed the free Epic copy gradually shift their playtime from Steam to Epic. This
+effect is slow to materialize: it takes time for players to install and play the
+game they claimed, which explains why the reversal begins at $k = 2$ rather than
+$k = 0$. By month 3--4, the pool of Epic-copy holders who are actively playing has
+grown large enough to depress Steam concurrent counts relative to the counterfactual.
+This mechanism is real but likely smaller in magnitude than the selection effect.
+
+\textbf{Counterfactual trajectory.} A third, related mechanism is that the giveaway
+``exhausts'' marginal demand for Steam purchases. Players who were on the verge of
+buying the game on Steam instead claimed it free on Epic, meaning Steam permanently
+loses those players from its post-treatment baseline. Under this mechanism, the
+reversal represents a permanent level shift rather than a gradual migration.
+
+All three mechanisms are consistent with the observation that LP-DiD (which
+conditions on richer cohort-specific pre-treatment trends) shows a materially smaller
+reversal than TWFE\@. The approximately 0.08 log-point gap between TWFE ($-0.199$
+at $k = 10$) and LP-DiD ($-0.121$) likely reflects the pre-existing lifecycle decline
+that LP-DiD partially absorbs but TWFE attributes entirely to the giveaway. The
+LP-DiD estimate of $-0.121$ is therefore best understood as an \emph{upper bound} on
+the true causal substitution effect (the portion attributable to the giveaway itself)
+rather than a point estimate; the actual causal impact may be substantially smaller
+than 12\%.
 
 \subsection{The Null Repeat-Giveaway Effect}
 
@@ -738,21 +773,25 @@ pre-giveaway baseline over the following year. The contemporaneous spike is robu
 to estimator choice (TWFE, LP-DiD, CS), passes a randomization placebo test
 ($p < 0.001$), and is not confounded by repeat-giveaway effects ($\hat{\delta} \approx 0$).
 
-The results are consistent with both advertising and substitution mechanisms operating
-at different horizons, though the interpretation of the medium-run decline warrants
-caution. The giveaway generates media awareness that temporarily lifts Steam traffic;
-the subsequent decline below baseline likely reflects a mix of platform substitution
-and pre-existing lifecycle decline in selected titles, with LP-DiD evidence of
-negative pre-treatment drift suggesting the latter is a meaningful contributor.
-The LP-DiD estimate of approximately 10--12\% below baseline is the preferred causal
-lower bound on the substitution effect; the larger TWFE estimate of up to 23\% likely
-conflates substitution with selection. Taken together, the findings suggest that
+The results are consistent with advertising, lifecycle-selection, and substitution
+mechanisms operating at different horizons. The giveaway generates media awareness
+that temporarily lifts Steam traffic. The subsequent medium-run decline below baseline
+is primarily explained by the pre-existing lifecycle decline of selected titles: the
+pre-period event-study coefficients for $k \in [-12, -1]$ trace a negative slope,
+indicating that treated games were already on a downward trajectory before the giveaway,
+and the approximately 0.08 log-point gap between TWFE and LP-DiD estimates reflects the
+portion of the observed reversal that LP-DiD attributes to this pre-existing selection
+rather than to the giveaway itself. Platform substitution (players migrating to their
+free Epic copy) is a plausible secondary mechanism, but the LP-DiD estimate of
+approximately 10--12\% below baseline should be treated as an \emph{upper bound} on the
+true causal substitution effect; the actual causal impact of the giveaway on Steam
+engagement may be substantially smaller. Taken together, the findings suggest that
 Epic's free-game strategy may function more as inadvertent Steam advertising than as
 a durable driver of Epic platform engagement, and that future research should directly
 test whether giveaway-selected titles are systematically in lifecycle decline relative
 to the broader gaming catalogue. For developers and platform operators weighing EGS
-giveaway deals, the estimates imply that the short-run advertising benefit is real
-but transient, while the medium-run decline accrues gradually, a pattern that likely
+giveaway deals, the estimates imply that the short-run advertising benefit is real but
+transient, while the medium-run decline accrues gradually, a pattern that likely
 favors the deal for completed single-player titles but cuts against it for live-service
 games where an active Steam player base has ongoing value.
 
