@@ -1,12 +1,32 @@
-# Epic Games Free Giveaway → Steam Player Count Pipeline
+# Epic Games Store Giveaways: Causal Effect on Steam Player Engagement
 
-This project studies the effect of Epic Games Store free game giveaways on Steam concurrent player counts. The pipeline turns a raw giveaway history CSV into a monthly panel dataset of Steam player activity, ready for empirical analysis.
+A full research pipeline investigating whether free game giveaways on the Epic Games Store increase or decrease engagement for the same title on Steam. The pipeline spans raw data acquisition, automated and manual data cleaning, panel construction, staggered difference-in-differences estimation, and a written research paper.
 
-## Motivation
+## Research Question
 
-In January 2026, the studio behind *Blood West* publicly shared that the free giveaway of their game on the Epic Games Store led to a dramatic increase in Steam sales, nearly doubling their revenue on the platform. For more details, see [this discussion on Reddit.](https://www.reddit.com/r/Steam/comments/1qi94gk/epic_game_stores_free_giveaways_just_cause_a_huge/)
+Does a free game giveaway on the Epic Games Store causally affect concurrent player counts for the same game on Steam? Motivated by anecdotal reports — such as the *Blood West* studio's account in January 2026 of an EGS giveaway nearly doubling their Steam revenue — this project uses a staggered DiD event study across 446 treated games from 2018–2025 to estimate the causal effect and characterize its dynamics.
 
-This project was inspired by such anecdotal reports, aiming to systematically analyze the impact of Epic's free giveaways on Steam player activity—shedding light on how cross-store promotions may drive real economic outcomes for game developers.
+For the motivating anecdote, see [this Reddit thread](https://www.reddit.com/r/Steam/comments/1qi94gk/epic_game_stores_free_giveaways_just_cause_a_huge/).
+
+---
+
+## Pipeline Overview
+
+```
+[1] Raw data (Kaggle)
+        ↓
+[2] Game ID disambiguation     scripts/game_id_disambiguation.ipynb
+        ↓
+[3] Manual match cleanup       raw_data/steam_matches_manual.json
+        ↓
+[4] SteamCharts scraping       scripts/steam_charts_data.ipynb
+        ↓
+[5] Panel dataset              raw_data/steamcharts/all_monthly.csv
+        ↓
+[6] Empirical analysis         scripts/empirical_tests.ipynb
+        ↓
+[7] Research paper             writeups/egs_steam_paper.tex / .pdf
+```
 
 ---
 
@@ -14,7 +34,7 @@ This project was inspired by such anecdotal reports, aiming to systematically an
 
 | Source | Description | Location |
 |--------|-------------|----------|
-| [Epic Games Free Giveaway History (Kaggle)](https://www.kaggle.com/datasets/prajwaldongre/epic-games-free-giveaway-history-20182025?resource=download) | 541 giveaway records from Dec 2018 – 2025, with game name, start/end dates, and genre | `raw_data/epic games data.csv` |
+| [Epic Games Free Giveaway History (Kaggle)](https://www.kaggle.com/datasets/prajwaldongre/epic-games-free-giveaway-history-20182025?resource=download) | 541 giveaway records from Dec 2018–2025, with game name, start/end dates, and genre | `raw_data/epic games data.csv` |
 | Steam Store Search API | Used to map Epic game names to Steam App IDs | queried live, cached in `raw_data/steam_search_cache.json` |
 | [SteamCharts](https://steamcharts.com) | Monthly average and peak concurrent player counts per app | scraped, cached in `raw_data/steamcharts/` |
 
@@ -28,7 +48,7 @@ Download `epic games data.csv` from the Kaggle link above and place it in `raw_d
 
 ---
 
-### Step 2 — Game ID disambiguation (`scripts/game_id_disambiguation.ipynb`)
+### Step 2 — Game ID disambiguation ([scripts/game_id_disambiguation.ipynb](scripts/game_id_disambiguation.ipynb))
 
 Matches each Epic game name to its Steam App ID.
 
@@ -39,12 +59,12 @@ STEAM_API_KEY=your_key_here
 
 **What it does:**
 1. Loads the Epic CSV (541 rows) and strips `(repeat)` suffixes from 77 duplicate giveaway entries, yielding 476 unique game names.
-2. Queries `store.steampowered.com/api/storesearch` for each unique name. Results are cached incrementally to `raw_data/steam_search_cache.json` so re-runs are instant and interruptions are safe (~190 seconds on first run).
+2. Queries `store.steampowered.com/api/storesearch` for each unique name. Results are cached incrementally to `raw_data/steam_search_cache.json` (~190 seconds on first run; resumable).
 3. Scores each result against the query using `rapidfuzz.WRatio`:
    - Score ≥ 88 → single confident match (413 games)
    - Score < 88 → top 5 candidates kept for manual review (14 games)
    - No results → not found on Steam (49 games — F2P titles, delisted, collections, DLCs, or Epic-exclusives)
-4. Saves `raw_data/steam_matches.json` in the format:
+4. Saves `raw_data/steam_matches.json`:
    ```json
    { "Subnautica": [[264710, "Subnautica"]], "For Honor": [[304390, "FOR HONOR™"], ...], ... }
    ```
@@ -54,38 +74,24 @@ STEAM_API_KEY=your_key_here
 
 ### Step 3 — Manual cleanup of `steam_matches_manual.json`
 
-Copy `raw_data/steam_matches.json` to `raw_data/steam_matches_manual.json`, then edit manually:
+Copy `raw_data/steam_matches.json` → `raw_data/steam_matches_manual.json`, then edit manually:
 
 - **Multiple candidates** (14 games): delete all but the correct `[appid, name]` pair.
-- **No match** (49 games): for games that are Steam-exclusive collections, bundles, or have non-standard names, manually add the correct `[appid, name]` entry. Games that are Epic-exclusives or F2P-only can be left as `[]` and will be skipped.
+- **No match** (49 games): for games that are on Steam under a non-standard name, manually add the correct `[appid, name]` entry. Epic-exclusives or F2P-only titles can stay as `[]` and will be skipped.
 
-`steam_matches_manual.json` is the ground-truth mapping file consumed by all downstream steps.
+`steam_matches_manual.json` is the ground-truth mapping consumed by all downstream steps.
 
 ---
 
-### Step 4 — Scrape SteamCharts (`scripts/steam_charts_data.ipynb`)
+### Step 4 — Scrape SteamCharts ([scripts/steam_charts_data.ipynb](scripts/steam_charts_data.ipynb))
 
 Scrapes monthly concurrent player data for every matched game.
 
 **What it does:**
-1. Reads `steam_matches_manual.json` and deduplicates by App ID (a game given away multiple times is only scraped once).
-2. For each App ID, fetches `https://steamcharts.com/app/{appid}/chart-data.json`. The endpoint returns a mix of monthly pre-aggregated points (older history) and hourly points (recent ~6 months); both are bucketed and averaged to monthly granularity.
-3. Caches each game's result to `raw_data/steamcharts/{appid}.json`:
-   ```json
-   {
-     "appid": 264710,
-     "steam_name": "Subnautica",
-     "epic_name": "Subnautica",
-     "months": [
-       {"month": "2018-12", "avg_players": 4321.2, "peak_players": 8900},
-       ...
-     ]
-   }
-   ```
-   Re-running skips already-cached App IDs, so the scrape is safe to interrupt and resume.
-4. Assembles all cached files into a single long-format panel:
-
-**Output: `raw_data/steamcharts/all_monthly.csv`**
+1. Reads `steam_matches_manual.json` and deduplicates by App ID.
+2. Fetches `https://steamcharts.com/app/{appid}/chart-data.json` for each App ID. Monthly pre-aggregated points and hourly points (recent ~6 months) are both bucketed to monthly granularity.
+3. Caches each game's result to `raw_data/steamcharts/{appid}.json` (safe to interrupt and resume).
+4. Assembles all cached files into a single long-format panel: **`raw_data/steamcharts/all_monthly.csv`**
 
 | Column | Description |
 |--------|-------------|
@@ -97,13 +103,19 @@ Scrapes monthly concurrent player data for every matched game.
 | `peak_players` | Peak concurrent players that month |
 | `first_giveaway_date` | Date of the first Epic free giveaway for this game |
 
-> **Bot detection note:** SteamCharts uses Cloudflare. The scraper uses a full Chrome 120 User-Agent, matching `Sec-Fetch-*` headers, and warms up a persistent session to establish cookies before scraping. Rate limit is 2 seconds per request.
+> **Bot detection note:** SteamCharts uses Cloudflare. The scraper uses a full Chrome 120 User-Agent with matching `Sec-Fetch-*` headers and a warmed-up persistent session. Rate limit: 2 seconds per request.
 
 ---
 
-### Step 5 — Empirical analysis (`scripts/empirical_tests.ipynb`)
+### Step 5 — Empirical analysis ([scripts/empirical_tests.ipynb](scripts/empirical_tests.ipynb))
 
-Run difference-in-differences or event-study regressions on `all_monthly.csv` using the `first_giveaway_date` column as the treatment date. *(In progress.)*
+Staggered difference-in-differences event study on `all_monthly.csv`, using `first_giveaway_date` as the treatment date. Estimates the dynamic causal effect of an EGS giveaway on Steam player counts, with control games as the comparison group.
+
+---
+
+### Step 6 — Research paper ([writeups/egs_steam_paper.tex](writeups/egs_steam_paper.tex))
+
+Full writeup of the research question, data, empirical strategy, results, and interpretation. Compile with `pdflatex` (run twice) or paste into Overleaf.
 
 ---
 
@@ -120,9 +132,13 @@ raw_data/
     all_monthly.csv            # final panel dataset (Step 4 output)
 
 scripts/
-  game_id_disambiguation.ipynb # Step 2
-  steam_charts_data.ipynb      # Step 4
-  empirical_tests.ipynb        # Step 5
+  game_id_disambiguation.ipynb # Step 2: Epic → Steam ID mapping
+  steam_charts_data.ipynb      # Step 4: scrape player counts
+  empirical_tests.ipynb        # Step 5: DiD event study
+
+writeups/
+  egs_steam_paper.tex          # Step 6: research paper (LaTeX source)
+  egs_steam_paper.pdf          # compiled paper
 
 .env.local                     # STEAM_API_KEY=... (not committed)
 ```
