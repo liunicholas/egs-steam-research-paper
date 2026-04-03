@@ -6,7 +6,6 @@
 \usetheme{Madrid}
 \usecolortheme{default}
 
-% MIT crimson (#A31F34) as primary structure color
 \definecolor{mitcrimson}{HTML}{A31F34}
 \definecolor{mitgray}{HTML}{8A8B8C}
 \definecolor{mitwarm}{HTML}{F2F2F0}
@@ -57,16 +56,33 @@
 \setbeamerfont{frametitle}{size=\large, series=\bfseries}
 \setbeamerfont{block title}{size=\normalsize, series=\bfseries}
 
+\setbeamertemplate{title page}{%
+  \vbox{}
+  \vfill
+  \begin{centering}
+    \begin{beamercolorbox}[sep=10pt,center,rounded=true,shadow=true]{title}
+      \usebeamerfont{title}\inserttitle\par
+    \end{beamercolorbox}
+    \vskip2em
+    \begin{beamercolorbox}[sep=4pt,center]{author}
+      \usebeamerfont{author}\insertauthor
+    \end{beamercolorbox}
+    \vskip0.5em
+    \begin{beamercolorbox}[sep=4pt,center]{date}
+      \usebeamerfont{date}\insertdate
+    \end{beamercolorbox}
+  \end{centering}
+  \vfill
+}
+
 % Inline citations used throughout (no .bib file needed for presentation)
 
 % ─────────────────────────────────────────────────────────────────────────────
 \title[EGS Giveaways \& Steam Engagement]{%
   Epic Games Store Giveaways:\\[0.2em]
   Causal Effect on Steam Player Engagement}
-\subtitle{14.33 Research Paper --- Final Presentation}
 \author[Nicholas Liu]{Nicholas Liu}
-\institute{MIT Department of Economics}
-\date{Spring 2026}
+\date{14.33 | Spring 2026}
 
 % ═════════════════════════════════════════════════════════════════════════════
 \begin{document}
@@ -79,11 +95,11 @@
 % ── SLIDE 1: MOTIVATION & RESEARCH QUESTION ──────────────────────────────────
 \begin{frame}{Motivation \& Research Question}
 
-\begin{columns}[T]
+\begin{columns}[T] 
 \column{0.56\textwidth}
-  \textbf{The puzzle}
+  \textbf{Motivating example}
   \begin{itemize}
-    \item Epic Games Store (EGS) has given away \alert{541 games for free} since 2018 --- its primary differentiation lever against Steam
+    \item Epic Games Store (EGS) has given away \alert{over 400 games} since 2018 --- its primary differentiation lever against Steam
     \item Standard theory predicts a \alert{zero-price substitute} on a rival platform diverts players \emph{away} from Steam
     \item But in January 2026, New Blood CEO Dave Oshry reported that giving away \textit{Blood West} on EGS caused Steam sales to surge \alert{$\sim$200\%} the same day
   \end{itemize}
@@ -118,7 +134,7 @@
   \begin{itemize}
     \item Kaggle dataset (Dongre, 2025): every free game on EGS Dec 2018--2025
     \item 541 events $\rightarrow$ \alert{471 unique titles}; 70 repeat appearances
-    \item 63 titles given away more than once (30 within 12 months = ``proximate'')
+    \item 63 titles given away more than once
   \end{itemize}
 
   \vspace{0.5em}
@@ -138,7 +154,7 @@
     & \\[-0.8em]
     Games in final panel & \alert{446} \\
     Game-month observations & \alert{38,642} \\
-    Median game: months of data & 88 \\
+    Median game months of data & 88 \\
     \midrule
     Mean avg.\ players/month & 1,584 \\
     \quad (median) & 65 \\
@@ -150,7 +166,7 @@
   \textit{\small Player counts are heavily right-skewed --- 101 games have pre-treatment median $<$ 10 players. Log transformation compresses the tail.}
 
   \vspace{0.5em}
-  \textbf{Matching:} RapidFuzz fuzzy string matching (WRatio $\geq$ 88) + manual review; 8 titles confirmed absent from Steam
+  \textbf{Matching:} Fuzzy string matching + manual review; 8 titles confirmed absent from Steam
 \end{columns}
 
 \end{frame}
@@ -164,13 +180,13 @@
   \begin{itemize}
     \item Treatment = game $i$'s first EGS giveaway, staggered across \alert{80 calendar months} (Dec 2018 -- late 2025)
     \item \textbf{Control group:} not-yet-treated games --- games awaiting future giveaways serve as controls for currently treated games
-    \item No external never-treated group needed (but this is the main limitation)
+    \item No external never-treated group needed
   \end{itemize}
 
   \vspace{0.5em}
   \textbf{Key assumption (parallel trends)}
 
-  In the absence of treatment, log player trajectories of different cohorts would have trended identically after conditioning on game \& calendar-month FE. Partially testable via pre-period coefficients.
+  In absence of treatment, log player trajectories would trend identically after conditioning on game \& calendar-month FE. Pre-period coefficients ($k \in [-12,-2]$) trace a \alert{downward slope} ($\chi^2=21.77$, $p=0.026$) --- treated games were \emph{already declining} before giveaway (lifecycle selection). High-traffic subsample passes the test ($p=0.589$).
 
 \column{0.48\textwidth}
   \textbf{Four Estimators (for robustness)}
@@ -208,15 +224,12 @@
   \end{itemize}
 
   \vspace{0.5em}
-  \textbf{Phase 2 --- Substitution reversal}
+  \textbf{Phase 2 --- Medium-run decline}
   \begin{itemize}
     \item Turns negative by $k=2$ ($-6.3\%$, $p=0.005$)
     \item \alert{$-10$ to $-23\%$} below baseline by $k=12$ across estimators
-    \item Significant at 5\% under all three robust estimators from $k=5$ onward
+    \item Primarily reflects \alert{pre-existing lifecycle decline} of selected titles; LP-DiD $-10$--$12\%$ is an upper bound on true substitution
   \end{itemize}
-
-  \vspace{0.4em}
-  \textbf{Repeat giveaways:} $\hat\delta = 0.0001$ $(p = 0.999)$ --- zero additional effect
 \end{columns}
 
 \end{frame}
@@ -231,7 +244,6 @@
   {\small TWFE, LP-DiD (Dub\'e et al., 2023), Stacked DiD (Cengiz et al., 2019). Reference: $k=-1$.}
 
 \column{0.43\textwidth}
-  \vspace{0.3em}
 
   \begin{tabular}{lccc}
     \toprule
@@ -250,7 +262,7 @@
   \textit{\small $^*p<0.05$, $^{**}p<0.01$, $^{***}p<0.001$. SE clustered by game.}
 
   \vspace{0.4em}
-  All estimators agree: \alert{short-run positive spike, sustained medium-run reversal}. Spread at $k=0$ (0.047 to 0.131) bounds the true ATT.
+  All estimators agree: \alert{short-run positive spike, sustained medium-run decline}. Spread at $k=0$ (0.047--0.131) bounds the true ATT. LP-DiD $-10$--$12\%$ at $k=10$--$12$ is an upper bound on causal substitution (lifecycle selection explains much of the reversal).
 \end{columns}
 
 \end{frame}
@@ -262,35 +274,31 @@
 \column{0.50\textwidth}
   \textbf{Main takeaway}
 
-  Both mechanisms are correct --- at different horizons:
+  Both mechanisms operate --- at different horizons:
   \begin{itemize}
-    \item \textbf{Short run:} Giveaway announcement $\rightarrow$ media coverage $\rightarrow$ Steam awareness spike (\alert{+5--14\%})
-    \item \textbf{Medium run:} Free Epic copy gradually substitutes Steam engagement (\alert{$-$10--23\%} by month 12)
-    \item Epic's free-game program may inadvertently function as \alert{Steam advertising}
+    \item \textbf{Short run:} Giveaway $\rightarrow$ media coverage $\rightarrow$ Steam awareness spike (\alert{+5--14\%})
+    \item \textbf{Medium run:} Decline ($-$10--23\% by month 12) primarily reflects \alert{pre-existing lifecycle decline}; substitution is secondary
+    \item LP-DiD $-$10--12\% is an \alert{upper bound} on true causal substitution effect
+    \item Epic's program may inadvertently function as \alert{Steam advertising}
   \end{itemize}
 
-  \vspace{0.4em}
-  \textbf{Implications}
-  \begin{itemize}
-    \item For developers: net benefit depends on Epic payment vs.\ long-run Steam erosion
-    \item Repeat giveaways add no marginal value ($\hat\delta \approx 0$)
-  \end{itemize}
+  \vspace{0.3em}
+  \textbf{Implication:} Net developer benefit depends on Epic payment vs.\ long-run Steam erosion; favors completed single-player titles over live-service games
 
 \column{0.47\textwidth}
   \textbf{Caveats}
   \begin{itemize}
-    \item \textbf{No never-treated group} --- identification rests entirely on timing variation; parallel trends untestable in absolute sense
-    \item \textbf{Player counts $\neq$ purchases or revenue} --- SteamCharts measures concurrent players, not sales
-    \item \textbf{Genre heterogeneity} --- single-player vs.\ multiplayer titles have different substitution dynamics (pooled estimate conflates them)
-    \item \textbf{DLC/bundle events} --- 15 giveaways were DLC mapped to base-game Steam IDs
+    \item \textbf{Lifecycle selection} --- treated games already declining pre-giveaway
+    \item \textbf{Players $\neq$ purchases} --- concurrent counts, not sales or revenue
+    \item \textbf{Genre heterogeneity} --- pooled estimate mixes single-player and multiplayer
   \end{itemize}
 
   \vspace{0.4em}
   \textbf{Future work}
   \begin{itemize}
-    \item Genre-stratified analysis (single-player vs.\ multiplayer)
-    \item Study effects on Steam \emph{sales} volume
-    \item EGS-side engagement data (currently unavailable)
+    \item Single-player vs.\ multiplayer
+    \item Steam sales volume effects
+    \item EGS-side engagement/sales data
   \end{itemize}
 \end{columns}
 
