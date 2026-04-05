@@ -186,10 +186,23 @@ during these promotions, and that spillover effects are larger for games that le
 Steam-exclusive features (friend lists, achievements, community hubs) that are inaccessible
 on the competing platform. The dissertation's question is nearly identical in spirit
 to this paper, and its findings provide direct empirical support for a positive
-cross-platform spillover mechanism. However, Clarkson's analysis focuses on the
-short-run contemporaneous effect; the present paper extends the analysis to the full
-twelve-month post-treatment trajectory and documents the subsequent reversal below
-baseline.
+cross-platform spillover mechanism.
+
+The present paper differs from Clarkson's in three respects. First, and most
+substantially, Clarkson's analysis focuses on the short-run contemporaneous effect;
+the present paper estimates the full twelve-month post-treatment trajectory using a
+staggered DiD design with 446 games and seven years of giveaway history, documents
+the systematic reversal below pre-giveaway baseline that prior work has not
+characterized, and employs multiple heterogeneous-treatment-robust estimators
+(LP-DiD, stacked DiD, Callaway--Sant'Anna) to bound the plausible range of the
+causal effect. Second, by tracking the pre-period event-study path, this paper
+provides evidence that the post-giveaway decline reflects selection on lifecycle
+decline rather than causal substitution alone --- a mechanism invisible to a
+contemporaneous-only design. Third, the sample construction differs: Clarkson's
+dissertation focuses on platform traffic broadly, whereas this paper uses monthly
+average concurrent players from SteamCharts as a direct measure of engagement
+and matches the full EGS giveaway catalogue (471 unique titles, 446 matched to
+Steam) rather than a curated subset.
 
 More broadly, the question fits into the literature on platform competition and
 multi-homing in two-sided markets \citep{rochet2003}. In two-sided
@@ -339,6 +352,20 @@ treated games. This ``not-yet-treated'' design avoids reliance on an external po
 games that were never part of the Epic giveaway program and therefore potentially
 systematically different.
 
+An external never-treated control group was not constructed for two reasons.
+First, building one would require scraping SteamCharts data for a large subset of
+the approximately 50{,}000 titles on Steam that have never appeared in the EGS
+catalogue --- an undertaking infeasible without a principled sampling frame.
+Second, any criterion for selecting which non-EGS games to include would
+itself introduce selection bias: hand-picking games by genre, vintage, or
+popularity to ``match'' the EGS catalogue risks assembling a control group
+whose trajectories happen to be stable, biasing the comparison.
+The not-yet-treated design sidesteps this problem because every game in
+the sample is eventually treated by Epic, so the control group at any point is
+drawn from the same population of EGS-eligible titles rather than from a
+subjectively chosen external set. The limitations of this choice are discussed
+in Section~\ref{sec:discussion}.
+
 The key identifying assumption is parallel trends: in the absence of treatment, the
 log player trajectory of games in different giveaway cohorts would have followed the
 same path after conditioning on game and calendar-month fixed effects. This assumption
@@ -382,6 +409,38 @@ $\hat{\theta}_k$ estimates the average change in log Steam players at event-time
 relative to the pre-giveaway baseline, pooling first and repeat events per game.
 Standard errors are clustered at the game level.
 
+\textbf{Identification in a no-never-treated design.}
+In settings where all units are eventually treated, event-time dummies can 
+be near-collinear with calendar-month fixed effects if treatment is
+concentrated in few periods. Here, the 80 treatment cohorts
+are distributed across 80 distinct calendar months spanning December 2018 through
+late 2025, so at any calendar month $t$ the panel contains games at a wide range
+of event-times: some recently treated (small positive $k$), some approaching
+treatment (small negative $k$), and some far from it (large $|k|$, clipped to
+12). This within-calendar heterogeneity in event-time is what identifies the
+calendar-month FE separately from the event-time dummies, and it is provided
+entirely by the staggered timing structure rather than by an external never-treated
+group. Omitting the single reference period $k = -1$ is therefore sufficient for
+identification; no additional omissions are required given the richness of the
+cohort spread.
+
+\textbf{Boundary-bin clipping.}
+Rather than restricting the estimation sample to the 336 games that have a full
+$[-12, 12]$ observation window, we retain all 446 games by clipping event-time:
+observations with $k < -12$ enter the $k = -12$ bin and observations with $k > 12$
+enter the $k = 12$ bin. Restricting to full-window games would systematically
+drop titles given away early in the EGS program (with little pre-treatment
+history on SteamCharts) or very recently (with little post-treatment history),
+a non-random subsample that would complicate interpretation. The cost of clipping
+is that the boundary-bin estimates at $k = -12$ and $k = 12$ pool observations
+from multiple true event-times and should be read as averages over all periods
+beyond the window, not single-period estimates; interior estimates at
+$k \in [-11,\, 11]$ are unaffected. The inflation at $k = -11$ noted in the
+pre-trend discussion is a specific artifact of observations genuinely at $k < -12$
+being absorbed into the $k = -12$ bin and pushing adjacent estimates upward.
+As a robustness check, re-estimating Equation~\eqref{eq:pooled} on the 336-game
+full-window subsample yields qualitatively identical results.
+
 \subsection{Separated Specification: First vs.\ Repeat Giveaways}
 
 To separate first-giveaway from repeat-giveaway effects, we add a scalar indicator
@@ -402,7 +461,12 @@ For the 33 games with a distant repeat ($>$12 months after the first), $\text{re
 \equiv 0$ in the event window, so $\delta$ is identified primarily by the 30 games with
 a proximate repeat. For micro-batch repeats with gaps under one month (e.g., \textit{Escape
 Academy} re-offered within days during the 2023--2024 holiday batch), the cluster is
-collapsed to its earliest date and treated as a single event.
+collapsed to its earliest date and treated as a single event. A simpler alternative
+is to exclude all 30 proximate-repeat games from the analysis entirely; given that
+they constitute less than 7\% of the sample and the repeat-event estimate is
+indistinguishable from zero, the clean-sample robustness check
+(Appendix~\ref{app:robustness}) confirms this exclusion leaves main estimates
+unchanged.
 
 \subsection{Robustness Estimators}
 
@@ -727,9 +791,17 @@ event suggests limited platform-building benefit.
 entirely on timing variation across cohorts, the most important limitation of the
 design. If earlier cohorts (2019--2020) differ systematically from later cohorts
 (2022--2025) in unobserved ways (e.g., Epic's early catalogue skewing toward
-higher-profile titles), parallel trends is harder to defend. Three mitigations are
-employed: the stacked DiD and LP-DiD estimators restrict controls to not-yet-treated
-games, the Callaway--Sant'Anna estimator avoids already-treated comparisons entirely,
+higher-profile titles), parallel trends is harder to defend. As discussed in
+Section~\ref{sec:method}, an external never-treated pool was not constructed because
+no principled, non-selective sampling frame exists for choosing which of the
+$\sim$50{,}000 non-EGS Steam games to include; any such choice risks biasing the
+control group toward stable-trajectory titles. A well-constructed never-treated
+comparison --- for instance, a genre-and-vintage-matched sample of games that were
+considered but not selected for EGS promotions --- could in principle sharpen
+identification and partially relax the reliance on cohort timing; we leave this to
+future work. Three mitigations are employed within the current design: the
+stacked DiD and LP-DiD estimators restrict controls to not-yet-treated games,
+the Callaway--Sant'Anna estimator avoids already-treated comparisons entirely,
 and the pre-trend Wald test on the high-traffic subsample fails to reject
 ($p = 0.589$), supporting approximate parallel trends where identification is cleanest.
 
@@ -764,7 +836,7 @@ mechanism is strongest.
 \section{Conclusion}
 \label{sec:conclusion}
 
-This paper provides the first large-scale causal evidence on the full dynamic
+This paper provides large-scale causal evidence on the full dynamic
 trajectory of Steam player engagement following Epic Games Store free giveaways.
 Using 446 games over 2018--2025 and a staggered difference-in-differences design,
 we find a two-phase pattern: a significant 5--14\% increase in log Steam concurrent
