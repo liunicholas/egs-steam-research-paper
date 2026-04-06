@@ -66,7 +66,7 @@
 % ═══════════════════════════════════════════════════════════════════════════
 
 The following subsections revise each component from Assignments 5 and 6, 
-relevant feedback is quoted in shaded boxes, followed by a brief response 
+relevant feedback from Theo is quoted in shaded boxes, followed by a brief response 
 and the revised text.
 
 % ─────────────────────────────────────────────────────────────────────────
@@ -139,25 +139,21 @@ this problem because every game in my sample is eventually treated by Epic,
 so the control group at any point is drawn from the same population of
 EGS-eligible titles.
 
-That said, your suggested fix (stacked DiD) is exactly right, and I have
-implemented it. The stacked DiD \citep{cengiz2019} constructs cohort-specific
+Following your suggestion, I implemented stacked DiD \citep{cengiz2019} 
+and constructed cohort-specific
 balanced panels with \textit{only} not-yet-treated games as controls within
-each cohort stack, then estimates TWFE with cohort fixed effects. This
+each cohort stack, then estimated TWFE with cohort fixed effects. This
 achieves the identification benefit of a never-treated group (clean controls,
-no negative-weighting bias) without requiring an external sample. I also
-implement Callaway--Sant'Anna cohort ATTs \citep{callaway2021}, which makes
-the same restriction. Results from both are reported in Section~3.
+no negative-weighting bias) without requiring an external sample. 
 
 \textit{Collinearity and omitted periods.}
 Because I have 80 treatment cohorts distributed across 80 distinct calendar
-months (December 2018 through late 2025), event-time dummies are identified
-by \textit{within-calendar heterogeneity in event-time}: at any calendar
+months (December 2018 through late 2025), at any calendar
 month $t$, the panel contains games at a wide range of event-times (recently
-treated, approaching treatment, and far from it). This rich staggered
+treated, approaching treatment, and far from it). This staggered
 structure means the calendar-month fixed effects and event-time dummies are
-not collinear, and omitting only the single reference period $k = -1$ is
-sufficient for identification. No additional omission (and no pooling
-assumption for the omitted periods) is needed.
+not collinear, and omitting only the single reference period $k = -1$ should be
+sufficient for identification. 
 
 \textit{Binning vs.\ restricting.}
 I use boundary-bin clipping: observations with $k < -12$ are binned into the
@@ -212,14 +208,6 @@ central identification caveat of the design.
 month. Epic typically announces the following week's free game only one week
 ahead, making systematic pre-treatment anticipation on Steam unlikely.
 
-\textbf{SUTVA.} A giveaway of game $A$ does not affect Steam engagement for
-a different game $B$. This could fail if giveaways shift attention across
-competing titles in the same genre.
-
-\textbf{Exogenous timing.} Conditional on game fixed effects, the month Epic
-selects a game is uncorrelated with that game's potential player-count
-trajectory on Steam.
-
 % ─────────────────────────────────────────────────────────────────────────
 \subsection{(d) Thoughts on Testing the Assumptions}
 % ─────────────────────────────────────────────────────────────────────────
@@ -243,7 +231,7 @@ estimated contemporaneous spikes and cleaner pre-trends.
 games 200 times and compare the actual $|\hat{\theta}_0|$ to the permutation
 null distribution. The permutation $p$-value is $p < 0.001$: the actual
 $|\hat{\theta}_0| = 0.101$ exceeds the 95th percentile of the permutation null
-(0.038) by a factor of 2.7.
+(0.038).
 
 \textbf{Estimator comparison.} Agreement across TWFE, LP-DiD, stacked DiD,
 and Callaway--Sant'Anna on the qualitative two-phase pattern supports internal
@@ -266,11 +254,7 @@ observations and the repeat-event coefficient is $\hat{\delta} = 0.0001$
 ($p = 0.999$), statistically and economically indistinguishable from zero.
 A clean-sample robustness check that entirely drops all 30 proximate-repeat
 games (second giveaway within 12 months of the first, $<$7\% of games)
-yields main estimates nearly identical to the full sample. Going forward I
-treat repeat giveaways as a handled nuisance rather than a primary
-complication: the base specification includes a scalar repeat-event indicator
-to absorb any level shift, and results are robust to excluding these games
-entirely.
+yields main estimates nearly identical to the full sample.
 
 \textbf{Revised text.}
 
@@ -540,10 +524,6 @@ individually insignificant, consistent with approximate parallel trends over
 the near-term pre-window. In the giveaway month ($k = 0$), the coefficient
 is $\hat{\theta}_0 = 0.101$ (SE $= 0.022$, $p < 0.001$), implying
 approximately a 10.6\% increase in monthly average concurrent Steam players.
-This contemporaneous spike is statistically significant and economically
-meaningful: a game that had 100 concurrent players in the month before its
-Epic giveaway is estimated to have approximately 111 players in the giveaway
-month, all else equal.
 
 The spike is short-lived. By $k = 2$ the coefficient turns negative
 ($-0.063$, $p = 0.005$), and the decline accelerates through the full window.
@@ -632,8 +612,7 @@ pre-existing selection rather than to the giveaway itself.
   per game}$. Shaded bands are 95\% confidence intervals (standard errors
   clustered by game). Reference period $k = -1$. $N = 38{,}641$ game--month
   observations; 446 games.
-  \textit{Source:} Author's calculations using SteamCharts.com data and Epic
-  Games Store giveaway log \citep{dongre2025}.}
+  }
 \label{fig:compare}
 \end{figure}
 
