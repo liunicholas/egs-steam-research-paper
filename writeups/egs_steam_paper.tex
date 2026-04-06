@@ -1041,7 +1041,8 @@ $\phantom{-}12$ & $-0.267^{***}$ & 0.053 & $<$0.001 \\
 \end{tabular}
 \medskip
 
-\noindent\small\textit{Notes:} Game and calendar-month fixed effects; standard errors clustered
+\noindent\small\textit{Notes:} Dependent variable: $\ln(\texttt{avg\_players}+1)$.
+Game and calendar-month fixed effects; standard errors clustered
 by game ($N = 38{,}641$; 446 games). Omitted period: $k = -1$.
 $R^2 = 0.884$; within $R^2 = 0.008$.
 \end{table}
@@ -1068,7 +1069,8 @@ $12$ & $-0.267^{***}$ & $-0.105^{**}$ & $-0.118^{***}$ \\
 \end{tabular}
 \medskip
 
-\noindent\small\textit{Notes:} $^{*}p<0.05$, $^{**}p<0.01$, $^{***}p<0.001$.
+\noindent\small\textit{Notes:} Dependent variable: $\ln(\texttt{avg\_players}+1)$.
+$^{*}p<0.05$, $^{**}p<0.01$, $^{***}p<0.001$.
 Standard errors clustered by game. Reference period $k = -1$.
 TWFE uses game and calendar-month fixed effects on the full unbalanced panel.
 LP-DiD uses not-yet-treated controls at each period $k$ \citep{dube2023}.
@@ -1112,6 +1114,7 @@ weighted by $1/\text{number of stacks}$ \citep{cengiz2019}.
 \centering
 \includegraphics[width=0.82\linewidth]{../output/fig_event_study_pooled.pdf}
 \caption{Pooled TWFE event-study coefficients ($\hat{\theta}_k$, Eq.~\eqref{eq:pooled}).
+  Outcome: $\ln(\texttt{avg\_players}+1)$.
   Game and calendar-month fixed effects; standard errors clustered by game.
   Omitted category: $k = -1$. Dashed vertical line at $k = 0$ (giveaway month).
   $N = 38{,}641$ game-month observations; 446 games.}
@@ -1124,11 +1127,13 @@ weighted by $1/\text{number of stacks}$ \citep{cengiz2019}.
 \centering
 \includegraphics[width=0.82\linewidth]{../output/fig_estimator_comparison.pdf}
 \caption{Event-study estimates: TWFE, LP-DiD \citep{dube2023}, and stacked DiD
-  \citep{cengiz2019}. LP-DiD uses not-yet-treated controls at each period $k$
+  \citep{cengiz2019}. Outcome: $\ln(\texttt{avg\_players}+1)$.
+  LP-DiD uses not-yet-treated controls at each period $k$
   independently. Stacked DiD constructs cohort-specific balanced panels with
   not-yet-treated controls, weighted by $1/\text{number of stacks per game}$.
   All estimators share the same $[-12, 12]$ event window; shaded bands are
-  95\% confidence intervals. Reference period $k = -1$.}
+  95\% confidence intervals. Reference period $k = -1$.
+  $N = 38{,}641$ game-month observations; 446 games.}
 \label{fig:compare}
 \end{figure}
 
@@ -1138,7 +1143,8 @@ weighted by $1/\text{number of stacks}$ \citep{cengiz2019}.
 \centering
 \includegraphics[width=0.82\linewidth]{../output/fig_event_study_separated.pdf}
 \caption{Separated TWFE specification ($\hat{\beta}_k$ coefficients with repeat-event
-  scalar $\hat{\delta}$). Event-time dummies capture the first-giveaway effect;
+  scalar $\hat{\delta}$). Outcome: $\ln(\texttt{avg\_players}+1)$.
+  Event-time dummies capture the first-giveaway effect;
   $\text{repeat\_event}_{it}$ absorbs the repeat-giveaway level shift.
   The estimated $\hat{\delta} = 0.0001$ ($p = 0.999$) confirms that repeat giveaways
   add no incremental Steam engagement.}
@@ -1150,10 +1156,10 @@ weighted by $1/\text{number of stacks}$ \citep{cengiz2019}.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.88\linewidth]{../output/fig_event_study_popularity.pdf}
-\caption{Event-study estimates by pre-treatment popularity. Split at the pre-treatment
-  median (59.2 avg players/month): high-traffic ($N = 215$ games, left) and low-traffic
-  ($N = 214$ games, right). High-traffic pre-trend Wald test: $\chi^2 = 9.35$, $p = 0.589$.
-  Low-traffic: $\chi^2 = 19.31$, $p = 0.056$.}
+\caption{Event-study estimates by pre-treatment popularity. Outcome: $\ln(\texttt{avg\_players}+1)$.
+  Split at the pre-treatment median (59.2 avg players/month): high-traffic ($N = 215$ games,
+  left) and low-traffic ($N = 214$ games, right). High-traffic pre-trend Wald test:
+  $\chi^2 = 9.35$, $p = 0.589$. Low-traffic: $\chi^2 = 19.31$, $p = 0.056$.}
 \label{fig:popularity}
 \end{figure}
 
@@ -1162,9 +1168,9 @@ weighted by $1/\text{number of stacks}$ \citep{cengiz2019}.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.82\linewidth]{../output/fig_cs_att.pdf}
-\caption{Callaway--Sant'Anna cohort-aggregated ATT estimates. Not-yet-treated games
-  serve as controls within each treatment-quarter cohort; estimates are aggregated
-  across 27 cohorts weighted by cohort size. Omitted period: $k = -1$.}
+\caption{Callaway--Sant'Anna cohort-aggregated ATT estimates. Outcome: $\ln(\texttt{avg\_players}+1)$.
+  Not-yet-treated games serve as controls within each treatment-quarter cohort; estimates
+  are aggregated across 27 cohorts weighted by cohort size. Omitted period: $k = -1$.}
 \label{fig:csatt}
 \end{figure}
 
@@ -1287,7 +1293,8 @@ $12$ & $-0.267^{***}$ & 0.053 & $<$0.001 & $-0.371$ & $-0.164$ \\
 \end{tabular}
 \medskip
 
-\noindent\small\textit{Notes:} TWFE, $N = 38{,}641$; game and calendar-month fixed effects;
+\noindent\small\textit{Notes:} Dependent variable: $\ln(\texttt{avg\_players}+1)$.
+  TWFE, $N = 38{,}641$; game and calendar-month fixed effects;
   standard errors clustered by game.
   $R^2 = 0.884$; within $R^2 = 0.008$.
 \end{table}

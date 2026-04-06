@@ -579,7 +579,8 @@ $12$ & $-0.267^{***}$ & 0.053 & $<$0.001 \\
 \end{tabular}
 \medskip
 
-\noindent\small\textit{Notes:} Game and calendar-month fixed effects;
+\noindent\small\textit{Notes:} Dependent variable: $\ln(\texttt{avg\_players}+1)$.
+  Game and calendar-month fixed effects;
   standard errors clustered by game ($N = 38{,}641$; 446 games).
   Omitted period: $k = -1$. $R^2 = 0.884$; within $R^2 = 0.008$.
   $^{*}p<0.05$, $^{**}p<0.01$, $^{***}p<0.001$.
@@ -624,7 +625,8 @@ pre-existing selection rather than to the giveaway itself.
 \centering
 \includegraphics[width=0.88\linewidth]{../output/fig_estimator_comparison.pdf}
 \caption{Event-study estimates: TWFE, LP-DiD \citep{dube2023}, and stacked
-  DiD \citep{cengiz2019}. LP-DiD uses only not-yet-treated controls at each
+  DiD \citep{cengiz2019}. Outcome: $\ln(\texttt{avg\_players}+1)$.
+  LP-DiD uses only not-yet-treated controls at each
   period $k$ independently. Stacked DiD constructs cohort-specific balanced
   panels with not-yet-treated controls, weighted by $1/\text{number of stacks
   per game}$. Shaded bands are 95\% confidence intervals (standard errors
