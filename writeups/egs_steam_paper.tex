@@ -472,12 +472,23 @@ unchanged.
 
 Because treatment timing is staggered across six years, the standard TWFE estimator
 is potentially biased when treatment effects are heterogeneous across cohorts
-\citep{callaway2021}. We employ three complementary robustness estimators.
+\citep{callaway2021}. TWFE remains the primary specification and provides the
+event-study path reported in Figure~\ref{fig:compare}. Among the robust alternatives,
+stacked DiD is the preferred causal estimate at $k = 0$ because its cohort-balancing
+removes control-composition bias; LP-DiD serves as an upper bound on the medium-run
+substitution effect for reasons discussed in Section~\ref{sec:results}. We employ
+three complementary robustness estimators.
 
-\textbf{LP-DiD \citep{dube2023}.} For each period $k$, LP-DiD constructs a separate
-local projection using only not-yet-treated games as controls. This avoids the
-contamination of treatment-effect estimates by the negative weights that TWFE assigns
-to already-treated comparators under heterogeneous effects.
+\textbf{LP-DiD \citep{dube2023}.} For each period $k$, LP-DiD runs a completely
+separate regression. The outcome is the change in log players from $k = -1$ to $k$,
+and the control group is restricted to games that have not yet received their giveaway
+as of calendar time $t + k$, where $t$ is the treated cohort's giveaway month. This
+requirement that controls remain untreated through the outcome period means that at
+large $k$ the eligible control pool shrinks to games whose giveaway is still many
+months away. All treatment cohorts are pooled within each $k$-specific regression,
+with cohort fixed effects absorbing calendar-time differences across cohorts. This
+avoids the contamination of treatment-effect estimates by the negative weights that
+TWFE assigns to already-treated comparators under heterogeneous effects.
 
 \textbf{Stacked DiD \citep{cengiz2019}.} Following Cengiz et al., we construct
 cohort-specific stacks: for each treatment cohort (quarter of first giveaway), we
@@ -518,22 +529,12 @@ and three heterogeneous-treatment-robust alternatives (LP-DiD, stacked DiD,
 and Callaway--Sant'Anna ATTs). A randomization placebo further validates the
 treatment-month estimate. All estimators agree on the qualitative two-phase
 pattern; the subsections discuss where they diverge quantitatively and why.
+Among the robust estimators, stacked DiD is the preferred causal estimate at
+$k = 0$ and LP-DiD provides an upper bound on the medium-run effect; the
+reasons for this ordering are explained in Section~\ref{ssec:compare}.
 
-\subsection{Main TWFE Event Study}
-
-Figure~\ref{fig:pooled} presents the pooled TWFE event-study coefficients $\hat{\theta}_k$
-with 95\% confidence intervals. The pre-period coefficients ($k \in [-12, -2]$) are
-close to zero and individually insignificant for $k \leq -5$; some positive drift
-appears at $k = -11$ and $k = -9$, which we discuss below. The post-period shows a
-sharp, significant spike at $k = 0$ followed by rapid reversal.
-
-Table~\ref{tab:coefs} reports the key coefficient estimates. In the giveaway month
-($k = 0$), $\hat{\theta}_0 = 0.101$ (SE = 0.022, $p < 0.001$), implying
-approximately a 10.6\% increase in Steam concurrent players on the log scale. This is
-the largest single-period effect. The effect remains marginally positive in $k = 1$
-($\hat{\theta}_1 = 0.045$, $p = 0.047$) but turns negative and highly significant from
-$k = 2$ onward. By $k = 5$, the coefficient is $-0.145$ (13.5\% below baseline); by
-$k = 12$, it is $-0.267$ (23.4\% below baseline).
+\subsection{TWFE Event Study and Estimator Comparison}
+\label{ssec:compare}
 
 \subsection{Pre-Trend Test}
 
@@ -566,21 +567,33 @@ continuation of a pre-existing downward trajectory. This selection concern is th
 primary reason the LP-DiD estimate of $-0.121$ at $k = 10$ should be read as an
 \emph{upper bound} on the true causal substitution effect rather than a point estimate.
 
-\subsection{Estimator Comparison: TWFE, LP-DiD, and Stacked DiD}
-
-Figure~\ref{fig:compare} overlays the TWFE, LP-DiD, and stacked DiD \citep{cengiz2019}
-event-study estimates. Table~\ref{tab:estimator_compare} summarises the key coefficients.
+Figure~\ref{fig:compare} presents the pooled TWFE event-study coefficients $\hat{\theta}_k$
+alongside LP-DiD and stacked DiD estimates, with 95\% confidence intervals.
+Table~\ref{tab:coefs} reports the key TWFE coefficient estimates. In the giveaway month
+($k = 0$), $\hat{\theta}_0 = 0.101$ (SE = 0.022, $p < 0.001$), implying approximately
+a 10.6\% increase in Steam concurrent players. The effect remains marginally positive
+at $k = 1$ ($\hat{\theta}_1 = 0.045$, $p = 0.047$) but turns negative and highly
+significant from $k = 2$ onward, reaching $-0.145$ (13.5\% below baseline) by $k = 5$
+and $-0.267$ (23.4\% below baseline) by $k = 12$. The pre-period coefficients
+($k \in [-12, -2]$) are close to zero and individually insignificant for $k \leq -5$;
+some positive drift appears at $k = -11$ and $k = -9$, which we discuss below.
+Table~\ref{tab:estimator_compare} summarises the key coefficients across all three estimators.
 
 \textbf{Contemporaneous effect ($k=0$).} The three estimators diverge noticeably at the
 treatment month. TWFE yields $\hat{\theta}_0 = 0.101$ (SE = 0.022, CI [0.058, 0.144]);
 LP-DiD yields 0.131 (SE = 0.022, CI [0.088, 0.173]); stacked DiD yields 0.047
-(SE = 0.008, CI [0.032, 0.063]). That TWFE and LP-DiD exceed stacked DiD is consistent
-with cohort-composition bias: TWFE uses already-treated games as implicit controls,
-inflating the $k = 0$ estimate, while LP-DiD restricts controls to not-yet-treated
-games but estimates each period independently without the cohort-balancing that stacking
-achieves. The stacked DiD, which constructs balanced cohort-specific panels and weights
-each game equally across the stacks it appears in, is likely the most conservative
-estimate of the contemporaneous effect.
+(SE = 0.008, CI [0.032, 0.063]). The ordering is driven by control-group composition.
+A DiD estimate equals the treated group's outcome change minus the control group's
+outcome change, so a declining control group mechanically pushes the estimate upward.
+LP-DiD's not-yet-treated controls are EGS-selected games approaching their own
+giveaway, and are therefore in the steepest phase of pre-treatment lifecycle decline;
+subtracting these declining controls inflates the LP-DiD estimate most. TWFE's
+already-treated controls have passed through the post-giveaway spike and partially
+stabilized at a lower level, so they are less actively declining and provide less
+upward pull, placing TWFE between LP-DiD and stacked DiD. Stacked DiD constructs
+balanced cohort-specific panels and weights each game equally across the stacks it
+appears in, which neutralizes the control-composition effect and yields the most
+conservative estimate of the contemporaneous effect.
 
 \textbf{Speed of reversal.} The three estimators also disagree on how quickly the
 initial boost dissipates. Under TWFE and LP-DiD, the $k = 1$ coefficient remains
@@ -595,10 +608,18 @@ the $k = 1$ estimate.
 \textbf{Medium-run magnitude.} All three estimators agree on a sustained decline
 through $k = 12$, though they differ in scale. At $k = 10$, TWFE reaches $-0.199$
 (CI [$-0.259$, $-0.138$]), LP-DiD $-0.121$ (CI [$-0.191$, $-0.051$]), and stacked
-DiD $-0.164$ (CI [$-0.201$, $-0.127$]). Stacked DiD thus sits between TWFE and LP-DiD
-in the medium run. The spread across estimators reflects heterogeneity in cohort
-trajectories rather than uncertainty about the existence of the reversal: all three
-confidence intervals are entirely below zero by $k = 5$.
+DiD $-0.164$ (CI [$-0.201$, $-0.127$]). The same control-composition mechanism that
+explains the $k = 0$ ordering operates in reverse at large $k$. LP-DiD's eligible
+controls at $k = 10$ are games still at least ten months from their own giveaway,
+placing them deep in their pre-treatment lifecycle decline. Subtracting these actively
+declining controls attenuates LP-DiD's negative estimate toward zero, making it the
+least negative estimator. TWFE's already-treated controls at large $k$ have completed
+their post-giveaway trajectory and are declining less steeply, so less is subtracted
+and the estimate is more negative. Stacked DiD sits between the two because cohort
+balancing partially but not fully neutralizes the control-composition effect. The
+spread across estimators reflects this systematic pattern rather than uncertainty
+about the existence of the reversal: all three confidence intervals are entirely
+below zero by $k = 5$.
 
 \textbf{Pre-period patterns.} Across all three estimators, the pre-period coefficients
 for $k \in [-12, -1]$ trace a negative slope: treated games lose ground relative
@@ -631,12 +652,11 @@ the actual causal impact on Steam engagement may be substantially smaller.
 
 \subsection{Separated Specification: First vs.\ Repeat Giveaways}
 
-Figure~\ref{fig:separated} presents the separated specification (Eq.~\eqref{eq:separated}).
-The repeat-giveaway coefficient is $\hat{\delta} = 0.0001$ (SE = 0.061, $p = 0.999$), indistinguishable from zero. A game's second free giveaway on Epic adds
-essentially no incremental Steam engagement above the first-giveaway trajectory. The
-$\hat{\beta}_k$ coefficients in the separated specification are visually and numerically
-very close to the pooled $\hat{\theta}_k$ coefficients, confirming that the repeat-event
-contamination is negligible and the pooled specification is appropriate.
+The separated specification (Eq.~\eqref{eq:separated}) yields a repeat-giveaway
+coefficient of $\hat{\delta} = 0.0001$ (SE = 0.061, $p = 0.999$), indistinguishable
+from zero. The $\hat{\beta}_k$ coefficients are numerically identical to the pooled
+$\hat{\theta}_k$ to three decimal places, confirming that repeat-event contamination
+is negligible and the pooled specification is appropriate.
 
 \subsection{Popularity-Stratified Analysis}
 \label{ssec:pop}
@@ -744,15 +764,17 @@ buying the game on Steam instead claimed it free on Epic, meaning Steam permanen
 loses those players from its post-treatment baseline. Under this mechanism, the
 reversal represents a permanent level shift rather than a gradual migration.
 
-All three mechanisms are consistent with the observation that LP-DiD (which
-conditions on richer cohort-specific pre-treatment trends) shows a materially smaller
-reversal than TWFE\@. The approximately 0.08 log-point gap between TWFE ($-0.199$
-at $k = 10$) and LP-DiD ($-0.121$) likely reflects the pre-existing lifecycle decline
-that LP-DiD partially absorbs but TWFE attributes entirely to the giveaway. The
-LP-DiD estimate of $-0.121$ is therefore best understood as an \emph{upper bound} on
-the true causal substitution effect (the portion attributable to the giveaway itself)
-rather than a point estimate; the actual causal impact may be substantially smaller
-than 12\%.
+All three mechanisms are consistent with the observation that LP-DiD shows a
+materially smaller reversal than TWFE. The explanation is control-group composition,
+not that LP-DiD conditions on richer trend controls. At large $k$, LP-DiD's eligible
+controls are games still far from their own giveaway, placing them in the deepest
+phase of pre-treatment lifecycle decline. Subtracting these actively declining controls
+attenuates the negative estimate toward zero. The approximately 0.08 log-point gap
+between TWFE ($-0.199$ at $k = 10$) and LP-DiD ($-0.121$) therefore reflects how
+much of the observed decline is absorbed by the declining control group rather than
+being attributable to the giveaway. The LP-DiD estimate of $-0.121$ is best understood
+as an \emph{upper bound} on the true causal substitution effect rather than a point
+estimate; the actual causal impact may be substantially smaller than 12\%.
 
 \subsection{The Null Repeat-Giveaway Effect}
 
@@ -1112,43 +1134,18 @@ weighted by $1/\text{number of stacks}$ \citep{cengiz2019}.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.82\linewidth]{../output/fig_event_study_pooled.pdf}
-\caption{Pooled TWFE event-study coefficients ($\hat{\theta}_k$, Eq.~\eqref{eq:pooled}).
-  Outcome: $\ln(\texttt{avg\_players}+1)$.
-  Game and calendar-month fixed effects; standard errors clustered by game.
-  Omitted category: $k = -1$. Dashed vertical line at $k = 0$ (giveaway month).
-  $N = 38{,}641$ game-month observations; 446 games.}
-\label{fig:pooled}
-\end{figure}
-
-\vspace{1em}
-
-\begin{figure}[H]
-\centering
 \includegraphics[width=0.82\linewidth]{../output/fig_estimator_comparison.pdf}
-\caption{Event-study estimates: TWFE, LP-DiD \citep{dube2023}, and stacked DiD
-  \citep{cengiz2019}. Outcome: $\ln(\texttt{avg\_players}+1)$.
-  LP-DiD uses not-yet-treated controls at each period $k$
-  independently. Stacked DiD constructs cohort-specific balanced panels with
-  not-yet-treated controls, weighted by $1/\text{number of stacks per game}$.
+\caption{Event-study estimates: TWFE ($\hat{\theta}_k$, Eq.~\eqref{eq:pooled}),
+  LP-DiD \citep{dube2023}, and stacked DiD \citep{cengiz2019}.
+  Outcome: $\ln(\texttt{avg\_players}+1)$.
+  TWFE uses game and calendar-month fixed effects; standard errors clustered by game.
+  LP-DiD uses not-yet-treated controls at each period $k$ independently.
+  Stacked DiD constructs cohort-specific balanced panels with not-yet-treated controls,
+  weighted by $1/\text{number of stacks per game}$.
   All estimators share the same $[-12, 12]$ event window; shaded bands are
-  95\% confidence intervals. Reference period $k = -1$.
+  95\% confidence intervals. Omitted category: $k = -1$.
   $N = 38{,}641$ game-month observations; 446 games.}
 \label{fig:compare}
-\end{figure}
-
-\vspace{1em}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.82\linewidth]{../output/fig_event_study_separated.pdf}
-\caption{Separated TWFE specification ($\hat{\beta}_k$ coefficients with repeat-event
-  scalar $\hat{\delta}$). Outcome: $\ln(\texttt{avg\_players}+1)$.
-  Event-time dummies capture the first-giveaway effect;
-  $\text{repeat\_event}_{it}$ absorbs the repeat-giveaway level shift.
-  The estimated $\hat{\delta} = 0.0001$ ($p = 0.999$) confirms that repeat giveaways
-  add no incremental Steam engagement.}
-\label{fig:separated}
 \end{figure}
 
 \vspace{1em}
@@ -1216,7 +1213,7 @@ repeat-contamination bias.
 \includegraphics[width=0.82\linewidth]{../output/fig_event_study_robustness.pdf}
 \caption{Clean-sample robustness check. Pooled TWFE re-estimated after dropping all 30
   games with a proximate repeat giveaway (within 12 months), leaving 416 games.
-  Coefficients are virtually identical to Figure~\ref{fig:pooled}.}
+  Coefficients are virtually identical to the TWFE path in Figure~\ref{fig:compare}.}
 \label{fig:robustness}
 \end{figure}
 
