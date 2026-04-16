@@ -2,6 +2,8 @@
 __pycache__/
 .playwright-mcp/
 .vscode/
+misc/
+assignments/
 *.pyc
 .ipynb_checkpoints/
 .claude/
