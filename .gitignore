@@ -1,5 +1,7 @@
 .venv/
 __pycache__/
+.playwright-mcp/
+.vscode/
 *.pyc
 .ipynb_checkpoints/
 .claude/
