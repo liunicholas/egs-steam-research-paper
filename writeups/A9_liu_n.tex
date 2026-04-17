@@ -185,7 +185,7 @@
   \vspace{0.5em}
   \textbf{Key assumption (parallel trends)}
 
-  In absence of treatment, log player trajectories would trend identically after conditioning on game \& calendar-month FE. Pre-period coefficients ($k \in [-12,-2]$) trace a \alert{downward slope} --- treated games were \emph{already declining} before giveaway (lifecycle selection).
+  In absence of treatment, log player trajectories would trend identically after conditioning on game \& calendar-month FE. Full-sample joint Wald test: $F_{11,444}=1.72$, \alert{$p=0.067$} (fails to reject at 5\%, rejects at 10\%). But the low-traffic subsample \emph{does} reject ($p=0.035$) $\Rightarrow$ \alert{lifecycle selection} is concentrated in smaller titles.
 
 \column{0.48\textwidth}
   \textbf{Four Estimators (for robustness)}
@@ -217,8 +217,8 @@
 \column{0.43\textwidth}
   \textbf{Phase 1 --- Advertising spike}
   \begin{itemize}
-    \item \alert{+5 to +14\%} more Steam players at $k=0$ across all estimators
-    \item Stacked DiD (+4.7\%) is lower bound; LP-DiD (+13.1\%) upper bound
+    \item \alert{+10 to +14\%} more Steam players at $k=0$ across all estimators
+    \item TWFE and Stacked DiD both $+10.1\%$; LP-DiD $+13.1\%$ (upper bound)
     \item Placebo $p < 0.001$; actual estimate is 2.7$\times$ the 95th percentile of null
   \end{itemize}
 
@@ -226,8 +226,8 @@
   \textbf{Phase 2 --- Medium-run decline}
   \begin{itemize}
     \item All estimators turn negative by $k=2$; significant from $k=5$ onward
-    \item \alert{$-10$ to $-23\%$} below baseline by $k=12$ across estimators
-    \item Primarily \alert{pre-existing lifecycle decline}
+    \item \alert{$0$ to $-23\%$} below baseline by $k=12$ (TWFE most negative; preferred Stacked DiD near zero)
+    \item Partly reflects \alert{pre-existing lifecycle decline}
   \end{itemize}
 \end{columns}
 
@@ -238,16 +238,16 @@
 
 \begin{columns}[T]
 \column{0.54\textwidth}
-  \textbf{Control-group composition drives the ordering}
+  \textbf{Control-group composition and calendar-time absorption drive the ordering}
 
   \vspace{0.3em}
-  \textbf{TWFE} mixes in already-treated controls that have passed the spike and partially stabilized --- less actively declining, so less upward pull at $k=0$ and more negative at large $k$.
+  \textbf{TWFE} pools all controls and is vulnerable to negative weighting under heterogeneous effects $\Rightarrow$ \alert{most negative} at large $k$ (bias from pre-existing decline of selected titles).
 
   \vspace{0.4em}
-  \textbf{LP-DiD} uses \emph{not-yet-treated} controls --- games still approaching their own giveaway, in the steepest phase of pre-treatment lifecycle decline. Subtracting actively declining controls \alert{inflates} LP-DiD upward at $k=0$, and \alert{attenuates} it toward zero at large $k$.
+  \textbf{LP-DiD} uses \emph{not-yet-treated} controls --- games approaching their own giveaway and already in lifecycle decline. Subtracting these declining controls \alert{inflates} LP-DiD at $k=0$ and leaves a moderate medium-run negative.
 
   \vspace{0.4em}
-  \textbf{Stacked DiD} balances cohort-specific panels, neutralizing the composition effect $\Rightarrow$ most conservative at $k=0$; reversal appears by $k=1$ rather than $k=2$.
+  \textbf{Stacked DiD} (preferred) adds \alert{stack-by-calendar-month FE} + treated-interacted event-time dummies (Baker et al.\ 2022). Most fully absorbs composition and calendar shocks $\Rightarrow$ medium-run negative shrinks toward zero.
 
 \column{0.44\textwidth}
 
@@ -255,12 +255,12 @@
     \toprule
     $k$ & TWFE & LP-DiD & Stacked \\
     \midrule
-    $0$  & $+0.101^{***}$ & $+0.131^{***}$ & $+0.047^{***}$ \\
-    $1$  & $+0.045^{*}$  & $+0.099^{***}$ & $-0.008$ \\
-    $2$  & $-0.063^{**}$ & $\phantom{+}0.000$ & $-0.032^{***}$ \\
-    $5$  & $-0.145^{***}$ & $-0.064^{*}$ & $-0.073^{***}$ \\
-    $10$ & $-0.199^{***}$ & $-0.121^{***}$ & $-0.164^{***}$ \\
-    $12$ & $-0.267^{***}$ & $-0.105^{**}$ & $-0.118^{***}$ \\
+    $0$  & $+0.101^{***}$ & $+0.131^{***}$ & $+0.101^{***}$ \\
+    $1$  & $+0.045^{*}$  & $+0.099^{***}$ & $+0.049^{**}$ \\
+    $2$  & $-0.063^{**}$ & $\phantom{+}0.000$ & $-0.040^{*}$ \\
+    $5$  & $-0.145^{***}$ & $-0.064^{*}$ & $-0.097^{***}$ \\
+    $10$ & $-0.199^{***}$ & $-0.121^{***}$ & $-0.061^{**}$ \\
+    $12$ & $-0.267^{***}$ & $-0.105^{**}$ & $\phantom{-}0.016$ \\
     \bottomrule
   \end{tabular}
 
@@ -268,7 +268,7 @@
   \textit{\small $^*p<0.05$, $^{**}p<0.01$, $^{***}p<0.001$. SE clustered by game.}
 
   \vspace{0.4em}
-  \textit{\small Same qualitative two-phase pattern across all three; quantitative spread reflects control-group composition, not a contradiction.}
+  \textit{\small All three agree on the $k=0$ spike and qualitative reversal. Medium-run magnitudes span from $-27\%$ (TWFE) to $+1.6\%$ insignificant (Stacked) --- spread bounds true causal substitution.}
 \end{columns}
 
 \end{frame}
@@ -278,13 +278,13 @@
 
 \begin{columns}[T]
 \column{0.52\textwidth}
-  \textbf{Main takeaway:} Both mechanisms operate at different horizons --- advertising spike (+5--14\%) then lifecycle decline ($-$10--23\%); LP-DiD $-$10--12\% is an \alert{upper bound} on true causal substitution.
+  \textbf{Main takeaway:} Advertising spike (\alert{$+10$ to $+14\%$} at $k=0$, robust across all three estimators); medium-run reversal spans \alert{$0$ to $-23\%$} across estimators. Preferred Stacked-DiD path is near zero by $k=12$ $\Rightarrow$ TWFE/LP-DiD medium-run negatives are best read as \alert{upper bounds} on causal substitution.
 
   \vspace{0.5em}
   \textbf{Developers:} Fee + Steam spike are both positive; player migration to Epic is not a developer cost.
 
   \smallskip
-  \textbf{Steam:} Net positive --- spike accrues to Steam; decline is mostly pre-existing lifecycle, not loss of engaged users.
+  \textbf{Steam:} Net positive --- spike accrues to Steam; decline is largely pre-existing lifecycle, not loss of engaged users.
 
   \smallskip
   \textbf{Epic:} Open question --- measurable effects accrue to Steam; whether EGS user acquisition offsets the licensing cost is unknown.
@@ -292,8 +292,9 @@
 \column{0.46\textwidth}
   \textbf{Caveats}
   \begin{itemize}
-    \item \textbf{Lifecycle selection} --- treated games already declining pre-giveaway
-    \item \textbf{Players $\neq$ purchases} --- concurrent counts, not sales or revenue
+    \item \textbf{Lifecycle selection} --- pre-trend test rejects on low-traffic half ($p=0.035$); concern concentrated in smaller titles
+    \item \textbf{Repeat null is imprecise} --- $\hat\delta=0.0001$ with CI $\pm 12$ log pts
+    \item \textbf{Players $\neq$ purchases} --- concurrent counts, not sales
     \item \textbf{Genre heterogeneity} --- pooled estimate mixes single-player and multiplayer
   \end{itemize}
 
