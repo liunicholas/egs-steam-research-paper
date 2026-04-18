@@ -133,7 +133,7 @@
   \textbf{EGS Giveaway History}
   \begin{itemize}
     \item Kaggle dataset (Dongre, 2025): every free game on EGS Dec 2018--2025
-    \item 541 events $\rightarrow$ \alert{471 unique titles}; 70 repeat appearances
+    \item 541 events $\rightarrow$ \alert{471 unique titles}
     \item 63 titles given away more than once
   \end{itemize}
 
@@ -164,8 +164,7 @@
 
   \vspace{0.6em}
   \textit{\small Player counts are heavily right-skewed --- 101 games have pre-treatment median $<$ 10 players. Log transformation compresses the tail.}
-  \vspace{0.5em}
-  \textbf{Matching:} Fuzzy string matching + manual review; 8 titles confirmed absent from Steam
+
 \end{columns}
 
 \end{frame}
@@ -179,23 +178,23 @@
   \begin{itemize}
     \item Treatment = game $i$'s first EGS giveaway, staggered across \alert{80 calendar months} (Dec 2018 -- late 2025)
     \item \textbf{Control group:} not-yet-treated games --- games awaiting future giveaways serve as controls for currently treated games
-    \item No external never-treated group needed
+    \item No external never-treated group used
   \end{itemize}
 
   \vspace{0.5em}
   \textbf{Key assumption (parallel trends)}
 
-  In absence of treatment, log player trajectories would trend identically after conditioning on game \& calendar-month FE. Full-sample joint Wald test: $F_{11,444}=1.72$, \alert{$p=0.067$} (fails to reject at 5\%, rejects at 10\%). But the low-traffic subsample \emph{does} reject ($p=0.035$) $\Rightarrow$ \alert{lifecycle selection} is concentrated in smaller titles.
+  In absence of treatment, log player trajectories would trend identically after conditioning on game \& calendar-month FE.
 
 \column{0.48\textwidth}
-  \textbf{Four Estimators (for robustness)}
+  \textbf{Four Estimators}
 
   \vspace{0.3em}
   \begin{enumerate}
-    \item \textbf{TWFE} --- primary specification; game + calendar-month FE; event window $k \in [-12,12]$
-    \item \textbf{LP-DiD} (Dub\'e et al., 2023) --- local projections using only not-yet-treated controls at each $k$; robust to heterogeneous effects
-    \item \textbf{Stacked DiD} (Cengiz et al., 2019) --- cohort-specific balanced panels; avoids negative-weight bias
-    \item \textbf{CS-ATT} (Callaway \& Sant'Anna, 2021) --- cohort-specific ATTs; most conservative
+    \item \textbf{TWFE} --- game + calendar-month FE; event window $k \in [-12,12]$
+    \item \textbf{LP-DiD} (Dub\'e et al., 2023) --- local projections using only not-yet-treated controls at each $k$
+    \item \textbf{Stacked DiD} (Cengiz et al., 2019) --- cohort-specific balanced panels
+    \item \textbf{CS-ATT} (Callaway \& Sant'Anna, 2021) --- cohort-specific ATTs
   \end{enumerate}
 
   \vspace{0.4em}
@@ -218,15 +217,14 @@
   \textbf{Phase 1 --- Advertising spike}
   \begin{itemize}
     \item \alert{+10 to +14\%} more Steam players at $k=0$ across all estimators
-    \item TWFE and Stacked DiD both $+10.1\%$; LP-DiD $+13.1\%$ (upper bound)
-    \item Placebo $p < 0.001$; actual estimate is 2.7$\times$ the 95th percentile of null
+    \item Randomization placebo $p < 0.001$
   \end{itemize}
 
   \vspace{0.5em}
   \textbf{Phase 2 --- Medium-run decline}
   \begin{itemize}
     \item All estimators turn negative by $k=2$; significant from $k=5$ onward
-    \item \alert{$0$ to $-23\%$} below baseline by $k=12$ (TWFE most negative; preferred Stacked DiD near zero)
+    \item \alert{$0$ to $-23\%$} below baseline by $k=12$
     \item Partly reflects \alert{pre-existing lifecycle decline}
   \end{itemize}
 \end{columns}
@@ -238,16 +236,16 @@
 
 \begin{columns}[T]
 \column{0.54\textwidth}
-  \textbf{Control-group composition and calendar-time absorption drive the ordering}
+  \textbf{They differ in \emph{which} games serve as the counterfactual.}
 
-  \vspace{0.3em}
-  \textbf{TWFE} pools all controls and is vulnerable to negative weighting under heterogeneous effects $\Rightarrow$ \alert{most negative} at large $k$ (bias from pre-existing decline of selected titles).
+  \vspace{0.5em}
+  \textbf{TWFE} --- control: all other game-months. Game FE removes levels but not \emph{trends} $\Rightarrow$ lifecycle decline leaks in, pulling long-run \alert{too negative}.
 
-  \vspace{0.4em}
-  \textbf{LP-DiD} uses \emph{not-yet-treated} controls --- games approaching their own giveaway and already in lifecycle decline. Subtracting these declining controls \alert{inflates} LP-DiD at $k=0$ and leaves a moderate medium-run negative.
+  \vspace{0.5em}
+  \textbf{LP-DiD} --- control: games not yet treated at $k$. DiD cancels common trends, but controls decline \emph{faster} than treated at $k=0$ $\Rightarrow$ \alert{inflates $k=0$}.
 
-  \vspace{0.4em}
-  \textbf{Stacked DiD} (preferred) adds \alert{stack-by-calendar-month FE} + treated-interacted event-time dummies (Baker et al.\ 2022). Most fully absorbs composition and calendar shocks $\Rightarrow$ medium-run negative shrinks toward zero.
+  \vspace{0.5em}
+  \textbf{Stacked DiD} --- control: matched not-yet-treated on each cohort's own trends. Absorbs both biases $\Rightarrow$ \alert{cleanest} read; medium-run $\approx 0$.
 
 \column{0.44\textwidth}
 
@@ -268,7 +266,7 @@
   \textit{\small $^*p<0.05$, $^{**}p<0.01$, $^{***}p<0.001$. SE clustered by game.}
 
   \vspace{0.4em}
-  \textit{\small All three agree on the $k=0$ spike and qualitative reversal. Medium-run magnitudes span from $-27\%$ (TWFE) to $+1.6\%$ insignificant (Stacked) --- spread bounds true causal substitution.}
+  \textit{\small All three agree on the $k=0$ spike and reversal.}
 \end{columns}
 
 \end{frame}
@@ -278,23 +276,22 @@
 
 \begin{columns}[T]
 \column{0.52\textwidth}
-  \textbf{Main takeaway:} Advertising spike (\alert{$+10$ to $+14\%$} at $k=0$, robust across all three estimators); medium-run reversal spans \alert{$0$ to $-23\%$} across estimators. Preferred Stacked-DiD path is near zero by $k=12$ $\Rightarrow$ TWFE/LP-DiD medium-run negatives are best read as \alert{upper bounds} on causal substitution.
+  \textbf{Main takeaway:} Advertising spike (\alert{$+10$ to $+14\%$} at $k=0$); medium-run reversal spans \alert{$0$ to $-23\%$} across estimators. Stacked-DiD path is near zero by $k=12$ $\Rightarrow$ TWFE/LP-DiD medium-run negatives are best read as \alert{upper bounds} on causal substitution.
 
   \vspace{0.5em}
   \textbf{Developers:} Fee + Steam spike are both positive; player migration to Epic is not a developer cost.
 
   \smallskip
-  \textbf{Steam:} Net positive --- spike accrues to Steam; decline is largely pre-existing lifecycle, not loss of engaged users.
+  \textbf{Steam:} Net positive --- spike accrues to Steam; decline is largely pre-existing lifecycle.
 
   \smallskip
-  \textbf{Epic:} Open question --- measurable effects accrue to Steam; whether EGS user acquisition offsets the licensing cost is unknown.
+  \textbf{Epic:} Open question --- whether EGS user acquisition offsets the licensing cost is unknown.
 
 \column{0.46\textwidth}
   \textbf{Caveats}
   \begin{itemize}
-    \item \textbf{Lifecycle selection} --- pre-trend test rejects on low-traffic half ($p=0.035$); concern concentrated in smaller titles
-    \item \textbf{Repeat null is imprecise} --- $\hat\delta=0.0001$ with CI $\pm 12$ log pts
-    \item \textbf{Players $\neq$ purchases} --- concurrent counts, not sales
+    \item \textbf{Lifecycle selection} --- games are already declining on Steam
+    \item \textbf{Players $\neq$ purchases} --- concurrent player counts, not sales
     \item \textbf{Genre heterogeneity} --- pooled estimate mixes single-player and multiplayer
   \end{itemize}
 
@@ -308,8 +305,5 @@
 \end{columns}
 
 \end{frame}
-
-% ─────────────────────────────────────────────────────────────────────────────
-% Citations used inline throughout slides; no bibliography slide needed.
 
 \end{document}
