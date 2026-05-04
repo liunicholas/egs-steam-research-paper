@@ -5,7 +5,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{mathpazo}
 \usepackage{microtype}
-\usepackage[htt]{hyphenat}
+\usepackage{hyphenat}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{titlesec}
@@ -13,23 +13,21 @@
 \usepackage{booktabs}
 \usepackage{graphicx}
 \usepackage{caption}
-\usepackage{subcaption}
 \usepackage{float}
 \usepackage[authoryear,round]{natbib}
 \usepackage{setspace}
 \usepackage{hyperref}
 \usepackage{xurl}
-\usepackage{indentfirst}
-\makeatletter
-\renewcommand\@biblabel[1]{}
-\makeatother
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=blue, urlcolor=blue}
 
 \titleformat{\section}{\normalfont\large\bfseries}{\thesection.}{0.6em}{}
 \titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection.}{0.5em}{}
 \titlespacing*{\section}{0pt}{0.6em}{0.2em}
 \titlespacing*{\subsection}{0pt}{0.5em}{0.15em}
 
-\captionsetup{font=small, skip=4pt}
+\captionsetup{font=small, labelfont=bf, skip=4pt}
+
+\newcommand{\avgp}{\texttt{avg\_players}}
 
 \setlength{\parskip}{0pt}
 \setlength{\parindent}{2.5em}
@@ -59,20 +57,17 @@
 \end{center}
 
 \noindent Does a free game giveaway on the Epic Games Store increase or decrease
-engagement for the same title on Steam? Using a staggered difference-in-differences
-event study across 446 treated games from 2018--2025, we find a two-phase dynamic.
-In the giveaway month, Steam concurrent players rise by approximately 10--14\%, a
-spike that is statistically significant under TWFE, LP-DiD, and stacked DiD alike.
-The effect then reverses; by month twelve the point estimates span roughly $0$ to
-$-27\%$ depending on estimator. TWFE and LP-DiD produce large medium-run negatives,
-while properly specified stacked DiD attenuates to a near-zero estimate by the end
-of the window. A joint Wald test on the pre-period event-study coefficients does
-not reject parallel trends at conventional levels for the full sample but does for
-the low-traffic half of the panel, pointing to selection of lifecycle-declining
-titles as a concern concentrated in smaller games. We read the short-run spike as
-consistent with an advertising mechanism and the medium-run negative estimates as
-an upper bound on any causal substitution effect, likely inflated by the
-continuation of pre-existing lifecycle decline in a subset of selected titles.
+engagement for the same title on Steam? Using a staggered
+difference-in-differences event study across 446 treated games from
+2018--2025, we estimate a two-phase dynamic. In the giveaway month, Steam
+concurrent players rise by approximately 10--14\% across TWFE, LP-DiD, and
+stacked DiD; the effect then reverses, with twelve-month point estimates
+spanning roughly $0$ to $-27\%$ depending on estimator. The preferred
+stacked-DiD specification attenuates to near zero by the end of the window.
+A pre-trend test rejects parallel trends in low-traffic titles, suggesting
+lifecycle-decline selection inflates the medium-run negatives. We read the
+short-run spike as evidence of an advertising mechanism, and the medium-run
+estimates as an upper bound on any causal substitution effect.
 
 \vspace{0.5em}
 \noindent\textit{Keywords:} platform competition, cross-platform spillovers, video games, Epic Games Store, Steam
@@ -225,7 +220,7 @@ content mapped to the base-game App ID.}
 The assembled dataset contains 38{,}642 game-month observations across 446
 games.\footnote{One observation is dropped by the TWFE estimator as a singleton
 fixed effect, leaving an effective regression sample of 38{,}641 game-months.}
-The outcome variable is $\ln(\texttt{avg\_players}+1)$, where \texttt{avg\_players}
+The outcome variable is $\ln(\avgp+1)$, where \avgp{}
 is the SteamCharts monthly average concurrent player count; the $+1$ offset
 accommodates zero-player months and the log transformation compresses the heavy
 right tail driven by a small number of AAA titles.
@@ -282,16 +277,15 @@ effects, $\tilde{k}_{it} = \text{clip}(k_{it},\,-12,\,12)$ is event-time
 clipped to the $[-12, 12]$ window, and the omitted category is $k = -1$.
 $\hat{\theta}_k$ estimates the average change in log Steam players at
 event-time $k$ relative to the pre-giveaway baseline, pooling first and repeat
-events per game. Standard errors are clustered at the game
-level.\footnote{Staggered treatment across 80 distinct treatment months
-identifies $\theta_k$ separately from $\gamma_t$, so the omitted reference
-$k = -1$ suffices despite the absence of a never-treated group. Rather than
-restrict to the 336 full-window games, we
+events per game. Standard errors are clustered at the game level. Staggered
+treatment across 80 distinct treatment months identifies $\theta_k$ separately
+from $\gamma_t$, so the omitted reference $k = -1$ suffices despite the absence
+of a never-treated group. Rather than restrict to the 336 full-window games, we
 retain all 446 by clipping event-time: $k < -12$ enters the $k = -12$ bin and
-$k > 12$ enters the $k = 12$ bin. The boundary-bin estimates at $\pm 12$ should
-therefore be read as averages over all periods beyond the window;
-re-estimating Equation~\eqref{eq:pooled} on the 336-game full-window subsample
-yields qualitatively identical results.}
+$k > 12$ enters the $k = 12$ bin, so the boundary-bin estimates at $\pm 12$
+should be read as averages over all periods beyond the window. Re-estimating
+Equation~\eqref{eq:pooled} on the 336-game full-window subsample yields
+qualitatively identical results.
 
 \subsection{Robustness Estimators}
 
@@ -359,24 +353,6 @@ $-0.267$ (23.4\% below baseline) by $k = 12$. The pre-period coefficients
 ($k \in [-12, -2]$) are not individually statistically distinguishable from
 zero but visually appear to drift downward toward $k = -1$.
 
-\subsection{Pre-Trend Test}
-\label{ssec:pretrend}
-
-The joint pre-trend Wald test evaluates $H_0: \theta_k = 0$ for all
-$k \in [-12, -2]$ using the full clustered covariance matrix of the TWFE
-coefficient vector.
-On the full sample the joint Wald statistic is $\chi^2_{11} = 18.89$ with
-$p = 0.063$, or equivalently $F_{11, 444} = 1.72$ with $p = 0.067$. The test fails to reject zero pre-trends at the conventional
-$5\%$ level but rejects at $10\%$.
-
-The high-traffic subsample test is a clean failure to reject:
-$\chi^2_{11} = 9.04$, $p = 0.618$ ($F_{11, 214} = 0.82$), consistent with stable
-pre-trends in larger titles. The low-traffic subsample, by contrast, rejects
-parallel trends at $5\%$: $\chi^2_{11} = 20.82$, $p = 0.035$
-($F_{11, 213} = 1.89$, $p = 0.042$). The pre-trend violation is therefore
-concentrated in lower-traffic titles, where lifecycle decline is more pronounced;
-we return to the implications of this in Section~\ref{sec:discussion}.
-
 \subsection{Estimator Comparison}
 \label{ssec:compare}
 
@@ -391,24 +367,38 @@ from zero given the standard errors.
 The estimators diverge sharply on the medium-run magnitude. At $k = 12$, TWFE
 reaches $-0.267$, LP-DiD $-0.105$, and stacked DiD a statistically insignificant
 $+0.016$. The contemporaneous estimates are tighter (TWFE and stacked both
-$+0.101$, LP-DiD $+0.131$).\footnote{LP-DiD's slightly larger $k = 0$ estimate
-reflects that its not-yet-treated controls are EGS-selected games approaching
-their own giveaway and so are themselves in the steepest phase of pre-treatment
-lifecycle decline, mechanically inflating the DiD contrast.} The systematic
-pattern across the medium-run window is that the more aggressively an estimator
-absorbs calendar-time shocks within cohort stacks (stacked DiD $>$ LP-DiD $>$
-TWFE in that dimension), the smaller the medium-run negative becomes. The
+$+0.101$, LP-DiD $+0.131$); LP-DiD's slightly larger $k = 0$ estimate reflects
+that its not-yet-treated controls are EGS-selected games approaching their own
+giveaway and so are themselves in the steepest phase of pre-treatment lifecycle
+decline, mechanically inflating the DiD contrast. The systematic pattern across
+the medium-run window is that the more aggressively an estimator absorbs
+calendar-time shocks within cohort stacks (stacked DiD $>$ LP-DiD $>$ TWFE in
+that dimension), the smaller the medium-run negative becomes. The
 three-estimator spread therefore brackets the medium-run causal substitution
 effect between roughly $0$ and $-27\%$, with the preferred stacked-DiD point
 estimate at the less-negative end and losing statistical significance by
 $k = 12$. We return to interpretation in Section~\ref{sec:discussion}.
 
-\subsection{Separated Specification: First vs.\ Repeat Giveaways}
+\textbf{Pre-trend test.}\label{ssec:pretrend}
+The joint pre-trend Wald test evaluates $H_0: \theta_k = 0$ for all
+$k \in [-12, -2]$ using the full clustered covariance matrix of the TWFE
+coefficient vector. On the full sample the joint Wald statistic is
+$\chi^2_{11} = 18.89$ with $p = 0.063$, or equivalently $F_{11, 444} = 1.72$
+with $p = 0.067$, failing to reject zero pre-trends at the conventional $5\%$
+level but rejecting at $10\%$. The high-traffic subsample is a clean failure
+to reject ($\chi^2_{11} = 9.04$, $p = 0.618$; $F_{11, 214} = 0.82$),
+consistent with stable pre-trends in larger titles. The low-traffic subsample,
+by contrast, rejects parallel trends at $5\%$: $\chi^2_{11} = 20.82$,
+$p = 0.035$ ($F_{11, 213} = 1.89$, $p = 0.042$). The pre-trend violation is
+therefore concentrated in lower-traffic titles, where lifecycle decline is
+more pronounced; we return to the implications in
+Section~\ref{sec:discussion}.
 
-A separated specification distinguishing first-giveaway from repeat-giveaway
-effects yields a null repeat coefficient and leaves the first-event path
-numerically identical to the pooled $\hat{\theta}_k$; specification, results,
-and interpretation are in Appendix~\ref{app:separated}.
+\textbf{Separated specification.} A separated specification distinguishing
+first-giveaway from repeat-giveaway effects yields a null repeat coefficient
+and leaves the first-event path numerically identical to the pooled
+$\hat{\theta}_k$; full specification, results, and interpretation are in
+Appendix~\ref{app:separated}.
 
 \subsection{Popularity-Stratified Analysis}
 \label{ssec:pop}
@@ -450,10 +440,10 @@ because Steam is the primary discovery and community layer for PC games, the
 resulting awareness surge manifests as Steam activity even when players also
 claim the free Epic copy. The magnitude (roughly 10--14\% in log players) is in
 the same direction as but smaller than the $\approx 24\%$ found by
-\citet{clarkson2025}.\footnote{Clarkson measures Steam traffic in the days
-immediately after the giveaway window on a sample weighted toward larger
-titles, whereas we measure monthly average concurrent players and include
-near-zero-engagement games.}
+\citet{clarkson2025}, who measures Steam traffic in the days immediately
+after the giveaway window on a sample weighted toward larger titles, whereas
+we measure monthly average concurrent players and include near-zero-engagement
+games.
 
 \subsection{Interpreting the Reversal}
 
@@ -529,49 +519,42 @@ selection concentrated in low-traffic titles. The TWFE and LP-DiD medium-run est
 should therefore be read as upper bounds on the true causal substitution
 effect; the stacked-DiD estimate of $+0.016$ at $k = 12$ is the closest to a
 causal estimate our design can produce but is statistically insignificant.
-Three additional limitations are listed in the footnotes.\footnote{(i)
-\emph{Player counts vs.\ purchases.} SteamCharts reports concurrent players, not
-purchases or unique installs; a giveaway effect on purchases may be larger or
-differently timed than the player-count effect we estimate. (ii) \emph{DLC and
-bundle giveaways.} Fifteen events distributed DLC or in-game content rather than
-the base game; mapping these to the base game's App ID likely attenuates the
-estimated effect for those observations. (iii) \emph{Genre heterogeneity.} The
-Epic catalogue mixes single-player titles (where the substitution mechanism is
-weaker) and multiplayer titles (where platform choice has ongoing matchmaking
-consequences); the pooled estimate conflates these. A genre-stratified analysis
-is deferred to future work, with the popularity split in Section~\ref{ssec:pop}
-serving as a partial proxy.}
+Three further limitations apply to measurement and external validity.
+\textit{Player counts vs.\ purchases.} SteamCharts reports concurrent players,
+not purchases or unique installs; a giveaway effect on purchases may be larger
+than, or differently timed from, the player-count effect we estimate.
+\textit{DLC and bundle giveaways.} Fifteen events distributed DLC or in-game
+content rather than the base game; mapping these to the base game's App ID
+likely attenuates the estimated effect for those observations.
+\textit{Genre heterogeneity.} The Epic catalogue mixes single-player titles
+(where the substitution mechanism is weaker) and multiplayer titles (where
+platform choice has ongoing matchmaking consequences); the pooled estimate
+conflates these. A genre-stratified analysis is deferred to future work, with
+the popularity split in Section~\ref{ssec:pop} serving as a partial proxy.
 
 % ─────────────────────────── 7. CONCLUSION ─────────────────────────────────
 \section{Conclusion}
 \label{sec:conclusion}
 
-This paper provides large-scale evidence on the full trajectory of
-Steam player engagement before and after Epic Games Store free giveaways. Using 446
-games over 2018--2025 and a staggered difference-in-differences design, we find
-a two-phase pattern consistent with advertising and lifecycle-selection operating at different time horizons. 
-The giveaway generates awareness that temporarily lifts Steam traffic in the short run by
-approximately 10--14\%. The medium-run reversal could be caused by platform substitution, but the 
-pre-trend violation is consistent with Epic preferentially selecting already-declining titles, 
-whose post-giveaway trajectory partly reflects the continuation of that pre-existing decline 
-rather than a causal consequence of the giveaway.
+Using 446 games over 2018--2025 and a staggered difference-in-differences
+design, this paper estimates the full trajectory of Steam player engagement
+around Epic Games Store free giveaways. The pattern is two-phase: a
+short-run advertising spike of approximately 10--14\% in log players at
+$k = 0$--$1$ that is robust across estimators and a randomization placebo,
+followed by a medium-run reversal whose magnitude depends on how aggressively
+the estimator absorbs cohort-level shocks. The reversal is partly contaminated
+by selection on lifecycle decline: the pre-trend violation localises to
+low-traffic titles, and the preferred stacked-DiD estimate flattens to a
+statistically insignificant $+0.016$ by $k = 12$. The medium-run causal
+substitution effect is therefore plausibly small; Epic's giveaway program
+appears to function in part as inadvertent Steam advertising.
 
-Taken together, the findings suggest that Epic's free-game strategy functions at
-least partly as inadvertent Steam advertising. For developers, the deal is
-typically attractive once the components are separated: the licensing fee and
-advertising spike are both clearly positive; the substitution of players from
-Steam to Epic imposes little real cost on the developer; and the causal
-magnitude of that substitution appears modest in expectation. Whether the
-program benefits Epic itself is a more open question: the measurable
-engagement effects accrue to Steam, and whether Epic recaptures value through
-EGS user acquisition is not testable with the current data.
-
-Future work could extend this analysis by separating single-player from
-multiplayer titles to test whether the substitution mechanism is stronger
-where platform choice is more permanent; by studying effects on Steam sales
-volume rather than player counts to quantify the commercial impact more
-directly; and by examining whether the giveaway generates lasting EGS
-engagement using Epic's own platform data, which is not publicly available.
+Future work could separate single-player from multiplayer titles to test
+whether substitution is stronger where platform choice is more permanent;
+study Steam sales volume rather than concurrent players to quantify
+commercial impact directly; and examine whether giveaways generate lasting
+EGS engagement using Epic's own platform data, which is not publicly
+available.
 
 \clearpage
 
@@ -649,7 +632,7 @@ Variable & $N$ & Mean & SD & Min & Median & Max \\
 \midrule
 Avg.\ concurrent Steam players (monthly) & 38,642 & 1,583.9 & 7,444.0 & 0.00 & 65.2 & 270,553 \\
 Peak concurrent Steam players (monthly)  & 38,642 & 3,214.1 & 14,861.2 & 0 & 171 & 527,652 \\
-$\ln(\texttt{avg\_players}+1)$ [outcome] & 38,642 & 4.43 & 2.36 & 0.00 & 4.19 & 12.51 \\
+$\ln(\avgp+1)$ [outcome] & 38,642 & 4.43 & 2.36 & 0.00 & 4.19 & 12.51 \\
 Repeat-giveaway window indicator (0/1)   & 38,642 & 0.02 & 0.15 & 0 & 0 & 1 \\
 \midrule
 Months of SteamCharts data per game & 446 & 86.6 & 41.1 & 1 & 88 & 163 \\
@@ -690,13 +673,13 @@ $\phantom{-}12$ & $-0.267^{***}$ & 0.053 & $<$0.001 \\
 \end{tabular}
 \medskip
 
-\noindent\small\textit{Notes:} Dependent variable: $\ln(\texttt{avg\_players}+1)$.
+\noindent\small\textit{Notes:} Dependent variable: $\ln(\avgp+1)$.
 Game and calendar-month fixed effects; standard errors clustered
 by game ($N = 38{,}641$; 446 games). Omitted period: $k = -1$.
 $R^2 = 0.884$; within $R^2 = 0.008$. The overall $R^2$ is dominated by the
 game fixed effects, which absorb the large between-game dispersion in player
 counts. The within $R^2$ reflects the share of residual game-month variation
-in $\ln(\texttt{avg\_players}+1)$ 
+in $\ln(\avgp+1)$ 
 that the event-time dummies explain; its small value indicates
 that the giveaway effect
 accounts for less than 1\% of within-game, within-calendar-month
@@ -709,7 +692,7 @@ variation in monthly player counts.
 \centering\small
 \caption{Estimator comparison: selected event-time coefficients}
 \label{tab:estimator_compare}
-\begin{tabular}{lccc}
+\begin{tabular}{lrrr}
 \toprule
 Event time $k$ & TWFE & LP-DiD & Stacked DiD \\
 \midrule
@@ -725,7 +708,7 @@ $12$ & $-0.267^{***}$ & $-0.105^{**}$ & $\phantom{-}0.016$ \\
 \end{tabular}
 \medskip
 
-\noindent\small\textit{Notes:} Dependent variable: $\ln(\texttt{avg\_players}+1)$.
+\noindent\small\textit{Notes:} Dependent variable: $\ln(\avgp+1)$.
 $^{*}p<0.05$, $^{**}p<0.01$, $^{***}p<0.001$.
 Standard errors clustered by game. Reference period $k = -1$.
 TWFE uses game and calendar-month fixed effects on the full unbalanced panel.
@@ -743,7 +726,7 @@ multiple stacks are weighted by $1/n_{\text{stacks}}$.
 \centering
 \includegraphics[width=0.88\linewidth]{../output/fig_outcome_histogram.pdf}
 \caption{Steam player engagement (log scale) around Epic free giveaways.
-  \textbf{Left:} Density histogram of $\ln(\texttt{avg\_players}+1)$ for pre-giveaway
+  \textbf{Left:} Density histogram of $\ln(\avgp+1)$ for pre-giveaway
   months ($k < 0$, blue) and post-giveaway months ($k \geq 0$, orange), pooled across
   all 446 games.
   \textbf{Right:} Unconditional mean (with 95\% CI) of the outcome by event-time
@@ -776,11 +759,11 @@ multiple stacks are weighted by $1/n_{\text{stacks}}$.
 \includegraphics[width=0.82\linewidth]{../output/fig_estimator_comparison.pdf}
 \caption{Event-study estimates: TWFE ($\hat{\theta}_k$, Eq.~\eqref{eq:pooled}),
   LP-DiD \citep{dube2023}, and stacked DiD \citep{cengiz2019}.
-  Outcome: $\ln(\texttt{avg\_players}+1)$.
+  Outcome: $\ln(\avgp+1)$.
   TWFE uses game and calendar-month fixed effects; standard errors clustered by game.
   LP-DiD uses not-yet-treated controls at each period $k$ independently.
   Stacked DiD constructs cohort-specific balanced panels with not-yet-treated
-  controls, regresses $\ln(\texttt{avg\_players}+1)$ on event-time dummies
+  controls, regresses $\ln(\avgp+1)$ on event-time dummies
   interacted with a treated indicator, absorbs unit-within-stack and
   stack-by-calendar-month fixed effects, and weights games appearing in
   multiple stacks by $1/n_{\text{stacks}}$.
@@ -796,7 +779,7 @@ multiple stacks are weighted by $1/n_{\text{stacks}}$.
 \centering
 \includegraphics[width=0.88\linewidth]{../output/fig_event_study_popularity.pdf}
 \caption{Event-study estimates by pre-treatment popularity. Outcome:
-  $\ln(\texttt{avg\_players}+1)$. Split at the pre-treatment median (59.2 avg
+  $\ln(\avgp+1)$. Split at the pre-treatment median (59.2 avg
   players/month): high-traffic ($N = 215$ games) and low-traffic
   ($N = 214$ games). 17 games with no pre-period observations are
   unclassified and enter only the pooled specification. Pre-trend joint Wald
@@ -851,13 +834,11 @@ agree on the qualitative two-phase pattern.
 \centering
 \includegraphics[width=0.82\linewidth]{../output/fig_cs_att.pdf}
 \caption{Callaway--Sant'Anna cohort-aggregated ATT estimates. Outcome:
-  $\ln(\texttt{avg\_players}+1)$. Not-yet-treated games serve as controls within
+  $\ln(\avgp+1)$. Not-yet-treated games serve as controls within
   each treatment-quarter cohort; estimates are aggregated across cohorts
   weighted by cohort size. Omitted period: $k = -1$.}
 \label{fig:csatt}
 \end{figure}
-
-\clearpage
 
 \section{Per-Cohort Event-Study Paths}
 \label{app:cohort_paths}
@@ -888,8 +869,6 @@ decomposition is presented here primarily to document this cohort heterogeneity.
   dashed line marks zero.}
 \label{fig:cohort_paths}
 \end{figure}
-
-\clearpage
 
 \section{Separated Specification: First vs.\ Repeat Giveaways}
 \label{app:separated}
@@ -948,8 +927,6 @@ evidence rather than evidence of absence.
 \label{fig:separated}
 \end{figure}
 
-\clearpage
-
 \section{Clean-Sample Robustness Check}
 \label{app:robustness}
 
@@ -968,8 +945,6 @@ estimates.
   Coefficients are virtually identical to the TWFE path in Figure~\ref{fig:compare}.}
 \label{fig:robustness}
 \end{figure}
-
-\clearpage
 
 \section{Holiday-Batch Robustness Check}
 \label{app:holiday}
@@ -996,8 +971,6 @@ environment: they persist at similar magnitudes when those cohorts are removed.
 \label{fig:noholiday}
 \end{figure}
 
-\clearpage
-
 \section{Randomization Placebo}
 \label{app:placebo}
 
@@ -1022,8 +995,6 @@ structure or systematic calendar-time patterns alone.
 \label{fig:placebo}
 \end{figure}
 
-\newpage
-
 \section{Full TWFE Coefficient Table}
 \label{app:coeftable}
 
@@ -1034,7 +1005,7 @@ specification (Equation~\eqref{eq:pooled}), including confidence intervals.
 \centering\small
 \caption{Full pooled TWFE event-study coefficients ($\hat{\theta}_k$)}
 \label{tab:fullcoefs}
-\begin{tabular}{rrcccc}
+\begin{tabular}{rrccrr}
 \toprule
 $k$ & Estimate & SE & $p$-value & 2.5\% & 97.5\% \\
 \midrule
@@ -1068,7 +1039,7 @@ $12$ & $-0.267^{***}$ & 0.053 & $<$0.001 & $-0.371$ & $-0.164$ \\
 \end{tabular}
 \medskip
 
-\noindent\small\textit{Notes:} Dependent variable: $\ln(\texttt{avg\_players}+1)$.
+\noindent\small\textit{Notes:} Dependent variable: $\ln(\avgp+1)$.
   TWFE, $N = 38{,}641$; game and calendar-month fixed effects;
   standard errors clustered by game.
   $R^2 = 0.884$; within $R^2 = 0.008$.
