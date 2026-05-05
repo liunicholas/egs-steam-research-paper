@@ -8,13 +8,9 @@ assignments/
 .ipynb_checkpoints/
 .claude/
 .env.local
+# Writeups: only track the final paper (.tex/.pdf) and build config
+writeups/*
+!writeups/egs_steam_paper.tex
+!writeups/egs_steam_paper.pdf
+!writeups/.latexmkrc
 writeups/.build/
-writeups/*.aux
-writeups/*.log
-writeups/*.out
-writeups/*.synctex.gz
-writeups/*.nav
-writeups/*.snm
-writeups/*.toc
-writeups/*.fls
-writeups/*.fdb_latexmk
